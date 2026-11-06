@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "browser_version": "123.0.6312.122",
+  "checked_at": "2026-11-01T06:07:26Z",
+  "chapters": 8,
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "chapters": 8,
+      "horizontal_overflow": false
+    },
+    {
+      "width": 960,
+      "height": 800,
+      "chapters": 8,
+      "horizontal_overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "chapters": 8,
+      "horizontal_overflow": false
+    }
+  ],
+  "pointer_action_mode": "forced pointer events; chapter visibility and resulting states checked; normal frame wait stalled",
+  "screenshot_method": "Chrome DevTools direct capture",
+  "page_errors": [],
+  "external_requests": [],
+  "interactions": [
+    "family graph",
+    "issue search",
+    "frozen advisory prediction persistence",
+    "pinned-source replay",
+    "expected precondition rejection",
+    "labeled fixture replay",
+    "gated reference reveal",
+    "hypothetical effort arithmetic",
+    "view reset",
+    "evidence export"
+  ],
+  "scope": "Local UI and source/fixture operations; no scientific or physical validation"
+}

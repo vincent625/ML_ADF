@@ -1,0 +1,10 @@
+{
+  "source": "/rhome/yanzhu/ML_ADF/adf-sentinel/DEMO_10_MIN.md",
+  "scope": "Eight timed demo sections with screen directions; preflight and fallback appendix excluded",
+  "engine": "Local eSpeak NG",
+  "voice": "Generic US English synthetic voice",
+  "external_speech_service_used": false,
+  "words": 934,
+  "duration_seconds": 474.070204,
+  "audio": "/rhome/yanzhu/ML_ADF/adf-sentinel/spoken-demo/demo-reading.mp3"
+}

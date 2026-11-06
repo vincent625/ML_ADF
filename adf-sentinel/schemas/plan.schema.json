@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ADF Sentinel sandbox plan v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "id", "scope", "synthetic", "authority", "prerequisites", "actions"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "id": {"type": "string", "minLength": 1},
+    "release_id": {"type": "string"},
+    "scope": {"enum": ["synthetic_fixture", "pinned_source_fragment_replay"]},
+    "synthetic": {"type": "boolean"},
+    "authority": {"type": "object", "required": ["kind", "evidence"], "properties": {"kind": {"enum": ["synthetic_fixture", "historical_implementation"]}, "evidence": {"type": "array", "minItems": 1, "items": {"type": "string"}}, "note": {"type": "string"}}},
+    "prerequisites": {"type": "array", "items": {"type": "object", "required": ["name", "satisfied"], "properties": {"name": {"type": "string"}, "satisfied": {"const": true}, "evidence": {"type": ["string", "object", "array"]}}}},
+    "actions": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/action"}}
+  },
+  "$defs": {
+    "hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "path": {"type": "string", "minLength": 1, "description": "Additional canonical relative-path, symlink, variant and registry checks are enforced by plans.py"},
+    "check": {"type": "object", "additionalProperties": false, "required": ["kind"], "properties": {"kind": {"enum": ["sha256", "json_value", "actor_value", "text_absent", "same_as"]}, "value": {}, "pointer": {"type": "string"}, "key": {"type": "string"}, "target": {"$ref": "#/$defs/path"}}},
+    "action": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "type", "target", "variant", "before_sha256", "checks"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "type": {"enum": ["copy_pinned_file", "json_parameter", "dependency_pin", "actor_parameter", "verify_hash"]},
+        "target": {"$ref": "#/$defs/path"},
+        "variant": {"enum": ["DNA", "DNA+Fusion", "synthetic-DNA", "synthetic-DNA+Fusion"]},
+        "before_sha256": {"$ref": "#/$defs/hash"},
+        "source": {"$ref": "#/$defs/path"}, "source_sha256": {"$ref": "#/$defs/hash"},
+        "source_revision": {"type": "string"}, "pointer": {"type": "string"}, "key": {"type": "string"},
+        "value": {}, "old_value": {},
+        "checks": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/check"}}
+      }
+    }
+  }
+}

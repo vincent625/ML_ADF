@@ -1,0 +1,128 @@
+{
+  "advisory_prediction_count": 418,
+  "automatic_eligible_predictions": 0,
+  "categories": [
+    {
+      "count": 414,
+      "key": "approved_file",
+      "name": "Add / replace file",
+      "percent": 8.411214953271028
+    },
+    {
+      "count": 705,
+      "key": "parameter_metadata",
+      "name": "Parameter / metadata",
+      "percent": 14.323445753758635
+    },
+    {
+      "count": 144,
+      "key": "dependency_pin",
+      "name": "Dependency version",
+      "percent": 2.9256399837464446
+    },
+    {
+      "count": 13,
+      "key": "shared_sync",
+      "name": "Shared variant change",
+      "percent": 0.26412027631044294
+    },
+    {
+      "count": 868,
+      "key": "verification_only",
+      "name": "Verification",
+      "percent": 17.635107679804957
+    },
+    {
+      "count": 2513,
+      "key": "investigation_code",
+      "name": "Investigation / code",
+      "percent": 51.05648110524177
+    },
+    {
+      "count": 265,
+      "key": "defer_inherit_block",
+      "name": "Defer / retain / block",
+      "percent": 5.383990247866721
+    }
+  ],
+  "caveats": [
+    "No validated percentage of all bundling work that can or cannot be automated is available.",
+    "Mechanical-change category share is a review bucket, not an eligibility estimate or upper bound.",
+    "Categories contain false positives, including Jira fix-version comments labeled as dependency updates.",
+    "No percentages here are effort-weighted, time savings, or validated automation accuracy.",
+    "Investigation and decision labels do not prove permanent inability to automate."
+  ],
+  "current_capability_limits": {
+    "actor_parameter": "One registered actor key and exact approved source value; not a general parameter editor",
+    "copy_pinned_file": "One registered real target/commit/blob tuple; demonstrated with a prepared source replay",
+    "dependency_pin": "Fixture dependency schema only; implemented, no real dependency replay demonstrated",
+    "json_parameter": "Fixture config schema only; demonstrated",
+    "shared_sync": "Demonstrated through explicit fixture copies and equality checks",
+    "verification": "Registered hashes, exact fields, content and variant/path checks; no scientific/physical validation"
+  },
+  "denominator_description": "Automatically proposed, unreviewed action excerpts; not validated tasks or effort hours",
+  "executed_replays": [
+    {
+      "actions": 4,
+      "checks": 6,
+      "evidence": "runs/sandbox/0b4c92a31b3438a045c8/manifest.json",
+      "scope": "synthetic_fixture",
+      "status": "passed",
+      "types": {
+        "copy_pinned_file": 2,
+        "json_parameter": 2
+      }
+    },
+    {
+      "actions": 1,
+      "checks": 3,
+      "evidence": "runs/sandbox/fb888a2792a7aeea64b5/manifest.json",
+      "scope": "pinned_source_fragment_replay",
+      "status": "passed",
+      "types": {
+        "copy_pinned_file": 1
+      }
+    }
+  ],
+  "groups": [
+    {
+      "count": 1276,
+      "interpretation": "Review for potential automation; exact approved plans and registered executors still required",
+      "name": "Mechanical-change labels",
+      "percent": 25.92442096708655
+    },
+    {
+      "count": 2513,
+      "interpretation": "Human-led in this prototype; AI assistance and later packaging may still be possible",
+      "name": "Investigation / code labels",
+      "percent": 51.05648110524177
+    },
+    {
+      "count": 868,
+      "interpretation": "Mixed: deterministic checks can run automatically; scientific and physical results require separate evidence and judgment",
+      "name": "Verification labels",
+      "percent": 17.635107679804957
+    },
+    {
+      "count": 265,
+      "interpretation": "Owner decisions and missing-input resolution; rules can record and enforce approved decisions",
+      "name": "Defer / retain / block labels",
+      "percent": 5.383990247866721
+    }
+  ],
+  "mechanical_keys": [
+    "approved_file",
+    "parameter_metadata",
+    "dependency_pin",
+    "shared_sync"
+  ],
+  "proposal_count": 4922,
+  "reviewed_labels": 0,
+  "source_run_date": "October 31, 2026 (America/Los_Angeles)",
+  "sources": {
+    "adf_sentinel/plans.py": "3c91ed03b50d06a3273b5da84027fbc103daf789da5c98cbdf481b9f4cc5069f",
+    "data/labels/weak_actions.jsonl": "3322319863e7e86708ca037a8daa2ad45c81098fb431216251ca8ce152f8029b",
+    "runs/advisory/predictions.jsonl": "0f5d7857adbc18d730d26c5db358be8e0aeae36bb7f8c17cac5880f4995e9759",
+    "runs/frozen/manifest.json": "a150549c833c84b12967cfcaeeae4a2fc7d83de2e74b2fe91bcc94539e8f20b4"
+  }
+}

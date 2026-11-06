@@ -1,0 +1,58 @@
+Build a 10-minute ADF Sentinel hackathon prototype grounded in the supplied IRS-65265 evidence package.
+
+GOAL
+Create a working local demo that interprets release requirements, checks both Manticore ADF variants, tracks test evidence, explains failures, applies reviewed sandbox corrections, and invalidates stale results after parameter updates. Build and verify the deliverable, not just a plan. Use the existing stack if suitable; otherwise prefer a small Python backend and plain HTML/CSS/JavaScript with no required external services.
+
+INPUTS AND TRUTH BOUNDARIES
+Read REVIEW.md, source-coverage.json, requirements-candidates.json, training-examples.jsonl, github-review-data.json, source-check-results.json, linked-sources.csv, and the original uploaded Jira HTML/resource ZIP when present.
+The main release page is real. Five of eleven comments were loaded. The page's attachment badge and cached count disagree (67 versus 65); attachment contents are incomplete. The resource ZIP contains saved web assets/screenshots, not the released ADF archives. Saved Xray reports no associated tests for this issue. Do not infer that no testing occurred elsewhere.
+The timeline screenshot specifies Bundle Sep 16-29, 2026 (2w), Sanity Testing Sep 30-Oct 6 (1w), followed separately by Mol Bio runs and data analysis. Show this as a planned elapsed-time baseline, not measured labor or demonstrated AI savings.
+
+IMPLEMENTATION EVIDENCE
+Read these authorized source PRs if access is available; pin known revisions and do not modify the repositories:
+- DNA PR #3: https://github.com/thermofisher/csd-adf-gx-manticore-v2-dna-70/pull/3 ; head 6ada6a4bd50d1acec148596059e6142a7748fc01.
+- DNA+Fusion PR #6: https://github.com/thermofisher/csd-adf-gx-manticore-v2-dnafus-70/pull/6 ; head e7c03c113dbceddb5df64c252cbbefaff91bfede.
+- Report templates PR #62: https://github.com/thermofisher/csd-gx-rb-template-scripts/pull/62 ; head ca98f2e3ae189afb810c0ac23e981105be460c91.
+Their inventories have 47, 46, and 10 changed-file entries. Those are inventories, not proof all file contents were inspected. The central config repository returned 404; do not fabricate its files. Binary baselines and actual released ZIP contents were not validated.
+
+RELEASE CONTRACT TO REPRESENT
+- Correct DNA kit A40014056 and primer pools 100200225 / 100200226 in both variants. Preserve the RNA kit/primer values where applicable.
+- Include and reference the specified SVB, target BED, hotspot, CNV JSON/baseline, MSI_IR, and MSI baseline; expected names and MD5 strings are in requirements-candidates.json. Distinguish matching a declared hash from hashing actual bytes.
+- Check removal of --repair-min-freq 30 from both TmapExecutionActor.ini and AnalysisArgs.ini alignmentargs, for both variants.
+- Represent annotator.functional.all.alt.alleles=false and fusion threshold fusions.min.normalized.read.count.non.targeted=0.001 with the correct variant scope.
+- Track shared CNV/MSI component provenance. Some DNA/Fusion patches differ greatly in size while their final Git blob identities match; compare final content rather than diff counts.
+- Preserve inactive/inherited/deferred states. The TVC replacement was cancelled; a Tmap binary is described as inherited from v0.0.2; piercing/minimum-read sections are crossed out. The Motorhead hotspot is explicitly selected for v0.0.3, with later Manticore work deferred. Do not turn historical text into new requirements.
+- CNV visualization can be suppressed when CNV QC fails. The comment's MAPD >0.5 example is not a complete boundary specification. Missing plots alone are not a defect.
+- An MSI-QCFail case should distinguish pipeline completion from sample/MSI QC outcome. Do not make every result green to manufacture success.
+
+DATA AND EXECUTION
+Keep real evidence, candidate interpretations, proposed tests, recorded historical evidence, and synthetic fixtures distinct in the data model and UI. Preserve sources, revisions, known hashes, run IDs, requirement/test links, dates, and evidence status.
+Use the supplied ten source checks as actual source checks. They do not constitute installed-ADF validation.
+Generate up to 96 meaningful proposed/local test cases and roughly 500-1,500 correlated fixture log events to support the demo. Do not invent a historical library of 96 executed tests. Derive cases from the real requirements and mark each execution mode: actual local validator, archived replay, or simulated pipeline/instrument behavior. Keep the 20 extracted requirement families as review candidates rather than claiming 20 approved active requirements.
+Create eight counterfactual scenarios on copied fixtures: wrong DNA kit; wrong primer pool in one variant; wrong referenced baseline revision; repair flag left in one of two argument locations; one shared script left stale; wrong report dependency version; a genuine unexpected missing plot under passing QC; and a stale prior pass after an approved parameter change. These are synthetic mutations inspired by real contracts, not claims about bugs in the released ZIPs.
+Implement deterministic validators against actual fixture bytes/values. Keep expected outcomes separate from observations. The runner must not read an answer key or set failures from scenario names. Include passing controls for expected plot suppression under failed CNV QC and for a completed pipeline reporting MSI-QCFail.
+If real ADF archives are supplied, inspect them read-only and validate their manifest, referenced assets, hashes, and version compatibility. Otherwise mark real candidate assembly/installation blocked by missing artifacts. A toy demo bundle may be built, clearly labeled as non-installable and synthetic. Do not claim a genuine ADF build or physical run without executing it.
+
+AI CONTRIBUTION
+Use a pretrained model with evidence retrieval for requirement-state extraction, semantic impact analysis, test proposals, and failure hypotheses. Show the exact supporting excerpts and distinguish observations from inference. Never infer a confirmed root cause from a comment saying that several components were updated together.
+If no approved live model integration is configured, replay the stored AI interpretations and label that mode clearly. Do not require credentials to run the local demonstration. All pass/fail, file assembly, and hash calculations stay deterministic.
+The ten training-example candidates are from one release and need engineer review. Do not train a model and report generalization scores on them. Produce a future-data schema for requirement revisions, test executions, and failure/fix/retest episodes, grouped by release. Keep future resolution evidence out of prediction inputs and keep related DNA/Fusion cases together in later evaluation splits.
+
+VISUAL DESIGN
+Create a projector-readable application using a Nature-inspired navy/teal/green palette (#234E70, #287D8E, #4B8F72), amber warnings, and restrained red failures. Pair colors with text. Use large readable labels and compact graphs.
+Include a source-completeness view, requirement-to-artifact coverage heatmap, semantic diff with source excerpts, scoped component/variant/test dependency graph, shared-component comparison, test execution/status timeline, evidence-linked triage panel, exact patch/review/rerun interaction, and exportable evidence summary. Avoid a chatbot-only interface.
+Counters must derive from the actual records. A closed Jira ticket, source-check pass, or screenshot must not automatically become a current test pass. No associated Xray tests is a mapping gap, not proof no testing happened.
+
+EXACT 10-MINUTE PRESENTATION
+00:00-00:45 Show the real schedule and what sources are present/missing.
+00:45-02:00 Extract requirements; demonstrate the cancelled TVC item and the explicit hotspot decision.
+02:00-03:00 Show the two ADF variants, the three source PRs, and affected components.
+03:00-04:00 Compare approved shared components and identify a deliberately stale fixture.
+04:00-05:30 Run local configuration checks; catch a wrong primer or a repair flag left in only one argument source.
+05:30-07:30 Explain one failure with evidence, review a minimal local patch, rerun, and show conditional CNV/MSI QC assertions.
+07:30-08:45 Change a parameter requirement and invalidate affected evidence while retaining unrelated valid results.
+08:45-10:00 Export the draft evidence, remaining gaps, and measured local timings. Keep production savings as assumptions requiring a real pilot.
+Provide exact clicks, speaking notes, expected results, a reset command, and fallback replay steps. Do not add artificial waits.
+
+DELIVER AND VERIFY
+Deliver the runnable app, reproducible generator, fixture files, deterministic runner, focused tests, README, and DEMO_10_MIN.md. Provide one-command startup/reset. Verify seeded failures are detected, reviewed fixes change behavior, expected QC suppression does not produce false alarms, stale passes are invalidated, export records match the run, and source links/counts reconcile. Inspect laptop and narrow layouts with available browser tooling; disclose any verification blocked by the environment. Preserve unrelated files and the original evidence. Finish the working release loop before adding extra features.

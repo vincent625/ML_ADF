@@ -1,0 +1,49 @@
+digraph ADF {
+  graph [rankdir=TB, bgcolor="#F3F6F7", fontname="DejaVu Sans", fontsize=23,
+    fontcolor="#234E70", labelloc=t, labeljust=l,
+    label="ADF Sentinel: how the current prototype works\n",
+    pad=.25, nodesep=.4, ranksep=.45, splines=polyline, newrank=true, compound=true];
+  node [shape=box, style="rounded,filled", fillcolor="#E8F1F5", color="#287D8E",
+    fontname="DejaVu Sans", fontsize=13, fontcolor="#234E70", penwidth=1.2, margin=".22,.16"];
+  edge [color="#597584", fontname="DejaVu Sans", fontsize=11, fontcolor="#597584", arrowsize=.7];
+
+  A [label="HISTORICAL EVIDENCE\nConfluence · Jira · attachments · pinned GitHub files"];
+  B [label="COLLECT READ-ONLY\nPreserve sources, hashes and missing-source queue"];
+  C [label="ORGANIZE RELEASE / ISSUE HISTORY\nPropose actions with evidence links"];
+  A -> B -> C;
+
+  subgraph cluster_learning {
+    label="LEARNING AND ADVICE"; fontsize=14; fontcolor="#287D8E";
+    style="rounded,filled"; fillcolor="white"; color="#D7E1E5"; margin=18;
+    D [label="TRAIN AND FREEZE FOUR EXPLORATORY MODELS\nLabels are proposed and unreviewed"];
+    E [label="SAVE ADVISORY SUGGESTIONS\nEngineer review required\nExecution needs a complete approved plan", fillcolor="#FFF2D9", color="#B9842D", fontcolor="#81520D"];
+    D -> E;
+  }
+  subgraph cluster_execution {
+    label="CHECKED LOCAL EXECUTION"; fontsize=14; fontcolor="#287D8E";
+    style="rounded,filled"; fillcolor="white"; color="#D7E1E5"; margin=18;
+    P [label="SEPARATELY PREPARED EXACT PLAN\nPinned historical file or labeled synthetic fixture"];
+    G [label="Supported operation?\nApproved inputs complete?\nTargets, values and hashes match?", shape=diamond,
+      style=filled, fillcolor="#FFF2D9", color="#B9842D", fontcolor="#81520D", margin=".11,.055", fontsize=12];
+    X [label="BLOCK EXECUTION\nExplain missing or failed conditions", fillcolor="#FFF2D9", color="#B9842D", fontcolor="#81520D"];
+    H [label="APPLY CHANGES TO A COPY\nPreserve original files", fillcolor="#E8F3ED", color="#4B8F72", fontcolor="#21563B"];
+    V [label="VERIFY CONTENTS, HASHES AND VARIANTS\nSave pass/fail checks, exact diff and manifest", fillcolor="#E8F3ED", color="#4B8F72", fontcolor="#21563B"];
+    P -> G;
+    G -> X [label="No", color="#B9842D", fontcolor="#81520D"];
+    G -> H [label="Yes", color="#4B8F72", fontcolor="#21563B"];
+    H -> V;
+  }
+  {rank=same; D; P;}
+  {rank=same; E; G;}
+  C -> D [lhead=cluster_learning];
+  C -> P [label="Historical evidence\nfor the prepared replay", lhead=cluster_execution];
+  E -> P [style=dashed, constraint=false, headport=w, tailport=e, color="#B9842D", fontcolor="#81520D"];
+
+  O [label="DASHBOARD AND EVIDENCE EXPORT\nSources · predictions · diffs · checks · gaps", penwidth=1.8];
+  E -> O;
+  X -> O;
+  V -> O;
+  L [label="CURRENT LIMITS\nStrict benchmark: reviewed labels / cutoffs missing\nFull ADF assembly: approved core builder missing\nEngineering savings: human timing observations missing",
+    fillcolor="#FFF2D9", color="#B9842D", fontcolor="#81520D", fontsize=12];
+  O -> L [style=dotted, arrowhead=none];
+}

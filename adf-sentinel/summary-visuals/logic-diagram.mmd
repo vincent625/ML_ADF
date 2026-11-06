@@ -1,0 +1,28 @@
+flowchart TD
+    A["Historical evidence<br/>Confluence · Jira · attachments · pinned GitHub files"] --> B["Collect read-only<br/>Preserve sources, hashes and missing-source queue"]
+    B --> C["Organize release / issue history<br/>Propose actions with evidence links"]
+
+    subgraph Learning["Learning and advice"]
+      D["Train and freeze four exploratory models<br/>Labels are proposed and unreviewed"] --> E["Save advisory suggestions<br/>Engineer review required<br/>Execution needs a complete approved plan"]
+    end
+    C --> D
+
+    subgraph Execution["Checked local execution"]
+      P["Separately prepared exact plan<br/>Pinned historical file or labeled synthetic fixture"] --> G{"Supported operation?<br/>Approved inputs complete?<br/>Targets, values and hashes match?"}
+      G -->|No| X["Block execution<br/>Explain missing or failed conditions"]
+      G -->|Yes| H["Apply changes to a copy<br/>Preserve original files"]
+      H --> V["Verify contents, hashes and variants<br/>Save pass/fail checks, exact diff and manifest"]
+    end
+    C -->|Historical evidence for the prepared replay| P
+    E -.->|Review and complete an exact approved plan first| P
+    E --> O["Dashboard and evidence export<br/>Sources · predictions · diffs · checks · gaps"]
+    X --> O
+    V --> O
+    O --> L["Current limits<br/>Strict benchmark: reviewed labels / cutoffs missing<br/>Full ADF assembly: approved core builder missing<br/>Engineering savings: human timing observations missing"]
+
+    classDef data fill:#E8F1F5,stroke:#287D8E,color:#234E70;
+    classDef checked fill:#E8F3ED,stroke:#4B8F72,color:#21563B;
+    classDef pending fill:#FFF2D9,stroke:#B9842D,color:#81520D;
+    class A,B,C,D,P,O data;
+    class H,V checked;
+    class E,G,X,L pending;

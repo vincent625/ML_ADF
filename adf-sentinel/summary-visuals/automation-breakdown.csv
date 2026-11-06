@@ -1,0 +1,8 @@
+key,name,count,percent
+approved_file,Add / replace file,414,8.411214953271028
+parameter_metadata,Parameter / metadata,705,14.323445753758635
+dependency_pin,Dependency version,144,2.9256399837464446
+shared_sync,Shared variant change,13,0.26412027631044294
+verification_only,Verification,868,17.635107679804957
+investigation_code,Investigation / code,2513,51.05648110524177
+defer_inherit_block,Defer / retain / block,265,5.383990247866721

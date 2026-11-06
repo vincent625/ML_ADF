@@ -1,0 +1,37 @@
+[
+  {
+    "id": "2918809",
+    "created": "2026-10-05T19:08:51.88Z",
+    "updated": "2026-10-05T19:08:51.88Z",
+    "text": "SQA testing screenshots\nOpen testing_screenshot_for_v03.zip\ntesting_screenshot_for_\nv03.zip\n05 Oct 2026, 12:08 PM",
+    "source_url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265?focusedCommentId=2918809#comment-2918809"
+  },
+  {
+    "id": "2917378",
+    "created": "2026-10-01T16:36:17.929Z",
+    "updated": "2026-10-01T16:36:17.929Z",
+    "text": "Re-bundled the ADFs with the new parameter updates. Dev testing evidence is attached to the respective ticket.\nADF zip files:\nGenexus-Oncomine-Focus-v2-GX7-w1.0.0-DNAandFusions-SW_7.0-v0.0.3.zip\nGenexus-Oncomine-Focus-v2-GX7-w1.0.0-DNA-SW_7.0-v0.0.3.zip\nRuns launched:\nOpen image-20261001-162852.png\nOpen image-20261001-162909.png\nRun links:\nDNA+Fusion\nN2R\n:\nhttps://kedar.itw/genexus/results/sample/698/key-findings\nDNA-only N2R:\nhttps://kedar.itw/genexus/results/sample/699/key-findings\nDNA+Fusion\nB2R\n:\nhttps://kedar.itw/genexus/results/sample/700/key-findings\nDNA-only B2R:\nhttps://kedar.itw/genexus/results/sample/701/key-findings\n(MSI-High scenario) and\nhttps://kedar.itw/genexus/results/sample/702/key-findings\n(MSI-QCFail scenario)\nDNA+Fusion copy assay run:\nhttps://kedar.itw/genexus/results/sample/703/key-findings\nDNA-only copy assay run:\nhttps://kedar.itw/genexus/results/sample/704/key-findings\nCC\n:\n@Jin Li\n@Lokesh Namala\n@Kedar Kulkarni\n@Visweswara Rao Grandhi",
+    "source_url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265?focusedCommentId=2917378#comment-2917378"
+  },
+  {
+    "id": "2914586",
+    "created": "2026-09-24T23:09:54.286Z",
+    "updated": "2026-10-01T16:24:06.322Z",
+    "text": "ADF zip files:\n<Removed>\nNeed to rebundle with new parameter updates.\nChanges are pushed into following branches:\nhttps://github.com/thermofisher/csd-adf-gx-manticore-v2-dnafus-70/compare/IRS-65265_dna_fus_adf_v003?expand=1\nhttps://github.com/thermofisher/csd-adf-gx-manticore-v2-dna-70/compare/IRS-65265_dna_adf_v003?expand=1\nhttps://github.com/thermofisher/csd-gx-rb-template-scripts/compare/IRS-65265_IRS-65922_Manticore_v003?expand=1\nDev testing evidence:\n1. Part Number updates for Primer Tube Pools:\nDNA+Fusion:\nOpen Pasted Graphic 8-20260924-134242.png\nDNA-only:\nOpen Pasted Graphic 10-20260924-134535.png\n2.1. SVB:\nOpen image-20260924-223048.png\nOpen image-20260924-223246.png\nOpen image-20260924-223302.png\n2.2.\nINI\nchanges\nDownloadable parameters can be found in the attachments below:\nOFA_v2_GX7_DNA_RNA_w1.0.0_v0.0.3.zip\nOFA_v2_GX7_DNA_w1.0.0_v0.0.3.zip\n4.2. remove the \u2018--repair-min-freq 30\u2019 in the tmap command line\nDNA+Fusion:\nPre-Alignment for Calibration\n:\nOpen image-20260924-224847.png\nTMAP\ncommand\n:\nOpen image-20260924-224729.png\nDNA-only:\nPre-Alignment for Calibration\n:\nOpen image-20260924-224158.png\nTMAP command\n:\nOpen image-20260924-224801.png\nRuns launched:\nOpen image-20260924-225029.png\nOpen image-20260924-225132.png\nRun links:\nDNA+Fusion N2R:\nhttps://kedar.itw/genexus/results/sample/675/key-findings\nDNA-only N2R:\nhttps://kedar.itw/genexus/results/sample/676/key-findings\nDNA+Fusion copy assay run:\nhttps://kedar.itw/genexus/results/sample/677/key-findings\nDNA-only copy assay run:\nhttps://kedar.itw/genexus/results/sample/678/key-findings\nB2R and other run links, along with their details, are available in the previous comments.\nOther dev testing evidence is attached to the respective tickets.\nCC:\n@Jin Li\n@Lokesh Namala\n@Kedar Kulkarni\n@Visweswara Rao Grandhi",
+    "source_url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265?focusedCommentId=2914586#comment-2914586"
+  },
+  {
+    "id": "2914560",
+    "created": "2026-09-24T21:36:43.909Z",
+    "updated": "2026-09-24T21:36:43.909Z",
+    "text": "@Arpitha B G\nI demo\u2019ed the latest CNV visualization to PdM David C today, he is satisfied with the current display. We explained to him that if the sample fail CNV\nQC\n(e.g.\nMAPD\n>0.5), the CNV plots would look very noisy and not be helpful for users, so he agrees that we can suppress the visualization in such scenario.\ncc:\n@Ying Jin",
+    "source_url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265?focusedCommentId=2914560#comment-2914560"
+  },
+  {
+    "id": "2914455",
+    "created": "2026-09-24T18:05:05.375Z",
+    "updated": "2026-09-24T18:05:05.375Z",
+    "text": "Re-bundled the ADFs with the latest CNV code pushed by\n@Ying Jin\nand the updated\nMSI_IR\npushed by\n@Sameh El-Difrawy\n.\nThe parameter fixes\nannotator.functional.all.alt.alleles=false\nand\nfusions.min.normalized.read.count.non.targeted=0.001\nwere already included in yesterday's runs.\n@Jin Li\nhas now confirmed that these updates have also been approved by the SMEs.\nAlso included the app_templates changes suggested by\n@Ali Long\nduring her review.\nOpen image-20260924-174145.png\nIssues #1 (\ncopynumber_exon_plots error in B2R\n) and #3 (\nB2R failure for the QCFail scenario due to an MSI issue\n) are now resolved.\nThe B2R runs are passing with these changes:\nDNA+Fusion B2R:\nhttps://kedar.itw/genexus/results/sample/670/key-findings\nOpen image-20260924-174250.png\nOpen image-20260924-174318.png\nDNA-only B2R:\nhttps://kedar.itw/genexus/results/sample/671/key-findings\nOpen image-20260924-174350.png\nOpen image-20260924-174421.png\nQCFail scenario B2R:\nhttps://kedar.itw/genexus/results/sample/672/key-findings\nOpen image-20260924-174459.png\nOpen image-20260924-174520.png\nIssue #2 (\nN2Rs not generating boxplot images or exon_cnv_plot_data.json\n) still persists for the MAPD QC failure scenario:\nDNA+Fusion N2R:\nhttps://kedar.itw/genexus/results/sample/675/key-findings\nOpen image-20260924-175604.png\nOpen image-20260924-175455.png\nOpen image-20260924-175829.png\nDNA-only N2R:\nhttps://kedar.itw/genexus/results/sample/676/key-findings\nOpen image-20260924-175705.png\nOpen image-20260924-175726.png\nOpen image-20260924-175740.png\nDNA+Fusion reanalysis:\nhttps://kedar.itw/genexus/results/sample/673/key-findings\nOpen image-20260924-175934.png\nOpen image-20260924-175913.png\nDNA-only reanalysis:\nhttps://kedar.itw/genexus/results/sample/674/key-findings\nOpen image-20260924-180018.png\nOpen image-20260924-180044.png\nWith the reviewed app_templates changes, this is how the\nExon CNV Visualization\nis displayed:\nOpen image-20260924-172736.png\nCC:\n@Jin Li\n@Ying Jin\n@Lokesh Namala\n@Kedar Kulkarni\n@Visweswara Rao Grandhi",
+    "source_url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265?focusedCommentId=2914455#comment-2914455"
+  }
+]

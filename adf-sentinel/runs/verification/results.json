@@ -1,0 +1,100 @@
+{
+  "browser": {
+    "browser_version": "123.0.6312.122",
+    "chapters": 8,
+    "checked_at": "2026-11-01T06:11:54Z",
+    "external_requests": [],
+    "interactions": [
+      "family graph",
+      "issue search",
+      "frozen advisory prediction persistence",
+      "pinned-source replay",
+      "expected precondition rejection",
+      "labeled fixture replay",
+      "gated reference reveal",
+      "hypothetical effort arithmetic",
+      "view reset",
+      "evidence export"
+    ],
+    "page_errors": [],
+    "pointer_action_mode": "normal pointer actions with visibility and stability checks",
+    "scope": "Local UI and source/fixture operations; no scientific or physical validation",
+    "screenshot_method": "Chrome DevTools direct capture",
+    "status": "passed",
+    "viewports": [
+      {
+        "chapters": 8,
+        "height": 1000,
+        "horizontal_overflow": false,
+        "width": 1440
+      },
+      {
+        "chapters": 8,
+        "height": 800,
+        "horizontal_overflow": false,
+        "width": 960
+      },
+      {
+        "chapters": 8,
+        "height": 844,
+        "horizontal_overflow": false,
+        "width": 390
+      }
+    ]
+  },
+  "captured_release_pr_source_checks": {
+    "evidence": "runs/verification/captured_source_checks.json",
+    "observed": 10,
+    "scope": "Captured release PR source evidence only",
+    "total": 10
+  },
+  "frozen_integrity": {
+    "feature_files": 4,
+    "freeze_id": "59cc07c60d9ebcc93be4fb8d7ddb6137e64b13c9fc0a6d70e95f73d1b98668fe",
+    "model_files": 4,
+    "source_files": 14,
+    "status": "matched"
+  },
+  "historical_archive_checksum_declarations": {
+    "checked": 6,
+    "matched": 6,
+    "scope": "Actual ZIP byte hashes; no internal baseline or scientific equivalence claim"
+  },
+  "historical_png_integrity": {
+    "decoded": 27,
+    "scope": "Image format integrity only; no OCR or underlying baseline hash claim"
+  },
+  "pinned_git_blob_checks": {
+    "passed": 2,
+    "scope": "Exact source bytes, not scientific validation",
+    "total": 2
+  },
+  "sandbox_runs": [
+    {
+      "originals_preserved": true,
+      "run_id": "0b4c92a31b3438a045c8",
+      "scope": "synthetic_fixture",
+      "status": "passed"
+    },
+    {
+      "originals_preserved": true,
+      "run_id": "fb888a2792a7aeea64b5",
+      "scope": "pinned_source_fragment_replay",
+      "status": "passed"
+    }
+  ],
+  "scientific_or_physical_validation_performed": false,
+  "supplied_originals": {
+    "files": 320,
+    "status": "unchanged"
+  },
+  "unit_and_local_http": {
+    "evidence": "runs/verification/unit.json",
+    "failed": 0,
+    "passed": 31,
+    "runtime_seconds": 7.9,
+    "status": "passed"
+  },
+  "upstream_writes_performed": false,
+  "verified_at": "2026-11-01T06:12:36.299965+00:00"
+}

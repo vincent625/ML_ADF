@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "command": "PYTHONPATH=adf-sentinel OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 adf-sentinel/.venv/bin/python -m pytest -q adf-sentinel/tests",
+  "passed": 31,
+  "failed": 0,
+  "reported_runtime_seconds": 7.9,
+  "scope": "Collector/data/model/executor/local HTTP behavior on synthetic test data; no scientific QC",
+  "package_source_sha256": {
+    "__init__.py": "2e491a91143022ecbeff4e7f9f722ba77e51fa53aaff19280c0997f5d9cc4979",
+    "__main__.py": "cf7390a2508a0fcad4777a4a629fc5212ab655cb45845975995f835676a834e3",
+    "artifacts.py": "8a963d4ccd53770bdcf201f8bb805a791b6d2f1adee5ab79b33c55438eac688b",
+    "audit.py": "7d8cbf4c789f0798996ae2246e7f47b38c87f8bc2daf822fca763df8b23ef3d6",
+    "cli.py": "c813040a85dd79762b8c18a953134183c807efd5f66e1c13f708505bfa2ea517",
+    "collect.py": "bc50cd8b03296d7a437423a0e28b87b31f2bd1ef2d8b826f3f3f17995bcacdb7",
+    "common.py": "dd304a5fcb65b799bf49d063d6d965b32080d02c5e8409b3db9f88119d58e311",
+    "dataset.py": "de2b4966a9e9d914562c6c6f3b05c0a122a47e8c7aa9b6b115ead4cc39463fdf",
+    "effort.py": "ff51e9c769a690906957326583a216f35bd4eb5242bcf02039e680923c373c23",
+    "handoff.py": "9f4a95809b7e977bd51bd5d398eeafad9a29e8aa5525ab254f6d0cb0e804479f",
+    "learning.py": "7d109a634ab683b54ed6d2d28957171c1ed86bc116f5249de6cbf9bee8845a92",
+    "plans.py": "3c91ed03b50d06a3273b5da84027fbc103daf789da5c98cbdf481b9f4cc5069f",
+    "predictor.py": "bd65a86b66fe40e7803c87a6496b4d09511c5d129380514557208eb5352d22af",
+    "server.py": "8479c26505518b95c170cdcbb48e9b5040554a46d7aa7c77093dd49cb0f7d439"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "verified_on": "2026-10-23",
+  "outcome": "Working local synthetic release loop verified; real ADF validation remains blocked",
+  "runtime": {
+    "python": "3.13.13",
+    "app_dependencies": "Python standard library only",
+    "optional_browser_driver": "Playwright 1.64.1",
+    "headless_browser": "Chromium 156.0.8078.4"
+  },
+  "legacy_python_compatibility": {
+    "verified_on": "2026-10-23",
+    "interpreter": "/rhome/yanzhu/.venv/bin/python",
+    "python": "3.7.15",
+    "openssl": "1.1.1w",
+    "startup_command": "/rhome/yanzhu/.venv/bin/python app.py --reset",
+    "startup_and_http_readiness": "passed",
+    "tests": 23,
+    "result": "passed",
+    "suite_seconds": 5.713,
+    "seeded_summary": {"pass": 83, "fail": 1},
+    "changes": [
+      "Only pass the non-security MD5 keyword on Python versions that support it",
+      "Use resolved path ancestry instead of Path.is_relative_to",
+      "Copy known fixture files without the newer copytree dirs_exist_ok argument"
+    ],
+    "environment_modified": false
+  },
+  "automated_checks": {
+    "command": "python -W error::ResourceWarning -m unittest discover -s tests -q",
+    "tests": 23,
+    "result": "passed",
+    "last_suite_seconds": 4.240,
+    "javascript_syntax": "node --check static/app.js passed",
+    "source_checks": {
+      "observed": 10,
+      "total": 10,
+      "scope": "Actual execution of supplied checker on captured PR evidence in a temporary copy"
+    },
+    "source_file_counts": [47, 46, 10],
+    "original_evidence_preservation": {
+      "files_compared_to_supplied_review_zip": 14,
+      "byte_identical": true
+    }
+  },
+  "fixture_records": {
+    "requirement_review_candidates": 20,
+    "stored_ai_interpretation_candidates": 10,
+    "proposed_local_cases_per_scenario": 84,
+    "actual_local_configuration_byte_assertions": 78,
+    "assertions_over_simulated_qc_outputs": 6,
+    "counterfactual_scenarios": 8,
+    "passing_control_scenarios": 1,
+    "correlated_fixture_events": 756,
+    "archived_run_references_not_current_passes": 16
+  },
+  "release_loop": {
+    "all_seeded_counterfactual_failures_detected": true,
+    "reviewed_fixes_change_observed_behavior": true,
+    "changed_file_requires_new_patch_review": true,
+    "independent_alignment_locations_checked": true,
+    "failed_cnv_qc_plot_suppression_accepted": true,
+    "passing_cnv_qc_unexpected_missing_plot_detected": true,
+    "completed_pipeline_preserves_msi_qcfail_sample_status": true,
+    "mapd_boundary_not_invented": true,
+    "approved_sandbox_parameter_revision_stales": 3,
+    "unrelated_current_passes_retained": 81,
+    "parameter_rerun_mismatches": 1,
+    "parameter_review_fix_retest_current_passes": 84,
+    "runner_independent_of_scenario_answer_key": true,
+    "export_matches_exact_run": true,
+    "toy_bundle_bytes_match_fixtures": true
+  },
+  "browser_verification": {
+    "command": "python tests/browser_smoke.py",
+    "mode": "Local headless browser, actual UI interactions and download",
+    "integrated_browser_limitation": "VS Code integrated browser could not reach this remote localhost (ERR_CONNECTION_REFUSED); local Playwright Chromium verification succeeded instead.",
+    "viewports": [
+      {"width": 1366, "height": 900, "chapters_checked": 6, "page_horizontal_overflow": false},
+      {"width": 390, "height": 844, "chapters_checked": 6, "page_horizontal_overflow": false}
+    ],
+    "console_or_page_errors": 0,
+    "screenshots_visually_inspected": true,
+    "details": "demo_data/verification/browser-results.json",
+    "screenshots": "demo_data/verification/",
+    "verified_export": "demo_data/verification/stale-pass-evidence.json",
+    "verified_export_run_id": "local-c6d35338f2",
+    "measured_local_audit_run_ms": [179.608, 84.974, 91.206],
+    "note": "These are local synthetic validation timings, not production pipeline time or savings. The verification export remains a self-contained dated historical snapshot after resetting the demo."
+  },
+  "truth_boundaries": {
+    "ai_mode": "Stored supplied interpretations replay; no approved live model integration configured",
+    "model_training": "Not performed; no generalization scores",
+    "real_adf_assembly_installation": "Blocked: actual released ZIPs absent",
+    "original_html_resource_uploads": "Absent from supplied review package",
+    "released_binary_md5_validation": "Not performed; fixture hashing and ticket declarations are separate",
+    "instrument_or_genexus_pipeline": "Not executed",
+    "production_savings": "Unmeasured; require a real pilot",
+    "repositories_modified": false
+  }
+}

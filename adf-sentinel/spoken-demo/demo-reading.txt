@@ -1,0 +1,71 @@
+Chapter. sources.
+
+On screen: 1, Sources . Then  family selector OCA Plus . Then  search IRS-29096.
+
+ADF Sentinel starts with the actual release-tracking index. We read its 53 descendants and relevant linked pages across many assay families. The counters show what was actually retrieved. Release listings and contextual Jira references remain separate; a linked epic or dependency is not automatically a shipped change.
+
+Show the graph, original-attachment counter, partial status and pending-frontier link. Collection is resumable, and the missing sources are individually listed. A filename or attachment card is not the binary. 
+
+Chapter. action truth and time.
+
+On screen: 2, Labels & time; show the date map, then the IRS-29057 examples.
+
+The training unit is an action. This ticket initially says the OVAT change belongs in software and needs verification. Later it records removing bundled rules for ADF 0.0.9. Those are different dated actions. Repeated IRS-26136 is not another independent ticket. Closed status and a passed comment cannot identify exact files and values.
+
+Show reviewed-label count and undated releases. Reported release dates define the chronological map. Missing dates stay missing. First-in-progress events are unconfirmed start proxies. Edited text is not back-dated. This run has no defensible reviewed benchmark labels; the review queue states the exact annotation work. 
+
+Chapter. actual training and freeze.
+
+On screen: 3, Models; show model table, withheld-metric panels and frozen campaign ID.
+
+The majority, logistic, SVM and structured-tree fits really ran on the same rows. Rules are a separate transparent baseline. The weights and timings are recorded. These fits use weak retrospective proposals, so we do not grade them against the rule that generated their labels and call that accuracy.
+
+The confusion matrix and precision-coverage chart wait for reviewed validation truth. No accuracy or confidence percentage is invented. An approved embedding model and callable LLM baseline remain unconfigured.
+
+The advisory model, preprocessing, thresholds and executor versions are frozen. Automatic model routing is disabled. The default is runnable, not a validation winner. 
+
+Chapter. reserved-ticket prediction.
+
+On screen: 4, Ticket viewer . Then  ticket IRS-65265 . Then  Persist advisory predictions . Then  choose an investigation/manual excerpt, then another parameter/file excerpt.
+
+Manticore was excluded from fitting. The button runs the frozen advisory model and saves its outputs and hash. This is a retrospective demonstration, because original decision-time action inputs and reviewed truth are not confirmed. We do not call it a validated unseen test.
+
+Read one visible source excerpt and its locator/hash. Show the proposed category/work mode. Missing approved targets, values and variants remain missing. Investigation is routed for engineering work. The classifier cannot turn vague text into an unrestricted command.
+
+Classification is one part of the problem. A correct executable plan must also identify exact approved files, versions, scope, prerequisites and checks. This proposal abstains from execution where that evidence is incomplete. Keep reference content hidden. 
+
+Chapter. execute concrete supported operations.
+
+On screen: 5, Sandbox . Then  Replay pinned Manticore file . Then  inspect checks and exact diff . Then  Show precondition rejection . Then  Run labeled fixture . Then  choose the real source replay again in the run selector.
+
+This concrete replay replaces one real source file using before and after bytes pinned to a merged historical implementation. It checks the existing hash and approved source hash, works in a copy, and verifies the result. The diff and manifest show exactly what changed. Repeated identical runs reuse a checked receipt and say so.
+
+Show actual actor arguments and removed repair flag; show originals preserved. These are source-content checks, not a Genexus software run or scientific validation.
+
+Click expected rejection. A changed baseline stops the operation before mutation. Missing inputs and unsupported operations remain blocked.
+
+Show the SYNTHETIC fixture label and shared-variant checks. This separate fixture demonstrates parameter and shared-file operations. Historical ADFs contain serialized cores; approved core build tooling is missing. Neither local output is an installable ADF. 
+
+Chapter. reveal reference and honest held-out result.
+
+On screen: 6, Reference reveal . Then  Reveal selected action reference; then point to the strict benchmark panel.
+
+The server checks the persisted prediction hash before opening reference evidence. This excerpt remains an unreviewed proposal; it does not become truth because we revealed it. Later implementation evidence is kept outside prediction inputs.
+
+The untouched strict test is blocked, with its eligible count and reasons. We report no correct-over-total metric where the required truth is missing. Future scoring must include every eligible later-release action and distinguish unseen tickets from carry-over. A few attractive examples cannot substitute for that benchmark. 
+
+Chapter. effort and calendar time.
+
+On screen: 7, Effort; read Not measured. For a clearly hypothetical example enter manual 40, review 8, supervision 2, correction 5, intake 5.
+
+We measured local computation time, not engineer effort saved. The needed measurements are matched manual effort, review, supervision, correction and intake at the same completion milestone. No Jira creation-to-closure duration is converted into labor.
+
+The estimator displays HYPOTHETICAL, 20 engineer minutes saved. These five entered assumptions are a scenario, not observations. Two calendar weeks do not mean 80 engineer hours. Waiting, dependencies and resources determine lead time; physical validation and setup costs stay separate. 
+
+Chapter. export and next work.
+
+On screen: 8, Export . Then  Download evidence package. Leave the implemented/remaining-work cards visible.
+
+The export includes traceable datasets, trained exploratory artifacts, frozen policy, saved predictions, source and fixture diffs, checks and missing-source manifests. Raw original binaries remain in the local evidence store with their hashes.
+
+Next: finish the relevant collection frontier, review exact action truth and cutoffs, supply the approved core builder, and time a shadow pilot. This gives engineers a reproducible foundation for measuring useful automation without inventing the result.

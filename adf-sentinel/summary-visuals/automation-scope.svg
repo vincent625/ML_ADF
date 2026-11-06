@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1065.6pt" height="756pt" viewBox="0 0 1065.6 756" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-02T15:20:51.790583</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 756 
+L 1065.6 756 
+L 1065.6 0 
+L 0 0 
+z
+" style="fill: #f3f6f7"/>
+  </g>
+  <g id="axes_1">
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #287d8e" x="9.357837" y="17.37061" transform="rotate(-0 9.357837 17.37061)">ADF SENTINEL / AUTOMATION SCOPE</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #58707c" x="1056.242163" y="17.111235" transform="rotate(-0 1056.242163 17.111235)">Recorded run: October 31, 2026</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 25px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #234e70" x="9.357837" y="51.709499" transform="rotate(-0 9.357837 51.709499)">Current proof and candidates for review</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #95600c" x="9.357837" y="84.169905" transform="rotate(-0 9.357837 84.169905)">Automatic execution from model suggestions: 0 of 418 eligible</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 12.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #58707c" x="9.357837" y="116.260411" transform="rotate(-0 9.357837 116.260411)">Percentages below describe unreviewed text categories. A validated can / cannot automation split is unknown.</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_2">
+    <path d="M 21.387832 450.516265 
+L 597.532368 450.516265 
+Q 612.855361 450.516265 612.855361 443.151079 
+L 612.855361 166.220105 
+Q 612.855361 158.85492 597.532368 158.85492 
+L 21.387832 158.85492 
+Q 6.064839 158.85492 6.064839 166.220105 
+L 6.064839 443.151079 
+Q 6.064839 450.516265 21.387832 450.516265 
+z
+" clip-path="url(#p78c8c9e9fe)" style="fill: #ffffff; stroke: #d7e1e5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 16.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #234e70" x="27.517029" y="188.183328" transform="rotate(-0 27.517029 188.183328)">Review buckets · 4,922 proposed excerpts</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #58707c" x="27.517029" y="214.742107" transform="rotate(-0 27.517029 214.742107)">These are counts of proposals, not engineer time or execution eligibility.</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #95600c" x="27.517029" y="435.697671" transform="rotate(-0 27.517029 435.697671)">The remaining 74.1% has not been proven impossible to automate.</text>
+   </g>
+   <g id="axes_3">
+    <g id="patch_3">
+     <path d="M 284.943311 393.067818 
+L 585.273974 393.067818 
+L 585.273974 233.979812 
+L 284.943311 233.979812 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <g id="matplotlib.axis_1">
+     <g id="xtick_1">
+      <g id="line2d_1">
+       <path d="M 284.943311 393.067818 
+L 284.943311 233.979812 
+" clip-path="url(#p0efb169059)" style="fill: none; stroke: #d7e1e5; stroke-width: 0.7; stroke-linecap: square"/>
+      </g>
+      <g id="line2d_2"/>
+      <g id="text_9">
+       <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #58707c" x="284.943311" y="410.185005" transform="rotate(-0 284.943311 410.185005)">0%</text>
+      </g>
+     </g>
+     <g id="xtick_2">
+      <g id="line2d_3">
+       <path d="M 374.594255 393.067818 
+L 374.594255 233.979812 
+" clip-path="url(#p0efb169059)" style="fill: none; stroke: #d7e1e5; stroke-width: 0.7; stroke-linecap: square"/>
+      </g>
+      <g id="line2d_4"/>
+      <g id="text_10">
+       <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #58707c" x="374.594255" y="410.185005" transform="rotate(-0 374.594255 410.185005)">20%</text>
+      </g>
+     </g>
+     <g id="xtick_3">
+      <g id="line2d_5">
+       <path d="M 464.245199 393.067818 
+L 464.245199 233.979812 
+" clip-path="url(#p0efb169059)" style="fill: none; stroke: #d7e1e5; stroke-width: 0.7; stroke-linecap: square"/>
+      </g>
+      <g id="line2d_6"/>
+      <g id="text_11">
+       <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #58707c" x="464.245199" y="410.185005" transform="rotate(-0 464.245199 410.185005)">40%</text>
+      </g>
+     </g>
+     <g id="xtick_4">
+      <g id="line2d_7">
+       <path d="M 553.896144 393.067818 
+L 553.896144 233.979812 
+" clip-path="url(#p0efb169059)" style="fill: none; stroke: #d7e1e5; stroke-width: 0.7; stroke-linecap: square"/>
+      </g>
+      <g id="line2d_8"/>
+      <g id="text_12">
+       <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #58707c" x="553.896144" y="410.185005" transform="rotate(-0 553.896144 410.185005)">60%</text>
+      </g>
+     </g>
+    </g>
+    <g id="matplotlib.axis_2">
+     <g id="ytick_1">
+      <g id="line2d_9"/>
+      <g id="text_13">
+       <text style="font-size: 10.7px; font-family: 'DejaVu Sans'; fill: #58707c" transform="translate(138.645811 250.765344)">Mechanical-change labels</text>
+       <text style="font-size: 10.7px; font-family: 'DejaVu Sans'; fill: #58707c" transform="translate(104.698389 263.60827)">Review for potential automation</text>
+      </g>
+     </g>
+     <g id="ytick_2">
+      <g id="line2d_10"/>
+      <g id="text_14">
+       <text style="font-size: 10.7px; font-family: 'DejaVu Sans'; fill: #58707c" transform="translate(171.289171 291.390474)">Investigation / code</text>
+       <text style="font-size: 10.7px; font-family: 'DejaVu Sans'; fill: #58707c" transform="translate(126.51803 304.233399)">Human-led in this prototype</text>
+      </g>
+     </g>
+     <g id="ytick_3">
+      <g id="line2d_11"/>
+      <g id="text_15">
+       <text style="font-size: 10.7px; font-family: 'DejaVu Sans'; fill: #58707c" transform="translate(216.824358 332.015603)">Verification</text>
+       <text style="font-size: 10.7px; font-family: 'DejaVu Sans'; fill: #58707c" transform="translate(105.337046 344.858529)">Mixed automatic / human scope</text>
+      </g>
+     </g>
+     <g id="ytick_4">
+      <g id="line2d_12"/>
+      <g id="text_16">
+       <text style="font-size: 10.7px; font-family: 'DejaVu Sans'; fill: #58707c" transform="translate(166.915546 372.640732)">Defer / retain / block</text>
+       <text style="font-size: 10.7px; font-family: 'DejaVu Sans'; fill: #58707c" transform="translate(100.931655 385.483658)">Owner decisions / missing inputs</text>
+      </g>
+     </g>
+    </g>
+    <g id="patch_4">
+     <path d="M 284.943311 241.211085 
+L 401.150752 241.211085 
+L 401.150752 263.961157 
+L 284.943311 263.961157 
+z
+" clip-path="url(#p0efb169059)" style="fill: #287d8e"/>
+    </g>
+    <g id="patch_5">
+     <path d="M 284.943311 281.836214 
+L 513.806398 281.836214 
+L 513.806398 304.586286 
+L 284.943311 304.586286 
+z
+" clip-path="url(#p0efb169059)" style="fill: #234e70"/>
+    </g>
+    <g id="patch_6">
+     <path d="M 284.943311 322.461343 
+L 363.993514 322.461343 
+L 363.993514 345.211416 
+L 284.943311 345.211416 
+z
+" clip-path="url(#p0efb169059)" style="fill: #7597a9"/>
+    </g>
+    <g id="patch_7">
+     <path d="M 284.943311 363.086472 
+L 309.077302 363.086472 
+L 309.077302 385.836545 
+L 284.943311 385.836545 
+z
+" clip-path="url(#p0efb169059)" style="fill: #c7a26b"/>
+    </g>
+    <g id="text_17">
+     <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; fill: #234e70" transform="translate(405.633299 248.842468)">25.9%</text>
+     <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; fill: #234e70" transform="translate(405.633299 262.044617)">1,276</text>
+    </g>
+    <g id="text_18">
+     <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; fill: #234e70" transform="translate(518.288945 289.467598)">51.1%</text>
+     <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; fill: #234e70" transform="translate(518.288945 302.669746)">2,513</text>
+    </g>
+    <g id="text_19">
+     <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; fill: #234e70" transform="translate(368.476061 330.092727)">17.6%</text>
+     <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; fill: #234e70" transform="translate(368.476061 343.294875)">868</text>
+    </g>
+    <g id="text_20">
+     <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; fill: #234e70" transform="translate(313.559849 370.717856)">5.4%</text>
+     <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; fill: #234e70" transform="translate(313.559849 383.920005)">265</text>
+    </g>
+   </g>
+  </g>
+  <g id="axes_4">
+   <g id="patch_8">
+    <path d="M 641.379394 450.516265 
+L 1049.572326 450.516265 
+Q 1060.428521 450.516265 1060.428521 443.151079 
+L 1060.428521 166.220105 
+Q 1060.428521 158.85492 1049.572326 158.85492 
+L 641.379394 158.85492 
+Q 630.523199 158.85492 630.523199 166.220105 
+L 630.523199 443.151079 
+Q 630.523199 450.516265 641.379394 450.516265 
+z
+" clip-path="url(#pe0224b43d6)" style="fill: #ffffff; stroke: #d7e1e5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 15.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #234e70" x="652.235589" y="187.923523" transform="rotate(-0 652.235589 187.923523)">Inside the 25.9% mechanical bucket</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 11.2px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #58707c" x="652.235589" y="214.794068" transform="rotate(-0 652.235589 214.794068)">1,276 labels to review for exact, repeatable changes</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #234e70" x="656.578067" y="254.773913" transform="rotate(-0 656.578067 254.773913)">Parameter / metadata</text>
+   </g>
+   <g id="text_24">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #287d8e" x="1032.202414" y="254.800163" transform="rotate(-0 1032.202414 254.800163)">705  |  14.3%</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #234e70" x="656.578067" y="293.072877" transform="rotate(-0 656.578067 293.072877)">Add / replace file</text>
+   </g>
+   <g id="text_26">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #287d8e" x="1032.202414" y="293.099127" transform="rotate(-0 1032.202414 293.099127)">414  |  8.4%</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #234e70" x="656.578067" y="331.371842" transform="rotate(-0 656.578067 331.371842)">Dependency version</text>
+   </g>
+   <g id="text_28">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #287d8e" x="1032.202414" y="331.398092" transform="rotate(-0 1032.202414 331.398092)">144  |  2.9%</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #234e70" x="656.578067" y="369.670806" transform="rotate(-0 656.578067 369.670806)">Shared variant change</text>
+   </g>
+   <g id="text_30">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #287d8e" x="1032.202414" y="369.697056" transform="rotate(-0 1032.202414 369.697056)">13  |  0.3%</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #95600c" transform="translate(656.578067 411.133755)">All shares use the full 4,922-excerpt denominator.</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #95600c" transform="translate(656.578067 427.933755)">This bucket includes false positives and missing inputs.</text>
+   </g>
+  </g>
+  <g id="axes_5">
+   <g id="patch_9">
+    <path d="M 18.707753 679.014932 
+L 510.876487 679.014932 
+Q 523.966081 679.014932 523.966081 673.975594 
+L 523.966081 484.496507 
+Q 523.966081 479.457169 510.876487 479.457169 
+L 18.707753 479.457169 
+Q 5.618159 479.457169 5.618159 484.496507 
+L 5.618159 673.975594 
+Q 5.618159 679.014932 18.707753 679.014932 
+z
+" clip-path="url(#p5d96c2e714)" style="fill: #ecf5f0; stroke: #d0e3d8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_32">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #4b8f72" x="26.561509" y="507.511278" transform="rotate(-0 26.561509 507.511278)">ALREADY SUPPORTED IN A CONTROLLED LOCAL COPY</text>
+   </g>
+   <g id="text_33">
+    <text style="font-weight: 700; font-size: 14.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #234e70" x="26.561509" y="544.704254" transform="rotate(-0 26.561509 544.704254)">Real replay: 1 pinned source-file replacement</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 12.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #233d4d" x="26.561509" y="578.452139" transform="rotate(-0 26.561509 578.452139)">Fixture replay: 2 parameter edits + 2 shared-file copies</text>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 11.2px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #58707c" x="26.561509" y="612.381888" transform="rotate(-0 26.561509 612.381888)">Automatic checks: hashes, exact values, paths, variants and diffs</text>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 10.7px; font-family: 'DejaVu Sans'; fill: #58707c" transform="translate(26.561509 642.163571)">Other registered edits remain narrow: real actor key or fixture schema.</text>
+    <text style="font-size: 10.7px; font-family: 'DejaVu Sans'; fill: #58707c" transform="translate(26.561509 659.283571)">A general real-ADF parameter / dependency editor is not established.</text>
+   </g>
+  </g>
+  <g id="axes_6">
+   <g id="patch_10">
+    <path d="M 554.723513 679.014932 
+L 1046.892247 679.014932 
+Q 1059.981841 679.014932 1059.981841 673.975594 
+L 1059.981841 484.496507 
+Q 1059.981841 479.457169 1046.892247 479.457169 
+L 554.723513 479.457169 
+Q 541.633919 479.457169 541.633919 484.496507 
+L 541.633919 673.975594 
+Q 541.633919 679.014932 554.723513 679.014932 
+z
+" clip-path="url(#pf491d4f0f8)" style="fill: #fff2d9; stroke: #e8d5ae; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_37">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #95600c" x="562.577269" y="507.511278" transform="rotate(-0 562.577269 507.511278)">CURRENTLY NEEDS PEOPLE OR ADDITIONAL CAPABILITY</text>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 11.4px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #233d4d" x="562.577269" y="543.898859" transform="rotate(-0 562.577269 543.898859)">• Diagnose new bugs and develop / approve fixes</text>
+   </g>
+   <g id="text_39">
+    <text style="font-size: 11.4px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #233d4d" x="562.577269" y="572.119149" transform="rotate(-0 562.577269 572.119149)">• Choose scientific values and interpret assay / QC results</text>
+   </g>
+   <g id="text_40">
+    <text style="font-size: 11.4px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #233d4d" x="562.577269" y="600.339439" transform="rotate(-0 562.577269 600.339439)">• Resolve ambiguity; decide release, retain or defer actions</text>
+   </g>
+   <g id="text_41">
+    <text style="font-size: 11.4px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #233d4d" x="562.577269" y="628.559728" transform="rotate(-0 562.577269 628.559728)">• Perform scientific / physical validation</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 11.4px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #233d4d" x="562.577269" y="656.780018" transform="rotate(-0 562.577269 656.780018)">• Build a real ADF: approved core builder / inputs still missing</text>
+   </g>
+  </g>
+  <g id="axes_7">
+   <g id="text_43">
+    <text style="font-size: 9.8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #58707c" x="9.357837" y="720.658125" transform="rotate(-0 9.357837 720.658125)">Provisional labels include irrelevant or misclassified commentary—for example, Jira fix-version edits tagged as dependency changes.</text>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 9.3px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #58707c" x="9.357837" y="746.112551" transform="rotate(-0 9.357837 746.112551)">Sources: weak-action dataset · saved advisory predictions · executor registry · real-source and synthetic-fixture replay manifests. No effort-weighted coverage is available.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p78c8c9e9fe">
+   <rect x="3.00024" y="157.381883" width="612.91972" height="294.607419"/>
+  </clipPath>
+  <clipPath id="p0efb169059">
+   <rect x="284.943311" y="233.979812" width="300.330663" height="159.088006"/>
+  </clipPath>
+  <clipPath id="pe0224b43d6">
+   <rect x="628.35196" y="157.381883" width="434.2478" height="294.607419"/>
+  </clipPath>
+  <clipPath id="p5d96c2e714">
+   <rect x="3.00024" y="478.449302" width="523.58376" height="201.573497"/>
+  </clipPath>
+  <clipPath id="pf491d4f0f8">
+   <rect x="539.016" y="478.449302" width="523.58376" height="201.573497"/>
+  </clipPath>
+ </defs>
+</svg>
