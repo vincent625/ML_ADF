@@ -1,0 +1,9 @@
+{
+  "SYNTHETIC_NON_INSTALLABLE": true,
+  "dependencies": {
+    "report": "fixture-1"
+  },
+  "parameters": {
+    "threshold": 0.2
+  }
+}

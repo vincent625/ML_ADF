@@ -1,0 +1,21 @@
+{
+  "evaluated_at": "2026-11-01T06:05:33.187271+00:00",
+  "freeze_id": "59cc07c60d9ebcc93be4fb8d7ddb6137e64b13c9fc0a6d70e95f73d1b98668fe",
+  "prediction_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "status": "blocked",
+  "eligible_strict_test_actions": 0,
+  "correct": null,
+  "total": null,
+  "metrics": null,
+  "strict_unseen": null,
+  "carry_over": null,
+  "confidence_intervals": null,
+  "reasons": [
+    "No confirmed release decision cutoffs",
+    "No defensible reviewed action labels",
+    "No complete point-in-time prediction views",
+    "Exact executable-plan validation labels unavailable"
+  ],
+  "labels_opened_for_scoring": false,
+  "note": "No validated holdout accuracy, automation precision, execution success, or human-effort savings is claimed."
+}

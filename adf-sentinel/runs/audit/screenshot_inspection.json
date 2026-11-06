@@ -1,0 +1,259 @@
+{
+  "source_archive": "data/raw/attachments/jira_1659780/testing_screenshot_for_v03.zip",
+  "archive_sha256": "8d40cf8338eb06eb89fb272698cc19e275352a83c3fc11007995a8539c659c2a",
+  "member": "testing_screenshot_for_v03/DNAandFus/7.CNV_baseline.png",
+  "extracted_path": "data/raw/inspections/historical-screenshot.png",
+  "image_sha256": "015f05662d794339dacb27a8388021f97da0b34ce26f83c24fb8475a9cd01e41",
+  "images_in_archive": 27,
+  "inspection_method": "visual inspection only; no OCR engine",
+  "observation": "Screenshot displays a CNV baseline filename and a terminal MD5 assertion. The underlying baseline bytes were not supplied by this image.",
+  "underlying_baseline_file_hashed": false,
+  "scientific_validation": false,
+  "benchmark_eligible": false,
+  "images": [
+    {
+      "member": "testing_screenshot_for_v03/DNAandFus/7.CNV_baseline.png",
+      "sha256": "015f05662d794339dacb27a8388021f97da0b34ce26f83c24fb8475a9cd01e41",
+      "pixels": [
+        2442,
+        360
+      ],
+      "decode": "verified_image_format_only"
+    },
+    {
+      "member": "testing_screenshot_for_v03/DNAandFus/11.MSI_baseline.png",
+      "sha256": "73cd6fce0d85fe2f2cf05a36964b4e90eef1578625bf1a2510d1f287c83aff7b",
+      "pixels": [
+        1956,
+        388
+      ],
+      "decode": "verified_image_format_only"
+    },
+    {
+      "member": "testing_screenshot_for_v03/DNAandFus/6.ovat_ruleset_md5sum.png",
+      "sha256": "0e8cdefe6cf6ca6949d1fc6780b72c338ab082d124a057ab0cd7b4975bcb9707",
+      "pixels": [
+        1938,
+        790
+      ],
+      "decode": "verified_image_format_only"
+    },
+    {
+      "member": "testing_screenshot_for_v03/DNAandFus/7.vns_version.png",
+      "sha256": "2d744e4ea5e371eeaa791c2fe391573af0b183be929efab3ade7431299c70884",
+      "pixels": [
+        2488,
+        780
+      ],
+      "decode": "verified_image_format_only"
+    },
+    {
+      "member": "testing_screenshot_for_v03/DNAandFus/1.kit_part_number.png",
+      "sha256": "6be6967a26bedb1d44fd512e767d4a15dbc452710f0e1cc700418e20c3904f91",
+      "pixels": [
+        1366,
+        660
+      ],
+      "decode": "verified_image_format_only"
+    },
+    {
+      "member": "testing_screenshot_for_v03/DNAandFus/11.MSI_IR_version.png",
+      "sha256": "5b2b2cc18809e2d021b290fa72ecd2aeee7f8f7a03e200ad1aa9c965a61b0416",
+      "pixels": [
+        2574,
+        274
+      ],
+      "decode": "verified_image_format_only"
+    },
+    {
+      "member": "testing_screenshot_for_v03/DNAandFus/4.2.remove_repair_min_freq_30.png",
+      "sha256": "8f79bbe36bbbcf1842d1068b67f2c3f713793b74998643c56508351ba753ebf9",
+      "pixels": [
+        1740,
+        288
+      ],
+      "decode": "verified_image_format_only"
+    },
+    {
+      "member": "testing_screenshot_for_v03/DNAandFus/5.hotspot_file.png",
+      "sha256": "e9279a7736a22239baf7a96efaf27de7c8e3325903a8057a6bd2e4e6ba2e34d2",
+      "pixels": [
+        1972,
+        322
+      ],
+      "decode": "verified_image_format_only"
+    },
+    {
+      "member": "testing_screenshot_for_v03/DNAandFus/1.DNA_and_RNA_primer_part_number.png",
+      "sha256": "83740f2a3698a7158f97f60c7bc43cb76ae6366e27b2eedf608bd2662147ac82",
+      "pixels": [
+        2644,
+        1434
+      ],
+      "decode": "verified_image_format_only"
+    },
+    {
+      "member": "testing_screenshot_for_v03/DNAandFus/6.ovat_ruleset.png",
+      "sha256": "bdb5d7911421c535cb6fd04578a72a96c128aeffd5f5c7690454720e4044fe30",
+      "pixels": [
+        2482,
+        1130
+      ],
+      "decode": "verified_image_format_only"
+    },
+    {
+      "member": "testing_screenshot_for_v03/DNAandFus/9.CNV_scripts.png",
+      "sha256": "e492cbca8b146c563ab9dbeae9787986cee83a316001722ce6c86833e0db5ac6",
+      "pixels": [
+        2810,
+        950
+      ],
+      "decode": "verified_image_format_only"
+    },
+    {
+      "member": "testing_screenshot_for_v03/DNAandFus/4.1.DNA_panel_bedfile.png",
+      "sha256": "2f1d6bd60e46f1b62b1910f883a5eb00454e60966c0538b39755a94809365fab",
+      "pixels": [
+        1840,
+        454
+      ],
+      "decode": "verified_image_format_only"
+    },
+    {
+      "member": "testing_screenshot_for_v03/DNAandFus/2.1.SVBfile.png",
+      "sha256": "6ae1e42102b3a4a35773a005a73aab121349f82a6aefaebf6ef08b57fd282473",
+      "pixels": [
+        2254,
+        320
+      ],
+      "decode": "verified_image_format_only"
+    },
+    {
+      "member": "testing_screenshot_for_v03/DNAandFus/8.CNV_json.png",
+      "sha256": "451a44e3186b733555ceadac8a095319966fb127e957196727d7419158fa276b",
+      "pixels": [
+        2496,
+        404
+      ],
+      "decode": "verified_image_format_only"
+    },
+    {
+      "member": "testing_screenshot_for_v03/DNA/7.CNV_baseline.png",
+      "sha256": "14e837018da0a5776bf7e9252750df5b609027dbeee9fea512a81dcd60db0672",
+      "pixels": [
+        2206,
+        494
+      ],
+      "decode": "verified_image_format_only"
+    },
+    {
+      "member": "testing_screenshot_for_v03/DNA/11.MSI_baseline_file.png",
+      "sha256": "9d311fa5a174eb4a78303574c508a80588b7fb8caad187749811d9ee9a6b4430",
+      "pixels": [
+        1636,
+        526
+      ],
+      "decode": "verified_image_format_only"
+    },
+    {
+      "member": "testing_screenshot_for_v03/DNA/7.vns_version.png",
+      "sha256": "6ffe1fde35c17846e6f04ed6e306b17b07edf9c6fb4decc5ee6c1edc19e65be1",
+      "pixels": [
+        2192,
+        702
+      ],
+      "decode": "verified_image_format_only"
+    },
+    {
+      "member": "testing_screenshot_for_v03/DNA/1.kit_part_number.png",
+      "sha256": "944b4f9ff8115b6f5dd6f21730d7d5a647371ab581fa4a7c9c72e3c42c40d7d5",
+      "pixels": [
+        1452,
+        508
+      ],
+      "decode": "verified_image_format_only"
+    },
+    {
+      "member": "testing_screenshot_for_v03/DNA/4.2.remove_repair_min_freq_30.png",
+      "sha256": "091fe50e424df2f8537f7a227058b95718af992139d87dae0ccb24fc2d1cc998",
+      "pixels": [
+        2214,
+        524
+      ],
+      "decode": "verified_image_format_only"
+    },
+    {
+      "member": "testing_screenshot_for_v03/DNA/5.hotspot_file.png",
+      "sha256": "00c62ba4127ae14a19fe355e087d0ba4b755be190d35b14b9c0aaf58c0dd8f2b",
+      "pixels": [
+        2246,
+        532
+      ],
+      "decode": "verified_image_format_only"
+    },
+    {
+      "member": "testing_screenshot_for_v03/DNA/8.CNV_parameter_json.png",
+      "sha256": "3762a5815759d083cf1a174f2007fca3437289d9ae602d24ee87a3511ebd49d6",
+      "pixels": [
+        2584,
+        344
+      ],
+      "decode": "verified_image_format_only"
+    },
+    {
+      "member": "testing_screenshot_for_v03/DNA/6.OVAT_ruleset.png",
+      "sha256": "ee976e80c98c3d56b5cc1b4d03a232337848b17236a5d6272d65ffe123ddfd1b",
+      "pixels": [
+        2214,
+        474
+      ],
+      "decode": "verified_image_format_only"
+    },
+    {
+      "member": "testing_screenshot_for_v03/DNA/9.CNV_scripts.png",
+      "sha256": "053823d8b61a7b7312711842acd76def0f1a40afe0c6006461d2cac3c27b1be4",
+      "pixels": [
+        2500,
+        860
+      ],
+      "decode": "verified_image_format_only"
+    },
+    {
+      "member": "testing_screenshot_for_v03/DNA/4.1.DNA_panel_bedfile.png",
+      "sha256": "63b5a29ea32f7f07a42eaa8ad04e7fcb9e9968220fc28530a19b516d66b2807d",
+      "pixels": [
+        2198,
+        346
+      ],
+      "decode": "verified_image_format_only"
+    },
+    {
+      "member": "testing_screenshot_for_v03/DNA/11.MSI_IR.png",
+      "sha256": "c75b99a9c2d6eaceda56372c42f05b330eb2c99df8c51e60295f4aa9929876cb",
+      "pixels": [
+        1660,
+        292
+      ],
+      "decode": "verified_image_format_only"
+    },
+    {
+      "member": "testing_screenshot_for_v03/DNA/1.DNA_primer_tube_part_number.png",
+      "sha256": "66f6dfabd60a9c677ee096352ae639fd1bf9ab6b780dd9763c9a2761f9510947",
+      "pixels": [
+        2960,
+        910
+      ],
+      "decode": "verified_image_format_only"
+    },
+    {
+      "member": "testing_screenshot_for_v03/DNA/2.1.SVB_file.png",
+      "sha256": "2ae900467523047e9eefd49a3afdd4494cccbbb35a767c08c19d8ac5368ad270",
+      "pixels": [
+        2662,
+        378
+      ],
+      "decode": "verified_image_format_only"
+    }
+  ],
+  "ignored_resource_forks": true
+}

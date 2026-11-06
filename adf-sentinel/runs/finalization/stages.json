@@ -1,0 +1,68 @@
+[
+  {
+    "stage": "01-prepare",
+    "exit_code": 0,
+    "runtime_seconds": 4.329475288001049,
+    "result": "runs/finalization/01-prepare.json"
+  },
+  {
+    "stage": "02-train",
+    "exit_code": 0,
+    "runtime_seconds": 9.69613897599993,
+    "result": "runs/finalization/02-train.json"
+  },
+  {
+    "stage": "03-freeze",
+    "exit_code": 0,
+    "runtime_seconds": 0.23570609200032777,
+    "result": "runs/finalization/03-freeze.json"
+  },
+  {
+    "stage": "04-predict",
+    "exit_code": 0,
+    "runtime_seconds": 4.456627831999867,
+    "result": "runs/finalization/04-predict.json"
+  },
+  {
+    "stage": "05-predict",
+    "exit_code": 0,
+    "runtime_seconds": 3.3611860430009983,
+    "result": "runs/finalization/05-predict.json"
+  },
+  {
+    "stage": "06-plan",
+    "exit_code": 0,
+    "runtime_seconds": 0.3482409929983987,
+    "result": "runs/finalization/06-plan.json"
+  },
+  {
+    "stage": "07-bundle",
+    "exit_code": 0,
+    "runtime_seconds": 0.6263394289999269,
+    "result": "runs/finalization/07-bundle.json"
+  },
+  {
+    "stage": "08-plan",
+    "exit_code": 0,
+    "runtime_seconds": 0.1326934850003454,
+    "result": "runs/finalization/08-plan.json"
+  },
+  {
+    "stage": "09-bundle",
+    "exit_code": 0,
+    "runtime_seconds": 0.3484899739996763,
+    "result": "runs/finalization/09-bundle.json"
+  },
+  {
+    "stage": "10-effort",
+    "exit_code": 0,
+    "runtime_seconds": 0.09800072799953341,
+    "result": "runs/finalization/10-effort.json"
+  },
+  {
+    "stage": "11-audit",
+    "exit_code": 0,
+    "runtime_seconds": 4.539630712999497,
+    "result": "runs/finalization/11-audit.json"
+  }
+]

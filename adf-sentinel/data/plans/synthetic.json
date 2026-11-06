@@ -1,0 +1,94 @@
+{
+  "actions": [
+    {
+      "before_sha256": "427f8cfd7048efab9cbd75289d2d637c98f6d10b2ed8fd647d63535a299b3c70",
+      "checks": [
+        {
+          "kind": "json_value",
+          "pointer": "/parameters/threshold",
+          "value": 0.4
+        }
+      ],
+      "id": "DNA-parameter",
+      "old_value": 0.2,
+      "pointer": "/parameters/threshold",
+      "target": "DNA/config.json",
+      "type": "json_parameter",
+      "value": 0.4,
+      "variant": "synthetic-DNA"
+    },
+    {
+      "before_sha256": "bca0420d724d44cf44bebe9c21575263badbbf993c7a981333e4d007bcf981ac",
+      "checks": [
+        {
+          "kind": "sha256",
+          "value": "cdb67e4ea470625e2a96f0fd29732c55af8f4cca8890bc91304cc8a048ccb953"
+        },
+        {
+          "kind": "same_as",
+          "target": "DNA/shared.txt"
+        }
+      ],
+      "id": "DNA-shared",
+      "source": "data/fixtures/approved/shared.txt",
+      "source_revision": "synthetic-fixture-2",
+      "source_sha256": "cdb67e4ea470625e2a96f0fd29732c55af8f4cca8890bc91304cc8a048ccb953",
+      "target": "DNA/shared.txt",
+      "type": "copy_pinned_file",
+      "variant": "synthetic-DNA"
+    },
+    {
+      "before_sha256": "427f8cfd7048efab9cbd75289d2d637c98f6d10b2ed8fd647d63535a299b3c70",
+      "checks": [
+        {
+          "kind": "json_value",
+          "pointer": "/parameters/threshold",
+          "value": 0.4
+        }
+      ],
+      "id": "DNA_Fusion-parameter",
+      "old_value": 0.2,
+      "pointer": "/parameters/threshold",
+      "target": "DNA_Fusion/config.json",
+      "type": "json_parameter",
+      "value": 0.4,
+      "variant": "synthetic-DNA+Fusion"
+    },
+    {
+      "before_sha256": "bca0420d724d44cf44bebe9c21575263badbbf993c7a981333e4d007bcf981ac",
+      "checks": [
+        {
+          "kind": "sha256",
+          "value": "cdb67e4ea470625e2a96f0fd29732c55af8f4cca8890bc91304cc8a048ccb953"
+        },
+        {
+          "kind": "same_as",
+          "target": "DNA/shared.txt"
+        }
+      ],
+      "id": "DNA_Fusion-shared",
+      "source": "data/fixtures/approved/shared.txt",
+      "source_revision": "synthetic-fixture-2",
+      "source_sha256": "cdb67e4ea470625e2a96f0fd29732c55af8f4cca8890bc91304cc8a048ccb953",
+      "target": "DNA_Fusion/shared.txt",
+      "type": "copy_pinned_file",
+      "variant": "synthetic-DNA+Fusion"
+    }
+  ],
+  "authority": {
+    "evidence": [
+      "Locally authored fixture; no historical or scientific correctness claim"
+    ],
+    "kind": "synthetic_fixture"
+  },
+  "id": "synthetic-safe-executor-demo",
+  "prerequisites": [
+    {
+      "name": "Fixture inputs present",
+      "satisfied": true
+    }
+  ],
+  "schema_version": 1,
+  "scope": "synthetic_fixture",
+  "synthetic": true
+}

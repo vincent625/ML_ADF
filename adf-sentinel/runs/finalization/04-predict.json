@@ -1,0 +1,10 @@
+{
+  "saved_at": "2026-11-01T05:53:26.919264+00:00",
+  "freeze_id": "fe7ed58597392e07dd73f75e99abb6efa0a464f31e0293ba1fbc5e85c29d2461",
+  "prediction_sha256": "0f5d7857adbc18d730d26c5db358be8e0aeae36bb7f8c17cac5880f4995e9759",
+  "count": 418,
+  "input_hash": "5f174b84ac108d4db2c8d6702085d9feb40a8c72e57e288e2c481e0d0913af8d",
+  "kind": "retrospective_advisory",
+  "strict_performance_claim_permitted": false,
+  "status": "persisted"
+}

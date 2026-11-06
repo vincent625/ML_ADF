@@ -1,0 +1,36 @@
+{
+  "run_at": "2026-11-01T05:57:41.942192+00:00",
+  "integrity": {
+    "action_ids_unique": true,
+    "all_action_releases_exist": true,
+    "no_labels_in_feature_files": true,
+    "primary_performance_claim_permitted": false,
+    "rejected_annotations": 0,
+    "release_ids_unique": true,
+    "reviewed_labels": 0,
+    "strict_cases": 0
+  },
+  "supplied_files": {
+    "status": "unchanged",
+    "files": 320
+  },
+  "source_blob_checks_passed": true,
+  "sandbox_runs": [
+    {
+      "run_id": "0b4c92a31b3438a045c8",
+      "scope": "synthetic_fixture",
+      "status": "passed",
+      "originals_preserved": true
+    },
+    {
+      "run_id": "fb888a2792a7aeea64b5",
+      "scope": "pinned_source_fragment_replay",
+      "status": "passed",
+      "originals_preserved": true
+    }
+  ],
+  "OCA_support_counts": {
+    "confluence": 11,
+    "jira_unique": 6
+  }
+}

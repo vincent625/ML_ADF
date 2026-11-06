@@ -1,0 +1,9 @@
+{
+  "core_format": "opaque serialized .ser payload",
+  "docker_available": true,
+  "documented_core_builder_in_inspected_root": false,
+  "inspected_commit": "6ada6a4bd50d1acec148596059e6142a7748fc01",
+  "pinned_algorithm_image_digest": null,
+  "reference_fasta_available": false,
+  "scope": "Read-only prerequisite inspection; no build, install, or execution of downloaded source"
+}

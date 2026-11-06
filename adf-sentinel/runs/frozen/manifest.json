@@ -1,0 +1,82 @@
+{
+  "advisory_model": "tfidf_logistic",
+  "automatic_execution_enabled": false,
+  "created_at": "2026-11-01T05:57:32.705099+00:00",
+  "data_hash": "f67658646c32549c7e851aa79a0b351c31e0e42a54a2c671971e66c39d3ccb55",
+  "executor_version": "1",
+  "feature_files": {
+    "data/model_inputs/retrospective.jsonl": "ec7228a8a913782fdcddc6e8b36dca59340d4aefdff5d18c665663793f599cbb",
+    "data/model_inputs/strict_test.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "data/model_inputs/strict_train.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "data/model_inputs/strict_validation.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "freeze_id": "59cc07c60d9ebcc93be4fb8d7ddb6137e64b13c9fc0a6d70e95f73d1b98668fe",
+  "limits": [
+    "No confirmed release decision cutoffs",
+    "No defensible reviewed action labels",
+    "No complete point-in-time prediction views",
+    "Exact executable-plan validation labels unavailable"
+  ],
+  "model_files": [
+    {
+      "name": "majority",
+      "path": "runs/training/models/majority.joblib",
+      "sha256": "ceef880d1d555c098b46317a09e4697f554009194c96e1a6716633e7c7d65dbf"
+    },
+    {
+      "name": "tfidf_logistic",
+      "path": "runs/training/models/tfidf_logistic.joblib",
+      "sha256": "6aed80169b3488995230f3d280493e0acecb1102256defabf0601eae8d96bb29"
+    },
+    {
+      "name": "tfidf_svm",
+      "path": "runs/training/models/tfidf_svm.joblib",
+      "sha256": "1c5e58be8e707bd8578ecb718dd67c1411d39017ea0e3634a1006a068748da5c"
+    },
+    {
+      "name": "structured_tree",
+      "path": "runs/training/models/structured_tree.joblib",
+      "sha256": "31e3f0de50128db5bc7cd02a29036ebefe53bab486a2b21aac7c5a4ae7aa4e5c"
+    }
+  ],
+  "primary_winner": null,
+  "prompt_snapshot": "none",
+  "retrieval_snapshot": "none",
+  "seed": 7341,
+  "selection_rule": "Require defensible reviewed chronological validation; maximize correct exact executable plans with zero incorrect automatic plans and >=5 validation cases per enabled class, then macro-F1, then lower runtime. Otherwise advisory only, automatic execution disabled.",
+  "source_versions": {
+    "adf_sentinel/__init__.py": "2e491a91143022ecbeff4e7f9f722ba77e51fa53aaff19280c0997f5d9cc4979",
+    "adf_sentinel/__main__.py": "cf7390a2508a0fcad4777a4a629fc5212ab655cb45845975995f835676a834e3",
+    "adf_sentinel/artifacts.py": "8a963d4ccd53770bdcf201f8bb805a791b6d2f1adee5ab79b33c55438eac688b",
+    "adf_sentinel/audit.py": "7d8cbf4c789f0798996ae2246e7f47b38c87f8bc2daf822fca763df8b23ef3d6",
+    "adf_sentinel/cli.py": "c813040a85dd79762b8c18a953134183c807efd5f66e1c13f708505bfa2ea517",
+    "adf_sentinel/collect.py": "bc50cd8b03296d7a437423a0e28b87b31f2bd1ef2d8b826f3f3f17995bcacdb7",
+    "adf_sentinel/common.py": "dd304a5fcb65b799bf49d063d6d965b32080d02c5e8409b3db9f88119d58e311",
+    "adf_sentinel/dataset.py": "de2b4966a9e9d914562c6c6f3b05c0a122a47e8c7aa9b6b115ead4cc39463fdf",
+    "adf_sentinel/effort.py": "ff51e9c769a690906957326583a216f35bd4eb5242bcf02039e680923c373c23",
+    "adf_sentinel/handoff.py": "9f4a95809b7e977bd51bd5d398eeafad9a29e8aa5525ab254f6d0cb0e804479f",
+    "adf_sentinel/learning.py": "7d109a634ab683b54ed6d2d28957171c1ed86bc116f5249de6cbf9bee8845a92",
+    "adf_sentinel/plans.py": "3c91ed03b50d06a3273b5da84027fbc103daf789da5c98cbdf481b9f4cc5069f",
+    "adf_sentinel/predictor.py": "bd65a86b66fe40e7803c87a6496b4d09511c5d129380514557208eb5352d22af",
+    "adf_sentinel/server.py": "8479c26505518b95c170cdcbb48e9b5040554a46d7aa7c77093dd49cb0f7d439"
+  },
+  "split_hash": "88f77b12e726f7bab49f0aea11d6e69a8ea0c6c768f8b5184635030404ea19f4",
+  "status": "advisory_only_primary_benchmark_blocked",
+  "thresholds": {
+    "approved_file": null,
+    "defer_inherit_block": null,
+    "dependency_pin": null,
+    "investigation_code": null,
+    "parameter_metadata": null,
+    "shared_sync": null,
+    "verification_only": null
+  },
+  "training_hash": "09a4b47b23ea503abc3b4c9373c5c813ee4c17390b015cff66edb8b2d7dc97ce",
+  "versions": {
+    "joblib": "1.6.0",
+    "numpy": "2.5.4",
+    "python": "3.13.13",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1"
+  }
+}

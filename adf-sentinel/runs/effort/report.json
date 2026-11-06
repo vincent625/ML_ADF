@@ -1,0 +1,22 @@
+{
+  "formula": "manual effort replaced - review - execution supervision - correction/rework - intake overhead",
+  "generated_at": "2026-11-01T05:53:32.216208+00:00",
+  "hypothetical_rows": [],
+  "incomplete_rows": [],
+  "lead_time": null,
+  "measured_actions": 0,
+  "measured_net_minutes": null,
+  "measured_rows": [],
+  "measurements_needed": [
+    "Timed manual replay at a defined milestone",
+    "Proposal review and intake",
+    "Execution supervision",
+    "Correction and manual fallback",
+    "Unchanged release work",
+    "Wait/dependency/resource observations for calendar lead time"
+  ],
+  "one_time_setup_minutes": null,
+  "runtime_is_not_labor_saved": true,
+  "scope": "Bundle-only at the same completion milestone; sanity/physical testing excluded unless explicitly included in a separate row scope",
+  "status": "blocked_no_human_touch_time_observations"
+}

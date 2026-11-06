@@ -1,0 +1,10 @@
+{
+  "count": 0,
+  "freeze_id": "59cc07c60d9ebcc93be4fb8d7ddb6137e64b13c9fc0a6d70e95f73d1b98668fe",
+  "input_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "kind": "strict",
+  "prediction_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "saved_at": "2026-11-01T05:57:38.010814+00:00",
+  "status": "blocked_no_eligible_strict_test_cases",
+  "strict_performance_claim_permitted": false
+}

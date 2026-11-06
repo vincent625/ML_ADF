@@ -1,0 +1,115 @@
+{
+  "GI_scale": "No global GI-scale assertion; targets and expectations require the specific release/variant contract.",
+  "IRS_29057": {
+    "initial_software_only_no_adf_change": [
+      {
+        "body": "We will add rule sets in software in next build 6.7.17. This is not a ADF change.",
+        "created": "2022-04-27T21:23:52.000+0530",
+        "id": "1501883",
+        "source": {
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "locator": "issue:IRS-29057/comment:1501883",
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-29057?focusedCommentId=1501883"
+        },
+        "updated": "2022-04-27T21:23:52.000+0530"
+      }
+    ],
+    "interpretation": "Dated actions differ by release: initial verification and later removal must not collapse into one permanent ticket label.",
+    "later_ruleset_removal_in_0_0_9": [
+      {
+        "body": "removed the OvatRuleSet as part of OCAPlus v0.0.9 ADF",
+        "created": "2022-06-14T22:40:23.000+0530",
+        "id": "1501934",
+        "source": {
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "locator": "issue:IRS-29057/comment:1501934",
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-29057?focusedCommentId=1501934"
+        },
+        "updated": "2022-06-14T22:40:23.000+0530"
+      }
+    ]
+  },
+  "OCA_Plus_Integration_5": {
+    "IRS_26136_occurrences": 2,
+    "confluence_supporting_count": 11,
+    "confluence_supporting_keys": [
+      "IRS-24661",
+      "IRS-25144",
+      "IRS-25474",
+      "IRS-26136",
+      "IRS-28788",
+      "IRS-28879",
+      "IRS-29025",
+      "IRS-29057",
+      "IRS-29087",
+      "IRS-29088",
+      "IRS-29098"
+    ],
+    "interpretation": "Reconciliation question; neither list alone proves omitted fixes. Repeated IRS-26136 is one issue episode.",
+    "jira_description_unique_count": 6,
+    "jira_description_unique_keys": [
+      "IRS-25474",
+      "IRS-26136",
+      "IRS-28879",
+      "IRS-29025",
+      "IRS-29057",
+      "IRS-29087"
+    ],
+    "keys_only_in_release_table": [
+      "IRS-24661",
+      "IRS-25144",
+      "IRS-28788",
+      "IRS-29088",
+      "IRS-29098"
+    ],
+    "release_id": "release_9e4ec9497a1958b58193",
+    "source": [
+      {
+        "collected_at": "2026-11-01T03:31:42.185Z",
+        "html_offset": 5631,
+        "locator": "page:11568897@v64/table:722e7a76-edb2-3e62-a191-b11c4aca5046/row:213de2d6-3a68-3c7f-95d0-41dbc12d456f",
+        "path": "data/raw/connected/confluence/page_11568897.json",
+        "sha256": "bcb123dcc5549f49b6697574c9ecd675dc21ec82d7125515668906719d4fde15",
+        "url": "https://lsg-thermofisher.atlassian.net/wiki/spaces/IRS/pages/11568897"
+      },
+      {
+        "collected_at": "2026-11-01T04:48:59.869Z",
+        "html_offset": 3101,
+        "locator": "page:11568897@v12/table:table-0/row:row-4",
+        "path": "data/raw/connected/confluence/version_body_11568897_12_62f2c779c1d7451b4427dcee.json",
+        "sha256": "f2db27f8528ff3d9b7799ba6b5f67bc08d1bd012ef0d006938236c28e6934b05",
+        "url": null
+      },
+      {
+        "collected_at": "2026-11-01T04:44:49.173Z",
+        "html_offset": 3263,
+        "locator": "page:11568897@v30/table:table-0/row:row-4",
+        "path": "data/raw/connected/confluence/version_body_11568897_30_probe.json",
+        "sha256": "e4b35c7bdfe269891d7ef4f467432b9ad31ce29bff6aa7c3ae8d92f114daac29",
+        "url": null
+      },
+      {
+        "collected_at": "2026-11-01T04:48:59.627Z",
+        "html_offset": 3101,
+        "locator": "page:11568897@v7/table:table-0/row:row-4",
+        "path": "data/raw/connected/confluence/version_body_11568897_7_de5c714ed5868b20a768394b.json",
+        "sha256": "5f80e425ec2157c71bf252fc81e9f678d2d261e34c63aecff2f72598bad921e2",
+        "url": null
+      },
+      {
+        "collected_at": "2026-11-01T04:48:59.873Z",
+        "html_offset": 3101,
+        "locator": "page:11568897@v8/table:table-0/row:row-4",
+        "path": "data/raw/connected/confluence/version_body_11568897_8_bba65b1c8675fcb94ea18871.json",
+        "sha256": "ce1c06c4a622fd39b386abba9795ac98d266e23fc383b83d12699a60f7098fcd",
+        "url": null
+      }
+    ]
+  },
+  "hold_decisions": "Historical next-week holds stay dated, with no invented present-day expiry or permanent block.",
+  "testing_mapping": "An empty/uncovered saved Xray panel and narrative testing elsewhere represent an evidence mapping gap, not proof no tests ran."
+}

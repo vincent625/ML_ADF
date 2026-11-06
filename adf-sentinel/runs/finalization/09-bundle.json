@@ -1,0 +1,95 @@
+{
+  "actions_attempted": 4,
+  "authority": {
+    "evidence": [
+      "Locally authored fixture; no historical or scientific correctness claim"
+    ],
+    "kind": "synthetic_fixture"
+  },
+  "baseline_manifest": {
+    "DNA/config.json": "427f8cfd7048efab9cbd75289d2d637c98f6d10b2ed8fd647d63535a299b3c70",
+    "DNA/shared.txt": "bca0420d724d44cf44bebe9c21575263badbbf993c7a981333e4d007bcf981ac",
+    "DNA_Fusion/config.json": "427f8cfd7048efab9cbd75289d2d637c98f6d10b2ed8fd647d63535a299b3c70",
+    "DNA_Fusion/shared.txt": "bca0420d724d44cf44bebe9c21575263badbbf993c7a981333e4d007bcf981ac"
+  },
+  "build": {
+    "reason": "Complete pinned build checkout, documented approved build process, and full required assets are not available to this executor",
+    "status": "blocked"
+  },
+  "candidate_manifest": {
+    "DNA/config.json": "69a7b7174e6a604c502b5177c58bab0194c9f2635d1cba83e5ef1dcedf593f09",
+    "DNA/shared.txt": "cdb67e4ea470625e2a96f0fd29732c55af8f4cca8890bc91304cc8a048ccb953",
+    "DNA_Fusion/config.json": "69a7b7174e6a604c502b5177c58bab0194c9f2635d1cba83e5ef1dcedf593f09",
+    "DNA_Fusion/shared.txt": "cdb67e4ea470625e2a96f0fd29732c55af8f4cca8890bc91304cc8a048ccb953"
+  },
+  "candidate_path": "runs/sandbox/0b4c92a31b3438a045c8/candidate",
+  "changed_files": [
+    "DNA/config.json",
+    "DNA/shared.txt",
+    "DNA_Fusion/config.json",
+    "DNA_Fusion/shared.txt"
+  ],
+  "checks": [
+    {
+      "expected": 0.4,
+      "kind": "json_value",
+      "observed": 0.4,
+      "passed": true,
+      "scope": "source_or_fixture_content_check_not_scientific_validation",
+      "target": "DNA/config.json"
+    },
+    {
+      "expected": "cdb67e4ea470625e2a96f0fd29732c55af8f4cca8890bc91304cc8a048ccb953",
+      "kind": "sha256",
+      "observed": "cdb67e4ea470625e2a96f0fd29732c55af8f4cca8890bc91304cc8a048ccb953",
+      "passed": true,
+      "scope": "source_or_fixture_content_check_not_scientific_validation",
+      "target": "DNA/shared.txt"
+    },
+    {
+      "expected": "cdb67e4ea470625e2a96f0fd29732c55af8f4cca8890bc91304cc8a048ccb953",
+      "kind": "same_as",
+      "observed": "cdb67e4ea470625e2a96f0fd29732c55af8f4cca8890bc91304cc8a048ccb953",
+      "passed": true,
+      "scope": "source_or_fixture_content_check_not_scientific_validation",
+      "target": "DNA/shared.txt"
+    },
+    {
+      "expected": 0.4,
+      "kind": "json_value",
+      "observed": 0.4,
+      "passed": true,
+      "scope": "source_or_fixture_content_check_not_scientific_validation",
+      "target": "DNA_Fusion/config.json"
+    },
+    {
+      "expected": "cdb67e4ea470625e2a96f0fd29732c55af8f4cca8890bc91304cc8a048ccb953",
+      "kind": "sha256",
+      "observed": "cdb67e4ea470625e2a96f0fd29732c55af8f4cca8890bc91304cc8a048ccb953",
+      "passed": true,
+      "scope": "source_or_fixture_content_check_not_scientific_validation",
+      "target": "DNA_Fusion/shared.txt"
+    },
+    {
+      "expected": "cdb67e4ea470625e2a96f0fd29732c55af8f4cca8890bc91304cc8a048ccb953",
+      "kind": "same_as",
+      "observed": "cdb67e4ea470625e2a96f0fd29732c55af8f4cca8890bc91304cc8a048ccb953",
+      "passed": true,
+      "scope": "source_or_fixture_content_check_not_scientific_validation",
+      "target": "DNA_Fusion/shared.txt"
+    }
+  ],
+  "created_at": "2026-11-01T04:00:17.828776+00:00",
+  "installable_adf": false,
+  "originals_preserved": true,
+  "physical_runs": "not_run",
+  "plan_id": "synthetic-safe-executor-demo",
+  "plan_sha256": "2a3f048970cc1f60c6bcce3fae32b79df0ec9298691989391d635a9738020bfa",
+  "reused": true,
+  "run_id": "0b4c92a31b3438a045c8",
+  "runtime_seconds": 0.07639259500001572,
+  "scientific_validation": "not_run",
+  "scope": "synthetic_fixture",
+  "status": "passed",
+  "synthetic": true
+}

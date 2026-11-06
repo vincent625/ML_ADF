@@ -1,0 +1,65 @@
+{
+  "status": "exploratory_fits_completed",
+  "scope": "exploratory_weak_labels_retrospective_no_accuracy_claim",
+  "versions": {
+    "python": "3.13.13",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "primary_winner": null,
+  "primary_winner_reason": "Defensible reviewed validation unavailable",
+  "advisory_model": "tfidf_logistic",
+  "models": [
+    {
+      "model": "majority",
+      "status": "trained_exploratory",
+      "training_rows": 4117,
+      "runtime_seconds": 0.19229998300033913,
+      "reason": "No reviewed validation or exact-plan labels; heuristic agreement is not supervised accuracy"
+    },
+    {
+      "model": "rules",
+      "status": "implemented_rules_no_training",
+      "training_rows": 4117,
+      "runtime_seconds": 1.831800000218209e-05,
+      "reason": "No reviewed validation or exact-plan labels; heuristic agreement is not supervised accuracy"
+    },
+    {
+      "model": "tfidf_logistic",
+      "status": "trained_exploratory",
+      "training_rows": 4117,
+      "runtime_seconds": 1.6199442300003284,
+      "reason": "No reviewed validation or exact-plan labels; heuristic agreement is not supervised accuracy"
+    },
+    {
+      "model": "tfidf_svm",
+      "status": "trained_exploratory",
+      "training_rows": 4117,
+      "runtime_seconds": 0.41867474600076093,
+      "reason": "No reviewed validation or exact-plan labels; heuristic agreement is not supervised accuracy"
+    },
+    {
+      "model": "structured_tree",
+      "status": "trained_exploratory",
+      "training_rows": 4117,
+      "runtime_seconds": 0.07475527899987355,
+      "reason": "No reviewed validation or exact-plan labels; heuristic agreement is not supervised accuracy"
+    },
+    {
+      "model": "pretrained_embeddings_classifier",
+      "status": "blocked",
+      "training_rows": null,
+      "runtime_seconds": null,
+      "reason": "No approved pinned local embedding model configured; no remote embedding service invoked"
+    },
+    {
+      "model": "llm_few_shot_retrieval",
+      "status": "blocked",
+      "training_rows": null,
+      "runtime_seconds": null,
+      "reason": "No approved callable LLM baseline/configuration; this coding assistant is not logged as a trained evaluation model"
+    }
+  ]
+}

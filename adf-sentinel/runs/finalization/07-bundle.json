@@ -1,0 +1,64 @@
+{
+  "actions_attempted": 1,
+  "authority": {
+    "evidence": [
+      "https://github.com/thermofisher/csd-adf-gx-manticore-v2-dna-70/pull/3",
+      "https://github.com/thermofisher/csd-adf-gx-manticore-v2-dna-70/blob/6ada6a4bd50d1acec148596059e6142a7748fc01/SeedData/AssayDev/assay/dna/parameters/TmapExecutionActor.ini"
+    ],
+    "kind": "historical_implementation",
+    "note": "Replay of merged historical source, not a new human approval or a model-generated plan"
+  },
+  "baseline_manifest": {
+    "SeedData/AssayDev/assay/dna/parameters/TmapExecutionActor.ini": "3db9e0de737b66244996a08c73286fca753fc3a3b0a1e72004f90c20fd0aa21a"
+  },
+  "build": {
+    "reason": "Complete pinned build checkout, documented approved build process, and full required assets are not available to this executor",
+    "status": "blocked"
+  },
+  "candidate_manifest": {
+    "SeedData/AssayDev/assay/dna/parameters/TmapExecutionActor.ini": "9d023c91914628eb56bd9dce5a54144d7220d2c65e358ddaac7038fb999813df"
+  },
+  "candidate_path": "runs/sandbox/fb888a2792a7aeea64b5/candidate",
+  "changed_files": [
+    "SeedData/AssayDev/assay/dna/parameters/TmapExecutionActor.ini"
+  ],
+  "checks": [
+    {
+      "expected": "9d023c91914628eb56bd9dce5a54144d7220d2c65e358ddaac7038fb999813df",
+      "kind": "sha256",
+      "observed": "9d023c91914628eb56bd9dce5a54144d7220d2c65e358ddaac7038fb999813df",
+      "passed": true,
+      "scope": "source_or_fixture_content_check_not_scientific_validation",
+      "target": "SeedData/AssayDev/assay/dna/parameters/TmapExecutionActor.ini"
+    },
+    {
+      "expected": true,
+      "kind": "text_absent",
+      "observed": true,
+      "passed": true,
+      "scope": "source_or_fixture_content_check_not_scientific_validation",
+      "target": "SeedData/AssayDev/assay/dna/parameters/TmapExecutionActor.ini"
+    },
+    {
+      "expected": "--profile-amp --ovr-candeval",
+      "kind": "actor_value",
+      "observed": "--profile-amp --ovr-candeval",
+      "passed": true,
+      "scope": "source_or_fixture_content_check_not_scientific_validation",
+      "target": "SeedData/AssayDev/assay/dna/parameters/TmapExecutionActor.ini"
+    }
+  ],
+  "created_at": "2026-11-01T04:00:17.900078+00:00",
+  "installable_adf": false,
+  "originals_preserved": true,
+  "physical_runs": "not_run",
+  "plan_id": "IRS-65265-pinned-source-file-replay",
+  "plan_sha256": "dcc4df3bc393c48a139aef639e520bed0ff0f7865ad0fce32c56d5d4198133c0",
+  "reused": true,
+  "run_id": "fb888a2792a7aeea64b5",
+  "runtime_seconds": 0.05084188199998607,
+  "scientific_validation": "not_run",
+  "scope": "pinned_source_fragment_replay",
+  "status": "passed",
+  "synthetic": false
+}

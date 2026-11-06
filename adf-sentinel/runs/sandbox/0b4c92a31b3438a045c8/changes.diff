@@ -1,0 +1,30 @@
+--- baseline/DNA/config.json
++++ candidate/DNA/config.json
+@@ -4,6 +4,6 @@
+     "report": "fixture-1"
+   },
+   "parameters": {
+-    "threshold": 0.2
++    "threshold": 0.4
+   }
+ }
+--- baseline/DNA/shared.txt
++++ candidate/DNA/shared.txt
+@@ -1 +1 @@
+-SYNTHETIC fixture asset version 1
++SYNTHETIC fixture asset version 2
+--- baseline/DNA_Fusion/config.json
++++ candidate/DNA_Fusion/config.json
+@@ -4,6 +4,6 @@
+     "report": "fixture-1"
+   },
+   "parameters": {
+-    "threshold": 0.2
++    "threshold": 0.4
+   }
+ }
+--- baseline/DNA_Fusion/shared.txt
++++ candidate/DNA_Fusion/shared.txt
+@@ -1 +1 @@
+-SYNTHETIC fixture asset version 1
++SYNTHETIC fixture asset version 2

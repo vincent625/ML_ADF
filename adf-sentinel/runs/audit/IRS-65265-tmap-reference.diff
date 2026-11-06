@@ -1,0 +1,47 @@
+--- pinned-base/SeedData/AssayDev/assay/dna/parameters/TmapExecutionActor.ini
++++ pinned-head/SeedData/AssayDev/assay/dna/parameters/TmapExecutionActor.ini
+@@ -1,33 +1,28 @@
+-# LifeScope(TM) Client generated the ini at Fri Dec 13 14:46:12 PST 2019 
+-
+ import global.ini
+-TmapExecutionActor.run=1
++tmap.match.score=1
+ tmap.gap.open.penalty=5
+-tmap.match.score=1
+ tmap.gap.extension.penalty=2
++tmap.realign.context=1
+ samtools.sort.memory.per.thread=1G
+ tmap.max.adapter.bases=20
+ tmap.local.band.width=50
++TmapExecutionActor.run=1
++tmap.end.repair=15
+ samtools.sort.threads=4
++tmap.soft.clip.type=2
+ tmap.mismatch.penalty=3
+-tmap.soft.clip.type=2
+ tmap.max.amplicon.overrun.large.indel.rescue=6
+ tmap.mapped.files.remap.enable=0
++tmap.par.ovr=1
++tmap.reads.queue.size=5000
+ tmap.flow.score.penalty=2
+-tmap.reads.queue.size=5000
++tmap.do.repeat.clip=1
++tmap.custom.tmap.args=--profile-amp --ovr-candeval
+ tmap.use.bed.file=1
+ tmap.no.bed.mapq=0
+ tmap.min.anchor.large.indel.rescue=6
++tmap.realignment.enable=0
+ tmap.output.filter=1
+-tmap.realignment.enable=0
++tmap.no.bed.er=0
+ tmap.max.one.large.indel.rescue=30
+-tmap.no.bed.er=0
+-analysis.sample.id=
+-analysis.sample.name=
+ tmap.executable.path=
+-actor.upload.json=
+-tmap.end.repair=15
+-tmap.realign.context=1
+-tmap.do.repeat.clip=1
+-tmap.par.ovr=1
+-tmap.custom.tmap.args=--profile-amp --ovr-candeval --repair-min-freq 30

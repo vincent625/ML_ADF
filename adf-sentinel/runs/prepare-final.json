@@ -1,0 +1,19 @@
+{
+  "status": "prepared",
+  "integrity": {
+    "action_ids_unique": true,
+    "release_ids_unique": true,
+    "all_action_releases_exist": true,
+    "no_labels_in_feature_files": true,
+    "reviewed_labels": 0,
+    "strict_cases": 0,
+    "rejected_annotations": 0,
+    "primary_performance_claim_permitted": false
+  },
+  "benchmark_status": "blocked",
+  "blocking_reasons": [
+    "No confirmed release decision cutoffs",
+    "No defensible reviewed action labels",
+    "No complete point-in-time prediction views"
+  ]
+}

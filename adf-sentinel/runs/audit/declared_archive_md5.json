@@ -1,0 +1,118 @@
+{
+  "checks": [
+    {
+      "path": "data/raw/attachments/confluence_att1032093751/Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNA-SW_7.0-v0.0.3.zip",
+      "actual_md5": "9d963a69935303685b4c99b6af1ce577",
+      "matching_declared_release_rows": [
+        "release_076c2c65957311401ef4"
+      ],
+      "declared_md5_match": true,
+      "source_revisions": [
+        {
+          "collected_at": "2026-11-01T03:32:16.751Z",
+          "html_offset": 3083,
+          "locator": "page:191201389@v7/table:0e5b692f982f/row:46e9d7b6b46f",
+          "path": "data/raw/connected/confluence/page_191201389.json",
+          "sha256": "162e58b48e5a860f53b535ed4db0bce47539180c8edb1a7dde100d498744cdf6",
+          "url": "https://lsg-thermofisher.atlassian.net/wiki/spaces/IRS/pages/191201389"
+        }
+      ],
+      "scope": "Actual archive checksum appears in the corresponding release row. Internal scientific assets and variant mappings are not validated by this check."
+    },
+    {
+      "path": "data/raw/attachments/confluence_att1032192037/Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNAandFusions-SW_7.0-v0.0.3.zip",
+      "actual_md5": "49e18b14deb3a8cbc6f51200268fd791",
+      "matching_declared_release_rows": [
+        "release_076c2c65957311401ef4"
+      ],
+      "declared_md5_match": true,
+      "source_revisions": [
+        {
+          "collected_at": "2026-11-01T03:32:16.751Z",
+          "html_offset": 3083,
+          "locator": "page:191201389@v7/table:0e5b692f982f/row:46e9d7b6b46f",
+          "path": "data/raw/connected/confluence/page_191201389.json",
+          "sha256": "162e58b48e5a860f53b535ed4db0bce47539180c8edb1a7dde100d498744cdf6",
+          "url": "https://lsg-thermofisher.atlassian.net/wiki/spaces/IRS/pages/191201389"
+        }
+      ],
+      "scope": "Actual archive checksum appears in the corresponding release row. Internal scientific assets and variant mappings are not validated by this check."
+    },
+    {
+      "path": "data/raw/attachments/confluence_att190152724/Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNAandFusions-SW_7.0-v0.0.1.zip",
+      "actual_md5": "b5a5d1aa8812d9357b1240275a29e55b",
+      "matching_declared_release_rows": [
+        "release_28ec6ef6827b21e05195"
+      ],
+      "declared_md5_match": true,
+      "source_revisions": [
+        {
+          "collected_at": "2026-11-01T03:32:16.751Z",
+          "html_offset": 923,
+          "locator": "page:191201389@v7/table:0e5b692f982f/row:cda54da0c3de",
+          "path": "data/raw/connected/confluence/page_191201389.json",
+          "sha256": "162e58b48e5a860f53b535ed4db0bce47539180c8edb1a7dde100d498744cdf6",
+          "url": "https://lsg-thermofisher.atlassian.net/wiki/spaces/IRS/pages/191201389"
+        }
+      ],
+      "scope": "Actual archive checksum appears in the corresponding release row. Internal scientific assets and variant mappings are not validated by this check."
+    },
+    {
+      "path": "data/raw/attachments/confluence_att190152730/Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNA-SW_7.0-v0.0.1.zip",
+      "actual_md5": "1c43187b8602a2f6ead1eed182ffe430",
+      "matching_declared_release_rows": [
+        "release_28ec6ef6827b21e05195"
+      ],
+      "declared_md5_match": true,
+      "source_revisions": [
+        {
+          "collected_at": "2026-11-01T03:32:16.751Z",
+          "html_offset": 923,
+          "locator": "page:191201389@v7/table:0e5b692f982f/row:cda54da0c3de",
+          "path": "data/raw/connected/confluence/page_191201389.json",
+          "sha256": "162e58b48e5a860f53b535ed4db0bce47539180c8edb1a7dde100d498744cdf6",
+          "url": "https://lsg-thermofisher.atlassian.net/wiki/spaces/IRS/pages/191201389"
+        }
+      ],
+      "scope": "Actual archive checksum appears in the corresponding release row. Internal scientific assets and variant mappings are not validated by this check."
+    },
+    {
+      "path": "data/raw/attachments/confluence_att759463993/Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNA-SW_7.0-v0.0.2.zip",
+      "actual_md5": "5dc6ea03e96f0f4d7d084f4675f1ad16",
+      "matching_declared_release_rows": [
+        "release_71eb390157078c4ac380"
+      ],
+      "declared_md5_match": true,
+      "source_revisions": [
+        {
+          "collected_at": "2026-11-01T03:32:16.751Z",
+          "html_offset": 1988,
+          "locator": "page:191201389@v7/table:0e5b692f982f/row:5b9af94d30d6",
+          "path": "data/raw/connected/confluence/page_191201389.json",
+          "sha256": "162e58b48e5a860f53b535ed4db0bce47539180c8edb1a7dde100d498744cdf6",
+          "url": "https://lsg-thermofisher.atlassian.net/wiki/spaces/IRS/pages/191201389"
+        }
+      ],
+      "scope": "Actual archive checksum appears in the corresponding release row. Internal scientific assets and variant mappings are not validated by this check."
+    },
+    {
+      "path": "data/raw/attachments/confluence_att759661307/Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNAandFusions-SW_7.0-v0.0.2.zip",
+      "actual_md5": "e30b0713f3505025e763bbf310423e24",
+      "matching_declared_release_rows": [
+        "release_71eb390157078c4ac380"
+      ],
+      "declared_md5_match": true,
+      "source_revisions": [
+        {
+          "collected_at": "2026-11-01T03:32:16.751Z",
+          "html_offset": 1988,
+          "locator": "page:191201389@v7/table:0e5b692f982f/row:5b9af94d30d6",
+          "path": "data/raw/connected/confluence/page_191201389.json",
+          "sha256": "162e58b48e5a860f53b535ed4db0bce47539180c8edb1a7dde100d498744cdf6",
+          "url": "https://lsg-thermofisher.atlassian.net/wiki/spaces/IRS/pages/191201389"
+        }
+      ],
+      "scope": "Actual archive checksum appears in the corresponding release row. Internal scientific assets and variant mappings are not validated by this check."
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "synthetic-safe-executor-demo",
+  "scope": "synthetic_fixture",
+  "synthetic": true,
+  "authority": {
+    "kind": "synthetic_fixture",
+    "evidence": [
+      "Locally authored fixture; no historical or scientific correctness claim"
+    ]
+  },
+  "prerequisites": [
+    {
+      "name": "Fixture inputs present",
+      "satisfied": true
+    }
+  ],
+  "actions": [
+    {
+      "id": "DNA-parameter",
+      "type": "json_parameter",
+      "target": "DNA/config.json",
+      "variant": "synthetic-DNA",
+      "before_sha256": "427f8cfd7048efab9cbd75289d2d637c98f6d10b2ed8fd647d63535a299b3c70",
+      "pointer": "/parameters/threshold",
+      "old_value": 0.2,
+      "value": 0.4,
+      "checks": [
+        {
+          "kind": "json_value",
+          "pointer": "/parameters/threshold",
+          "value": 0.4
+        }
+      ]
+    },
+    {
+      "id": "DNA-shared",
+      "type": "copy_pinned_file",
+      "target": "DNA/shared.txt",
+      "variant": "synthetic-DNA",
+      "before_sha256": "bca0420d724d44cf44bebe9c21575263badbbf993c7a981333e4d007bcf981ac",
+      "source": "data/fixtures/approved/shared.txt",
+      "source_sha256": "cdb67e4ea470625e2a96f0fd29732c55af8f4cca8890bc91304cc8a048ccb953",
+      "source_revision": "synthetic-fixture-2",
+      "checks": [
+        {
+          "kind": "sha256",
+          "value": "cdb67e4ea470625e2a96f0fd29732c55af8f4cca8890bc91304cc8a048ccb953"
+        },
+        {
+          "kind": "same_as",
+          "target": "DNA/shared.txt"
+        }
+      ]
+    },
+    {
+      "id": "DNA_Fusion-parameter",
+      "type": "json_parameter",
+      "target": "DNA_Fusion/config.json",
+      "variant": "synthetic-DNA+Fusion",
+      "before_sha256": "427f8cfd7048efab9cbd75289d2d637c98f6d10b2ed8fd647d63535a299b3c70",
+      "pointer": "/parameters/threshold",
+      "old_value": 0.2,
+      "value": 0.4,
+      "checks": [
+        {
+          "kind": "json_value",
+          "pointer": "/parameters/threshold",
+          "value": 0.4
+        }
+      ]
+    },
+    {
+      "id": "DNA_Fusion-shared",
+      "type": "copy_pinned_file",
+      "target": "DNA_Fusion/shared.txt",
+      "variant": "synthetic-DNA+Fusion",
+      "before_sha256": "bca0420d724d44cf44bebe9c21575263badbbf993c7a981333e4d007bcf981ac",
+      "source": "data/fixtures/approved/shared.txt",
+      "source_sha256": "cdb67e4ea470625e2a96f0fd29732c55af8f4cca8890bc91304cc8a048ccb953",
+      "source_revision": "synthetic-fixture-2",
+      "checks": [
+        {
+          "kind": "sha256",
+          "value": "cdb67e4ea470625e2a96f0fd29732c55af8f4cca8890bc91304cc8a048ccb953"
+        },
+        {
+          "kind": "same_as",
+          "target": "DNA/shared.txt"
+        }
+      ]
+    }
+  ]
+}

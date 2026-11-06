@@ -1,0 +1,221 @@
+{
+  "files_hashed": [
+    {
+      "actual_file_md5": "9d963a69935303685b4c99b6af1ce577",
+      "bytes": 49800134,
+      "method": "hashes_computed_from_downloaded_file_bytes",
+      "path": "data/raw/attachments/confluence_att1032093751/Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNA-SW_7.0-v0.0.3.zip",
+      "sha256": "979a4957cf133a9dcf90b68b3d51fa46d277ea90b94bf6a578eecde04d22a82c"
+    },
+    {
+      "actual_file_md5": "49e18b14deb3a8cbc6f51200268fd791",
+      "bytes": 49975918,
+      "method": "hashes_computed_from_downloaded_file_bytes",
+      "path": "data/raw/attachments/confluence_att1032192037/Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNAandFusions-SW_7.0-v0.0.3.zip",
+      "sha256": "a2a7a1c8230dc763c07c12a219528f0f5491ef497ad6ecb7383a79483da0c1d1"
+    },
+    {
+      "actual_file_md5": "b1543da17ce77cd8d58886a3bab36a58",
+      "bytes": 15286122,
+      "method": "hashes_computed_from_downloaded_file_bytes",
+      "path": "data/raw/attachments/confluence_att11769902/BRCA_v3.6.0.zip",
+      "sha256": "3e7e7fc1c95f95be5811193da0165344324a4471b40fc54f5a29098f201a35e3"
+    },
+    {
+      "actual_file_md5": "b5a5d1aa8812d9357b1240275a29e55b",
+      "bytes": 29019320,
+      "method": "hashes_computed_from_downloaded_file_bytes",
+      "path": "data/raw/attachments/confluence_att190152724/Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNAandFusions-SW_7.0-v0.0.1.zip",
+      "sha256": "e1fffa7f62e1eb4d06c68863836a874d4e84f540538ca3f4bef35d98ccded657"
+    },
+    {
+      "actual_file_md5": "1c43187b8602a2f6ead1eed182ffe430",
+      "bytes": 28885894,
+      "method": "hashes_computed_from_downloaded_file_bytes",
+      "path": "data/raw/attachments/confluence_att190152730/Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNA-SW_7.0-v0.0.1.zip",
+      "sha256": "66a01f1bade0ec8e795778db85abccf66def33dc556aa5455a26c7325165c52f"
+    },
+    {
+      "actual_file_md5": "5dc6ea03e96f0f4d7d084f4675f1ad16",
+      "bytes": 45449994,
+      "method": "hashes_computed_from_downloaded_file_bytes",
+      "path": "data/raw/attachments/confluence_att759463993/Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNA-SW_7.0-v0.0.2.zip",
+      "sha256": "4eb90ef04f500a5b46b9cad908a65d52c1fcc697716be63d204c19afa0f76435"
+    },
+    {
+      "actual_file_md5": "e30b0713f3505025e763bbf310423e24",
+      "bytes": 45600888,
+      "method": "hashes_computed_from_downloaded_file_bytes",
+      "path": "data/raw/attachments/confluence_att759661307/Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNAandFusions-SW_7.0-v0.0.2.zip",
+      "sha256": "787bd9021274d396638c862fa4a738bb2cba64d76156917c549de4815f161ce0"
+    },
+    {
+      "actual_file_md5": "dc62b176d371d2d70259f3c4c7d6e299",
+      "bytes": 16770,
+      "method": "hashes_computed_from_downloaded_file_bytes",
+      "path": "data/raw/attachments/jira_1656592/OFA_v2_GX7_DNA_w1.0.0_v0.0.3.zip",
+      "sha256": "3d182e9f205500b0a2dab51576b68aa4bafff5f27e0d53d36091763a0e014247"
+    },
+    {
+      "actual_file_md5": "0cd303b31c938d6cffa6a28d01ad4415",
+      "bytes": 19919,
+      "method": "hashes_computed_from_downloaded_file_bytes",
+      "path": "data/raw/attachments/jira_1656597/OFA_v2_GX7_DNA_RNA_w1.0.0_v0.0.3.zip",
+      "sha256": "93016ad609d9a74a67be3a32ef0550c35072be25a25541839f3e048072b4c303"
+    },
+    {
+      "actual_file_md5": "2cd0a66651386464136ffd5756739760",
+      "bytes": 22185642,
+      "method": "hashes_computed_from_downloaded_file_bytes",
+      "path": "data/raw/attachments/jira_1659780/testing_screenshot_for_v03.zip",
+      "sha256": "8d40cf8338eb06eb89fb272698cc19e275352a83c3fc11007995a8539c659c2a"
+    }
+  ],
+  "historical_comparisons": [
+    {
+      "after": "data/raw/attachments/confluence_att1032093751/Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNA-SW_7.0-v0.0.3.zip",
+      "after_files": 5,
+      "before": "data/raw/attachments/confluence_att759463993/Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNA-SW_7.0-v0.0.2.zip",
+      "before_files": 5,
+      "changes": [
+        {
+          "after": null,
+          "before": {
+            "bytes": 45324682,
+            "sha256": "711f9b76a1f4bddba424cd325cb5c11e8ea6820bb15d9d52a2c2302455e0d730"
+          },
+          "change": "removed",
+          "path": "Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNA-70_0.0.2_amd64.ser"
+        },
+        {
+          "after": null,
+          "before": {
+            "bytes": 1066,
+            "sha256": "70c0a9101cc7ed99fee449ff94bdfadef074c6a80f4e1dac31160e070ff3ed6d"
+          },
+          "change": "removed",
+          "path": "Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNA-70_0.0.2_amd64_metadata.ser"
+        },
+        {
+          "after": {
+            "bytes": 49673370,
+            "sha256": "6359eef0091c448635f7844250aecfa8d9760b3dd8a87553d8af183da266ded5"
+          },
+          "before": null,
+          "change": "added",
+          "path": "Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNA-70_0.0.3_amd64.ser"
+        },
+        {
+          "after": {
+            "bytes": 1066,
+            "sha256": "49c6787e039b586d7a21384d27b60cfc287a4b7c9c9945e58e5d4612a9817b1b"
+          },
+          "before": null,
+          "change": "added",
+          "path": "Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNA-70_0.0.3_amd64_metadata.ser"
+        },
+        {
+          "after": null,
+          "before": {
+            "bytes": 5060,
+            "sha256": "1c706939b893f4d3b9b1125d7e13bd49e3459e63cc555342707cec020fb41899"
+          },
+          "change": "removed",
+          "path": "ts-assaydev-reportbuilder-OFAV2-DNA-w1.0.0_v0.0.2.deb"
+        },
+        {
+          "after": {
+            "bytes": 5184,
+            "sha256": "d6e0120c72b4e4ad11e2b2fa4eca8748fe2cdd840233db2b812967544d3582e1"
+          },
+          "before": null,
+          "change": "added",
+          "path": "ts-assaydev-reportbuilder-OFAV2-DNA-w1.0.0_v0.0.3.deb"
+        }
+      ],
+      "scope": "Historical archive content comparison; label-only evidence, no reconstructed ADF build claim",
+      "variant": "DNA"
+    },
+    {
+      "after": "data/raw/attachments/confluence_att1032192037/Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNAandFusions-SW_7.0-v0.0.3.zip",
+      "after_files": 5,
+      "before": "data/raw/attachments/confluence_att759661307/Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNAandFusions-SW_7.0-v0.0.2.zip",
+      "before_files": 5,
+      "changes": [
+        {
+          "after": null,
+          "before": {
+            "bytes": 45475130,
+            "sha256": "bf4a55c3aba7e9edcd8049a36b5dea1948c47adf488e050187aa0d6d05f761d3"
+          },
+          "change": "removed",
+          "path": "Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNAandFusions-70_0.0.2_amd64.ser"
+        },
+        {
+          "after": null,
+          "before": {
+            "bytes": 1098,
+            "sha256": "5b62d3fe6570eba8818f4701bd76aa669766debec01d8b5a05ca0bbfbc692a76"
+          },
+          "change": "removed",
+          "path": "Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNAandFusions-70_0.0.2_amd64_metadata.ser"
+        },
+        {
+          "after": {
+            "bytes": 49848730,
+            "sha256": "e759824a121d6b43a04ee7fd0e62f2c044c6c6d7a594463ad61b641fad37a43e"
+          },
+          "before": null,
+          "change": "added",
+          "path": "Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNAandFusions-70_0.0.3_amd64.ser"
+        },
+        {
+          "after": {
+            "bytes": 1098,
+            "sha256": "42f125a02a05077f1bb53eeddb0586af8d38ca0669775b9b172ed269345e0ce2"
+          },
+          "before": null,
+          "change": "added",
+          "path": "Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNAandFusions-70_0.0.3_amd64_metadata.ser"
+        },
+        {
+          "after": null,
+          "before": {
+            "bytes": 5284,
+            "sha256": "be055d4649a2cf34fbbda8aeb4fb89430f04156c2215924c59a1aa5fe66c5a86"
+          },
+          "change": "removed",
+          "path": "ts-assaydev-reportbuilder-OFAV2-DNA-Fus-w1.0.0_v0.0.2.deb"
+        },
+        {
+          "after": {
+            "bytes": 5420,
+            "sha256": "79aacc257ae37ecf79bd57a62fea0a4a2e8cf015ca4a10e7f2a2d260cba87340"
+          },
+          "before": null,
+          "change": "added",
+          "path": "ts-assaydev-reportbuilder-OFAV2-DNA-Fus-w1.0.0_v0.0.3.deb"
+        }
+      ],
+      "scope": "Historical archive content comparison; label-only evidence, no reconstructed ADF build claim",
+      "variant": "DNAandFusions"
+    }
+  ],
+  "pinned_source_blob_checks": [
+    {
+      "actual_git_blob_sha": "ea24d58e74b361bb203290c34656cf9a71b82443",
+      "expected_git_blob_sha": "ea24d58e74b361bb203290c34656cf9a71b82443",
+      "passed": true,
+      "phase": "before",
+      "sha256": "3db9e0de737b66244996a08c73286fca753fc3a3b0a1e72004f90c20fd0aa21a"
+    },
+    {
+      "actual_git_blob_sha": "b77957e398510d07ed6783cd1f1ef7eefff3462d",
+      "expected_git_blob_sha": "b77957e398510d07ed6783cd1f1ef7eefff3462d",
+      "passed": true,
+      "phase": "approved",
+      "sha256": "9d023c91914628eb56bd9dce5a54144d7220d2c65e358ddaac7038fb999813df"
+    }
+  ],
+  "scope": "Archive/source integrity, separate from software execution, scientific QC, and physical runs"
+}
