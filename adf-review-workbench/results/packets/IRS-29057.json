@@ -1,0 +1,511 @@
+{
+  "schema_version": "1.0",
+  "issue_key": "IRS-29057",
+  "title": "OCAplus ADF: update OVAT ruleset (6.8.2)",
+  "source_url": "https://lsg-thermofisher.atlassian.net/browse/IRS-29057",
+  "generated_at": "2026-11-03T20:21:03.712288+00:00",
+  "source_issue_available": true,
+  "evidence_state": "retrospective_unreviewed_no_new_approval",
+  "current_snapshot": {
+    "description": "A new set of OVAT rules were released by [person], the OVAT ruleset will be added via SW and will be available for Integration5. Below are the details quoted from Chris' email communication:\n \nA new OCA Plus OVAT Ruleset is available for Genexus 6.8. It can be found here:\n \nhttp://foslsvap01p.corp.life:8081/nexus/content/repositories/public/com/lifetech/oncomine/ovat-off-cycle/oncomine_comprehensive_plus/6.8.2/\n \nChange Log\n \nFix incorrect annotation for OMINDEL1050 (IRS-28927)\n\nFix incorrect annotation for COSM26720 when alternate coding syntax is present (IRS-28961)\n\n cc-ed: [person], [person]",
+    "created": "2022-04-27T21:21:29.000+0530",
+    "updated": "2025-11-19T19:29:19.328+0530",
+    "current_status": "Closed",
+    "source": {
+      "path": "data/raw/connected/jira/batch_probe.json",
+      "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+      "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-29057",
+      "locator": "fields.description",
+      "collected_at": "2026-11-01T03:33:09.031Z",
+      "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+      "source_hash_matches": true
+    },
+    "completeness": {
+      "comments": "collected",
+      "comments_reported": 8,
+      "comments_retrieved": 8,
+      "field_mapping": "observed_custom_fields",
+      "fields": "collected_all_available",
+      "history": "collected",
+      "history_reported": 31,
+      "history_retrieved": 31,
+      "remote_links": "collected"
+    },
+    "description_truncated": false
+  },
+  "timeline": [
+    {
+      "id": "1501883",
+      "created": "2022-04-27T21:23:52.000+0530",
+      "updated": "2022-04-27T21:23:52.000+0530",
+      "text": "We will add rule sets in software in next build 6.7.17. This is not a ADF change.",
+      "truncated": false,
+      "source": {
+        "path": "data/raw/connected/jira/batch_probe.json",
+        "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+        "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-29057?focusedCommentId=1501883",
+        "locator": "issue:IRS-29057/comment:1501883",
+        "collected_at": "2026-11-01T03:33:09.031Z",
+        "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+        "source_hash_matches": true
+      }
+    },
+    {
+      "id": "1501891",
+      "created": "2022-05-09T10:38:16.000+0530",
+      "updated": "2022-05-09T10:38:16.000+0530",
+      "text": "updated ovat rule sets (plus,universal,ocav3,precission,ronin) in software for integration#5 build. These changes are available as part of 6.7.17 build. \nChanges has to be verified with clean server where server got updated from 6.6.x to 6.7.17\nPR: https://github.com/thermofisher/csd-gx-analysis-pipeline/pull/278/files",
+      "truncated": false,
+      "source": {
+        "path": "data/raw/connected/jira/batch_probe.json",
+        "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+        "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-29057?focusedCommentId=1501891",
+        "locator": "issue:IRS-29057/comment:1501891",
+        "collected_at": "2026-11-01T03:33:09.031Z",
+        "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+        "source_hash_matches": true
+      }
+    },
+    {
+      "id": "1501900",
+      "created": "2022-06-07T23:10:41.000+0530",
+      "updated": "2022-06-07T23:10:41.000+0530",
+      "text": "Verified on thanos.itw and hela.itw, both upgraded from 6.6.0 to 6.7.18, the ruleset files provided by Chris were not implemented.\nThe same observation was made by [person] (IRS-28927).",
+      "truncated": false,
+      "source": {
+        "path": "data/raw/connected/jira/batch_probe.json",
+        "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+        "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-29057?focusedCommentId=1501900",
+        "locator": "issue:IRS-29057/comment:1501900",
+        "collected_at": "2026-11-01T03:33:09.031Z",
+        "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+        "source_hash_matches": true
+      }
+    },
+    {
+      "id": "1501909",
+      "created": "2022-06-08T12:17:02.000+0530",
+      "updated": "2022-06-08T12:17:02.000+0530",
+      "text": "[person] as I mentioned above we have added rulesets in software build. I just checked the thanos.server and found that on Jun 5th folder content got changed and build installed on May 26th. Can you cross check content on clean server with out installing any ADF. I will also check with [person] if he added ruleset in ADF.\nionadmin@thanos:/share/apps/ovat-33/content$ ls -ltr\ntotal 68\ndrwxr-xr-x 2 iruser irgrp 4096 Jan 10 19:59 universal_rna\ndrwxrwxrwx 2 iruser irgrp 4096 May 26 17:54 universal_dna\ndrwxr-xr-x 2 iruser irgrp 4096 May 26 17:54 ronin_rna\ndrwxr-xr-x 2 iruser irgrp 4096 May 26 17:54 ronin_dna\ndrwxr-xr-x 2 iruser irgrp 4096 May 26 17:54 precision_rna_v68\ndrwxr-xr-x 2 iruser irgrp 4096 May 26 17:54 precision_rna\ndrwxr-xr-x 2 iruser irgrp 4096 May 26 17:54 precision_dna_v68\ndrwxr-xr-x 2 iruser irgrp 4096 May 26 17:54 precision_dna\ndrwxr-xr-x 2 iruser irgrp 4096 May 26 17:54 ocav3_rna\ndrwxr-xr-x 2 iruser irgrp 4096 May 26 17:54 ocav3_dna\ndrwxr-xr-x 2 iruser irgrp 4096 May 26 17:54 myeloid_rna\ndrwxr-xr-x 2 iruser irgrp 4096 May 26 17:54 myeloid_dna\ndrwxr-xr-x 2 iruser irgrp 4096 May 26 17:54 hawkeye_rna\ndrwxr-xr-x 2 iruser irgrp 4096 May 26 17:54 hawkeye_dna\ndrwxr-xr-x 2 iruser irgrp 4096 May 26 17:54 brca_dna\ndrwxr-xr-x 2 iruser irgrp 4096 Jun 5 20:17 plus_rna\ndrwxr-xr-x 2 iruser irgrp 4096 Jun 5 20:17 plus_dna\nionadmin@thanos:/share/apps/ovat-33/content$ \ncc:[person],[person]",
+      "truncated": false,
+      "source": {
+        "path": "data/raw/connected/jira/batch_probe.json",
+        "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+        "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-29057?focusedCommentId=1501909",
+        "locator": "issue:IRS-29057/comment:1501909",
+        "collected_at": "2026-11-01T03:33:09.031Z",
+        "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+        "source_hash_matches": true
+      }
+    },
+    {
+      "id": "1501918",
+      "created": "2022-06-08T22:47:54.000+0530",
+      "updated": "2022-06-08T22:47:54.000+0530",
+      "text": "[person]\nOn genexusem7.itw where Gx [host] build was installed after OCAplus 0.0.7 ADF was installed, confirm that the ovat rulest under ovat33 is same as truth data.\nLooks like the cause is that ADF contains an older version of OVAT ruleset and overwrote what was seeded by the SW.\n\ncc-ed: [person], [person]",
+      "truncated": false,
+      "source": {
+        "path": "data/raw/connected/jira/batch_probe.json",
+        "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+        "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-29057?focusedCommentId=1501918",
+        "locator": "issue:IRS-29057/comment:1501918",
+        "collected_at": "2026-11-01T03:33:09.031Z",
+        "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+        "source_hash_matches": true
+      }
+    },
+    {
+      "id": "1501926",
+      "created": "2022-06-09T00:06:45.000+0530",
+      "updated": "2022-06-09T00:06:45.000+0530",
+      "text": "[person] I had a chat with [person] and he confirmed that ocaplus ADF also having ovat ruleset bundled. I asked him to remove it in next ADF version.",
+      "truncated": false,
+      "source": {
+        "path": "data/raw/connected/jira/batch_probe.json",
+        "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+        "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-29057?focusedCommentId=1501926",
+        "locator": "issue:IRS-29057/comment:1501926",
+        "collected_at": "2026-11-01T03:33:09.031Z",
+        "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+        "source_hash_matches": true
+      }
+    },
+    {
+      "id": "1501934",
+      "created": "2022-06-14T22:40:23.000+0530",
+      "updated": "2022-06-14T22:40:23.000+0530",
+      "text": "removed the OvatRuleSet as part of OCAPlus v0.0.9 ADF",
+      "truncated": false,
+      "source": {
+        "path": "data/raw/connected/jira/batch_probe.json",
+        "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+        "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-29057?focusedCommentId=1501934",
+        "locator": "issue:IRS-29057/comment:1501934",
+        "collected_at": "2026-11-01T03:33:09.031Z",
+        "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+        "source_hash_matches": true
+      }
+    },
+    {
+      "id": "1501944",
+      "created": "2022-06-18T05:00:03.000+0530",
+      "updated": "2022-06-18T05:00:03.000+0530",
+      "text": "With ADF v0.0.9, confirm that after installation of the ADF, the ovat ruleset installed on Genexus 6.7.19 is the same as provided by Chris.",
+      "truncated": false,
+      "source": {
+        "path": "data/raw/connected/jira/batch_probe.json",
+        "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+        "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-29057?focusedCommentId=1501944",
+        "locator": "issue:IRS-29057/comment:1501944",
+        "collected_at": "2026-11-01T03:33:09.031Z",
+        "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+        "source_hash_matches": true
+      }
+    }
+  ],
+  "proposed_actions": [
+    {
+      "id": "action_70e205c8952645fb684c",
+      "category": "investigation_code",
+      "text": "Fix incorrect annotation for OMINDEL1050 (IRS-28927)",
+      "truncated": false,
+      "release_ids": [
+        "release_9e4ec9497a1958b58193"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-29057",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "available_at": "2025-11-19T19:29:19.328+0530",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "action_6e60a712cb8534e87f34",
+      "category": "verification_only",
+      "text": "This is not a ADF change.",
+      "truncated": false,
+      "release_ids": [
+        "release_9e4ec9497a1958b58193"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-29057?focusedCommentId=1501883",
+          "locator": "issue:IRS-29057/comment:1501883",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "available_at": "2022-04-27T21:23:52.000+0530",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "action_396d75a941fae8ddcd76",
+      "category": "investigation_code",
+      "text": "Fix incorrect annotation for COSM26720 when alternate coding syntax is present (IRS-28961)",
+      "truncated": false,
+      "release_ids": [
+        "release_9e4ec9497a1958b58193"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-29057",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "available_at": "2025-11-19T19:29:19.328+0530",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "action_e5ece9b3c8377f618e74",
+      "category": "investigation_code",
+      "text": "We will add rule sets in software in next build 6.7.17.",
+      "truncated": false,
+      "release_ids": [
+        "release_9e4ec9497a1958b58193"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-29057?focusedCommentId=1501883",
+          "locator": "issue:IRS-29057/comment:1501883",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "available_at": "2022-04-27T21:23:52.000+0530",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "action_a3640c0e5bb248f7a53e",
+      "category": "investigation_code",
+      "text": "I asked him to remove it in next ADF version.",
+      "truncated": false,
+      "release_ids": [
+        "release_9e4ec9497a1958b58193"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-29057?focusedCommentId=1501926",
+          "locator": "issue:IRS-29057/comment:1501926",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "available_at": "2022-06-09T00:06:45.000+0530",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        }
+      ]
+    }
+  ],
+  "release_associations": [
+    {
+      "id": "release_9e4ec9497a1958b58193",
+      "release_name": "0.0.8",
+      "family": "OCA Plus",
+      "adf_revision": "0.0.8",
+      "software_version": "6.8",
+      "workflow_version": null,
+      "release_date": null,
+      "decision_cutoff": null,
+      "cutoff_state": "missing",
+      "variant_scope": [
+        "DNA",
+        "Fusion/RNA"
+      ],
+      "chronology_state": "missing_actual_release_date",
+      "association_state": "listed_or_linked_issue_requires_action_scope_review",
+      "source_url": "https://lsg-thermofisher.atlassian.net/wiki/spaces/IRS/pages/11568897",
+      "sources": [
+        {
+          "path": "data/raw/connected/confluence/page_11568897.json",
+          "sha256": "bcb123dcc5549f49b6697574c9ecd675dc21ec82d7125515668906719d4fde15",
+          "url": "https://lsg-thermofisher.atlassian.net/wiki/spaces/IRS/pages/11568897",
+          "locator": "page:11568897@v64/table:722e7a76-edb2-3e62-a191-b11c4aca5046/row:213de2d6-3a68-3c7f-95d0-41dbc12d456f",
+          "collected_at": "2026-11-01T03:31:42.185Z",
+          "local_source_sha256": "bcb123dcc5549f49b6697574c9ecd675dc21ec82d7125515668906719d4fde15",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/confluence/version_body_11568897_12_62f2c779c1d7451b4427dcee.json",
+          "sha256": "f2db27f8528ff3d9b7799ba6b5f67bc08d1bd012ef0d006938236c28e6934b05",
+          "locator": "page:11568897@v12/table:table-0/row:row-4",
+          "collected_at": "2026-11-01T04:48:59.869Z",
+          "local_source_sha256": "f2db27f8528ff3d9b7799ba6b5f67bc08d1bd012ef0d006938236c28e6934b05",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/confluence/version_body_11568897_30_probe.json",
+          "sha256": "e4b35c7bdfe269891d7ef4f467432b9ad31ce29bff6aa7c3ae8d92f114daac29",
+          "locator": "page:11568897@v30/table:table-0/row:row-4",
+          "collected_at": "2026-11-01T04:44:49.173Z",
+          "local_source_sha256": "e4b35c7bdfe269891d7ef4f467432b9ad31ce29bff6aa7c3ae8d92f114daac29",
+          "source_hash_matches": true
+        }
+      ]
+    }
+  ],
+  "historical_views": [],
+  "artifact_references": [
+    {
+      "id": "external_bcb9b984d1d436923f71",
+      "kind": "package_store",
+      "url": "http://foslsvap01p.corp.life:8081/nexus/content/repositories/public/com/lifetech/oncomine/ovat-off-cycle/oncomine_comprehensive_plus/6.8.2/",
+      "state": "pending",
+      "reason": "Needs approved reader/export and relevance review; no Jira credentials forwarded",
+      "mutable_ref": false,
+      "sources": [
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-29057",
+          "locator": "fields.description.href",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-29057",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "external_b2c8d65b3a68eb50757d",
+      "kind": "github",
+      "url": "https://github.com/thermofisher/csd-gx-analysis-pipeline/pull/278/files",
+      "state": "pending",
+      "reason": "Needs approved reader/export and relevance review; no Jira credentials forwarded",
+      "mutable_ref": false,
+      "sources": [
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-29057",
+          "locator": "fields.comment.comments[1].body.href",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-29057",
+          "locator": "comment:1501891.href",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-29057",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        }
+      ]
+    }
+  ],
+  "missing_inputs": [
+    {
+      "key": "release_scope",
+      "question": "Which release and variants does each action apply to?",
+      "reason": "Issue listings and related links do not establish action-level scope."
+    },
+    {
+      "key": "exact_change",
+      "question": "What exact target and old/new value or immutable file should be used?",
+      "reason": "Descriptions and proposed labels are not executable instructions."
+    },
+    {
+      "key": "approval",
+      "question": "Who approves this specific new change and where is that approval recorded?",
+      "reason": "Historical statements and merged changes are reference evidence, not new approval."
+    },
+    {
+      "key": "acceptance",
+      "question": "What checks and expected outcomes establish completion?",
+      "reason": "Structural file checks do not establish scientific or physical validation."
+    },
+    {
+      "key": "chronology",
+      "question": "Which decision date and original instructions should govern this review?",
+      "reason": "Current text, edited comments and later instructions must be distinguished."
+    }
+  ],
+  "caveats": [
+    "Source collection is partial; zero displayed records does not prove none exist.",
+    "Current descriptions are retrospective and may have been edited after a release decision.",
+    "Comments are ordered by creation; updated dates are retained and original edited text may be unknown.",
+    "Different dated instructions may apply to different releases; do not collapse them into one instruction.",
+    "Action selection samples up to six per proposed category; all counts describe the cached snapshot.",
+    "Artifact links and issue closure do not establish approval, downloaded bytes or successful validation.",
+    "Sensitive query strings and credential-like text are redacted in this generated review aid.",
+    "No saved source, model, benchmark, plan or evidence export was modified."
+  ],
+  "counts": {
+    "comments_available": 8,
+    "comments_shown": 8,
+    "actions_available": 5,
+    "actions_shown": 5,
+    "action_category_counts": {
+      "investigation_code": 4,
+      "verification_only": 1
+    },
+    "releases_available": 1,
+    "releases_shown": 1,
+    "historical_views_available": 0,
+    "historical_views_shown": 0,
+    "artifacts_available": 2,
+    "artifacts_shown": 2,
+    "truncated_comments_shown": 0,
+    "truncated_actions_shown": 0
+  },
+  "source_manifest": [
+    {
+      "path": "/rhome/yanzhu/ML_ADF/adf-sentinel/data/extracted/issues.jsonl",
+      "relative_path": "data/extracted/issues.jsonl",
+      "available": true,
+      "sha256": "d42b9721d27fc197c334e058b27754be628677ec417abb98071f5b0d2c4eb0ed",
+      "bytes": 17212654
+    },
+    {
+      "path": "/rhome/yanzhu/ML_ADF/adf-sentinel/data/labels/weak_actions.jsonl",
+      "relative_path": "data/labels/weak_actions.jsonl",
+      "available": true,
+      "sha256": "3322319863e7e86708ca037a8daa2ad45c81098fb431216251ca8ce152f8029b",
+      "bytes": 8658182
+    },
+    {
+      "path": "/rhome/yanzhu/ML_ADF/adf-sentinel/data/extracted/releases.jsonl",
+      "relative_path": "data/extracted/releases.jsonl",
+      "available": true,
+      "sha256": "ae7eb8ecde5b501e6838f893e3f67f5a227251ff751742c179da820f58653ef2",
+      "bytes": 854613
+    },
+    {
+      "path": "/rhome/yanzhu/ML_ADF/adf-sentinel/data/extracted/historical_issue_views.jsonl",
+      "relative_path": "data/extracted/historical_issue_views.jsonl",
+      "available": true,
+      "sha256": "1f411323e87685cccfb1ff893fdc5a5c0dad6d2301f8984f109c5310ad48b0c4",
+      "bytes": 517562
+    },
+    {
+      "path": "/rhome/yanzhu/ML_ADF/adf-sentinel/data/extracted/external_artifacts.jsonl",
+      "relative_path": "data/extracted/external_artifacts.jsonl",
+      "available": true,
+      "sha256": "0f7d865d9b15537d6dcfe04ac003157f506f1c9ef23c607f7604ab61de14b4fe",
+      "bytes": 6744197
+    }
+  ],
+  "limits": {
+    "description_chars": 10000,
+    "comment_chars": 6000,
+    "comments": 40,
+    "actions": 42,
+    "actions_per_category": 6,
+    "action_chars": 1400,
+    "releases": 12,
+    "history": 6,
+    "history_chars": 2500,
+    "artifacts": 16
+  },
+  "output_files": {
+    "json": "/rhome/yanzhu/ML_ADF/adf-review-workbench/results/packets/IRS-29057.json",
+    "markdown": "/rhome/yanzhu/ML_ADF/adf-review-workbench/results/packets/IRS-29057.md"
+  }
+}

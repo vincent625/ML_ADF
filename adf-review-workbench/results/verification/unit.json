@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "tests": 45,
+  "runtime_seconds": 0.589,
+  "checked_at": "2026-11-03T12:23:20-08:00",
+  "command": "python -m unittest discover -s adf-review-workbench/tests -v",
+  "scope": "Focused component, cross-review and local HTTP checks; observed completed run"
+}

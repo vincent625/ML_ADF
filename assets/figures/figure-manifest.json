@@ -1,0 +1,57 @@
+{
+  "matplotlib": "3.11.2",
+  "data_file": "figure-data.json",
+  "data_sha256": "799a527b1e35663daea5f66cf59620336b1d10ce2632e09d64a9e2e741f89937",
+  "builder_sha256": "ae488a8b3c558d6a37f9d8a96a52683700018a0a332b0eef590d169e432ffed8",
+  "outputs": [
+    {
+      "file": "scope-flow.png",
+      "sha256": "befc2715ba935456a1d8d9280de732a655a082f2f22f3f3a142139d0d63b1513",
+      "bytes": 150911
+    },
+    {
+      "file": "scope-flow.svg",
+      "sha256": "016ed93d738a55dc9c31182a05b0ded609c38a9da1605359c67ee377b71a77fe",
+      "bytes": 8136
+    },
+    {
+      "file": "action-mix.png",
+      "sha256": "05a5b6700767d7a513a3afbfad13a8d1ccc7566c21009272cafac14ce53f5b05",
+      "bytes": 179253
+    },
+    {
+      "file": "action-mix.svg",
+      "sha256": "e84c2033bffdb60264420a9a84e49d6a6529b25b3a06916118c434d25cf29c09",
+      "bytes": 13233
+    },
+    {
+      "file": "delivered-results.png",
+      "sha256": "b8fc6a51db6d2c737d882e681200255c8123310fa1ba5fef0b87097c9b7157e5",
+      "bytes": 249543
+    },
+    {
+      "file": "delivered-results.svg",
+      "sha256": "086ad5ee3655bbe7706c0ceeb7f8b5fc0041771b22bf120dcb99e1e206a2879c",
+      "bytes": 12298
+    }
+  ],
+  "screenshot": {
+    "file": "workbench-preview.png",
+    "sha256": "ab7979cefdc23c844f266b4dc3b35724a075750c46deeed108d380aa50953cd5",
+    "copied_original_bytes_without_image_editing": true
+  },
+  "palette": {
+    "green": "#00876A",
+    "green_light": "#EAF6F1",
+    "amber": "#B57800",
+    "amber_bar": "#D69B27",
+    "amber_light": "#FFF5DF",
+    "gray": "#66727C",
+    "gray_light": "#F1F3F5",
+    "ink": "#1F2933",
+    "muted": "#52616D",
+    "line": "#D8DFE4",
+    "white": "#FFFFFF"
+  },
+  "source_data_contains_private_ticket_text": false
+}

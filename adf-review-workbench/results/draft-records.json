@@ -1,0 +1,443 @@
+[
+  {
+    "label": "Hotspot file replacement",
+    "explanation": "The historical comment requests a hotspot file. Its immutable revision, hash, destination and current applicability still need confirmation.",
+    "record": {
+      "schema_version": 1,
+      "id": "irs-65265-hotspot-file",
+      "issue_key": "IRS-65265",
+      "source_links": [
+        "https://lsg-thermofisher.atlassian.net/browse/IRS-65265?focusedCommentId=2899737"
+      ],
+      "evidence": [
+        {
+          "kind": "source_requirement",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265?focusedCommentId=2899737",
+          "note": "The historical comment requests a hotspot file. Its immutable revision, hash, destination and current applicability still need confirmation."
+        }
+      ],
+      "release": null,
+      "variants": [],
+      "operation": "file_replacement",
+      "target_path": null,
+      "field": null,
+      "expected_old_value": null,
+      "new_value": null,
+      "baseline_sha256": null,
+      "artifact": {
+        "source_url": "https://github.com/thermofisher/csd-motorcore-config-files/blob/main/Motorhead/Oncomine_Focus_v2.20260625.hotspots.bed",
+        "revision": null,
+        "sha256": null
+      },
+      "dependency": null,
+      "variant_targets": null,
+      "question": null,
+      "decision": null,
+      "acceptance_checks": [],
+      "reviewer_decision": {
+        "status": "pending",
+        "reviewer": null,
+        "decided_at": null,
+        "evidence_url": null,
+        "note": null,
+        "scope": "current_record"
+      }
+    },
+    "check": {
+      "record_id": "irs-65265-hotspot-file",
+      "operation": "file_replacement",
+      "missing_fields": [
+        "release",
+        "variants",
+        "acceptance_checks",
+        "target_path",
+        "baseline_sha256",
+        "artifact.revision",
+        "artifact.sha256"
+      ],
+      "invalid_fields": [],
+      "review_ready": false,
+      "approval_status": "pending",
+      "human_approval_present": false,
+      "approval_is_authenticated": false,
+      "execution_enabled": false,
+      "next_step": "Resolve the listed missing or invalid information before review."
+    }
+  },
+  {
+    "label": "PanelKit part number",
+    "explanation": "The issue requests a PanelKit part-number update. The exact field, current value and replacement value are not supplied by this draft.",
+    "record": {
+      "schema_version": 1,
+      "id": "irs-65265-panelkit-number",
+      "issue_key": "IRS-65265",
+      "source_links": [
+        "https://lsg-thermofisher.atlassian.net/browse/IRS-65265"
+      ],
+      "evidence": [
+        {
+          "kind": "source_requirement",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "note": "The issue requests a PanelKit part-number update. The exact field, current value and replacement value are not supplied by this draft."
+        }
+      ],
+      "release": null,
+      "variants": [],
+      "operation": "parameter_metadata",
+      "target_path": null,
+      "field": null,
+      "expected_old_value": null,
+      "new_value": null,
+      "baseline_sha256": null,
+      "artifact": null,
+      "dependency": null,
+      "variant_targets": null,
+      "question": null,
+      "decision": null,
+      "acceptance_checks": [],
+      "reviewer_decision": {
+        "status": "pending",
+        "reviewer": null,
+        "decided_at": null,
+        "evidence_url": null,
+        "note": null,
+        "scope": "current_record"
+      }
+    },
+    "check": {
+      "record_id": "irs-65265-panelkit-number",
+      "operation": "parameter_metadata",
+      "missing_fields": [
+        "release",
+        "variants",
+        "acceptance_checks",
+        "target_path",
+        "field",
+        "expected_old_value",
+        "new_value"
+      ],
+      "invalid_fields": [],
+      "review_ready": false,
+      "approval_status": "pending",
+      "human_approval_present": false,
+      "approval_is_authenticated": false,
+      "execution_enabled": false,
+      "next_step": "Resolve the listed missing or invalid information before review."
+    }
+  },
+  {
+    "label": "VNS wrapper version",
+    "explanation": "The description requests VNS wrapper 1.20.6. The previous version, exact destination, package identity and applicability still need confirmation.",
+    "record": {
+      "schema_version": 1,
+      "id": "irs-66772-wrapper-version",
+      "issue_key": "IRS-66772",
+      "source_links": [
+        "https://lsg-thermofisher.atlassian.net/browse/IRS-66772"
+      ],
+      "evidence": [
+        {
+          "kind": "source_requirement",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-66772",
+          "note": "The description requests VNS wrapper 1.20.6. The previous version, exact destination, package identity and applicability still need confirmation."
+        }
+      ],
+      "release": null,
+      "variants": [],
+      "operation": "dependency_pin",
+      "target_path": null,
+      "field": null,
+      "expected_old_value": null,
+      "new_value": null,
+      "baseline_sha256": null,
+      "artifact": null,
+      "dependency": {
+        "package": "VNS wrapper",
+        "expected_version": null,
+        "new_version": "1.20.6"
+      },
+      "variant_targets": null,
+      "question": null,
+      "decision": null,
+      "acceptance_checks": [],
+      "reviewer_decision": {
+        "status": "pending",
+        "reviewer": null,
+        "decided_at": null,
+        "evidence_url": null,
+        "note": null,
+        "scope": "current_record"
+      }
+    },
+    "check": {
+      "record_id": "irs-66772-wrapper-version",
+      "operation": "dependency_pin",
+      "missing_fields": [
+        "release",
+        "variants",
+        "acceptance_checks",
+        "target_path",
+        "dependency.expected_version"
+      ],
+      "invalid_fields": [],
+      "review_ready": false,
+      "approval_status": "pending",
+      "human_approval_present": false,
+      "approval_is_authenticated": false,
+      "execution_enabled": false,
+      "next_step": "Resolve the listed missing or invalid information before review."
+    }
+  },
+  {
+    "label": "RNA and DNA profile change",
+    "explanation": "The issue names both primer profiles. Separate target paths and approved values are required for each; equality is not assumed.",
+    "record": {
+      "schema_version": 1,
+      "id": "irs-57322-both-profiles",
+      "issue_key": "IRS-57322",
+      "source_links": [
+        "https://lsg-thermofisher.atlassian.net/browse/IRS-57322"
+      ],
+      "evidence": [
+        {
+          "kind": "source_requirement",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-57322",
+          "note": "The issue names both primer profiles. Separate target paths and approved values are required for each; equality is not assumed."
+        }
+      ],
+      "release": null,
+      "variants": [
+        "primer_profile_RNA",
+        "primer_profile_DNA"
+      ],
+      "operation": "shared_variant_change",
+      "target_path": null,
+      "field": null,
+      "expected_old_value": null,
+      "new_value": null,
+      "baseline_sha256": null,
+      "artifact": null,
+      "dependency": null,
+      "variant_targets": [
+        {
+          "variant": "primer_profile_RNA",
+          "target_path": null,
+          "field": "maxSamplePerPool",
+          "expected_old_value": null,
+          "new_value": null
+        },
+        {
+          "variant": "primer_profile_DNA",
+          "target_path": null,
+          "field": "maxSamplePerPool",
+          "expected_old_value": null,
+          "new_value": null
+        }
+      ],
+      "question": null,
+      "decision": null,
+      "acceptance_checks": [],
+      "reviewer_decision": {
+        "status": "pending",
+        "reviewer": null,
+        "decided_at": null,
+        "evidence_url": null,
+        "note": null,
+        "scope": "current_record"
+      }
+    },
+    "check": {
+      "record_id": "irs-57322-both-profiles",
+      "operation": "shared_variant_change",
+      "missing_fields": [
+        "release",
+        "acceptance_checks",
+        "variant_targets[0].target_path",
+        "variant_targets[0].expected_old_value",
+        "variant_targets[0].new_value",
+        "variant_targets[1].target_path",
+        "variant_targets[1].expected_old_value",
+        "variant_targets[1].new_value"
+      ],
+      "invalid_fields": [],
+      "review_ready": false,
+      "approval_status": "pending",
+      "human_approval_present": false,
+      "approval_is_authenticated": false,
+      "execution_enabled": false,
+      "next_step": "Resolve the listed missing or invalid information before review."
+    }
+  },
+  {
+    "label": "Investigate OVAT behavior",
+    "explanation": "Prepare the evidence and diagnostic question. An engineer must confirm the affected release, root cause and acceptance criteria.",
+    "record": {
+      "schema_version": 1,
+      "id": "irs-29057-ovat-investigation",
+      "issue_key": "IRS-29057",
+      "source_links": [
+        "https://lsg-thermofisher.atlassian.net/browse/IRS-29057"
+      ],
+      "evidence": [
+        {
+          "kind": "source_requirement",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-29057",
+          "note": "Prepare the evidence and diagnostic question. An engineer must confirm the affected release, root cause and acceptance criteria."
+        }
+      ],
+      "release": null,
+      "variants": [],
+      "operation": "investigation",
+      "target_path": null,
+      "field": null,
+      "expected_old_value": null,
+      "new_value": null,
+      "baseline_sha256": null,
+      "artifact": null,
+      "dependency": null,
+      "variant_targets": null,
+      "question": "What causes the reported incorrect OVAT annotation with alternate coding syntax, and which fix and regression tests apply to the intended release?",
+      "decision": null,
+      "acceptance_checks": [],
+      "reviewer_decision": {
+        "status": "pending",
+        "reviewer": null,
+        "decided_at": null,
+        "evidence_url": null,
+        "note": null,
+        "scope": "current_record"
+      }
+    },
+    "check": {
+      "record_id": "irs-29057-ovat-investigation",
+      "operation": "investigation",
+      "missing_fields": [
+        "release",
+        "variants",
+        "acceptance_checks"
+      ],
+      "invalid_fields": [],
+      "review_ready": false,
+      "approval_status": "pending",
+      "human_approval_present": false,
+      "approval_is_authenticated": false,
+      "execution_enabled": false,
+      "next_step": "Resolve the listed missing or invalid information before review."
+    }
+  },
+  {
+    "label": "Verify OVAT after upgrade",
+    "explanation": "This dated comment requests software-upgrade verification. Later instructions concern a different ADF revision; confirm which milestone applies.",
+    "record": {
+      "schema_version": 1,
+      "id": "irs-29057-ovat-verification",
+      "issue_key": "IRS-29057",
+      "source_links": [
+        "https://lsg-thermofisher.atlassian.net/browse/IRS-29057?focusedCommentId=1501891"
+      ],
+      "evidence": [
+        {
+          "kind": "source_requirement",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-29057?focusedCommentId=1501891",
+          "note": "This dated comment requests software-upgrade verification. Later instructions concern a different ADF revision; confirm which milestone applies."
+        }
+      ],
+      "release": null,
+      "variants": [],
+      "operation": "verification",
+      "target_path": null,
+      "field": null,
+      "expected_old_value": null,
+      "new_value": null,
+      "baseline_sha256": null,
+      "artifact": null,
+      "dependency": null,
+      "variant_targets": null,
+      "question": "Which clean-server software-upgrade test and expected OVAT ruleset results apply to this dated request?",
+      "decision": null,
+      "acceptance_checks": [],
+      "reviewer_decision": {
+        "status": "pending",
+        "reviewer": null,
+        "decided_at": null,
+        "evidence_url": null,
+        "note": null,
+        "scope": "current_record"
+      }
+    },
+    "check": {
+      "record_id": "irs-29057-ovat-verification",
+      "operation": "verification",
+      "missing_fields": [
+        "release",
+        "variants",
+        "acceptance_checks",
+        "target_path"
+      ],
+      "invalid_fields": [],
+      "review_ready": false,
+      "approval_status": "pending",
+      "human_approval_present": false,
+      "approval_is_authenticated": false,
+      "execution_enabled": false,
+      "next_step": "Resolve the listed missing or invalid information before review."
+    }
+  },
+  {
+    "label": "Retain the actor setting",
+    "explanation": "A historical comment says to retain VariantCallerActor.run=1 in v0.0.3. This remains reference evidence rather than approval for a new release.",
+    "record": {
+      "schema_version": 1,
+      "id": "irs-65265-retain-actor",
+      "issue_key": "IRS-65265",
+      "source_links": [
+        "https://lsg-thermofisher.atlassian.net/browse/IRS-65265?focusedCommentId=2912743"
+      ],
+      "evidence": [
+        {
+          "kind": "historical_decision",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265?focusedCommentId=2912743",
+          "note": "A historical comment says to retain VariantCallerActor.run=1 in v0.0.3. This remains reference evidence rather than approval for a new release."
+        }
+      ],
+      "release": "v0.0.3 (historical comment; confirm applicability)",
+      "variants": [],
+      "operation": "retain_defer_block",
+      "target_path": null,
+      "field": "VariantCallerActor.run",
+      "expected_old_value": 1,
+      "new_value": null,
+      "baseline_sha256": null,
+      "artifact": null,
+      "dependency": null,
+      "variant_targets": null,
+      "question": "Does the historical retain decision apply to the release now being reviewed?",
+      "decision": "retain",
+      "acceptance_checks": [],
+      "reviewer_decision": {
+        "status": "pending",
+        "reviewer": null,
+        "decided_at": null,
+        "evidence_url": null,
+        "note": null,
+        "scope": "current_record"
+      }
+    },
+    "check": {
+      "record_id": "irs-65265-retain-actor",
+      "operation": "retain_defer_block",
+      "missing_fields": [
+        "variants",
+        "acceptance_checks",
+        "target_path"
+      ],
+      "invalid_fields": [],
+      "review_ready": false,
+      "approval_status": "pending",
+      "human_approval_present": false,
+      "approval_is_authenticated": false,
+      "execution_enabled": false,
+      "next_step": "Resolve the listed missing or invalid information before review."
+    }
+  }
+]

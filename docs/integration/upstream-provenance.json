@@ -1,0 +1,38 @@
+{
+  "source_files": [
+    {
+      "path": "src/__init__.py",
+      "sha256": "44aeeb35a6a80278149220e9335b111c44a72ca1e378ef18101da667c5b15597",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "src/requirements/__init__.py",
+      "sha256": "ccc94d6154dfbe4987fd55b9d410c1c30f4f6aa9963e15189c26f218ab0f6beb",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "src/requirements/cli.py",
+      "sha256": "755dd4a160b4a988a28d028d26fb92ac83f351e4a5ecf41089b19c0be8e08286",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "src/requirements/extractor.py",
+      "sha256": "4e88975f9b6546d5a29486cee9d0d74e33af7dd85582f54b10c57b0deef4544b",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "src/requirements/models.py",
+      "sha256": "f87e96248cd0da65923d1b63edc25b41265b63c6caf53c23ad8011b7306cd70c",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "src/requirements/traceability.py",
+      "sha256": "b9a27dd45fb5bd7cfa19a50664665b093e3185d84b4ae7295d4d27f4313e97f4",
+      "matches_pinned_source": true
+    }
+  ],
+  "upstream_docs_preserved_in": "docs/upstream",
+  "generated_bytecode_excluded": true,
+  "git_history_included": false,
+  "license_declared_upstream": false
+}

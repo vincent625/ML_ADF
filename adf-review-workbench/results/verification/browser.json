@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "checked_at": "2026-11-03T20:22:40.790224+00:00",
+  "browser": "123.0.6312.122",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "views": 4,
+      "horizontal_overflow": false
+    },
+    {
+      "width": 960,
+      "height": 800,
+      "views": 4,
+      "horizontal_overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "views": 4,
+      "horizontal_overflow": false
+    }
+  ],
+  "interactions": [
+    "four issue packets",
+    "dated OVAT instructions",
+    "packet download",
+    "seven pending draft checks",
+    "missing pinned-file requirements",
+    "pending draft download",
+    "synthetic in-memory form completion",
+    "separate per-profile values",
+    "blank timing-sheet download",
+    "team results and three label-review reasons"
+  ],
+  "page_errors": [],
+  "external_requests": [],
+  "source_changes": 0,
+  "new_approvals": 0
+}

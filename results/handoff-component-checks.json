@@ -1,0 +1,92 @@
+{
+  "checked_at": "2026-11-06T11:34:47-08:00",
+  "status": "passed",
+  "scope": "Local packaged code and synthetic HTTP/model tests; no source-system writes or scientific validation",
+  "suites": [
+    {
+      "suite": "requirements",
+      "status": "passed",
+      "return_code": 0,
+      "runtime_seconds": 0.285,
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "cwd": ".",
+      "stdout": "",
+      "stderr": "test_documented_cli_runs_from_the_relocated_repository (test_requirements.RequirementsHandoffTests.test_documented_cli_runs_from_the_relocated_repository) ... ok\ntest_manifest_names_do_not_verify_bytes_or_map_tests (test_requirements.RequirementsHandoffTests.test_manifest_names_do_not_verify_bytes_or_map_tests) ... ok\ntest_numbered_items_preserve_source_and_unstructured_details (test_requirements.RequirementsHandoffTests.test_numbered_items_preserve_source_and_unstructured_details) ... ok\ntest_unnumbered_material_stays_unresolved (test_requirements.RequirementsHandoffTests.test_unnumbered_material_stays_unresolved) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.115s\n\nOK\n",
+      "passed": 4
+    },
+    {
+      "suite": "review_workbench",
+      "status": "passed",
+      "return_code": 0,
+      "runtime_seconds": 0.837,
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "adf-review-workbench/tests",
+        "-v"
+      ],
+      "cwd": ".",
+      "stdout": "",
+      "stderr": "test_both_output_symlinks_rejected_before_any_write (test_bottlenecks.EvidenceTests.test_both_output_symlinks_rejected_before_any_write) ... ok\ntest_capability_queries_and_credentials_removed (test_bottlenecks.EvidenceTests.test_capability_queries_and_credentials_removed) ... ok\ntest_inline_credentials_and_capability_fragments_removed (test_bottlenecks.EvidenceTests.test_inline_credentials_and_capability_fragments_removed) ... ok\ntest_outputs_cannot_be_nested_under_preserved_source (test_bottlenecks.EvidenceTests.test_outputs_cannot_be_nested_under_preserved_source) ... ok\ntest_report_counts_and_source_bytes_preserved (test_bottlenecks.EvidenceTests.test_report_counts_and_source_bytes_preserved) ... ok\ntest_review_flags_are_narrow_candidates (test_bottlenecks.EvidenceTests.test_review_flags_are_narrow_candidates) ... ok\ntest_blank_template_means_unknown_not_zero (test_bottlenecks.TimingTests.test_blank_template_means_unknown_not_zero) ... ok\ntest_invalid_timestamp_and_incomplete_completion_rejected (test_bottlenecks.TimingTests.test_invalid_timestamp_and_incomplete_completion_rejected) ... ok\ntest_matched_pair_includes_review_rework_and_intake_excludes_wait_setup (test_bottlenecks.TimingTests.test_matched_pair_includes_review_rework_and_intake_excludes_wait_setup) ... ok\ntest_mismatch_scope_milestone_action_and_duplicate_mode_rejected (test_bottlenecks.TimingTests.test_mismatch_scope_milestone_action_and_duplicate_mode_rejected) ... ok\ntest_missing_nonfinite_negative_durations_reject_whole_pair (test_bottlenecks.TimingTests.test_missing_nonfinite_negative_durations_reject_whole_pair) ... ok\ntest_negative_savings_retained (test_bottlenecks.TimingTests.test_negative_savings_retained) ... ok\ntest_valid_subset_reports_exclusions (test_bottlenecks.TimingTests.test_valid_subset_reports_exclusions) ... ok\ntest_both_excerpt_builders_remove_inline_and_link_credentials (test_cross_review.CrossReviewTests.test_both_excerpt_builders_remove_inline_and_link_credentials) ... ok\ntest_real_demo_records_remain_pending_non_executable_and_reproducible (test_cross_review.CrossReviewTests.test_real_demo_records_remain_pending_non_executable_and_reproducible) ... ok\ntest_real_ovat_packet_retains_software_and_later_adf_instruction (test_cross_review.CrossReviewTests.test_real_ovat_packet_retains_software_and_later_adf_instruction) ... ok\ntest_real_packets_distinguish_retrieved_and_displayed_comments (test_cross_review.CrossReviewTests.test_real_packets_distinguish_retrieved_and_displayed_comments) ... ok\ntest_real_timing_reports_have_no_unobserved_savings_claim (test_cross_review.CrossReviewTests.test_real_timing_reports_have_no_unobserved_savings_claim) ... ok\ntest_absent_issue_and_missing_inputs_remain_explicit (test_evidence_packets.EvidencePacketsTest.test_absent_issue_and_missing_inputs_remain_explicit) ... ok\ntest_complete_quoted_credentials_are_redacted (test_evidence_packets.EvidencePacketsTest.test_complete_quoted_credentials_are_redacted) ... ok\ntest_coverage_counts_and_balanced_bounded_action_selection (test_evidence_packets.EvidencePacketsTest.test_coverage_counts_and_balanced_bounded_action_selection) ... ok\ntest_invalid_keys_and_writes_inside_preserved_source_are_rejected (test_evidence_packets.EvidencePacketsTest.test_invalid_keys_and_writes_inside_preserved_source_are_rejected) ... ok\ntest_json_unicode_line_separator_preserved (test_evidence_packets.EvidencePacketsTest.test_json_unicode_line_separator_preserved) ... ok\ntest_output_file_symlink_cannot_overwrite_source (test_evidence_packets.EvidencePacketsTest.test_output_file_symlink_cannot_overwrite_source) ... ok\ntest_timeline_retains_distinct_dated_instructions_and_provenance (test_evidence_packets.EvidencePacketsTest.test_timeline_retains_distinct_dated_instructions_and_provenance) ... ok\ntest_url_and_inline_credential_redaction (test_evidence_packets.EvidencePacketsTest.test_url_and_inline_credential_redaction) ... ok\ntest_approval_missing_provenance_is_invalid (test_intake.IntakeTests.test_approval_missing_provenance_is_invalid) ... ok\ntest_capability_urls_nonfinite_values_and_malformed_types_fail_closed (test_intake.IntakeTests.test_capability_urls_nonfinite_values_and_malformed_types_fail_closed) ... ok\ntest_complete_recorded_approval_is_not_authenticated_or_executable (test_intake.IntakeTests.test_complete_recorded_approval_is_not_authenticated_or_executable) ... ok\ntest_dependency_and_retain_records_require_operation_specific_inputs (test_intake.IntakeTests.test_dependency_and_retain_records_require_operation_specific_inputs) ... ok\ntest_file_copy_requires_exact_hashes_and_nonfloating_revision (test_intake.IntakeTests.test_file_copy_requires_exact_hashes_and_nonfloating_revision) ... ok\ntest_historical_implementation_and_closed_ticket_are_not_approval (test_intake.IntakeTests.test_historical_implementation_and_closed_ticket_are_not_approval) ... ok\ntest_investigation_can_be_review_ready_without_being_executable (test_intake.IntakeTests.test_investigation_can_be_review_ready_without_being_executable) ... ok\ntest_paths_reject_traversal_absolute_windows_and_control_characters (test_intake.IntakeTests.test_paths_reject_traversal_absolute_windows_and_control_characters) ... ok\ntest_shared_variants_require_coverage_without_assuming_equal_values (test_intake.IntakeTests.test_shared_variants_require_coverage_without_assuming_equal_values) ... ok\ntest_unknown_details_stay_missing (test_intake.IntakeTests.test_unknown_details_stay_missing) ... ok\ntest_unknown_top_level_and_nested_command_fields_are_rejected (test_intake.IntakeTests.test_unknown_top_level_and_nested_command_fields_are_rejected) ... ok\ntest_validation_does_not_mutate_input (test_intake.IntakeTests.test_validation_does_not_mutate_input) ... ok\ntest_complete_pending_and_recorded_approved_fixtures_still_cannot_execute (test_server.ServerTests.test_complete_pending_and_recorded_approved_fixtures_still_cannot_execute) ... ok\ntest_hostile_host_and_origin_rejected (test_server.ServerTests.test_hostile_host_and_origin_rejected) ... ok\ntest_huge_bad_and_nonobject_json_rejected (test_server.ServerTests.test_huge_bad_and_nonobject_json_rejected) ... ok\ntest_incomplete_real_issue_draft_lists_missing_information_without_execution (test_server.ServerTests.test_incomplete_real_issue_draft_lists_missing_information_without_execution) ... ok\ntest_serves_only_prepared_data_and_downloads (test_server.ServerTests.test_serves_only_prepared_data_and_downloads) ... ok\ntest_traversal_raw_sources_and_unknown_write_routes_inaccessible (test_server.ServerTests.test_traversal_raw_sources_and_unknown_write_routes_inaccessible) ... ok\ntest_unknown_command_rejected_without_execution (test_server.ServerTests.test_unknown_command_rejected_without_execution) ... ok\n\n----------------------------------------------------------------------\nRan 45 tests in 0.578s\n\nOK\n",
+      "passed": 45
+    },
+    {
+      "suite": "synthetic_evidence_lab",
+      "status": "passed",
+      "return_code": 0,
+      "runtime_seconds": 4.564,
+      "command": [
+        "python",
+        "-W",
+        "error::ResourceWarning",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "cwd": "irs-65265-review",
+      "stdout": "",
+      "stderr": "test_cross_origin_mutations_rejected (test_http.HttpTests.test_cross_origin_mutations_rejected) ... 127.0.0.1 - - [06/Nov/2026 11:26:37] \"POST /api/run HTTP/1.1\" 403 -\nok\ntest_http_review_retest_export_identity (test_http.HttpTests.test_http_review_retest_export_identity) ... 127.0.0.1 - - [06/Nov/2026 11:26:37] \"POST /api/preview HTTP/1.1\" 200 -\n127.0.0.1 - - [06/Nov/2026 11:26:37] \"POST /api/apply HTTP/1.1\" 200 -\n127.0.0.1 - - [06/Nov/2026 11:26:37] \"POST /api/run HTTP/1.1\" 200 -\n127.0.0.1 - - [06/Nov/2026 11:26:37] \"GET /api/export?scenario=wrong-kit HTTP/1.1\" 200 -\nok\ntest_invalid_input_explicit_error (test_http.HttpTests.test_invalid_input_explicit_error) ... Rejected mutation: Unknown sandbox scenario\n127.0.0.1 - - [06/Nov/2026 11:26:37] \"POST /api/run HTTP/1.1\" 400 -\nok\ntest_missing_route_is_not_success (test_http.HttpTests.test_missing_route_is_not_success) ... 127.0.0.1 - - [06/Nov/2026 11:26:37] \"GET /missing HTTP/1.1\" 404 -\nok\ntest_static_app_and_record_driven_counters (test_http.HttpTests.test_static_app_and_record_driven_counters) ... 127.0.0.1 - - [06/Nov/2026 11:26:37] \"GET / HTTP/1.1\" 200 -\n127.0.0.1 - - [06/Nov/2026 11:26:37] \"GET /api/state?scenario=wrong-primer HTTP/1.1\" 200 -\nok\ntest_all_eight_counterfactuals_and_passing_controls (test_sentinel.ReleaseLoopTests.test_all_eight_counterfactuals_and_passing_controls) ... ok\ntest_both_alignment_sources_independently_checked (test_sentinel.ReleaseLoopTests.test_both_alignment_sources_independently_checked) ... ok\ntest_byte_hash_is_independent_of_declared_ticket_md5 (test_sentinel.ReleaseLoopTests.test_byte_hash_is_independent_of_declared_ticket_md5) ... ok\ntest_every_reviewed_seeded_fix_changes_behavior (test_sentinel.ReleaseLoopTests.test_every_reviewed_seeded_fix_changes_behavior) ... ok\ntest_export_matches_exact_current_run_and_preserves_history (test_sentinel.ReleaseLoopTests.test_export_matches_exact_current_run_and_preserves_history) ... ok\ntest_fixture_md5_matches_actual_synthetic_bytes (test_sentinel.ReleaseLoopTests.test_fixture_md5_matches_actual_synthetic_bytes) ... ok\ntest_named_review_required_and_proposal_single_use (test_sentinel.ReleaseLoopTests.test_named_review_required_and_proposal_single_use) ... ok\ntest_no_invented_mapd_boundary (test_sentinel.ReleaseLoopTests.test_no_invented_mapd_boundary) ... ok\ntest_non_installable_bundle_hashes_match_fixture_bytes (test_sentinel.ReleaseLoopTests.test_non_installable_bundle_hashes_match_fixture_bytes) ... ok\ntest_patch_rejects_file_changed_since_review (test_sentinel.ReleaseLoopTests.test_patch_rejects_file_changed_since_review) ... ok\ntest_proposed_case_and_correlated_event_thresholds (test_sentinel.ReleaseLoopTests.test_proposed_case_and_correlated_event_thresholds) ... ok\ntest_qc_suppression_and_completed_msi_qcfail_are_distinct (test_sentinel.ReleaseLoopTests.test_qc_suppression_and_completed_msi_qcfail_are_distinct) ... ok\ntest_real_evidence_not_modified_by_source_check (test_sentinel.ReleaseLoopTests.test_real_evidence_not_modified_by_source_check) ... ok\ntest_reset_reproducible_fixture_bytes_and_source_preservation (test_sentinel.ReleaseLoopTests.test_reset_reproducible_fixture_bytes_and_source_preservation) ... ok\ntest_runner_independent_of_oracle (test_sentinel.ReleaseLoopTests.test_runner_independent_of_oracle) ... ok\ntest_selective_invalidation_and_parameter_fix_retest (test_sentinel.ReleaseLoopTests.test_selective_invalidation_and_parameter_fix_retest) ... ok\ntest_source_counts_reconcile_and_states_remain_candidates (test_sentinel.ReleaseLoopTests.test_source_counts_reconcile_and_states_remain_candidates) ... ok\ntest_unknown_scenario_and_unsafe_reference_rejected (test_sentinel.ReleaseLoopTests.test_unknown_scenario_and_unsafe_reference_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 23 tests in 4.366s\n\nOK\n",
+      "passed": 23
+    },
+    {
+      "suite": "sentinel",
+      "status": "passed",
+      "return_code": 0,
+      "passed": 31,
+      "reported_runtime_seconds": 11.14,
+      "command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "adf-sentinel/tests"
+      ],
+      "cwd": ".",
+      "environment": "Existing recorded Python 3.13.13 / locked Sentinel dependencies; environment not included in upload",
+      "stdout": "31 passed in 11.14s",
+      "stderr": ""
+    }
+  ],
+  "resolved_optional_dependency_issue": {
+    "initial_interpreter": "base Python",
+    "initial_error": "pytest was not installed",
+    "resolution": "The 31 optional tests were run successfully with the existing recorded dependency environment."
+  },
+  "total_passed": 103
+}

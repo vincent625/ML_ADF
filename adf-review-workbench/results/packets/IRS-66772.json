@@ -1,0 +1,478 @@
+{
+  "schema_version": "1.0",
+  "issue_key": "IRS-66772",
+  "title": "6.8: Spree ODxET FFPE Commercial ADF v5.1.0",
+  "source_url": "https://lsg-thermofisher.atlassian.net/browse/IRS-66772",
+  "generated_at": "2026-11-03T20:21:03.742597+00:00",
+  "source_issue_available": true,
+  "evidence_state": "retrospective_unreviewed_no_new_approval",
+  "current_snapshot": {
+    "description": "ADF base: FFPE ADF v5.0.0 https://lsg-thermofisher.atlassian.net/browse/IRS-60236 \nAssay Name: Oncomine™ Dx Express Test - FFPE - RS v5.1.0\nAssay Short Name: ODxET FFPE RS v5.1.0\nSW version: [host]\nADF label: IVD\nADF region: RS (same as v5.0.0)\nChanges to include:\n(Changes 1-3 are included in the Spree submission v4.3.0 ADF https://lsg-thermofisher.atlassian.net/browse/IRS-59760) \nUpdate hotspot: Same as Spree submission RS v4.3.0 \n\nUpdate OVAT (v6.8.11): Same as Spree submission RS v4.3.0 https://thermofisher.jfrog.io/ui/native/csd-oncomine-software-maven-prod-local/com/lifetech/oncomine/ovat-off-cycle/ronin/6.8.11/ \n\nUpdate VNS wrapper (1.20.6): Same as Spree submission RS v4.3.0\n\nGenelist and ruleset https://thermofisher.jfrog.io/artifactory/csd-oncomine-software-maven-prod/com/lifetech/oncomine/valhalla-spree-ffpe-variant-levels/2026.08.006/valhalla-spree-ffpe-variant-levels-2026.08.006.zip\n\nPDF change - Update Intended Use and Assay Warnings and Limitations (approved mock report )\nIntended Use \n\n\nAssay Warnings and Limitations \nDelete #6 and renumber the remaining limitations accordingly.\n\n\nAdd #29 and #30 \n\n \n\nUpdate #22 and #24 \n\n\n\n\nPDF change - Hide CDx result section based on cancer type configuration – this was done in RE v3.0.0 ADF\n\nPDF report config change: Hide Include checkmark from CDx, level 2, level 3 sections\n\n\n\nAdd (.bam) and (.bai) to processed bam file (.bam)/bam index file (.bai) in the Download Files popup\n\n\n\n\ncc: [person]",
+    "created": "2026-10-05T22:37:39.188+0530",
+    "updated": "2026-10-27T02:25:02.268+0530",
+    "current_status": "Open",
+    "source": {
+      "path": "data/raw/connected/jira/batch_033.json",
+      "sha256": "c8b24d016f52e274f856bbedd371a49dc35143696e1868b9c1e381bdda298fee",
+      "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-66772",
+      "locator": "fields.description",
+      "collected_at": "2026-11-01T03:35:41.187Z",
+      "local_source_sha256": "c8b24d016f52e274f856bbedd371a49dc35143696e1868b9c1e381bdda298fee",
+      "source_hash_matches": true
+    },
+    "completeness": {
+      "comments": "collected",
+      "comments_reported": 0,
+      "comments_retrieved": 0,
+      "field_mapping": "observed_custom_fields",
+      "fields": "collected_all_available",
+      "history": "collected",
+      "history_reported": 18,
+      "history_retrieved": 18,
+      "remote_links": "collected"
+    },
+    "description_truncated": false
+  },
+  "timeline": [],
+  "proposed_actions": [
+    {
+      "id": "action_ceb53ac3f555eb638acf",
+      "category": "approved_file",
+      "text": "Add (.bam) and (.bai) to processed bam file (.bam)/bam index file (.bai) in the Download Files popup",
+      "truncated": false,
+      "release_ids": [
+        "release_581183420c5226c1714f"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/batch_033.json",
+          "sha256": "c8b24d016f52e274f856bbedd371a49dc35143696e1868b9c1e381bdda298fee",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-66772",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:35:41.187Z",
+          "available_at": "2026-10-27T02:25:02.268+0530",
+          "local_source_sha256": "c8b24d016f52e274f856bbedd371a49dc35143696e1868b9c1e381bdda298fee",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "action_0c828dbc2cc0173c4893",
+      "category": "dependency_pin",
+      "text": "Update VNS wrapper (1.20.6): Same as Spree submission RS v4.3.0",
+      "truncated": false,
+      "release_ids": [
+        "release_581183420c5226c1714f"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/batch_033.json",
+          "sha256": "c8b24d016f52e274f856bbedd371a49dc35143696e1868b9c1e381bdda298fee",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-66772",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:35:41.187Z",
+          "available_at": "2026-10-27T02:25:02.268+0530",
+          "local_source_sha256": "c8b24d016f52e274f856bbedd371a49dc35143696e1868b9c1e381bdda298fee",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "action_31d22cc6468bc1e9c053",
+      "category": "investigation_code",
+      "text": "Changes to include:",
+      "truncated": false,
+      "release_ids": [
+        "release_581183420c5226c1714f"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/batch_033.json",
+          "sha256": "c8b24d016f52e274f856bbedd371a49dc35143696e1868b9c1e381bdda298fee",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-66772",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:35:41.187Z",
+          "available_at": "2026-10-27T02:25:02.268+0530",
+          "local_source_sha256": "c8b24d016f52e274f856bbedd371a49dc35143696e1868b9c1e381bdda298fee",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "action_26000e7b6f99e2d2a3e5",
+      "category": "verification_only",
+      "text": "Assay Name: Oncomine™ Dx Express Test - FFPE - RS v5.1.0",
+      "truncated": false,
+      "release_ids": [
+        "release_581183420c5226c1714f"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/batch_033.json",
+          "sha256": "c8b24d016f52e274f856bbedd371a49dc35143696e1868b9c1e381bdda298fee",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-66772",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:35:41.187Z",
+          "available_at": "2026-10-27T02:25:02.268+0530",
+          "local_source_sha256": "c8b24d016f52e274f856bbedd371a49dc35143696e1868b9c1e381bdda298fee",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "action_3c7d08c7b796062637b7",
+      "category": "investigation_code",
+      "text": "Update hotspot: Same as Spree submission RS v4.3.0",
+      "truncated": false,
+      "release_ids": [
+        "release_581183420c5226c1714f"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/batch_033.json",
+          "sha256": "c8b24d016f52e274f856bbedd371a49dc35143696e1868b9c1e381bdda298fee",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-66772",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:35:41.187Z",
+          "available_at": "2026-10-27T02:25:02.268+0530",
+          "local_source_sha256": "c8b24d016f52e274f856bbedd371a49dc35143696e1868b9c1e381bdda298fee",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "action_d4005b7b72de2ba956ec",
+      "category": "verification_only",
+      "text": "PDF report config change: Hide Include checkmark from CDx, level 2, level 3 sections",
+      "truncated": false,
+      "release_ids": [
+        "release_581183420c5226c1714f"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/batch_033.json",
+          "sha256": "c8b24d016f52e274f856bbedd371a49dc35143696e1868b9c1e381bdda298fee",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-66772",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:35:41.187Z",
+          "available_at": "2026-10-27T02:25:02.268+0530",
+          "local_source_sha256": "c8b24d016f52e274f856bbedd371a49dc35143696e1868b9c1e381bdda298fee",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "action_f9a875aad0243fec98af",
+      "category": "investigation_code",
+      "text": "Update OVAT (v6.8.11): Same as Spree submission RS v4.3.0 https://thermofisher.jfrog.io/ui/native/csd-oncomine-software-maven-prod-local/com/lifetech/oncomine/ovat-off-cycle/ronin/6.8.11/",
+      "truncated": false,
+      "release_ids": [
+        "release_581183420c5226c1714f"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/batch_033.json",
+          "sha256": "c8b24d016f52e274f856bbedd371a49dc35143696e1868b9c1e381bdda298fee",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-66772",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:35:41.187Z",
+          "available_at": "2026-10-27T02:25:02.268+0530",
+          "local_source_sha256": "c8b24d016f52e274f856bbedd371a49dc35143696e1868b9c1e381bdda298fee",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "action_46800db157a17645f1aa",
+      "category": "investigation_code",
+      "text": "PDF change - Update Intended Use and Assay Warnings and Limitations (approved mock report )",
+      "truncated": false,
+      "release_ids": [
+        "release_581183420c5226c1714f"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/batch_033.json",
+          "sha256": "c8b24d016f52e274f856bbedd371a49dc35143696e1868b9c1e381bdda298fee",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-66772",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:35:41.187Z",
+          "available_at": "2026-10-27T02:25:02.268+0530",
+          "local_source_sha256": "c8b24d016f52e274f856bbedd371a49dc35143696e1868b9c1e381bdda298fee",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "action_b2da3e20b23d4414d159",
+      "category": "investigation_code",
+      "text": "Update #22 and #24",
+      "truncated": false,
+      "release_ids": [
+        "release_581183420c5226c1714f"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/batch_033.json",
+          "sha256": "c8b24d016f52e274f856bbedd371a49dc35143696e1868b9c1e381bdda298fee",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-66772",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:35:41.187Z",
+          "available_at": "2026-10-27T02:25:02.268+0530",
+          "local_source_sha256": "c8b24d016f52e274f856bbedd371a49dc35143696e1868b9c1e381bdda298fee",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "action_6cefce09092303923c01",
+      "category": "investigation_code",
+      "text": "PDF change - Hide CDx result section based on cancer type configuration – this was done in RE v3.0.0 ADF",
+      "truncated": false,
+      "release_ids": [
+        "release_581183420c5226c1714f"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/batch_033.json",
+          "sha256": "c8b24d016f52e274f856bbedd371a49dc35143696e1868b9c1e381bdda298fee",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-66772",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:35:41.187Z",
+          "available_at": "2026-10-27T02:25:02.268+0530",
+          "local_source_sha256": "c8b24d016f52e274f856bbedd371a49dc35143696e1868b9c1e381bdda298fee",
+          "source_hash_matches": true
+        }
+      ]
+    }
+  ],
+  "release_associations": [
+    {
+      "id": "release_581183420c5226c1714f",
+      "release_name": "Oncomine™ Dx Express Test - FFPE - RS v5.1.0",
+      "family": "Ronin / Valhalla / ODxET",
+      "adf_revision": "5.1.0",
+      "software_version": null,
+      "workflow_version": null,
+      "release_date": null,
+      "decision_cutoff": null,
+      "cutoff_state": "missing",
+      "variant_scope": [
+        "FFPE"
+      ],
+      "chronology_state": "missing_actual_release_date",
+      "association_state": "listed_or_linked_issue_requires_action_scope_review",
+      "source_url": "https://lsg-thermofisher.atlassian.net/wiki/spaces/IRS/pages/11469110",
+      "sources": [
+        {
+          "path": "data/raw/connected/confluence/page_11469110.json",
+          "sha256": "62f8e9bf03333b6d73d877e1b091e79b596fd9194efcb80cc45c09a38e54372a",
+          "url": "https://lsg-thermofisher.atlassian.net/wiki/spaces/IRS/pages/11469110",
+          "locator": "page:11469110@v53/table:e43b1bf0-1196-4b3b-97b3-518cc0a40228/row:fb497476c0a1",
+          "collected_at": "2026-11-01T03:32:02.734Z",
+          "local_source_sha256": "62f8e9bf03333b6d73d877e1b091e79b596fd9194efcb80cc45c09a38e54372a",
+          "source_hash_matches": true
+        }
+      ]
+    }
+  ],
+  "historical_views": [],
+  "artifact_references": [
+    {
+      "id": "external_3c79d9ae6bc407295eec",
+      "kind": "package_store",
+      "url": "https://thermofisher.jfrog.io/artifactory/csd-oncomine-software-maven-prod/com/lifetech/oncomine/valhalla-spree-ffpe-variant-levels/2026.08.006/valhalla-spree-ffpe-variant-levels-2026.08.006.zip",
+      "state": "pending",
+      "reason": "Needs approved reader/export and relevance review; no Jira credentials forwarded",
+      "mutable_ref": false,
+      "sources": [
+        {
+          "path": "data/raw/connected/jira/batch_033.json",
+          "sha256": "c8b24d016f52e274f856bbedd371a49dc35143696e1868b9c1e381bdda298fee",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-66772",
+          "locator": "fields.description.href",
+          "collected_at": "2026-11-01T03:35:41.187Z",
+          "local_source_sha256": "c8b24d016f52e274f856bbedd371a49dc35143696e1868b9c1e381bdda298fee",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/jira/batch_033.json",
+          "sha256": "c8b24d016f52e274f856bbedd371a49dc35143696e1868b9c1e381bdda298fee",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-66772",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:35:41.187Z",
+          "local_source_sha256": "c8b24d016f52e274f856bbedd371a49dc35143696e1868b9c1e381bdda298fee",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "external_58c990dd5c7b368ec81a",
+      "kind": "package_store",
+      "url": "https://thermofisher.jfrog.io/ui/native/csd-oncomine-software-maven-prod-local/com/lifetech/oncomine/ovat-off-cycle/ronin/6.8.11/",
+      "state": "pending",
+      "reason": "Needs approved reader/export and relevance review; no Jira credentials forwarded",
+      "mutable_ref": false,
+      "sources": [
+        {
+          "path": "data/raw/connected/jira/batch_033.json",
+          "sha256": "c8b24d016f52e274f856bbedd371a49dc35143696e1868b9c1e381bdda298fee",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-66772",
+          "locator": "fields.description.href",
+          "collected_at": "2026-11-01T03:35:41.187Z",
+          "local_source_sha256": "c8b24d016f52e274f856bbedd371a49dc35143696e1868b9c1e381bdda298fee",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/jira/batch_033.json",
+          "sha256": "c8b24d016f52e274f856bbedd371a49dc35143696e1868b9c1e381bdda298fee",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-66772",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:35:41.187Z",
+          "local_source_sha256": "c8b24d016f52e274f856bbedd371a49dc35143696e1868b9c1e381bdda298fee",
+          "source_hash_matches": true
+        }
+      ]
+    }
+  ],
+  "missing_inputs": [
+    {
+      "key": "release_scope",
+      "question": "Which release and variants does each action apply to?",
+      "reason": "Issue listings and related links do not establish action-level scope."
+    },
+    {
+      "key": "exact_change",
+      "question": "What exact target and old/new value or immutable file should be used?",
+      "reason": "Descriptions and proposed labels are not executable instructions."
+    },
+    {
+      "key": "approval",
+      "question": "Who approves this specific new change and where is that approval recorded?",
+      "reason": "Historical statements and merged changes are reference evidence, not new approval."
+    },
+    {
+      "key": "acceptance",
+      "question": "What checks and expected outcomes establish completion?",
+      "reason": "Structural file checks do not establish scientific or physical validation."
+    },
+    {
+      "key": "chronology",
+      "question": "Which decision date and original instructions should govern this review?",
+      "reason": "Current text, edited comments and later instructions must be distinguished."
+    }
+  ],
+  "caveats": [
+    "Source collection is partial; zero displayed records does not prove none exist.",
+    "Current descriptions are retrospective and may have been edited after a release decision.",
+    "Comments are ordered by creation; updated dates are retained and original edited text may be unknown.",
+    "Different dated instructions may apply to different releases; do not collapse them into one instruction.",
+    "Action selection samples up to six per proposed category; all counts describe the cached snapshot.",
+    "Artifact links and issue closure do not establish approval, downloaded bytes or successful validation.",
+    "Sensitive query strings and credential-like text are redacted in this generated review aid.",
+    "No saved source, model, benchmark, plan or evidence export was modified."
+  ],
+  "counts": {
+    "comments_available": 0,
+    "comments_shown": 0,
+    "actions_available": 10,
+    "actions_shown": 10,
+    "action_category_counts": {
+      "verification_only": 2,
+      "investigation_code": 6,
+      "dependency_pin": 1,
+      "approved_file": 1
+    },
+    "releases_available": 1,
+    "releases_shown": 1,
+    "historical_views_available": 0,
+    "historical_views_shown": 0,
+    "artifacts_available": 2,
+    "artifacts_shown": 2,
+    "truncated_comments_shown": 0,
+    "truncated_actions_shown": 0
+  },
+  "source_manifest": [
+    {
+      "path": "/rhome/yanzhu/ML_ADF/adf-sentinel/data/extracted/issues.jsonl",
+      "relative_path": "data/extracted/issues.jsonl",
+      "available": true,
+      "sha256": "d42b9721d27fc197c334e058b27754be628677ec417abb98071f5b0d2c4eb0ed",
+      "bytes": 17212654
+    },
+    {
+      "path": "/rhome/yanzhu/ML_ADF/adf-sentinel/data/labels/weak_actions.jsonl",
+      "relative_path": "data/labels/weak_actions.jsonl",
+      "available": true,
+      "sha256": "3322319863e7e86708ca037a8daa2ad45c81098fb431216251ca8ce152f8029b",
+      "bytes": 8658182
+    },
+    {
+      "path": "/rhome/yanzhu/ML_ADF/adf-sentinel/data/extracted/releases.jsonl",
+      "relative_path": "data/extracted/releases.jsonl",
+      "available": true,
+      "sha256": "ae7eb8ecde5b501e6838f893e3f67f5a227251ff751742c179da820f58653ef2",
+      "bytes": 854613
+    },
+    {
+      "path": "/rhome/yanzhu/ML_ADF/adf-sentinel/data/extracted/historical_issue_views.jsonl",
+      "relative_path": "data/extracted/historical_issue_views.jsonl",
+      "available": true,
+      "sha256": "1f411323e87685cccfb1ff893fdc5a5c0dad6d2301f8984f109c5310ad48b0c4",
+      "bytes": 517562
+    },
+    {
+      "path": "/rhome/yanzhu/ML_ADF/adf-sentinel/data/extracted/external_artifacts.jsonl",
+      "relative_path": "data/extracted/external_artifacts.jsonl",
+      "available": true,
+      "sha256": "0f7d865d9b15537d6dcfe04ac003157f506f1c9ef23c607f7604ab61de14b4fe",
+      "bytes": 6744197
+    }
+  ],
+  "limits": {
+    "description_chars": 10000,
+    "comment_chars": 6000,
+    "comments": 40,
+    "actions": 42,
+    "actions_per_category": 6,
+    "action_chars": 1400,
+    "releases": 12,
+    "history": 6,
+    "history_chars": 2500,
+    "artifacts": 16
+  },
+  "output_files": {
+    "json": "/rhome/yanzhu/ML_ADF/adf-review-workbench/results/packets/IRS-66772.json",
+    "markdown": "/rhome/yanzhu/ML_ADF/adf-review-workbench/results/packets/IRS-66772.md"
+  }
+}

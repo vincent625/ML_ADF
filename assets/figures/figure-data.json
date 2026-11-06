@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-06T19:23:19.221333+00:00",
+  "recorded_run_dates": {
+    "sentinel": "2026-10-31 (America/Los_Angeles)",
+    "workbench": "2026-11-03 (America/Los_Angeles)"
+  },
+  "scope": {
+    "collected_issue_records": 2460,
+    "release_listed_issue_keys": 582,
+    "issue_keys_with_candidate_actions": 550,
+    "unreviewed_excerpts": 4922,
+    "last_stage_changes_unit_from_issues_to_excerpts": true,
+    "interpretation": "Context and software work are included; not a pure ADF-edit corpus."
+  },
+  "action_categories": [
+    {
+      "key": "investigation_code",
+      "label": "Investigation / code",
+      "count": 2513,
+      "percent": 51.05648110524177
+    },
+    {
+      "key": "verification_only",
+      "label": "Verification",
+      "count": 868,
+      "percent": 17.635107679804957
+    },
+    {
+      "key": "parameter_metadata",
+      "label": "Parameter / metadata",
+      "count": 705,
+      "percent": 14.323445753758635
+    },
+    {
+      "key": "approved_file",
+      "label": "File addition / replacement",
+      "count": 414,
+      "percent": 8.411214953271028
+    },
+    {
+      "key": "defer_inherit_block",
+      "label": "Retain / defer / block",
+      "count": 265,
+      "percent": 5.383990247866721
+    },
+    {
+      "key": "dependency_pin",
+      "label": "Dependency version",
+      "count": 144,
+      "percent": 2.9256399837464446
+    },
+    {
+      "key": "shared_sync",
+      "label": "Shared variant change",
+      "count": 13,
+      "percent": 0.26412027631044294
+    }
+  ],
+  "quality_review": {
+    "flagged_excerpts": 197,
+    "counts_by_reason": {
+      "generic_clarification_may_not_be_implementation_action": 2,
+      "jira_fix_version_may_be_administrative": 13,
+      "threshold_without_explicit_hold_word": 182
+    },
+    "interpretation": "Candidates for review; not confirmed wrong labels and not subtracted from totals."
+  },
+  "delivered": {
+    "upstream": {
+      "numbered_requirement_extraction": true,
+      "exact_artifact_name_linking": true,
+      "output_review_state": "pending",
+      "original_tests_directory_present": false,
+      "test_claim": "No original upstream test suite supplied; combined package checks are separate."
+    },
+    "sentinel": {
+      "focused_tests_passed": 31,
+      "real_source_file_replay_actions": 1,
+      "real_structural_checks_passed": 3,
+      "synthetic_actions": 4,
+      "synthetic_checks_passed": 6
+    },
+    "workbench": {
+      "packets": 4,
+      "cached_comments_shown": 20,
+      "pending_drafts": 7,
+      "review_ready": 0,
+      "focused_tests_passed": 45
+    },
+    "unknown_or_pending": {
+      "validated_accuracy": null,
+      "human_time_savings": null,
+      "genuine_adf_assembly": false,
+      "new_approvals": 0
+    }
+  },
+  "source_files": [
+    {
+      "role": "issues",
+      "snapshot_relative_path": "adf-sentinel/data/extracted/issues.jsonl",
+      "sha256": "d42b9721d27fc197c334e058b27754be628677ec417abb98071f5b0d2c4eb0ed",
+      "bytes": 17212654
+    },
+    {
+      "role": "releases",
+      "snapshot_relative_path": "adf-sentinel/data/extracted/releases.jsonl",
+      "sha256": "ae7eb8ecde5b501e6838f893e3f67f5a227251ff751742c179da820f58653ef2",
+      "bytes": 854613
+    },
+    {
+      "role": "actions",
+      "snapshot_relative_path": "adf-sentinel/data/labels/weak_actions.jsonl",
+      "sha256": "3322319863e7e86708ca037a8daa2ad45c81098fb431216251ca8ce152f8029b",
+      "bytes": 8658182
+    },
+    {
+      "role": "sentinel_verification",
+      "snapshot_relative_path": "adf-sentinel/runs/verification/results.json",
+      "sha256": "08151eed6d84b73544d31be8afe2505919ae8d536c6dd1d8932e25c4b1933e4f",
+      "bytes": 2759
+    },
+    {
+      "role": "real_replay",
+      "snapshot_relative_path": "adf-sentinel/runs/sandbox/fb888a2792a7aeea64b5/manifest.json",
+      "sha256": "dc3d234988af901caaa04771ba2739f7e7f07926bd2cbf747d60e74763793e91",
+      "bytes": 2650
+    },
+    {
+      "role": "synthetic_replay",
+      "snapshot_relative_path": "adf-sentinel/runs/sandbox/0b4c92a31b3438a045c8/manifest.json",
+      "sha256": "46f09fb3c2d6d7f10d817c3827a079b99ca37e559418276ecd3895698fc14d56",
+      "bytes": 3701
+    },
+    {
+      "role": "workbench_summary",
+      "snapshot_relative_path": "adf-review-workbench/results/build-summary.json",
+      "sha256": "b8ad52b01eed0dc258028283746b338bb12bbde51294f1eb6ad2aca52a617ba5",
+      "bytes": 265
+    },
+    {
+      "role": "workbench_verification",
+      "snapshot_relative_path": "adf-review-workbench/results/verification/results.json",
+      "sha256": "7b8d4e27e83060279eeaa90ff482439e6abdff3b23b544565c6249ed2abbe77b",
+      "bytes": 2034
+    },
+    {
+      "role": "quality_audit",
+      "snapshot_relative_path": "adf-review-workbench/results/bottlenecks.json",
+      "sha256": "d0bd299ba860f29c5b9d96fc32e2ff688c7130154cf32eef452bc7c688c17160",
+      "bytes": 10901
+    },
+    {
+      "role": "upstream_readme",
+      "snapshot_relative_path": "docs/upstream/README.md",
+      "sha256": "b19ddfe8a4a02dad09a9f7cf82db008ffeb7c3c797f8d096996007268dbb0ed5",
+      "bytes": 959
+    },
+    {
+      "role": "upstream_extractor",
+      "snapshot_relative_path": "src/requirements/extractor.py",
+      "sha256": "4e88975f9b6546d5a29486cee9d0d74e33af7dd85582f54b10c57b0deef4544b",
+      "bytes": 2337
+    },
+    {
+      "role": "upstream_traceability",
+      "snapshot_relative_path": "src/requirements/traceability.py",
+      "sha256": "b9a27dd45fb5bd7cfa19a50664665b093e3185d84b4ae7295d4d27f4313e97f4",
+      "bytes": 1383
+    },
+    {
+      "role": "screenshot",
+      "snapshot_relative_path": "adf-review-workbench/results/verification/evidence-desktop.png",
+      "sha256": "ab7979cefdc23c844f266b4dc3b35724a075750c46deeed108d380aa50953cd5",
+      "bytes": 622086
+    }
+  ],
+  "screenshot": {
+    "file": "workbench-preview.png",
+    "sha256": "ab7979cefdc23c844f266b4dc3b35724a075750c46deeed108d380aa50953cd5",
+    "copied_original_bytes_without_image_editing": true
+  },
+  "caveats": [
+    "Labels are unreviewed, and excerpt counts are not engineer hours.",
+    "Category shares are not validated automation eligibility or savings.",
+    "Local structural checks and fixtures do not establish scientific validation.",
+    "All verification counts are recorded completed runs, not newly rerun suites."
+  ]
+}

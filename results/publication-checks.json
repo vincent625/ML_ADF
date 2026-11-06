@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "text_files_checked": 321,
+  "private_pair_shapes_compared": 21,
+  "source_pair_value_hits": [],
+  "excluded_class_checks": {
+    "raw_source_caches": true,
+    "full_historical_text": true,
+    "fitted_model_binaries": true
+  },
+  "scope": "Known credential-pair shapes from the original historical corpus; not a guarantee about arbitrary secrets. Synthetic credential-redaction test strings are intentional test inputs."
+}

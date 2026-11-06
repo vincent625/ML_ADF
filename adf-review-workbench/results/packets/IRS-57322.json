@@ -1,0 +1,340 @@
+{
+  "schema_version": "1.0",
+  "issue_key": "IRS-57322",
+  "title": "maxSamplePerPool parameter was wrong in OCAv3 Gx6.8 w6.0.0 ADF",
+  "source_url": "https://lsg-thermofisher.atlassian.net/browse/IRS-57322",
+  "generated_at": "2026-11-03T20:21:03.728770+00:00",
+  "source_issue_available": true,
+  "evidence_state": "retrospective_unreviewed_no_new_approval",
+  "current_snapshot": {
+    "description": "The maxSamplesPerPool parameter, which is new for Gx6.8 ADFs, was set mistakenly to 6.\n\nThis maxSamplesPerPool parameter needs to be set to 4 for OCAv3 Gx6.8 w6.0.1 ADF, for Gx5 chip assays, meaning the workflow is for 4 reaction runs.\n\nThis parameter needs to be updated for both \"primer_profile_RNA\" and \"primer_profile_DNA\".\n\nWe should follow OCAplus combo ADF rule to exclude the maxSamplesPerPool parameters from UI downloadable json file to avoid accidental user mistake.",
+    "created": "2025-01-11T02:19:42.000+0530",
+    "updated": "2025-01-22T07:22:51.000+0530",
+    "current_status": "Closed",
+    "source": {
+      "path": "data/raw/connected/jira/batch_028.json",
+      "sha256": "91987e0cd0a2b81b35716dcf00e2430bc692886c44c74c59769c9a80c6adbbe2",
+      "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-57322",
+      "locator": "fields.description",
+      "collected_at": "2026-11-01T03:35:19.036Z",
+      "local_source_sha256": "91987e0cd0a2b81b35716dcf00e2430bc692886c44c74c59769c9a80c6adbbe2",
+      "source_hash_matches": true
+    },
+    "completeness": {
+      "comments": "collected",
+      "comments_reported": 1,
+      "comments_retrieved": 1,
+      "field_mapping": "observed_custom_fields",
+      "fields": "collected_all_available",
+      "history": "collected",
+      "history_reported": 13,
+      "history_retrieved": 13,
+      "remote_links": "collected"
+    },
+    "description_truncated": false
+  },
+  "timeline": [
+    {
+      "id": "1571093",
+      "created": "2025-01-22T07:22:36.000+0530",
+      "updated": "2025-01-22T07:22:36.000+0530",
+      "text": "Verified with OCAv3 Gx6.8 w6.0.2 Combo ADF that the maxSamplePerPool parameter was updated to 4 for both \"primer_profile_RNA\" and \"primer_profile_DNA\" and the parameter was hidden from UI downloadable json file. \n1. maxSamplePerPool hidden from UI downloadable json file.\n\n\n\n\n2. maxSamplePerPool parameter was updated to 4 for both \"primer_profile_RNA\" and \"primer_profile_DNA\" in three ADFs in Database.",
+      "truncated": false,
+      "source": {
+        "path": "data/raw/connected/jira/batch_028.json",
+        "sha256": "91987e0cd0a2b81b35716dcf00e2430bc692886c44c74c59769c9a80c6adbbe2",
+        "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-57322?focusedCommentId=1571093",
+        "locator": "issue:IRS-57322/comment:1571093",
+        "collected_at": "2026-11-01T03:35:19.036Z",
+        "local_source_sha256": "91987e0cd0a2b81b35716dcf00e2430bc692886c44c74c59769c9a80c6adbbe2",
+        "source_hash_matches": true
+      }
+    }
+  ],
+  "proposed_actions": [
+    {
+      "id": "action_6db0110fb38a44f3ad23",
+      "category": "parameter_metadata",
+      "text": "The maxSamplesPerPool parameter, which is new for Gx6.8 ADFs, was set mistakenly to 6.",
+      "truncated": false,
+      "release_ids": [
+        "release_5e99561e6d717e435ff0"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/batch_028.json",
+          "sha256": "91987e0cd0a2b81b35716dcf00e2430bc692886c44c74c59769c9a80c6adbbe2",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-57322",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:35:19.036Z",
+          "available_at": "2025-01-22T07:22:51.000+0530",
+          "local_source_sha256": "91987e0cd0a2b81b35716dcf00e2430bc692886c44c74c59769c9a80c6adbbe2",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "action_c049fc693a59161558a2",
+      "category": "shared_sync",
+      "text": "This parameter needs to be updated for both \"primer_profile_RNA\" and \"primer_profile_DNA\".",
+      "truncated": false,
+      "release_ids": [
+        "release_5e99561e6d717e435ff0"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/batch_028.json",
+          "sha256": "91987e0cd0a2b81b35716dcf00e2430bc692886c44c74c59769c9a80c6adbbe2",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-57322",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:35:19.036Z",
+          "available_at": "2025-01-22T07:22:51.000+0530",
+          "local_source_sha256": "91987e0cd0a2b81b35716dcf00e2430bc692886c44c74c59769c9a80c6adbbe2",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "action_801b605ae3137db0e440",
+      "category": "parameter_metadata",
+      "text": "This maxSamplesPerPool parameter needs to be set to 4 for OCAv3 Gx6.8 w6.0.1 ADF, for Gx5 chip assays, meaning the workflow is for 4 reaction runs.",
+      "truncated": false,
+      "release_ids": [
+        "release_5e99561e6d717e435ff0"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/batch_028.json",
+          "sha256": "91987e0cd0a2b81b35716dcf00e2430bc692886c44c74c59769c9a80c6adbbe2",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-57322",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:35:19.036Z",
+          "available_at": "2025-01-22T07:22:51.000+0530",
+          "local_source_sha256": "91987e0cd0a2b81b35716dcf00e2430bc692886c44c74c59769c9a80c6adbbe2",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "action_000963b02776db270ce3",
+      "category": "shared_sync",
+      "text": "Verified with OCAv3 Gx6.8 w6.0.2 Combo ADF that the maxSamplePerPool parameter was updated to 4 for both \"primer_profile_RNA\" and \"primer_profile_DNA\" and the parameter was hidden from UI downloadable json file.",
+      "truncated": false,
+      "release_ids": [
+        "release_5e99561e6d717e435ff0"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/batch_028.json",
+          "sha256": "91987e0cd0a2b81b35716dcf00e2430bc692886c44c74c59769c9a80c6adbbe2",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-57322?focusedCommentId=1571093",
+          "locator": "issue:IRS-57322/comment:1571093",
+          "collected_at": "2026-11-01T03:35:19.036Z",
+          "available_at": "2025-01-22T07:22:36.000+0530",
+          "local_source_sha256": "91987e0cd0a2b81b35716dcf00e2430bc692886c44c74c59769c9a80c6adbbe2",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "action_f333a7fcb358a954350f",
+      "category": "shared_sync",
+      "text": "2. maxSamplePerPool parameter was updated to 4 for both \"primer_profile_RNA\" and \"primer_profile_DNA\" in three ADFs in Database.",
+      "truncated": false,
+      "release_ids": [
+        "release_5e99561e6d717e435ff0"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/batch_028.json",
+          "sha256": "91987e0cd0a2b81b35716dcf00e2430bc692886c44c74c59769c9a80c6adbbe2",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-57322?focusedCommentId=1571093",
+          "locator": "issue:IRS-57322/comment:1571093",
+          "collected_at": "2026-11-01T03:35:19.036Z",
+          "available_at": "2025-01-22T07:22:36.000+0530",
+          "local_source_sha256": "91987e0cd0a2b81b35716dcf00e2430bc692886c44c74c59769c9a80c6adbbe2",
+          "source_hash_matches": true
+        }
+      ]
+    }
+  ],
+  "release_associations": [
+    {
+      "id": "release_5e99561e6d717e435ff0",
+      "release_name": "Oncomine Comprehensive v3 - GX5 - DNA and Fusions - w6.0.2",
+      "family": "OCAv3",
+      "adf_revision": null,
+      "software_version": "6.8",
+      "workflow_version": "6.0.2",
+      "release_date": null,
+      "decision_cutoff": "2025-01-21T21:42:53+00:00",
+      "cutoff_state": "proxy_requires_confirmation",
+      "variant_scope": [
+        "DNA",
+        "Fusion/RNA"
+      ],
+      "chronology_state": "missing_actual_release_date",
+      "association_state": "listed_or_linked_issue_requires_action_scope_review",
+      "source_url": "https://lsg-thermofisher.atlassian.net/wiki/spaces/IRS/pages/12457219",
+      "sources": [
+        {
+          "path": "data/raw/connected/confluence/page_12457219.json",
+          "sha256": "091d28259cab5843da70cdc99254e6ef6eccd7c6366d88db5152cdccf621dbc1",
+          "url": "https://lsg-thermofisher.atlassian.net/wiki/spaces/IRS/pages/12457219",
+          "locator": "page:12457219@v7/table:edb59938-7c83-44a0-9c8a-2f3df1304710/row:bdf4e9f9-c151-42ba-bac6-02f2c5571f7e",
+          "collected_at": "2026-11-01T03:31:48.381Z",
+          "local_source_sha256": "091d28259cab5843da70cdc99254e6ef6eccd7c6366d88db5152cdccf621dbc1",
+          "source_hash_matches": true
+        }
+      ]
+    }
+  ],
+  "historical_views": [
+    {
+      "release_id": "release_5e99561e6d717e435ff0",
+      "cutoff": "2025-01-21T21:42:53+00:00",
+      "cutoff_state": "proxy_requires_confirmation",
+      "state": "point_in_time_partial",
+      "excluded": [
+        "summary: historical text not proven",
+        "description: historical text not proven",
+        "comment:1571093: post-cutoff/edited/unknown"
+      ],
+      "text": "",
+      "truncated": false,
+      "source": {
+        "path": "data/raw/connected/jira/batch_028.json",
+        "sha256": "91987e0cd0a2b81b35716dcf00e2430bc692886c44c74c59769c9a80c6adbbe2",
+        "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-57322",
+        "locator": "fields.description",
+        "collected_at": "2026-11-01T03:35:19.036Z",
+        "local_source_sha256": "91987e0cd0a2b81b35716dcf00e2430bc692886c44c74c59769c9a80c6adbbe2",
+        "source_hash_matches": true
+      }
+    }
+  ],
+  "artifact_references": [],
+  "missing_inputs": [
+    {
+      "key": "release_scope",
+      "question": "Which release and variants does each action apply to?",
+      "reason": "Issue listings and related links do not establish action-level scope."
+    },
+    {
+      "key": "exact_change",
+      "question": "What exact target and old/new value or immutable file should be used?",
+      "reason": "Descriptions and proposed labels are not executable instructions."
+    },
+    {
+      "key": "approval",
+      "question": "Who approves this specific new change and where is that approval recorded?",
+      "reason": "Historical statements and merged changes are reference evidence, not new approval."
+    },
+    {
+      "key": "acceptance",
+      "question": "What checks and expected outcomes establish completion?",
+      "reason": "Structural file checks do not establish scientific or physical validation."
+    },
+    {
+      "key": "chronology",
+      "question": "Which decision date and original instructions should govern this review?",
+      "reason": "Current text, edited comments and later instructions must be distinguished."
+    }
+  ],
+  "caveats": [
+    "Source collection is partial; zero displayed records does not prove none exist.",
+    "Current descriptions are retrospective and may have been edited after a release decision.",
+    "Comments are ordered by creation; updated dates are retained and original edited text may be unknown.",
+    "Different dated instructions may apply to different releases; do not collapse them into one instruction.",
+    "Action selection samples up to six per proposed category; all counts describe the cached snapshot.",
+    "Artifact links and issue closure do not establish approval, downloaded bytes or successful validation.",
+    "Sensitive query strings and credential-like text are redacted in this generated review aid.",
+    "No saved source, model, benchmark, plan or evidence export was modified."
+  ],
+  "counts": {
+    "comments_available": 1,
+    "comments_shown": 1,
+    "actions_available": 5,
+    "actions_shown": 5,
+    "action_category_counts": {
+      "parameter_metadata": 2,
+      "shared_sync": 3
+    },
+    "releases_available": 1,
+    "releases_shown": 1,
+    "historical_views_available": 1,
+    "historical_views_shown": 1,
+    "artifacts_available": 0,
+    "artifacts_shown": 0,
+    "truncated_comments_shown": 0,
+    "truncated_actions_shown": 0
+  },
+  "source_manifest": [
+    {
+      "path": "/rhome/yanzhu/ML_ADF/adf-sentinel/data/extracted/issues.jsonl",
+      "relative_path": "data/extracted/issues.jsonl",
+      "available": true,
+      "sha256": "d42b9721d27fc197c334e058b27754be628677ec417abb98071f5b0d2c4eb0ed",
+      "bytes": 17212654
+    },
+    {
+      "path": "/rhome/yanzhu/ML_ADF/adf-sentinel/data/labels/weak_actions.jsonl",
+      "relative_path": "data/labels/weak_actions.jsonl",
+      "available": true,
+      "sha256": "3322319863e7e86708ca037a8daa2ad45c81098fb431216251ca8ce152f8029b",
+      "bytes": 8658182
+    },
+    {
+      "path": "/rhome/yanzhu/ML_ADF/adf-sentinel/data/extracted/releases.jsonl",
+      "relative_path": "data/extracted/releases.jsonl",
+      "available": true,
+      "sha256": "ae7eb8ecde5b501e6838f893e3f67f5a227251ff751742c179da820f58653ef2",
+      "bytes": 854613
+    },
+    {
+      "path": "/rhome/yanzhu/ML_ADF/adf-sentinel/data/extracted/historical_issue_views.jsonl",
+      "relative_path": "data/extracted/historical_issue_views.jsonl",
+      "available": true,
+      "sha256": "1f411323e87685cccfb1ff893fdc5a5c0dad6d2301f8984f109c5310ad48b0c4",
+      "bytes": 517562
+    },
+    {
+      "path": "/rhome/yanzhu/ML_ADF/adf-sentinel/data/extracted/external_artifacts.jsonl",
+      "relative_path": "data/extracted/external_artifacts.jsonl",
+      "available": true,
+      "sha256": "0f7d865d9b15537d6dcfe04ac003157f506f1c9ef23c607f7604ab61de14b4fe",
+      "bytes": 6744197
+    }
+  ],
+  "limits": {
+    "description_chars": 10000,
+    "comment_chars": 6000,
+    "comments": 40,
+    "actions": 42,
+    "actions_per_category": 6,
+    "action_chars": 1400,
+    "releases": 12,
+    "history": 6,
+    "history_chars": 2500,
+    "artifacts": 16
+  },
+  "output_files": {
+    "json": "/rhome/yanzhu/ML_ADF/adf-review-workbench/results/packets/IRS-57322.json",
+    "markdown": "/rhome/yanzhu/ML_ADF/adf-review-workbench/results/packets/IRS-57322.md"
+  }
+}

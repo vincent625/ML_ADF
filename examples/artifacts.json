@@ -1,0 +1,16 @@
+[
+  {
+    "name": "TmapExecutionActor.ini",
+    "source": "../adf-sentinel/data/source_replay/approved/SeedData/AssayDev/assay/dna/parameters/TmapExecutionActor.ini",
+    "checksum": null,
+    "owner": null,
+    "release_targets": []
+  },
+  {
+    "name": "Oncomine_Focus_v2.20260625.hotspots.bed",
+    "source": "https://github.com/thermofisher/csd-motorcore-config-files/blob/main/Motorhead/Oncomine_Focus_v2.20260625.hotspots.bed",
+    "checksum": null,
+    "owner": null,
+    "release_targets": []
+  }
+]

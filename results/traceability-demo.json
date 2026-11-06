@@ -1,0 +1,53 @@
+{
+  "release_id": "IRS-65265-DEMO",
+  "version": "v0.0.3",
+  "requirements": [
+    {
+      "id": "REQ-001",
+      "statement": "Review the historical TmapExecutionActor.ini change that removes the repair-min-freq option.",
+      "source": "ticket:1 (line 7)",
+      "bundle_components": [
+        "TmapExecutionActor.ini"
+      ],
+      "dependencies": [],
+      "mapped_tests": [],
+      "ambiguities": [],
+      "approval_status": "pending"
+    },
+    {
+      "id": "REQ-002",
+      "statement": "Review use of Oncomine_Focus_v2.20260625.hotspots.bed for the intended release.",
+      "source": "ticket:2 (line 8)",
+      "bundle_components": [
+        "Oncomine_Focus_v2.20260625.hotspots.bed"
+      ],
+      "dependencies": [],
+      "mapped_tests": [],
+      "ambiguities": [],
+      "approval_status": "pending"
+    },
+    {
+      "id": "REQ-003",
+      "statement": "Confirm whether retaining VariantCallerActor.run=1 applies to the intended revision.",
+      "source": "ticket:3 (line 9)",
+      "bundle_components": [],
+      "dependencies": [],
+      "mapped_tests": [],
+      "ambiguities": [
+        "Unstructured detail requires review (line 11): The mutable hotspot source still needs an immutable revision and verified bytes.",
+        "Unstructured detail requires review (line 12): Confirm release scope, affected variants, exact values, and acceptance tests.",
+        "Unstructured detail requires review (line 15): https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+        "Unstructured detail requires review (line 16): https://lsg-thermofisher.atlassian.net/browse/IRS-65265?focusedCommentId=2899737",
+        "Unstructured detail requires review (line 17): https://lsg-thermofisher.atlassian.net/browse/IRS-65265?focusedCommentId=2912743",
+        "No controlled bundle artifact was matched; engineer review required"
+      ],
+      "approval_status": "pending"
+    }
+  ],
+  "unresolved_items": [
+    "REQ-001 has no mapped test",
+    "REQ-002 has no mapped test",
+    "REQ-003 has no mapped test"
+  ],
+  "approval_status": "pending"
+}

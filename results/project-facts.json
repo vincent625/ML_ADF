@@ -1,0 +1,120 @@
+{
+  "prepared_at": "2026-11-06T11:26:29-08:00",
+  "upstream": {
+    "implemented": "numbered_markdown_requirements_and_name_traceability",
+    "upstream_test_suite_present": false
+  },
+  "corpus": {
+    "confluence_pages": 79,
+    "release_identities": 287,
+    "assay_families": 18,
+    "collected_jira_issues": 2460,
+    "release_associated_issues": 582,
+    "issues_with_proposed_excerpts": 550,
+    "proposed_excerpts": 4922,
+    "reviewed_labels": 0,
+    "adf_development_only_confirmed": false,
+    "collection_complete": false
+  },
+  "category_counts": [
+    {
+      "key": "investigation_code",
+      "count": 2513,
+      "percent": 51.05648110524177
+    },
+    {
+      "key": "verification_only",
+      "count": 868,
+      "percent": 17.635107679804957
+    },
+    {
+      "key": "parameter_metadata",
+      "count": 705,
+      "percent": 14.323445753758635
+    },
+    {
+      "key": "approved_file",
+      "count": 414,
+      "percent": 8.411214953271028
+    },
+    {
+      "key": "defer_inherit_block",
+      "count": 265,
+      "percent": 5.383990247866721
+    },
+    {
+      "key": "dependency_pin",
+      "count": 144,
+      "percent": 2.9256399837464446
+    },
+    {
+      "key": "shared_sync",
+      "count": 13,
+      "percent": 0.26412027631044294
+    }
+  ],
+  "model_results": {
+    "actual_exploratory_fits": 4,
+    "weak_training_rows": 4117,
+    "recorded_advisory_predictions": 418,
+    "automatic_eligible_predictions": 0,
+    "strict_eligible_actions": 0,
+    "held_out_accuracy": null,
+    "validated_winner": null,
+    "model_binaries_in_upload": false
+  },
+  "local_replay": {
+    "real_source_files": 1,
+    "real_checks_passed": 3,
+    "synthetic_operations": 4,
+    "synthetic_checks_passed": 6,
+    "genuine_adf_assembled": false
+  },
+  "workbench": {
+    "packets": 4,
+    "comments_shown": 20,
+    "actions_shown": 39,
+    "actions_available": 65,
+    "drafts": 7,
+    "review_ready": 0,
+    "new_approvals": 0,
+    "executed_changes": 0,
+    "flagged_excerpts": 197,
+    "measured_minutes_saved": null,
+    "preservation": "passed"
+  },
+  "recorded_component_tests": {
+    "sentinel": 31,
+    "workbench": 45,
+    "synthetic_evidence_lab": 23
+  },
+  "measured_engineer_minutes_saved": null,
+  "source_input_provenance": [
+    {
+      "original_relative_path": "adf-sentinel/data/extracted/issues.jsonl",
+      "sha256": "d42b9721d27fc197c334e058b27754be628677ec417abb98071f5b0d2c4eb0ed",
+      "included_as_full_input": false
+    },
+    {
+      "original_relative_path": "adf-sentinel/data/labels/weak_actions.jsonl",
+      "sha256": "3322319863e7e86708ca037a8daa2ad45c81098fb431216251ca8ce152f8029b",
+      "included_as_full_input": false
+    },
+    {
+      "original_relative_path": "adf-sentinel/data/extracted/releases.jsonl",
+      "sha256": "ae7eb8ecde5b501e6838f893e3f67f5a227251ff751742c179da820f58653ef2",
+      "included_as_full_input": false
+    },
+    {
+      "original_relative_path": "adf-sentinel/runs/verification/results.json",
+      "sha256": "08151eed6d84b73544d31be8afe2505919ae8d536c6dd1d8932e25c4b1933e4f",
+      "included_as_full_input": true
+    },
+    {
+      "original_relative_path": "adf-review-workbench/results/verification/results.json",
+      "sha256": "7b8d4e27e83060279eeaa90ff482439e6abdff3b23b544565c6249ed2abbe77b",
+      "included_as_full_input": true
+    }
+  ],
+  "interpretation": "Category counts are unreviewed excerpt counts, not effort hours, validated automation eligibility or pure ADF edits. Original source inputs are required to recompute excluded private corpus."
+}

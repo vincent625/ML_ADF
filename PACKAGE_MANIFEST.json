@@ -1,0 +1,2788 @@
+{
+  "prepared_at": "2026-11-06T12:57:34-08:00",
+  "scope": "Curated upload repository; this manifest hashes all delivered files except itself. Original campaign hashes remain dated reference evidence for excluded private inputs.",
+  "file_count": 556,
+  "total_file_bytes": 16002211,
+  "files": [
+    {
+      "path": ".env.example",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 589,
+      "sha256": "c05e65d5a7ab7f63cd81381067646f4827a0838f7d3b6b69529870bd855bcf3d"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1210,
+      "sha256": "90a1a3f073eb6150cb381e9fe05fa1a39c39e2275229341ac4751dc82087f840"
+    },
+    {
+      "path": "BROWSER_UPLOAD.md",
+      "bytes": 2000,
+      "sha256": "6cb1b66a5a025153d47d0f7ce61c1a86e998cbef1a96eaf160ed648f18e02d0d"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 937,
+      "sha256": "635496624ccf7817044bca05b3eb3f9257f52ef11551a6dc031725d75f824548"
+    },
+    {
+      "path": "PACKAGE_SCOPE.md",
+      "bytes": 3651,
+      "sha256": "92c3d3be588387c77caf29d61b06171c9d01ae00ab7805e121e72755e5bfec64"
+    },
+    {
+      "path": "README.md",
+      "bytes": 14332,
+      "sha256": "e6bda467a2c274c88c22dca318ba78809039f497f84e2a22530a359232ac2352"
+    },
+    {
+      "path": "adf-review-workbench/EVIDENCE.md",
+      "bytes": 2686,
+      "sha256": "b9d947ec709505bc3e49bc5388212c42ef8f2c8a3bda37b696e65e184347d09c"
+    },
+    {
+      "path": "adf-review-workbench/INTAKE.md",
+      "bytes": 3982,
+      "sha256": "18bae7bbbab41140d8b83653b065c97d48722f998bffd96d749a886076a6cddf"
+    },
+    {
+      "path": "adf-review-workbench/PILOT.md",
+      "bytes": 3630,
+      "sha256": "b676e1b98923a484661b9f763d0d0ba0fb98e2892b85aaf30a2440c5b82808c6"
+    },
+    {
+      "path": "adf-review-workbench/README.md",
+      "bytes": 4048,
+      "sha256": "f7c6a0e4676f3515d63c64c268e4642d34708a218890311b3c859b17ac883f04"
+    },
+    {
+      "path": "adf-review-workbench/RESULTS.md",
+      "bytes": 2200,
+      "sha256": "895bf74fe6b7bd9ffb75ca1af14114ebdb3b94a82325e2e07a84589b1f23d283"
+    },
+    {
+      "path": "adf-review-workbench/bottlenecks.py",
+      "bytes": 17800,
+      "sha256": "98c3350a242d0555f47d12d95d26575c23788eae388a0cf5777ab6b287aa3026"
+    },
+    {
+      "path": "adf-review-workbench/browser_check.py",
+      "bytes": 6598,
+      "sha256": "932c2df8c0fc22d01f0e82f776d30f20735290b5b4fbc0047cfefef6796cfe62"
+    },
+    {
+      "path": "adf-review-workbench/build_workbench.py",
+      "bytes": 7764,
+      "sha256": "9a14adfdc77340d41b0ef6a0723b7fd4b4dacc8ddada71a548f2395082a62986"
+    },
+    {
+      "path": "adf-review-workbench/evidence_packets.py",
+      "bytes": 19492,
+      "sha256": "3a27539cb15f61fcd2fd5fe84c75ecc19fcf225b30c84fe389c6a1745888c5f3"
+    },
+    {
+      "path": "adf-review-workbench/intake.py",
+      "bytes": 16396,
+      "sha256": "b831f54eae6f25af17f56ad07e8908ffe1888b42e37cbd1f0571a81b19282bcf"
+    },
+    {
+      "path": "adf-review-workbench/preservation.py",
+      "bytes": 2529,
+      "sha256": "e8bb8275ae4865e3ca1e31e06a5de95992340b20d78877b275c37dbfcbab4ad3"
+    },
+    {
+      "path": "adf-review-workbench/results/bottlenecks.json",
+      "bytes": 10901,
+      "sha256": "d0bd299ba860f29c5b9d96fc32e2ff688c7130154cf32eef452bc7c688c17160"
+    },
+    {
+      "path": "adf-review-workbench/results/bottlenecks.md",
+      "bytes": 5584,
+      "sha256": "140eecd2fa7e46779db8211d0b7319b7fc47afd7779ce61b034f3183ee69d7cb"
+    },
+    {
+      "path": "adf-review-workbench/results/build-summary.json",
+      "bytes": 265,
+      "sha256": "b8ad52b01eed0dc258028283746b338bb12bbde51294f1eb6ad2aca52a617ba5"
+    },
+    {
+      "path": "adf-review-workbench/results/draft-records.json",
+      "bytes": 14765,
+      "sha256": "b0a35a37267d27f43dfa9308d80bc5e8962bcc7274cf271cd946fae05877dda9"
+    },
+    {
+      "path": "adf-review-workbench/results/packets/IRS-29057.json",
+      "bytes": 24758,
+      "sha256": "847a0f2c675e80fc4eb83b32e88b771b2be56b0656f8522d8201d571d99c8975"
+    },
+    {
+      "path": "adf-review-workbench/results/packets/IRS-29057.md",
+      "bytes": 9351,
+      "sha256": "3cc04b24907bec62274f1c30d9357ced937081b356680dbe6230ed6421d210ca"
+    },
+    {
+      "path": "adf-review-workbench/results/packets/IRS-57322.json",
+      "bytes": 14749,
+      "sha256": "ea79e5034d6f82728d4de728e8a57c82552971bec06173deeca151038f98e342"
+    },
+    {
+      "path": "adf-review-workbench/results/packets/IRS-57322.md",
+      "bytes": 5687,
+      "sha256": "19f09c6c4c81f84584ad7f91fffa775664d7f46b6110659c531b63a0e17c9739"
+    },
+    {
+      "path": "adf-review-workbench/results/packets/IRS-65265.json",
+      "bytes": 95237,
+      "sha256": "6774b678e118cd9f95eb9b2b882781178efb23af48da9b9e913295f4b59abcf4"
+    },
+    {
+      "path": "adf-review-workbench/results/packets/IRS-65265.md",
+      "bytes": 40383,
+      "sha256": "90bb6f33d5e61d28e6c97bdcdb25d217df9c6d792429821160bcc2732639b600"
+    },
+    {
+      "path": "adf-review-workbench/results/packets/IRS-66772.json",
+      "bytes": 20955,
+      "sha256": "e3a5dbb163d56ccd0bfb3a41026b9b876b4065dcc0cc38ee1fbbc42b8a18da69"
+    },
+    {
+      "path": "adf-review-workbench/results/packets/IRS-66772.md",
+      "bytes": 7085,
+      "sha256": "88aca3a1cde95c7fd4ed131a16eaeabb178af378d17d271c0363d7f64ec270c6"
+    },
+    {
+      "path": "adf-review-workbench/results/packets/index.json",
+      "bytes": 5229,
+      "sha256": "bbca0f7a6ec4b8ef893374ef502089483cc424898ad41f7fa189c566fb0f4bec"
+    },
+    {
+      "path": "adf-review-workbench/results/preservation-baseline.json",
+      "bytes": 48180,
+      "sha256": "013e6e495f7ce545a9873ad9a63dfe5855c626e80f646e96c56e5fa542850aef"
+    },
+    {
+      "path": "adf-review-workbench/results/preservation.json",
+      "bytes": 225,
+      "sha256": "a3a28b3d05b8a34b8766fc93df768ed19d8c6355817d559ff3ec9cf18d74a14f"
+    },
+    {
+      "path": "adf-review-workbench/results/verification/browser.json",
+      "bytes": 917,
+      "sha256": "7584b10c75236c35d52be8c9a15df01529bd1c97acac4f9fff686e6081794b20"
+    },
+    {
+      "path": "adf-review-workbench/results/verification/evidence-desktop.png",
+      "bytes": 622086,
+      "sha256": "ab7979cefdc23c844f266b4dc3b35724a075750c46deeed108d380aa50953cd5"
+    },
+    {
+      "path": "adf-review-workbench/results/verification/intake-desktop.png",
+      "bytes": 230462,
+      "sha256": "640f854491c72328371498c76548f8bb0e8c502c7106bcfd251ea2e4ac49bfa4"
+    },
+    {
+      "path": "adf-review-workbench/results/verification/results.json",
+      "bytes": 2034,
+      "sha256": "7b8d4e27e83060279eeaa90ff482439e6abdff3b23b544565c6249ed2abbe77b"
+    },
+    {
+      "path": "adf-review-workbench/results/verification/team-results-desktop.png",
+      "bytes": 317766,
+      "sha256": "f0bfeb99bda447f1b8b99638b74bf0fe85c0b9487d91ffee00b3e514ef176a8e"
+    },
+    {
+      "path": "adf-review-workbench/results/verification/team-results-mobile.png",
+      "bytes": 342302,
+      "sha256": "b1ebebc60fb48f8a1625d30c9a5b2d8d8868fe190326c8e23075df64d66bcdc3"
+    },
+    {
+      "path": "adf-review-workbench/results/verification/unit.json",
+      "bytes": 282,
+      "sha256": "6e6d9cbead04361ad972917b03c053374626ef26fe05d6e13c3c8cfd9c9e8c4f"
+    },
+    {
+      "path": "adf-review-workbench/results/workbench-data.json",
+      "bytes": 194919,
+      "sha256": "d1789213d55939761e0e77676a43653f5e11c334810a4c094ec1a58875d4f313"
+    },
+    {
+      "path": "adf-review-workbench/serve.py",
+      "bytes": 4606,
+      "sha256": "f5dc965eb8075e8b82b597184ab401caff8a68d15247954eb197cad63bad189b"
+    },
+    {
+      "path": "adf-review-workbench/templates/change_record.json",
+      "bytes": 604,
+      "sha256": "2a824cfa27d4838c86bac8eaffaced933fb2cec2b1ecc6d11392a52aecbbf41c"
+    },
+    {
+      "path": "adf-review-workbench/templates/time_observations.csv",
+      "bytes": 241,
+      "sha256": "26b5a559268a7774c04f71aa1720e8555406fc60e725b7310b74fd398a6a1b57"
+    },
+    {
+      "path": "adf-review-workbench/tests/test_bottlenecks.py",
+      "bytes": 9949,
+      "sha256": "dccd89d00525b6640ad058a3e1830403e0a0c8a4457b5ffdee95c012cb19d67a"
+    },
+    {
+      "path": "adf-review-workbench/tests/test_cross_review.py",
+      "bytes": 3762,
+      "sha256": "14362fd2c819dbd1515b263d77fa774a9167946f7a23a83481bf73f372ba5360"
+    },
+    {
+      "path": "adf-review-workbench/tests/test_evidence_packets.py",
+      "bytes": 6775,
+      "sha256": "98241f71d7130371c7ebbb16d9264ff73984e7fbde06a26bd73b49943c7292d2"
+    },
+    {
+      "path": "adf-review-workbench/tests/test_intake.py",
+      "bytes": 8613,
+      "sha256": "45b618bc84f854643eac793d2685b7998fa070439b6d420fe3b490cea76f0857"
+    },
+    {
+      "path": "adf-review-workbench/tests/test_server.py",
+      "bytes": 9006,
+      "sha256": "90d6ea8cf14d88acc5d6ea4ebed9a3799715a072986caa1a8ed49e0814ce6c12"
+    },
+    {
+      "path": "adf-review-workbench/ui.html",
+      "bytes": 25848,
+      "sha256": "a897a1dd5e3dbaf89046486a8e3badfcd7c81401a200e998056b92dff66dc5bb"
+    },
+    {
+      "path": "adf-review-workbench/workbench.html",
+      "bytes": 183856,
+      "sha256": "1261ebab2464247bddc4a9cf69a5c4dfb5aa107a092dcef5546a640b77f9e29b"
+    },
+    {
+      "path": "adf-sentinel/DEMO_10_MIN.md",
+      "bytes": 10600,
+      "sha256": "12dbb5d55c1871b15a3c150aa18e103761240f2251e5cf5abca1d85bc672cb7e"
+    },
+    {
+      "path": "adf-sentinel/README.md",
+      "bytes": 12341,
+      "sha256": "90ab8f9aa98fd0e0e154d541660fb9eb8a0572d84584e6672554749be424877c"
+    },
+    {
+      "path": "adf-sentinel/RUN_REPORT.md",
+      "bytes": 7711,
+      "sha256": "7453bbfe6f255f3c8a755b239f7d36b8d6c733e99b37212a3060ad3ce39f306d"
+    },
+    {
+      "path": "adf-sentinel/adf_sentinel/__init__.py",
+      "bytes": 109,
+      "sha256": "2e491a91143022ecbeff4e7f9f722ba77e51fa53aaff19280c0997f5d9cc4979"
+    },
+    {
+      "path": "adf-sentinel/adf_sentinel/__main__.py",
+      "bytes": 29,
+      "sha256": "cf7390a2508a0fcad4777a4a629fc5212ab655cb45845975995f835676a834e3"
+    },
+    {
+      "path": "adf-sentinel/adf_sentinel/artifacts.py",
+      "bytes": 8801,
+      "sha256": "8a963d4ccd53770bdcf201f8bb805a791b6d2f1adee5ab79b33c55438eac688b"
+    },
+    {
+      "path": "adf-sentinel/adf_sentinel/audit.py",
+      "bytes": 9658,
+      "sha256": "7d8cbf4c789f0798996ae2246e7f47b38c87f8bc2daf822fca763df8b23ef3d6"
+    },
+    {
+      "path": "adf-sentinel/adf_sentinel/cli.py",
+      "bytes": 5603,
+      "sha256": "c813040a85dd79762b8c18a953134183c807efd5f66e1c13f708505bfa2ea517"
+    },
+    {
+      "path": "adf-sentinel/adf_sentinel/collect.py",
+      "bytes": 8776,
+      "sha256": "bc50cd8b03296d7a437423a0e28b87b31f2bd1ef2d8b826f3f3f17995bcacdb7"
+    },
+    {
+      "path": "adf-sentinel/adf_sentinel/common.py",
+      "bytes": 7793,
+      "sha256": "dd304a5fcb65b799bf49d063d6d965b32080d02c5e8409b3db9f88119d58e311"
+    },
+    {
+      "path": "adf-sentinel/adf_sentinel/dataset.py",
+      "bytes": 66147,
+      "sha256": "de2b4966a9e9d914562c6c6f3b05c0a122a47e8c7aa9b6b115ead4cc39463fdf"
+    },
+    {
+      "path": "adf-sentinel/adf_sentinel/effort.py",
+      "bytes": 4211,
+      "sha256": "ff51e9c769a690906957326583a216f35bd4eb5242bcf02039e680923c373c23"
+    },
+    {
+      "path": "adf-sentinel/adf_sentinel/handoff.py",
+      "bytes": 14073,
+      "sha256": "9f4a95809b7e977bd51bd5d398eeafad9a29e8aa5525ab254f6d0cb0e804479f"
+    },
+    {
+      "path": "adf-sentinel/adf_sentinel/learning.py",
+      "bytes": 21118,
+      "sha256": "7d109a634ab683b54ed6d2d28957171c1ed86bc116f5249de6cbf9bee8845a92"
+    },
+    {
+      "path": "adf-sentinel/adf_sentinel/plans.py",
+      "bytes": 20478,
+      "sha256": "3c91ed03b50d06a3273b5da84027fbc103daf789da5c98cbdf481b9f4cc5069f"
+    },
+    {
+      "path": "adf-sentinel/adf_sentinel/predictor.py",
+      "bytes": 3092,
+      "sha256": "bd65a86b66fe40e7803c87a6496b4d09511c5d129380514557208eb5352d22af"
+    },
+    {
+      "path": "adf-sentinel/adf_sentinel/server.py",
+      "bytes": 13198,
+      "sha256": "8479c26505518b95c170cdcbb48e9b5040554a46d7aa7c77093dd49cb0f7d439"
+    },
+    {
+      "path": "adf-sentinel/config/connected_attachments.json",
+      "bytes": 8401,
+      "sha256": "90155a6745970d1be15dda5c106199b902ccabaadf4683893c401e1c51e40873"
+    },
+    {
+      "path": "adf-sentinel/config/connected_changelog.json",
+      "bytes": 4794,
+      "sha256": "7b74c13fb2dea859878efd678dbe8642b538716fceea078acd5356daecc81277"
+    },
+    {
+      "path": "adf-sentinel/config/connected_descendants.json",
+      "bytes": 9483,
+      "sha256": "a14f5bee4a50cd5b9f407f0bac9ac5497bd79180e022138b03eac23140b99b5f"
+    },
+    {
+      "path": "adf-sentinel/config/connected_versions.json",
+      "bytes": 6023,
+      "sha256": "ffe27dfe97167abf616b042084ba317a63f47c0ad451e7c0c34a0bb4b5db98f1"
+    },
+    {
+      "path": "adf-sentinel/data/effort/action_measurement_template.csv",
+      "bytes": 447956,
+      "sha256": "d45e1ce03dcc069e6a953619e67b4e498e324f8fb6f3515e490aff453e84e48a"
+    },
+    {
+      "path": "adf-sentinel/data/effort/observations.csv",
+      "bytes": 235,
+      "sha256": "3073e441f62ceafd9e5283179cd4b335ef6d9bcbbf2df4b16fe7f0f70464e8a6"
+    },
+    {
+      "path": "adf-sentinel/data/fixtures/approved/shared.txt",
+      "bytes": 34,
+      "sha256": "cdb67e4ea470625e2a96f0fd29732c55af8f4cca8890bc91304cc8a048ccb953"
+    },
+    {
+      "path": "adf-sentinel/data/fixtures/baseline/DNA/config.json",
+      "bytes": 135,
+      "sha256": "427f8cfd7048efab9cbd75289d2d637c98f6d10b2ed8fd647d63535a299b3c70"
+    },
+    {
+      "path": "adf-sentinel/data/fixtures/baseline/DNA/shared.txt",
+      "bytes": 34,
+      "sha256": "bca0420d724d44cf44bebe9c21575263badbbf993c7a981333e4d007bcf981ac"
+    },
+    {
+      "path": "adf-sentinel/data/fixtures/baseline/DNA_Fusion/config.json",
+      "bytes": 135,
+      "sha256": "427f8cfd7048efab9cbd75289d2d637c98f6d10b2ed8fd647d63535a299b3c70"
+    },
+    {
+      "path": "adf-sentinel/data/fixtures/baseline/DNA_Fusion/shared.txt",
+      "bytes": 34,
+      "sha256": "bca0420d724d44cf44bebe9c21575263badbbf993c7a981333e4d007bcf981ac"
+    },
+    {
+      "path": "adf-sentinel/data/plans/source_replay.json",
+      "bytes": 1699,
+      "sha256": "6b9020b3ba5a5bba45aa87fe8f2796aec08443c1cfe79e992a9ba433abc67bad"
+    },
+    {
+      "path": "adf-sentinel/data/plans/synthetic.json",
+      "bytes": 2717,
+      "sha256": "43f0a050ba3457dc0c1808f41972052228e17d73bd645e6d164518d9fe871cea"
+    },
+    {
+      "path": "adf-sentinel/data/source_replay/approved/SeedData/AssayDev/assay/dna/parameters/TmapExecutionActor.ini",
+      "bytes": 731,
+      "sha256": "9d023c91914628eb56bd9dce5a54144d7220d2c65e358ddaac7038fb999813df"
+    },
+    {
+      "path": "adf-sentinel/data/source_replay/before/SeedData/AssayDev/assay/dna/parameters/TmapExecutionActor.ini",
+      "bytes": 888,
+      "sha256": "3db9e0de737b66244996a08c73286fca753fc3a3b0a1e72004f90c20fd0aa21a"
+    },
+    {
+      "path": "adf-sentinel/docs/API_ACCESS.md",
+      "bytes": 3512,
+      "sha256": "771bf72dc73dbbd86da1df387a63a4a0ba53bc1e98242e114162ef7ca8de0426"
+    },
+    {
+      "path": "adf-sentinel/requirements.lock.txt",
+      "bytes": 325,
+      "sha256": "3e16cfdce5e3504678396ff3f9440056c85b74f3fd9340472e8f28d6dbada1a7"
+    },
+    {
+      "path": "adf-sentinel/requirements.txt",
+      "bytes": 111,
+      "sha256": "43ee4f7243d5e44390f3d89707b03ac6937ffca84db040abae6dc12ff429d16b"
+    },
+    {
+      "path": "adf-sentinel/runs/advisory/predictions.receipt.json",
+      "bytes": 435,
+      "sha256": "6fc2d223ba023e54d98db1bba6b61e30f443c001d9b91b50a28bff938de2e8da"
+    },
+    {
+      "path": "adf-sentinel/runs/audit/IRS-65265-tmap-reference.diff",
+      "bytes": 1372,
+      "sha256": "c08b5d3e52e075e74aca9c8f2db54a10f61c5f29ceee0442c9d8436b5bfec7ab"
+    },
+    {
+      "path": "adf-sentinel/runs/audit/artifact_checks.json",
+      "bytes": 9064,
+      "sha256": "c06d623ad11daf57e398d81374ba64f2366ff2278103a3c6fa1c3d3e533c48d9"
+    },
+    {
+      "path": "adf-sentinel/runs/audit/build_prerequisites.json",
+      "bytes": 383,
+      "sha256": "2b8d41b9f354b55d01bf9bbd102d81bf58c4330e2f6d5869aa5e24f7c26baf07"
+    },
+    {
+      "path": "adf-sentinel/runs/audit/credential_redactions.json",
+      "bytes": 1093,
+      "sha256": "10b469532c64762e0c7ef0dbf810ace322d95e707114a1205c7a8d78b254add5"
+    },
+    {
+      "path": "adf-sentinel/runs/audit/declared_archive_md5.json",
+      "bytes": 5733,
+      "sha256": "ed070102799549b1c398f990b54362a5f7affbcf543e1de44cbaf16945c10d9e"
+    },
+    {
+      "path": "adf-sentinel/runs/audit/reconciliation.json",
+      "bytes": 4722,
+      "sha256": "06b173c7ee2fe05c43ba01eb02070fc86c814254c707d108b4266560a9c0f955"
+    },
+    {
+      "path": "adf-sentinel/runs/audit/screenshot_inspection.json",
+      "bytes": 8117,
+      "sha256": "9312b9e0496eeff43cce9017ec2d2f2586e38123438afbf952a4b1b27f07c61e"
+    },
+    {
+      "path": "adf-sentinel/runs/audit/summary.json",
+      "bytes": 860,
+      "sha256": "539b5c43f1b003598150304e0ab9fa2c0cad8b70538bb7776b333b1f60b9e1ef"
+    },
+    {
+      "path": "adf-sentinel/runs/benchmark/final_results.json",
+      "bytes": 801,
+      "sha256": "5caa54d9f9b5e9c8b9bbd2bba775ec033421266306ecca37980751f58217218a"
+    },
+    {
+      "path": "adf-sentinel/runs/benchmark/predictions.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "adf-sentinel/runs/benchmark/predictions.receipt.json",
+      "bytes": 445,
+      "sha256": "70e75759ad6af4399c4e40e4ffc94aa1dadd0665658a8453f86006e31dbf2671"
+    },
+    {
+      "path": "adf-sentinel/runs/effort/report.json",
+      "bytes": 872,
+      "sha256": "bd6148e9082be08582ad6afd30dc7c0c9cf05c08adb918ec26b72c10b0b75076"
+    },
+    {
+      "path": "adf-sentinel/runs/finalization/01-prepare.json",
+      "bytes": 520,
+      "sha256": "632b3bb0c999ec79fec559b0b5f8100d41765f2535fd0553aee31b6ce8ecba09"
+    },
+    {
+      "path": "adf-sentinel/runs/finalization/01-prepare.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "adf-sentinel/runs/finalization/02-train.json",
+      "bytes": 2286,
+      "sha256": "5186443c48bda493efd55d697ca89752d33907596644f734eff70e5d9229f234"
+    },
+    {
+      "path": "adf-sentinel/runs/finalization/02-train.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "adf-sentinel/runs/finalization/03-freeze.json",
+      "bytes": 4172,
+      "sha256": "7db85f8a4a03a88c5b420119044f77d1704098fa2df5967728717df85fe9c856"
+    },
+    {
+      "path": "adf-sentinel/runs/finalization/03-freeze.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "adf-sentinel/runs/finalization/04-predict.json",
+      "bytes": 435,
+      "sha256": "742089a8a3ac0310d79babf924968001199288dac89f54248d1f9e85b13b525a"
+    },
+    {
+      "path": "adf-sentinel/runs/finalization/04-predict.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "adf-sentinel/runs/finalization/05-predict.json",
+      "bytes": 445,
+      "sha256": "f74fb0dc224858a055dedaa667cfda17202208ecc1ba8bf51dc243726a35aa63"
+    },
+    {
+      "path": "adf-sentinel/runs/finalization/05-predict.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "adf-sentinel/runs/finalization/06-plan.json",
+      "bytes": 1699,
+      "sha256": "d4094120e3344f794c4cdee67e6328b6e69edf08c48abb736bf283d1c53d296b"
+    },
+    {
+      "path": "adf-sentinel/runs/finalization/06-plan.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "adf-sentinel/runs/finalization/07-bundle.json",
+      "bytes": 2649,
+      "sha256": "214217bab57591c01fa99d95d176b0f08288f3ad973bf927146b1e5344b01ad5"
+    },
+    {
+      "path": "adf-sentinel/runs/finalization/07-bundle.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "adf-sentinel/runs/finalization/08-plan.json",
+      "bytes": 2717,
+      "sha256": "31b4e84fd1f82bb9fe26db18efbd42c705af6065f38d23fa93acbbd85091a68f"
+    },
+    {
+      "path": "adf-sentinel/runs/finalization/08-plan.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "adf-sentinel/runs/finalization/09-bundle.json",
+      "bytes": 3700,
+      "sha256": "74ca66a6051db3714eaa36573be1b1dfce4ec2d2418208009cc2eaee7c69163b"
+    },
+    {
+      "path": "adf-sentinel/runs/finalization/09-bundle.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "adf-sentinel/runs/finalization/10-effort.json",
+      "bytes": 872,
+      "sha256": "71aa8ba3c9c610d7478d0812bcafe543006cdd80fe8881ab537a49508c1cdcd8"
+    },
+    {
+      "path": "adf-sentinel/runs/finalization/10-effort.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "adf-sentinel/runs/finalization/11-audit.json",
+      "bytes": 860,
+      "sha256": "c869f743edd0c6ecda8650562fe3a9a8e04d3d2bbc375c643ba3bb6494573053"
+    },
+    {
+      "path": "adf-sentinel/runs/finalization/11-audit.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "adf-sentinel/runs/finalization/evaluate.json",
+      "bytes": 801,
+      "sha256": "759778b419944ba99c94381187b4222228d09fc7156e506b47ac98a511e5ce59"
+    },
+    {
+      "path": "adf-sentinel/runs/finalization/refresh-audit.json",
+      "bytes": 860,
+      "sha256": "63e1f1f9b258a5f785590f4327bc578ae4bc93bb92be19867491c07f552d1f9c"
+    },
+    {
+      "path": "adf-sentinel/runs/finalization/refresh-audit.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "adf-sentinel/runs/finalization/refresh-freeze.json",
+      "bytes": 4172,
+      "sha256": "882aa48600f4e3fb9d2bace0cdb187a23fc0f50cdd3406e005fd61abb57e5e72"
+    },
+    {
+      "path": "adf-sentinel/runs/finalization/refresh-freeze.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "adf-sentinel/runs/finalization/refresh-predict-advisory.json",
+      "bytes": 435,
+      "sha256": "0f834a7a1755b539b1db6655746021d57607de08577a6d2b1ad0155a3851492b"
+    },
+    {
+      "path": "adf-sentinel/runs/finalization/refresh-predict-advisory.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "adf-sentinel/runs/finalization/refresh-predict.json",
+      "bytes": 445,
+      "sha256": "25de3c259525f03c94941c9d22c01d475c06214fee872d3298519287002f7249"
+    },
+    {
+      "path": "adf-sentinel/runs/finalization/refresh-predict.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "adf-sentinel/runs/finalization/refresh-prepare.json",
+      "bytes": 520,
+      "sha256": "632b3bb0c999ec79fec559b0b5f8100d41765f2535fd0553aee31b6ce8ecba09"
+    },
+    {
+      "path": "adf-sentinel/runs/finalization/refresh-prepare.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "adf-sentinel/runs/finalization/refresh-stages.json",
+      "bytes": 622,
+      "sha256": "dc6c403c9b8b40d94e9f9d93ec07ba1559cc63e4e29e04d54c0710a65c968852"
+    },
+    {
+      "path": "adf-sentinel/runs/finalization/refresh-train.json",
+      "bytes": 2286,
+      "sha256": "530ea87031d2eb1b0c8ea4d0e1d9d94b410c691b8b5f962bbc38f21b0b8f921f"
+    },
+    {
+      "path": "adf-sentinel/runs/finalization/refresh-train.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "adf-sentinel/runs/finalization/report.json",
+      "bytes": 147,
+      "sha256": "48893c17738d6de0c3bc35e03a48a6bcc29e1dc784907cbc759ec2f71f9eec67"
+    },
+    {
+      "path": "adf-sentinel/runs/finalization/stages.json",
+      "bytes": 1611,
+      "sha256": "57967e0dae977855ee9c76d1ea32f504589acb4048bfeef1eb94823133e77197"
+    },
+    {
+      "path": "adf-sentinel/runs/frozen/manifest.json",
+      "bytes": 4172,
+      "sha256": "a150549c833c84b12967cfcaeeae4a2fc7d83de2e74b2fe91bcc94539e8f20b4"
+    },
+    {
+      "path": "adf-sentinel/runs/ingest-final.json",
+      "bytes": 1219,
+      "sha256": "1712e878b907486b0b07d637456a2d9d2a827ea7290528e35aa3b2f4e0ea7b6a"
+    },
+    {
+      "path": "adf-sentinel/runs/prepare-final.json",
+      "bytes": 520,
+      "sha256": "632b3bb0c999ec79fec559b0b5f8100d41765f2535fd0553aee31b6ce8ecba09"
+    },
+    {
+      "path": "adf-sentinel/runs/sandbox/0b4c92a31b3438a045c8/candidate/DNA/config.json",
+      "bytes": 135,
+      "sha256": "69a7b7174e6a604c502b5177c58bab0194c9f2635d1cba83e5ef1dcedf593f09"
+    },
+    {
+      "path": "adf-sentinel/runs/sandbox/0b4c92a31b3438a045c8/candidate/DNA/shared.txt",
+      "bytes": 34,
+      "sha256": "cdb67e4ea470625e2a96f0fd29732c55af8f4cca8890bc91304cc8a048ccb953"
+    },
+    {
+      "path": "adf-sentinel/runs/sandbox/0b4c92a31b3438a045c8/candidate/DNA_Fusion/config.json",
+      "bytes": 135,
+      "sha256": "69a7b7174e6a604c502b5177c58bab0194c9f2635d1cba83e5ef1dcedf593f09"
+    },
+    {
+      "path": "adf-sentinel/runs/sandbox/0b4c92a31b3438a045c8/candidate/DNA_Fusion/shared.txt",
+      "bytes": 34,
+      "sha256": "cdb67e4ea470625e2a96f0fd29732c55af8f4cca8890bc91304cc8a048ccb953"
+    },
+    {
+      "path": "adf-sentinel/runs/sandbox/0b4c92a31b3438a045c8/changes.diff",
+      "bytes": 664,
+      "sha256": "e82e4a8c009bbec31077dead750bf7eceabdf8af17f51f662d028819d4064e79"
+    },
+    {
+      "path": "adf-sentinel/runs/sandbox/0b4c92a31b3438a045c8/manifest.json",
+      "bytes": 3701,
+      "sha256": "46f09fb3c2d6d7f10d817c3827a079b99ca37e559418276ecd3895698fc14d56"
+    },
+    {
+      "path": "adf-sentinel/runs/sandbox/0b4c92a31b3438a045c8/plan.json",
+      "bytes": 2717,
+      "sha256": "43f0a050ba3457dc0c1808f41972052228e17d73bd645e6d164518d9fe871cea"
+    },
+    {
+      "path": "adf-sentinel/runs/sandbox/fb888a2792a7aeea64b5/candidate/SeedData/AssayDev/assay/dna/parameters/TmapExecutionActor.ini",
+      "bytes": 731,
+      "sha256": "9d023c91914628eb56bd9dce5a54144d7220d2c65e358ddaac7038fb999813df"
+    },
+    {
+      "path": "adf-sentinel/runs/sandbox/fb888a2792a7aeea64b5/changes.diff",
+      "bytes": 1367,
+      "sha256": "f5cb12ddc6bcdf7907bea1639658ee7c07142fa7730ce268b5950a61d5ba871b"
+    },
+    {
+      "path": "adf-sentinel/runs/sandbox/fb888a2792a7aeea64b5/manifest.json",
+      "bytes": 2650,
+      "sha256": "dc3d234988af901caaa04771ba2739f7e7f07926bd2cbf747d60e74763793e91"
+    },
+    {
+      "path": "adf-sentinel/runs/sandbox/fb888a2792a7aeea64b5/plan.json",
+      "bytes": 1699,
+      "sha256": "6b9020b3ba5a5bba45aa87fe8f2796aec08443c1cfe79e992a9ba433abc67bad"
+    },
+    {
+      "path": "adf-sentinel/runs/stages.jsonl",
+      "bytes": 6273,
+      "sha256": "c8260867b9d097e654749d99df143fd37bc115f58fcfe88bfd18823456e8108c"
+    },
+    {
+      "path": "adf-sentinel/runs/training/comparison.json",
+      "bytes": 156666,
+      "sha256": "09a4b47b23ea503abc3b4c9373c5c813ee4c17390b015cff66edb8b2d7dc97ce"
+    },
+    {
+      "path": "adf-sentinel/runs/verification/browser-forced-pointer.json",
+      "bytes": 1111,
+      "sha256": "c07036d454ea8a33f65f9f3a34c39b5212fdfcb5d633fe12c1babd94f48b8ade"
+    },
+    {
+      "path": "adf-sentinel/runs/verification/browser.json",
+      "bytes": 1073,
+      "sha256": "e6d1d63305cd8828e57b4bc02a817a7c9a973f3519e3385f97ae267035f91249"
+    },
+    {
+      "path": "adf-sentinel/runs/verification/captured_source_checks.json",
+      "bytes": 2942,
+      "sha256": "4b2dceeaeff6330d8e8c5eedc129b4dcda0f96a0b446670f11138e44a28bacc2"
+    },
+    {
+      "path": "adf-sentinel/runs/verification/dashboard-desktop.png",
+      "bytes": 281480,
+      "sha256": "1e53729e419718b871a2b427346cef76b75ea6c873569742abd76ee84cab4f1c"
+    },
+    {
+      "path": "adf-sentinel/runs/verification/dashboard-mobile.png",
+      "bytes": 260227,
+      "sha256": "c3b4112d9f7df2fb9731539c35387003f2671d91f5814ad832d091e22456b0d8"
+    },
+    {
+      "path": "adf-sentinel/runs/verification/dashboard-sandbox.png",
+      "bytes": 274064,
+      "sha256": "f441ae25e599c5d4850843512611fcfcf36fbec534787f659c13d709bec634e5"
+    },
+    {
+      "path": "adf-sentinel/runs/verification/dashboard-ticket.png",
+      "bytes": 197513,
+      "sha256": "c937518e468483c4003250a9cf449507c346f6a79a18da25e451e6afa7e35451"
+    },
+    {
+      "path": "adf-sentinel/runs/verification/results.json",
+      "bytes": 2759,
+      "sha256": "08151eed6d84b73544d31be8afe2505919ae8d536c6dd1d8932e25c4b1933e4f"
+    },
+    {
+      "path": "adf-sentinel/runs/verification/unit.json",
+      "bytes": 1572,
+      "sha256": "3de571b00050addabc3d4360774fdb3bf6a167c029790f29a20c8b6b9633c07d"
+    },
+    {
+      "path": "adf-sentinel/schemas/plan.schema.json",
+      "bytes": 2498,
+      "sha256": "71d746a6b17a794c25c89aa53e3abb5377411846eba074d4b0d7fc0e7996a81a"
+    },
+    {
+      "path": "adf-sentinel/spoken-demo/demo-reading.mp3",
+      "bytes": 4185210,
+      "sha256": "0d77d4372d89a49a0e60f24cccb2994beabad4a1f10ecfed8d301b1b65a2b460"
+    },
+    {
+      "path": "adf-sentinel/spoken-demo/demo-reading.txt",
+      "bytes": 6516,
+      "sha256": "19cfc373bf1b5d79b1a590f321c8c7a037b9b1d58651ab7c7b040ab4000aedbf"
+    },
+    {
+      "path": "adf-sentinel/spoken-demo/reading.json",
+      "bytes": 420,
+      "sha256": "fa08db5829aa80aa155ab53a0c2cd2649634f8762a270932e0ae476b4a468459"
+    },
+    {
+      "path": "adf-sentinel/spoken-demo/speech-input.txt",
+      "bytes": 6625,
+      "sha256": "57fb485a7fb1e5599b5b45253102001f7b16228843bc5a36d110f2b40c303be3"
+    },
+    {
+      "path": "adf-sentinel/static/app.js",
+      "bytes": 18083,
+      "sha256": "dd4ebbbf864c2b117ec3f604d7eec8b4fe2848df0b56dce18570b312feff7645"
+    },
+    {
+      "path": "adf-sentinel/static/index.html",
+      "bytes": 9066,
+      "sha256": "fff992ea4109031b829feaf346a05f2c1883c26d0d2cce1920d73e4f08730889"
+    },
+    {
+      "path": "adf-sentinel/static/style.css",
+      "bytes": 8080,
+      "sha256": "bae3d18e2e236d9c3634a3fdb35af95560442de2eced90f3d5942929f8a8d898"
+    },
+    {
+      "path": "adf-sentinel/summary-visuals/adf-findings.pdf",
+      "bytes": 45134,
+      "sha256": "587b8415629b8648c18a8baa4c13ecc5bdc82c96d7c64397047f861ff1216702"
+    },
+    {
+      "path": "adf-sentinel/summary-visuals/adf-findings.png",
+      "bytes": 444171,
+      "sha256": "24e9e5707ef8df10828a62c49d3dddb6d1cf6c7f6d680240a0e9ddbed9fda8b6"
+    },
+    {
+      "path": "adf-sentinel/summary-visuals/adf-findings.svg",
+      "bytes": 28981,
+      "sha256": "24e18a2bf1f3ede6fb706e2161a7cc537ceca6835626f94b202838324c61dea3"
+    },
+    {
+      "path": "adf-sentinel/summary-visuals/automation-breakdown.csv",
+      "bytes": 445,
+      "sha256": "4906525afedb88738227a5f76cd40d32fc6ff9fb2b817f828e075f7087625a4a"
+    },
+    {
+      "path": "adf-sentinel/summary-visuals/automation-breakdown.json",
+      "bytes": 4524,
+      "sha256": "251f5d91bc68239e49cdb133f278e5309cd43aafa2ce0566df38f4e24022eec7"
+    },
+    {
+      "path": "adf-sentinel/summary-visuals/automation-scope.pdf",
+      "bytes": 44213,
+      "sha256": "91e320d0748fb2c0a118405ff0342cae6ec0d30a3ee663b1eeb021da359f51b1"
+    },
+    {
+      "path": "adf-sentinel/summary-visuals/automation-scope.png",
+      "bytes": 478470,
+      "sha256": "8a0bb8268c62ee593e94740d254c71f85f53d86f26d15f4c513997a5a49a83ac"
+    },
+    {
+      "path": "adf-sentinel/summary-visuals/automation-scope.svg",
+      "bytes": 18435,
+      "sha256": "3f6d30108a35a524a8a2b716352d3e4ec7d0c43a851826cfb57bd0bcb8cf87e8"
+    },
+    {
+      "path": "adf-sentinel/summary-visuals/findings-data.json",
+      "bytes": 3085,
+      "sha256": "8be3da84f2f1007d65737cd78a591b053f3159df59a75426e19b05c536132b44"
+    },
+    {
+      "path": "adf-sentinel/summary-visuals/logic-diagram.dot",
+      "bytes": 3089,
+      "sha256": "31daac35a7b6ca049ff9dece874ccc413d08f8602459d15a05723604b6ac1477"
+    },
+    {
+      "path": "adf-sentinel/summary-visuals/logic-diagram.mmd",
+      "bytes": 1759,
+      "sha256": "06009cd79299f63917345fa701009929c16d6ee18e015de6df8062b10dd43ccd"
+    },
+    {
+      "path": "adf-sentinel/summary-visuals/logic-diagram.pdf",
+      "bytes": 20378,
+      "sha256": "1343d66ed56c3bb290f1128673f554cf75f385dd39cc1391f75105cf80d3eaae"
+    },
+    {
+      "path": "adf-sentinel/summary-visuals/logic-diagram.png",
+      "bytes": 288220,
+      "sha256": "4429fd7e6d1148a1f2f9983ec60d0d9d434975b3344cf72beb38ac9dd0f9eb71"
+    },
+    {
+      "path": "adf-sentinel/summary-visuals/logic-diagram.svg",
+      "bytes": 14661,
+      "sha256": "89266b300f397e83fac7101f0038034e625be892ca120f40d4c4aaa884825ef3"
+    },
+    {
+      "path": "adf-sentinel/summary-visuals/plot-environment.json",
+      "bytes": 29,
+      "sha256": "ec7738cf4dabd7f07ca096014b9a73b5ef8fad630811a4073db11b9012f3060f"
+    },
+    {
+      "path": "adf-sentinel/summary-visuals/plot_automation_scope.py",
+      "bytes": 5811,
+      "sha256": "903eb9b05c5621ab8e95ba50bfc8aeaae9149e3dbc2d0ce70e88b71ca1fbe91f"
+    },
+    {
+      "path": "adf-sentinel/summary-visuals/plot_findings.py",
+      "bytes": 8348,
+      "sha256": "b76143559018b6e353d3d08603ff617a0f7a58b3c50ae7fa3dfb1a4deff0bff3"
+    },
+    {
+      "path": "adf-sentinel/tests/browser_smoke.py",
+      "bytes": 6726,
+      "sha256": "cc3344f769bc0df3cbfe322bc34df8914aa0f5f992c70114823df7cf1793df30"
+    },
+    {
+      "path": "adf-sentinel/tests/test_core.py",
+      "bytes": 17901,
+      "sha256": "86e2f8ee77f1ea326158a515a667f96ac7e57ccca8497289a3e4ee5951ad8709"
+    },
+    {
+      "path": "adf-sentinel/tests/test_http.py",
+      "bytes": 2496,
+      "sha256": "d4a1a29626ba6f42a5c11949b7caa38116d0f0e6c498b258bec711475dfc29cf"
+    },
+    {
+      "path": "adf-sentinel/tools/connected_collector.js",
+      "bytes": 5035,
+      "sha256": "5d3fa94dc02f73e5c968a31d58bb5db3752770a2ac510ac83eb153c47a8dd3d7"
+    },
+    {
+      "path": "adf-sentinel/tools/download_batch.py",
+      "bytes": 4065,
+      "sha256": "3a542713facda786460b06e26ee49089b81b7eb6cd7d95691a13f64c37f7d9c7"
+    },
+    {
+      "path": "adf-sentinel/tools/download_one.py",
+      "bytes": 2868,
+      "sha256": "d831fcd0694c2bc1547dd73808d92bdade936cb2b1cb4ba31f5275cc37d1e274"
+    },
+    {
+      "path": "adf-sentinel/tools/select_requests.py",
+      "bytes": 577,
+      "sha256": "e10848a7b0d9cc04dfff68c0cd8aaf8173b171e142f98e992b58f502047b6067"
+    },
+    {
+      "path": "assets/figures/action-mix.png",
+      "bytes": 179253,
+      "sha256": "05a5b6700767d7a513a3afbfad13a8d1ccc7566c21009272cafac14ce53f5b05"
+    },
+    {
+      "path": "assets/figures/action-mix.svg",
+      "bytes": 13233,
+      "sha256": "e84c2033bffdb60264420a9a84e49d6a6529b25b3a06916118c434d25cf29c09"
+    },
+    {
+      "path": "assets/figures/build_figures.py",
+      "bytes": 18217,
+      "sha256": "ae488a8b3c558d6a37f9d8a96a52683700018a0a332b0eef590d169e432ffed8"
+    },
+    {
+      "path": "assets/figures/delivered-results.png",
+      "bytes": 249543,
+      "sha256": "b8fc6a51db6d2c737d882e681200255c8123310fa1ba5fef0b87097c9b7157e5"
+    },
+    {
+      "path": "assets/figures/delivered-results.svg",
+      "bytes": 12298,
+      "sha256": "086ad5ee3655bbe7706c0ceeb7f8b5fc0041771b22bf120dcb99e1e206a2879c"
+    },
+    {
+      "path": "assets/figures/figure-data.json",
+      "bytes": 6340,
+      "sha256": "799a527b1e35663daea5f66cf59620336b1d10ce2632e09d64a9e2e741f89937"
+    },
+    {
+      "path": "assets/figures/figure-manifest.json",
+      "bytes": 1723,
+      "sha256": "dff5f0e6a76a2bf5bc1b2bb22d5e6ba536827ed1af79302e5b15f22b63d55266"
+    },
+    {
+      "path": "assets/figures/scope-flow.png",
+      "bytes": 150911,
+      "sha256": "befc2715ba935456a1d8d9280de732a655a082f2f22f3f3a142139d0d63b1513"
+    },
+    {
+      "path": "assets/figures/scope-flow.svg",
+      "bytes": 8136,
+      "sha256": "016ed93d738a55dc9c31182a05b0ded609c38a9da1605359c67ee377b71a77fe"
+    },
+    {
+      "path": "assets/figures/workbench-preview.png",
+      "bytes": 622086,
+      "sha256": "ab7979cefdc23c844f266b4dc3b35724a075750c46deeed108d380aa50953cd5"
+    },
+    {
+      "path": "codex/handoffs/2026-11-06-combined-repository.md",
+      "bytes": 2041,
+      "sha256": "e73f53afd02fc2e6ae13917034e6aa9b0b3015bb6bda6416db7ce89612af960c"
+    },
+    {
+      "path": "docs/01-vision.md",
+      "bytes": 607,
+      "sha256": "d3b4b1870d30787ce8cc05ed66efc4ee737114260d3ea0cc68518b951dfe6327"
+    },
+    {
+      "path": "docs/02-requirements.md",
+      "bytes": 869,
+      "sha256": "77c521ac0d14dd0030e14cd8d4ab63008a1b4369390a774d8d2fc0f13fbc855a"
+    },
+    {
+      "path": "docs/03-architecture.md",
+      "bytes": 1751,
+      "sha256": "617efa15ca6cd3f6efcb36665fbf2f7145b8022e07f28bb7654108a371002c53"
+    },
+    {
+      "path": "docs/04-current-status.md",
+      "bytes": 1634,
+      "sha256": "d507e2be3a3a0874254e7df7974d0497f5b069fb8731ae91473be605c7d2cd43"
+    },
+    {
+      "path": "docs/05-roadmap.md",
+      "bytes": 1202,
+      "sha256": "82708dad08b2172df5d8a864b3a503b5a476092c7a345f01bb279c1f3400917d"
+    },
+    {
+      "path": "docs/06-decisions.md",
+      "bytes": 1353,
+      "sha256": "f698b370734377cbcf461cf98644d703ba9cdae58aa0339c78b76d7441087732"
+    },
+    {
+      "path": "docs/baseline-questionnaire.md",
+      "bytes": 882,
+      "sha256": "0e5e9d3f103c1e3d9122633ecb1a1172e46fc9c4d34e01c3d88fc15067e7d1cc"
+    },
+    {
+      "path": "docs/integration/copy-manifest.json",
+      "bytes": 243812,
+      "sha256": "3c6f627f8f81a29ed25edc518c7368bac702df2c5f4e892e8fa7716c20d8a54d"
+    },
+    {
+      "path": "docs/integration/findings.md",
+      "bytes": 3391,
+      "sha256": "266ab838515d6a1f1970bd1d5e9d85ac29cf2e6d270668e2e7394bffac9f2a3e"
+    },
+    {
+      "path": "docs/integration/upstream-provenance.json",
+      "bytes": 1245,
+      "sha256": "e345af5ce162229532dba6f73861f66ca8226409e82b82d22f1403e9008d1a29"
+    },
+    {
+      "path": "docs/upstream/01-vision.md",
+      "bytes": 838,
+      "sha256": "8b9dc32693337f0525ab1b66da62debf401e222fd44e176534b0d14451cce143"
+    },
+    {
+      "path": "docs/upstream/02-requirements.md",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/upstream/03-architecture.md",
+      "bytes": 257,
+      "sha256": "7aa7f74dec3cd7acccb39c344cf1f5ff9a36efd8fa801c2c90e8c8dd164f3df1"
+    },
+    {
+      "path": "docs/upstream/04-current-status.md",
+      "bytes": 7150,
+      "sha256": "d3566eee37a0c01d011ababa2819575089970f050eb8042105efab5301589f56"
+    },
+    {
+      "path": "docs/upstream/05-roadmap.md",
+      "bytes": 2292,
+      "sha256": "ebe030e926e87cdc14adac877c975f46ad4502975f44cb318d97441772dcfba7"
+    },
+    {
+      "path": "docs/upstream/06-decisions.md",
+      "bytes": 506,
+      "sha256": "4eb6ffa1253849521be552ea06873c487402eba381fd14a5e71df7860b8d98c1"
+    },
+    {
+      "path": "docs/upstream/README.md",
+      "bytes": 959,
+      "sha256": "b19ddfe8a4a02dad09a9f7cf82db008ffeb7c3c797f8d096996007268dbb0ed5"
+    },
+    {
+      "path": "docs/upstream/baseline-questionnaire.md",
+      "bytes": 882,
+      "sha256": "0e5e9d3f103c1e3d9122633ecb1a1172e46fc9c4d34e01c3d88fc15067e7d1cc"
+    },
+    {
+      "path": "examples/artifacts.json",
+      "bytes": 507,
+      "sha256": "362f4a74e267f684ad0537c7e757134b9fff962f079b1cb8fbd32df104f03464"
+    },
+    {
+      "path": "examples/ticket.md",
+      "bytes": 961,
+      "sha256": "aadfa3f34efb00007d0f4b4eca34e17f0e3955c0153901b0a35916748671df2a"
+    },
+    {
+      "path": "irs-65265-review/CODEX_PROMPT.txt",
+      "bytes": 9247,
+      "sha256": "e1be875098a2643809512187c18dcb057ae3415625c434d06f45ff02f782a0ed"
+    },
+    {
+      "path": "irs-65265-review/DEMO_10_MIN.md",
+      "bytes": 9047,
+      "sha256": "ae96cfea4d6a384c7e568296444444e51d9dd2ec6c06a8435e5bad6f4ab8a3ed"
+    },
+    {
+      "path": "irs-65265-review/README.md",
+      "bytes": 10165,
+      "sha256": "e3b14ecd386ade127f0d3c5306d3401f9b13819afa3364b5f3ed5f0156d47cc2"
+    },
+    {
+      "path": "irs-65265-review/README.txt",
+      "bytes": 1113,
+      "sha256": "9a2dd2303276b56d1e5cd9c983ec4288a65715d60be3fa61b1bb8a5f7971c47c"
+    },
+    {
+      "path": "irs-65265-review/REVIEW.md",
+      "bytes": 11329,
+      "sha256": "ec001f6ce0abba86a95e824b579d2d02b7a095abb926f8f1b9d62ab3f90dbd7a"
+    },
+    {
+      "path": "irs-65265-review/VERIFICATION.json",
+      "bytes": 4574,
+      "sha256": "5362fc2e61d1a3bed68906324d102872d9867d7802b16169d793d88cc4a78177"
+    },
+    {
+      "path": "irs-65265-review/app.py",
+      "bytes": 6374,
+      "sha256": "ec6b925b8eaf210e9e8be26dfb83c2ab13f8dc3311bbc34bfa9dba8c8c4a749c"
+    },
+    {
+      "path": "irs-65265-review/check_source_evidence.py",
+      "bytes": 3387,
+      "sha256": "edf12f35df8c6ebfbab7e9971ebcd61cde2dc7133c18b1e74fef3fb1e7b19148"
+    },
+    {
+      "path": "irs-65265-review/comments.json",
+      "bytes": 6650,
+      "sha256": "f7d89f669d5d24b094d4126e465ae633d50dd10156414cad78b29045e97fab2a"
+    },
+    {
+      "path": "irs-65265-review/demo_data/contracts/baseline-revision.json",
+      "bytes": 3151,
+      "sha256": "82a78f7fdb256cb62ce681f2ee30c615187994c017ecdb4b4b36c39bf626becf"
+    },
+    {
+      "path": "irs-65265-review/demo_data/contracts/control.json",
+      "bytes": 3151,
+      "sha256": "82a78f7fdb256cb62ce681f2ee30c615187994c017ecdb4b4b36c39bf626becf"
+    },
+    {
+      "path": "irs-65265-review/demo_data/contracts/missing-plot.json",
+      "bytes": 3151,
+      "sha256": "82a78f7fdb256cb62ce681f2ee30c615187994c017ecdb4b4b36c39bf626becf"
+    },
+    {
+      "path": "irs-65265-review/demo_data/contracts/repair-flag.json",
+      "bytes": 3151,
+      "sha256": "82a78f7fdb256cb62ce681f2ee30c615187994c017ecdb4b4b36c39bf626becf"
+    },
+    {
+      "path": "irs-65265-review/demo_data/contracts/report-version.json",
+      "bytes": 3151,
+      "sha256": "82a78f7fdb256cb62ce681f2ee30c615187994c017ecdb4b4b36c39bf626becf"
+    },
+    {
+      "path": "irs-65265-review/demo_data/contracts/stale-pass.json",
+      "bytes": 3151,
+      "sha256": "82a78f7fdb256cb62ce681f2ee30c615187994c017ecdb4b4b36c39bf626becf"
+    },
+    {
+      "path": "irs-65265-review/demo_data/contracts/stale-script.json",
+      "bytes": 3151,
+      "sha256": "82a78f7fdb256cb62ce681f2ee30c615187994c017ecdb4b4b36c39bf626becf"
+    },
+    {
+      "path": "irs-65265-review/demo_data/contracts/wrong-kit.json",
+      "bytes": 3151,
+      "sha256": "82a78f7fdb256cb62ce681f2ee30c615187994c017ecdb4b4b36c39bf626becf"
+    },
+    {
+      "path": "irs-65265-review/demo_data/contracts/wrong-primer.json",
+      "bytes": 3151,
+      "sha256": "82a78f7fdb256cb62ce681f2ee30c615187994c017ecdb4b4b36c39bf626becf"
+    },
+    {
+      "path": "irs-65265-review/demo_data/exports/control-SYNTHETIC-NON-INSTALLABLE.zip",
+      "bytes": 9241,
+      "sha256": "77f77d1ae6fb74f06bb1515ae14c3a0135ab9ac427d37d00df76a15009785bb7"
+    },
+    {
+      "path": "irs-65265-review/demo_data/exports/stale-pass-evidence.json",
+      "bytes": 409976,
+      "sha256": "7c4f3703e8c952996de3fa4320514e4c97f25ae7fb2afdb2ce68ce18b67b383d"
+    },
+    {
+      "path": "irs-65265-review/demo_data/exports/wrong-primer-evidence.json",
+      "bytes": 401107,
+      "sha256": "642cfa4ba4230c61ff138608bc226d20aa3d6e651939a5c19971d2dbab3eca5a"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixture-events.jsonl",
+      "bytes": 275238,
+      "sha256": "00f37766b195873ac23468f53f843bb1d9f7b20e1bb932e4d9768a0b9fddf28f"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/baseline-revision/dna/AnalysisArgs.ini",
+      "bytes": 67,
+      "sha256": "77783c7783264802729d0f16f2aef0f935370ce7bd7576c61fe30e8c19b54a8f"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/baseline-revision/dna/AnnotatorActor.ini",
+      "bytes": 43,
+      "sha256": "0416456716315e82a321b0a2acfb0effa7fce745542bbc36114721cedb01b9ea"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/baseline-revision/dna/Bed/Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.09_02_26.bed",
+      "bytes": 106,
+      "sha256": "dda7e48ad3a222832eb04d220abff58e1465428afde39c6f706a8313af353e5d"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/baseline-revision/dna/CNV/Oncomine_Focus_v2_4.0.20260903_Manticore_cnv.h5",
+      "bytes": 90,
+      "sha256": "3c051e42776caa0bd7166e75580f808f934c16ab6b9d4ba03c38d3e5de145273"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/baseline-revision/dna/CNV/Oncomine_Focus_v2_4.0.20260906_Manticore_cnv.json",
+      "bytes": 54,
+      "sha256": "afa63c4e570af9a0bae8d40e5f83cd5c9b8cee6e198b6e81624fb4f67fb02068"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/baseline-revision/dna/Hotspot/Oncomine_Focus_v2.20260625.hotspots.bed",
+      "bytes": 86,
+      "sha256": "0f70345a33e9bee8275eba30006c19792341ca8d01c46e4c2b3527826c8c05c5"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/baseline-revision/dna/Pipeline/bin/MSI_IR",
+      "bytes": 65,
+      "sha256": "3104948fa8a285febd2a39827c4d2d9132bcdc3fa367e27aca6700bb99fd11f3"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/baseline-revision/dna/Pipeline/bin/copynumber_exon_finalize.py",
+      "bytes": 34,
+      "sha256": "3835d63b57b7696302199dcb24ff9dd2cee8f4027940902d3af972e7adddacdd"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/baseline-revision/dna/Pipeline/bin/copynumber_exon_plots.py",
+      "bytes": 31,
+      "sha256": "78d911f6e8eef2eae9370a455343a54b99a7959711179957ba984271af30da13"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/baseline-revision/dna/TVC_Mask_Bed/Oncomine_Focus_v2_4.0_20260902_Manticore_SVB.bed",
+      "bytes": 100,
+      "sha256": "e81e1670e79afea5246363e1e1a7e80c4eb88adb1d0ce2ca58d897dfcd40b83c"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/baseline-revision/dna/TVC_Mask_Bed/Oncomine_Focus_v2_Gx_hg19_09_03_2026.msi.h5",
+      "bytes": 104,
+      "sha256": "4957e25091a6827d51e5b7d22ca6ef96bcd647cc080baeba6a0ca8ef1a5c83dc"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/baseline-revision/dna/TmapExecutionActor.ini",
+      "bytes": 51,
+      "sha256": "2d0c512695ea6d1cc18efffb6641aa462db1638c43f5145d2be5a022ecf28192"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/baseline-revision/dna/manifest.json",
+      "bytes": 3150,
+      "sha256": "e6e5143da451d3396affcd55028f1e4977bae78c15767061fff1ab6f3c540a2f"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/baseline-revision/dna/outputs.json",
+      "bytes": 337,
+      "sha256": "3c05be777ea527b8c951399b70c3dad5c638f2fbd128aa676617c9a7c1a8130f"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/baseline-revision/fusion/AnalysisArgs.ini",
+      "bytes": 67,
+      "sha256": "77783c7783264802729d0f16f2aef0f935370ce7bd7576c61fe30e8c19b54a8f"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/baseline-revision/fusion/AnnotatorActor.ini",
+      "bytes": 43,
+      "sha256": "0416456716315e82a321b0a2acfb0effa7fce745542bbc36114721cedb01b9ea"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/baseline-revision/fusion/Bed/Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.09_02_26.bed",
+      "bytes": 106,
+      "sha256": "dda7e48ad3a222832eb04d220abff58e1465428afde39c6f706a8313af353e5d"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/baseline-revision/fusion/CNV/Oncomine_Focus_v2_4.0.20260903_Manticore_cnv.h5",
+      "bytes": 90,
+      "sha256": "3c051e42776caa0bd7166e75580f808f934c16ab6b9d4ba03c38d3e5de145273"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/baseline-revision/fusion/CNV/Oncomine_Focus_v2_4.0.20260906_Manticore_cnv.json",
+      "bytes": 54,
+      "sha256": "afa63c4e570af9a0bae8d40e5f83cd5c9b8cee6e198b6e81624fb4f67fb02068"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/baseline-revision/fusion/Hotspot/Oncomine_Focus_v2.20260625.hotspots.bed",
+      "bytes": 86,
+      "sha256": "0f70345a33e9bee8275eba30006c19792341ca8d01c46e4c2b3527826c8c05c5"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/baseline-revision/fusion/Pipeline/bin/MSI_IR",
+      "bytes": 65,
+      "sha256": "3104948fa8a285febd2a39827c4d2d9132bcdc3fa367e27aca6700bb99fd11f3"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/baseline-revision/fusion/Pipeline/bin/copynumber_exon_finalize.py",
+      "bytes": 34,
+      "sha256": "3835d63b57b7696302199dcb24ff9dd2cee8f4027940902d3af972e7adddacdd"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/baseline-revision/fusion/Pipeline/bin/copynumber_exon_plots.py",
+      "bytes": 31,
+      "sha256": "78d911f6e8eef2eae9370a455343a54b99a7959711179957ba984271af30da13"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/baseline-revision/fusion/RNACountsActor.ini",
+      "bytes": 53,
+      "sha256": "3394a7bca9e11c815ecac204993dd2d5ec59e4db357b936836f54a037e93f557"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/baseline-revision/fusion/TVC_Mask_Bed/Oncomine_Focus_v2_4.0_20260902_Manticore_SVB.bed",
+      "bytes": 100,
+      "sha256": "e81e1670e79afea5246363e1e1a7e80c4eb88adb1d0ce2ca58d897dfcd40b83c"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/baseline-revision/fusion/TVC_Mask_Bed/Oncomine_Focus_v2_Gx_hg19_09_03_2026.msi.h5",
+      "bytes": 104,
+      "sha256": "4957e25091a6827d51e5b7d22ca6ef96bcd647cc080baeba6a0ca8ef1a5c83dc"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/baseline-revision/fusion/TmapExecutionActor.ini",
+      "bytes": 51,
+      "sha256": "2d0c512695ea6d1cc18efffb6641aa462db1638c43f5145d2be5a022ecf28192"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/baseline-revision/fusion/manifest.json",
+      "bytes": 3252,
+      "sha256": "1e74cf72dcefad8afd2842d723986e59ced87cab1bea24908cc8e990f0a6c285"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/baseline-revision/fusion/outputs.json",
+      "bytes": 337,
+      "sha256": "3c05be777ea527b8c951399b70c3dad5c638f2fbd128aa676617c9a7c1a8130f"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/control/dna/AnalysisArgs.ini",
+      "bytes": 67,
+      "sha256": "77783c7783264802729d0f16f2aef0f935370ce7bd7576c61fe30e8c19b54a8f"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/control/dna/AnnotatorActor.ini",
+      "bytes": 43,
+      "sha256": "0416456716315e82a321b0a2acfb0effa7fce745542bbc36114721cedb01b9ea"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/control/dna/Bed/Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.09_02_26.bed",
+      "bytes": 106,
+      "sha256": "dda7e48ad3a222832eb04d220abff58e1465428afde39c6f706a8313af353e5d"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/control/dna/CNV/Oncomine_Focus_v2_4.0.20260903_Manticore_cnv.h5",
+      "bytes": 90,
+      "sha256": "3c051e42776caa0bd7166e75580f808f934c16ab6b9d4ba03c38d3e5de145273"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/control/dna/CNV/Oncomine_Focus_v2_4.0.20260906_Manticore_cnv.json",
+      "bytes": 54,
+      "sha256": "afa63c4e570af9a0bae8d40e5f83cd5c9b8cee6e198b6e81624fb4f67fb02068"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/control/dna/Hotspot/Oncomine_Focus_v2.20260625.hotspots.bed",
+      "bytes": 86,
+      "sha256": "0f70345a33e9bee8275eba30006c19792341ca8d01c46e4c2b3527826c8c05c5"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/control/dna/Pipeline/bin/MSI_IR",
+      "bytes": 65,
+      "sha256": "3104948fa8a285febd2a39827c4d2d9132bcdc3fa367e27aca6700bb99fd11f3"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/control/dna/Pipeline/bin/copynumber_exon_finalize.py",
+      "bytes": 34,
+      "sha256": "3835d63b57b7696302199dcb24ff9dd2cee8f4027940902d3af972e7adddacdd"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/control/dna/Pipeline/bin/copynumber_exon_plots.py",
+      "bytes": 31,
+      "sha256": "78d911f6e8eef2eae9370a455343a54b99a7959711179957ba984271af30da13"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/control/dna/TVC_Mask_Bed/Oncomine_Focus_v2_4.0_20260902_Manticore_SVB.bed",
+      "bytes": 100,
+      "sha256": "e81e1670e79afea5246363e1e1a7e80c4eb88adb1d0ce2ca58d897dfcd40b83c"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/control/dna/TVC_Mask_Bed/Oncomine_Focus_v2_Gx_hg19_09_03_2026.msi.h5",
+      "bytes": 104,
+      "sha256": "4957e25091a6827d51e5b7d22ca6ef96bcd647cc080baeba6a0ca8ef1a5c83dc"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/control/dna/TmapExecutionActor.ini",
+      "bytes": 51,
+      "sha256": "2d0c512695ea6d1cc18efffb6641aa462db1638c43f5145d2be5a022ecf28192"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/control/dna/manifest.json",
+      "bytes": 3154,
+      "sha256": "ffda1876f582182615f7d8059336e8bb12b56197c5ec1e535175463426ea4a8a"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/control/dna/outputs.json",
+      "bytes": 337,
+      "sha256": "3c05be777ea527b8c951399b70c3dad5c638f2fbd128aa676617c9a7c1a8130f"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/control/fusion/AnalysisArgs.ini",
+      "bytes": 67,
+      "sha256": "77783c7783264802729d0f16f2aef0f935370ce7bd7576c61fe30e8c19b54a8f"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/control/fusion/AnnotatorActor.ini",
+      "bytes": 43,
+      "sha256": "0416456716315e82a321b0a2acfb0effa7fce745542bbc36114721cedb01b9ea"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/control/fusion/Bed/Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.09_02_26.bed",
+      "bytes": 106,
+      "sha256": "dda7e48ad3a222832eb04d220abff58e1465428afde39c6f706a8313af353e5d"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/control/fusion/CNV/Oncomine_Focus_v2_4.0.20260903_Manticore_cnv.h5",
+      "bytes": 90,
+      "sha256": "3c051e42776caa0bd7166e75580f808f934c16ab6b9d4ba03c38d3e5de145273"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/control/fusion/CNV/Oncomine_Focus_v2_4.0.20260906_Manticore_cnv.json",
+      "bytes": 54,
+      "sha256": "afa63c4e570af9a0bae8d40e5f83cd5c9b8cee6e198b6e81624fb4f67fb02068"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/control/fusion/Hotspot/Oncomine_Focus_v2.20260625.hotspots.bed",
+      "bytes": 86,
+      "sha256": "0f70345a33e9bee8275eba30006c19792341ca8d01c46e4c2b3527826c8c05c5"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/control/fusion/Pipeline/bin/MSI_IR",
+      "bytes": 65,
+      "sha256": "3104948fa8a285febd2a39827c4d2d9132bcdc3fa367e27aca6700bb99fd11f3"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/control/fusion/Pipeline/bin/copynumber_exon_finalize.py",
+      "bytes": 34,
+      "sha256": "3835d63b57b7696302199dcb24ff9dd2cee8f4027940902d3af972e7adddacdd"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/control/fusion/Pipeline/bin/copynumber_exon_plots.py",
+      "bytes": 31,
+      "sha256": "78d911f6e8eef2eae9370a455343a54b99a7959711179957ba984271af30da13"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/control/fusion/RNACountsActor.ini",
+      "bytes": 53,
+      "sha256": "3394a7bca9e11c815ecac204993dd2d5ec59e4db357b936836f54a037e93f557"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/control/fusion/TVC_Mask_Bed/Oncomine_Focus_v2_4.0_20260902_Manticore_SVB.bed",
+      "bytes": 100,
+      "sha256": "e81e1670e79afea5246363e1e1a7e80c4eb88adb1d0ce2ca58d897dfcd40b83c"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/control/fusion/TVC_Mask_Bed/Oncomine_Focus_v2_Gx_hg19_09_03_2026.msi.h5",
+      "bytes": 104,
+      "sha256": "4957e25091a6827d51e5b7d22ca6ef96bcd647cc080baeba6a0ca8ef1a5c83dc"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/control/fusion/TmapExecutionActor.ini",
+      "bytes": 51,
+      "sha256": "2d0c512695ea6d1cc18efffb6641aa462db1638c43f5145d2be5a022ecf28192"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/control/fusion/manifest.json",
+      "bytes": 3252,
+      "sha256": "1e74cf72dcefad8afd2842d723986e59ced87cab1bea24908cc8e990f0a6c285"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/control/fusion/outputs.json",
+      "bytes": 337,
+      "sha256": "3c05be777ea527b8c951399b70c3dad5c638f2fbd128aa676617c9a7c1a8130f"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/missing-plot/dna/AnalysisArgs.ini",
+      "bytes": 67,
+      "sha256": "77783c7783264802729d0f16f2aef0f935370ce7bd7576c61fe30e8c19b54a8f"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/missing-plot/dna/AnnotatorActor.ini",
+      "bytes": 43,
+      "sha256": "0416456716315e82a321b0a2acfb0effa7fce745542bbc36114721cedb01b9ea"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/missing-plot/dna/Bed/Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.09_02_26.bed",
+      "bytes": 106,
+      "sha256": "dda7e48ad3a222832eb04d220abff58e1465428afde39c6f706a8313af353e5d"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/missing-plot/dna/CNV/Oncomine_Focus_v2_4.0.20260903_Manticore_cnv.h5",
+      "bytes": 90,
+      "sha256": "3c051e42776caa0bd7166e75580f808f934c16ab6b9d4ba03c38d3e5de145273"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/missing-plot/dna/CNV/Oncomine_Focus_v2_4.0.20260906_Manticore_cnv.json",
+      "bytes": 54,
+      "sha256": "afa63c4e570af9a0bae8d40e5f83cd5c9b8cee6e198b6e81624fb4f67fb02068"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/missing-plot/dna/Hotspot/Oncomine_Focus_v2.20260625.hotspots.bed",
+      "bytes": 86,
+      "sha256": "0f70345a33e9bee8275eba30006c19792341ca8d01c46e4c2b3527826c8c05c5"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/missing-plot/dna/Pipeline/bin/MSI_IR",
+      "bytes": 65,
+      "sha256": "3104948fa8a285febd2a39827c4d2d9132bcdc3fa367e27aca6700bb99fd11f3"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/missing-plot/dna/Pipeline/bin/copynumber_exon_finalize.py",
+      "bytes": 34,
+      "sha256": "3835d63b57b7696302199dcb24ff9dd2cee8f4027940902d3af972e7adddacdd"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/missing-plot/dna/Pipeline/bin/copynumber_exon_plots.py",
+      "bytes": 31,
+      "sha256": "78d911f6e8eef2eae9370a455343a54b99a7959711179957ba984271af30da13"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/missing-plot/dna/TVC_Mask_Bed/Oncomine_Focus_v2_4.0_20260902_Manticore_SVB.bed",
+      "bytes": 100,
+      "sha256": "e81e1670e79afea5246363e1e1a7e80c4eb88adb1d0ce2ca58d897dfcd40b83c"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/missing-plot/dna/TVC_Mask_Bed/Oncomine_Focus_v2_Gx_hg19_09_03_2026.msi.h5",
+      "bytes": 104,
+      "sha256": "4957e25091a6827d51e5b7d22ca6ef96bcd647cc080baeba6a0ca8ef1a5c83dc"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/missing-plot/dna/TmapExecutionActor.ini",
+      "bytes": 51,
+      "sha256": "2d0c512695ea6d1cc18efffb6641aa462db1638c43f5145d2be5a022ecf28192"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/missing-plot/dna/manifest.json",
+      "bytes": 3154,
+      "sha256": "ffda1876f582182615f7d8059336e8bb12b56197c5ec1e535175463426ea4a8a"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/missing-plot/dna/outputs.json",
+      "bytes": 338,
+      "sha256": "766fe1a46c495b7054e7916019d12bd3b3709b7a2429457387f35d8d31545986"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/missing-plot/fusion/AnalysisArgs.ini",
+      "bytes": 67,
+      "sha256": "77783c7783264802729d0f16f2aef0f935370ce7bd7576c61fe30e8c19b54a8f"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/missing-plot/fusion/AnnotatorActor.ini",
+      "bytes": 43,
+      "sha256": "0416456716315e82a321b0a2acfb0effa7fce745542bbc36114721cedb01b9ea"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/missing-plot/fusion/Bed/Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.09_02_26.bed",
+      "bytes": 106,
+      "sha256": "dda7e48ad3a222832eb04d220abff58e1465428afde39c6f706a8313af353e5d"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/missing-plot/fusion/CNV/Oncomine_Focus_v2_4.0.20260903_Manticore_cnv.h5",
+      "bytes": 90,
+      "sha256": "3c051e42776caa0bd7166e75580f808f934c16ab6b9d4ba03c38d3e5de145273"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/missing-plot/fusion/CNV/Oncomine_Focus_v2_4.0.20260906_Manticore_cnv.json",
+      "bytes": 54,
+      "sha256": "afa63c4e570af9a0bae8d40e5f83cd5c9b8cee6e198b6e81624fb4f67fb02068"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/missing-plot/fusion/Hotspot/Oncomine_Focus_v2.20260625.hotspots.bed",
+      "bytes": 86,
+      "sha256": "0f70345a33e9bee8275eba30006c19792341ca8d01c46e4c2b3527826c8c05c5"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/missing-plot/fusion/Pipeline/bin/MSI_IR",
+      "bytes": 65,
+      "sha256": "3104948fa8a285febd2a39827c4d2d9132bcdc3fa367e27aca6700bb99fd11f3"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/missing-plot/fusion/Pipeline/bin/copynumber_exon_finalize.py",
+      "bytes": 34,
+      "sha256": "3835d63b57b7696302199dcb24ff9dd2cee8f4027940902d3af972e7adddacdd"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/missing-plot/fusion/Pipeline/bin/copynumber_exon_plots.py",
+      "bytes": 31,
+      "sha256": "78d911f6e8eef2eae9370a455343a54b99a7959711179957ba984271af30da13"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/missing-plot/fusion/RNACountsActor.ini",
+      "bytes": 53,
+      "sha256": "3394a7bca9e11c815ecac204993dd2d5ec59e4db357b936836f54a037e93f557"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/missing-plot/fusion/TVC_Mask_Bed/Oncomine_Focus_v2_4.0_20260902_Manticore_SVB.bed",
+      "bytes": 100,
+      "sha256": "e81e1670e79afea5246363e1e1a7e80c4eb88adb1d0ce2ca58d897dfcd40b83c"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/missing-plot/fusion/TVC_Mask_Bed/Oncomine_Focus_v2_Gx_hg19_09_03_2026.msi.h5",
+      "bytes": 104,
+      "sha256": "4957e25091a6827d51e5b7d22ca6ef96bcd647cc080baeba6a0ca8ef1a5c83dc"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/missing-plot/fusion/TmapExecutionActor.ini",
+      "bytes": 51,
+      "sha256": "2d0c512695ea6d1cc18efffb6641aa462db1638c43f5145d2be5a022ecf28192"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/missing-plot/fusion/manifest.json",
+      "bytes": 3252,
+      "sha256": "1e74cf72dcefad8afd2842d723986e59ced87cab1bea24908cc8e990f0a6c285"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/missing-plot/fusion/outputs.json",
+      "bytes": 337,
+      "sha256": "3c05be777ea527b8c951399b70c3dad5c638f2fbd128aa676617c9a7c1a8130f"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/repair-flag/dna/AnalysisArgs.ini",
+      "bytes": 67,
+      "sha256": "77783c7783264802729d0f16f2aef0f935370ce7bd7576c61fe30e8c19b54a8f"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/repair-flag/dna/AnnotatorActor.ini",
+      "bytes": 43,
+      "sha256": "0416456716315e82a321b0a2acfb0effa7fce745542bbc36114721cedb01b9ea"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/repair-flag/dna/Bed/Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.09_02_26.bed",
+      "bytes": 106,
+      "sha256": "dda7e48ad3a222832eb04d220abff58e1465428afde39c6f706a8313af353e5d"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/repair-flag/dna/CNV/Oncomine_Focus_v2_4.0.20260903_Manticore_cnv.h5",
+      "bytes": 90,
+      "sha256": "3c051e42776caa0bd7166e75580f808f934c16ab6b9d4ba03c38d3e5de145273"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/repair-flag/dna/CNV/Oncomine_Focus_v2_4.0.20260906_Manticore_cnv.json",
+      "bytes": 54,
+      "sha256": "afa63c4e570af9a0bae8d40e5f83cd5c9b8cee6e198b6e81624fb4f67fb02068"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/repair-flag/dna/Hotspot/Oncomine_Focus_v2.20260625.hotspots.bed",
+      "bytes": 86,
+      "sha256": "0f70345a33e9bee8275eba30006c19792341ca8d01c46e4c2b3527826c8c05c5"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/repair-flag/dna/Pipeline/bin/MSI_IR",
+      "bytes": 65,
+      "sha256": "3104948fa8a285febd2a39827c4d2d9132bcdc3fa367e27aca6700bb99fd11f3"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/repair-flag/dna/Pipeline/bin/copynumber_exon_finalize.py",
+      "bytes": 34,
+      "sha256": "3835d63b57b7696302199dcb24ff9dd2cee8f4027940902d3af972e7adddacdd"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/repair-flag/dna/Pipeline/bin/copynumber_exon_plots.py",
+      "bytes": 31,
+      "sha256": "78d911f6e8eef2eae9370a455343a54b99a7959711179957ba984271af30da13"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/repair-flag/dna/TVC_Mask_Bed/Oncomine_Focus_v2_4.0_20260902_Manticore_SVB.bed",
+      "bytes": 100,
+      "sha256": "e81e1670e79afea5246363e1e1a7e80c4eb88adb1d0ce2ca58d897dfcd40b83c"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/repair-flag/dna/TVC_Mask_Bed/Oncomine_Focus_v2_Gx_hg19_09_03_2026.msi.h5",
+      "bytes": 104,
+      "sha256": "4957e25091a6827d51e5b7d22ca6ef96bcd647cc080baeba6a0ca8ef1a5c83dc"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/repair-flag/dna/TmapExecutionActor.ini",
+      "bytes": 51,
+      "sha256": "2d0c512695ea6d1cc18efffb6641aa462db1638c43f5145d2be5a022ecf28192"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/repair-flag/dna/manifest.json",
+      "bytes": 3154,
+      "sha256": "ffda1876f582182615f7d8059336e8bb12b56197c5ec1e535175463426ea4a8a"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/repair-flag/dna/outputs.json",
+      "bytes": 337,
+      "sha256": "3c05be777ea527b8c951399b70c3dad5c638f2fbd128aa676617c9a7c1a8130f"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/repair-flag/fusion/AnalysisArgs.ini",
+      "bytes": 73,
+      "sha256": "e0912d1b31b32a74f0fd0aa10d94fc4dd16ab691674250cf0e09dcc5e7a2f16e"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/repair-flag/fusion/AnnotatorActor.ini",
+      "bytes": 43,
+      "sha256": "0416456716315e82a321b0a2acfb0effa7fce745542bbc36114721cedb01b9ea"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/repair-flag/fusion/Bed/Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.09_02_26.bed",
+      "bytes": 106,
+      "sha256": "dda7e48ad3a222832eb04d220abff58e1465428afde39c6f706a8313af353e5d"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/repair-flag/fusion/CNV/Oncomine_Focus_v2_4.0.20260903_Manticore_cnv.h5",
+      "bytes": 90,
+      "sha256": "3c051e42776caa0bd7166e75580f808f934c16ab6b9d4ba03c38d3e5de145273"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/repair-flag/fusion/CNV/Oncomine_Focus_v2_4.0.20260906_Manticore_cnv.json",
+      "bytes": 54,
+      "sha256": "afa63c4e570af9a0bae8d40e5f83cd5c9b8cee6e198b6e81624fb4f67fb02068"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/repair-flag/fusion/Hotspot/Oncomine_Focus_v2.20260625.hotspots.bed",
+      "bytes": 86,
+      "sha256": "0f70345a33e9bee8275eba30006c19792341ca8d01c46e4c2b3527826c8c05c5"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/repair-flag/fusion/Pipeline/bin/MSI_IR",
+      "bytes": 65,
+      "sha256": "3104948fa8a285febd2a39827c4d2d9132bcdc3fa367e27aca6700bb99fd11f3"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/repair-flag/fusion/Pipeline/bin/copynumber_exon_finalize.py",
+      "bytes": 34,
+      "sha256": "3835d63b57b7696302199dcb24ff9dd2cee8f4027940902d3af972e7adddacdd"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/repair-flag/fusion/Pipeline/bin/copynumber_exon_plots.py",
+      "bytes": 31,
+      "sha256": "78d911f6e8eef2eae9370a455343a54b99a7959711179957ba984271af30da13"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/repair-flag/fusion/RNACountsActor.ini",
+      "bytes": 53,
+      "sha256": "3394a7bca9e11c815ecac204993dd2d5ec59e4db357b936836f54a037e93f557"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/repair-flag/fusion/TVC_Mask_Bed/Oncomine_Focus_v2_4.0_20260902_Manticore_SVB.bed",
+      "bytes": 100,
+      "sha256": "e81e1670e79afea5246363e1e1a7e80c4eb88adb1d0ce2ca58d897dfcd40b83c"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/repair-flag/fusion/TVC_Mask_Bed/Oncomine_Focus_v2_Gx_hg19_09_03_2026.msi.h5",
+      "bytes": 104,
+      "sha256": "4957e25091a6827d51e5b7d22ca6ef96bcd647cc080baeba6a0ca8ef1a5c83dc"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/repair-flag/fusion/TmapExecutionActor.ini",
+      "bytes": 51,
+      "sha256": "2d0c512695ea6d1cc18efffb6641aa462db1638c43f5145d2be5a022ecf28192"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/repair-flag/fusion/manifest.json",
+      "bytes": 3252,
+      "sha256": "1e74cf72dcefad8afd2842d723986e59ced87cab1bea24908cc8e990f0a6c285"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/repair-flag/fusion/outputs.json",
+      "bytes": 337,
+      "sha256": "3c05be777ea527b8c951399b70c3dad5c638f2fbd128aa676617c9a7c1a8130f"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/report-version/dna/AnalysisArgs.ini",
+      "bytes": 67,
+      "sha256": "77783c7783264802729d0f16f2aef0f935370ce7bd7576c61fe30e8c19b54a8f"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/report-version/dna/AnnotatorActor.ini",
+      "bytes": 43,
+      "sha256": "0416456716315e82a321b0a2acfb0effa7fce745542bbc36114721cedb01b9ea"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/report-version/dna/Bed/Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.09_02_26.bed",
+      "bytes": 106,
+      "sha256": "dda7e48ad3a222832eb04d220abff58e1465428afde39c6f706a8313af353e5d"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/report-version/dna/CNV/Oncomine_Focus_v2_4.0.20260903_Manticore_cnv.h5",
+      "bytes": 90,
+      "sha256": "3c051e42776caa0bd7166e75580f808f934c16ab6b9d4ba03c38d3e5de145273"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/report-version/dna/CNV/Oncomine_Focus_v2_4.0.20260906_Manticore_cnv.json",
+      "bytes": 54,
+      "sha256": "afa63c4e570af9a0bae8d40e5f83cd5c9b8cee6e198b6e81624fb4f67fb02068"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/report-version/dna/Hotspot/Oncomine_Focus_v2.20260625.hotspots.bed",
+      "bytes": 86,
+      "sha256": "0f70345a33e9bee8275eba30006c19792341ca8d01c46e4c2b3527826c8c05c5"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/report-version/dna/Pipeline/bin/MSI_IR",
+      "bytes": 65,
+      "sha256": "3104948fa8a285febd2a39827c4d2d9132bcdc3fa367e27aca6700bb99fd11f3"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/report-version/dna/Pipeline/bin/copynumber_exon_finalize.py",
+      "bytes": 34,
+      "sha256": "3835d63b57b7696302199dcb24ff9dd2cee8f4027940902d3af972e7adddacdd"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/report-version/dna/Pipeline/bin/copynumber_exon_plots.py",
+      "bytes": 31,
+      "sha256": "78d911f6e8eef2eae9370a455343a54b99a7959711179957ba984271af30da13"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/report-version/dna/TVC_Mask_Bed/Oncomine_Focus_v2_4.0_20260902_Manticore_SVB.bed",
+      "bytes": 100,
+      "sha256": "e81e1670e79afea5246363e1e1a7e80c4eb88adb1d0ce2ca58d897dfcd40b83c"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/report-version/dna/TVC_Mask_Bed/Oncomine_Focus_v2_Gx_hg19_09_03_2026.msi.h5",
+      "bytes": 104,
+      "sha256": "4957e25091a6827d51e5b7d22ca6ef96bcd647cc080baeba6a0ca8ef1a5c83dc"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/report-version/dna/TmapExecutionActor.ini",
+      "bytes": 51,
+      "sha256": "2d0c512695ea6d1cc18efffb6641aa462db1638c43f5145d2be5a022ecf28192"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/report-version/dna/manifest.json",
+      "bytes": 3154,
+      "sha256": "e87cc5e5e17d5626684d9e0b00c896df86c81ca551a8599ed58b000262d3223f"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/report-version/dna/outputs.json",
+      "bytes": 337,
+      "sha256": "3c05be777ea527b8c951399b70c3dad5c638f2fbd128aa676617c9a7c1a8130f"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/report-version/fusion/AnalysisArgs.ini",
+      "bytes": 67,
+      "sha256": "77783c7783264802729d0f16f2aef0f935370ce7bd7576c61fe30e8c19b54a8f"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/report-version/fusion/AnnotatorActor.ini",
+      "bytes": 43,
+      "sha256": "0416456716315e82a321b0a2acfb0effa7fce745542bbc36114721cedb01b9ea"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/report-version/fusion/Bed/Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.09_02_26.bed",
+      "bytes": 106,
+      "sha256": "dda7e48ad3a222832eb04d220abff58e1465428afde39c6f706a8313af353e5d"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/report-version/fusion/CNV/Oncomine_Focus_v2_4.0.20260903_Manticore_cnv.h5",
+      "bytes": 90,
+      "sha256": "3c051e42776caa0bd7166e75580f808f934c16ab6b9d4ba03c38d3e5de145273"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/report-version/fusion/CNV/Oncomine_Focus_v2_4.0.20260906_Manticore_cnv.json",
+      "bytes": 54,
+      "sha256": "afa63c4e570af9a0bae8d40e5f83cd5c9b8cee6e198b6e81624fb4f67fb02068"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/report-version/fusion/Hotspot/Oncomine_Focus_v2.20260625.hotspots.bed",
+      "bytes": 86,
+      "sha256": "0f70345a33e9bee8275eba30006c19792341ca8d01c46e4c2b3527826c8c05c5"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/report-version/fusion/Pipeline/bin/MSI_IR",
+      "bytes": 65,
+      "sha256": "3104948fa8a285febd2a39827c4d2d9132bcdc3fa367e27aca6700bb99fd11f3"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/report-version/fusion/Pipeline/bin/copynumber_exon_finalize.py",
+      "bytes": 34,
+      "sha256": "3835d63b57b7696302199dcb24ff9dd2cee8f4027940902d3af972e7adddacdd"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/report-version/fusion/Pipeline/bin/copynumber_exon_plots.py",
+      "bytes": 31,
+      "sha256": "78d911f6e8eef2eae9370a455343a54b99a7959711179957ba984271af30da13"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/report-version/fusion/RNACountsActor.ini",
+      "bytes": 53,
+      "sha256": "3394a7bca9e11c815ecac204993dd2d5ec59e4db357b936836f54a037e93f557"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/report-version/fusion/TVC_Mask_Bed/Oncomine_Focus_v2_4.0_20260902_Manticore_SVB.bed",
+      "bytes": 100,
+      "sha256": "e81e1670e79afea5246363e1e1a7e80c4eb88adb1d0ce2ca58d897dfcd40b83c"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/report-version/fusion/TVC_Mask_Bed/Oncomine_Focus_v2_Gx_hg19_09_03_2026.msi.h5",
+      "bytes": 104,
+      "sha256": "4957e25091a6827d51e5b7d22ca6ef96bcd647cc080baeba6a0ca8ef1a5c83dc"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/report-version/fusion/TmapExecutionActor.ini",
+      "bytes": 51,
+      "sha256": "2d0c512695ea6d1cc18efffb6641aa462db1638c43f5145d2be5a022ecf28192"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/report-version/fusion/manifest.json",
+      "bytes": 3252,
+      "sha256": "1e74cf72dcefad8afd2842d723986e59ced87cab1bea24908cc8e990f0a6c285"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/report-version/fusion/outputs.json",
+      "bytes": 337,
+      "sha256": "3c05be777ea527b8c951399b70c3dad5c638f2fbd128aa676617c9a7c1a8130f"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-pass/dna/AnalysisArgs.ini",
+      "bytes": 67,
+      "sha256": "77783c7783264802729d0f16f2aef0f935370ce7bd7576c61fe30e8c19b54a8f"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-pass/dna/AnnotatorActor.ini",
+      "bytes": 43,
+      "sha256": "0416456716315e82a321b0a2acfb0effa7fce745542bbc36114721cedb01b9ea"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-pass/dna/Bed/Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.09_02_26.bed",
+      "bytes": 106,
+      "sha256": "dda7e48ad3a222832eb04d220abff58e1465428afde39c6f706a8313af353e5d"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-pass/dna/CNV/Oncomine_Focus_v2_4.0.20260903_Manticore_cnv.h5",
+      "bytes": 90,
+      "sha256": "3c051e42776caa0bd7166e75580f808f934c16ab6b9d4ba03c38d3e5de145273"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-pass/dna/CNV/Oncomine_Focus_v2_4.0.20260906_Manticore_cnv.json",
+      "bytes": 54,
+      "sha256": "afa63c4e570af9a0bae8d40e5f83cd5c9b8cee6e198b6e81624fb4f67fb02068"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-pass/dna/Hotspot/Oncomine_Focus_v2.20260625.hotspots.bed",
+      "bytes": 86,
+      "sha256": "0f70345a33e9bee8275eba30006c19792341ca8d01c46e4c2b3527826c8c05c5"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-pass/dna/Pipeline/bin/MSI_IR",
+      "bytes": 65,
+      "sha256": "3104948fa8a285febd2a39827c4d2d9132bcdc3fa367e27aca6700bb99fd11f3"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-pass/dna/Pipeline/bin/copynumber_exon_finalize.py",
+      "bytes": 34,
+      "sha256": "3835d63b57b7696302199dcb24ff9dd2cee8f4027940902d3af972e7adddacdd"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-pass/dna/Pipeline/bin/copynumber_exon_plots.py",
+      "bytes": 31,
+      "sha256": "78d911f6e8eef2eae9370a455343a54b99a7959711179957ba984271af30da13"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-pass/dna/TVC_Mask_Bed/Oncomine_Focus_v2_4.0_20260902_Manticore_SVB.bed",
+      "bytes": 100,
+      "sha256": "e81e1670e79afea5246363e1e1a7e80c4eb88adb1d0ce2ca58d897dfcd40b83c"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-pass/dna/TVC_Mask_Bed/Oncomine_Focus_v2_Gx_hg19_09_03_2026.msi.h5",
+      "bytes": 104,
+      "sha256": "4957e25091a6827d51e5b7d22ca6ef96bcd647cc080baeba6a0ca8ef1a5c83dc"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-pass/dna/TmapExecutionActor.ini",
+      "bytes": 51,
+      "sha256": "2d0c512695ea6d1cc18efffb6641aa462db1638c43f5145d2be5a022ecf28192"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-pass/dna/manifest.json",
+      "bytes": 3154,
+      "sha256": "ffda1876f582182615f7d8059336e8bb12b56197c5ec1e535175463426ea4a8a"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-pass/dna/outputs.json",
+      "bytes": 337,
+      "sha256": "3c05be777ea527b8c951399b70c3dad5c638f2fbd128aa676617c9a7c1a8130f"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-pass/fusion/AnalysisArgs.ini",
+      "bytes": 67,
+      "sha256": "77783c7783264802729d0f16f2aef0f935370ce7bd7576c61fe30e8c19b54a8f"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-pass/fusion/AnnotatorActor.ini",
+      "bytes": 43,
+      "sha256": "0416456716315e82a321b0a2acfb0effa7fce745542bbc36114721cedb01b9ea"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-pass/fusion/Bed/Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.09_02_26.bed",
+      "bytes": 106,
+      "sha256": "dda7e48ad3a222832eb04d220abff58e1465428afde39c6f706a8313af353e5d"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-pass/fusion/CNV/Oncomine_Focus_v2_4.0.20260903_Manticore_cnv.h5",
+      "bytes": 90,
+      "sha256": "3c051e42776caa0bd7166e75580f808f934c16ab6b9d4ba03c38d3e5de145273"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-pass/fusion/CNV/Oncomine_Focus_v2_4.0.20260906_Manticore_cnv.json",
+      "bytes": 54,
+      "sha256": "afa63c4e570af9a0bae8d40e5f83cd5c9b8cee6e198b6e81624fb4f67fb02068"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-pass/fusion/Hotspot/Oncomine_Focus_v2.20260625.hotspots.bed",
+      "bytes": 86,
+      "sha256": "0f70345a33e9bee8275eba30006c19792341ca8d01c46e4c2b3527826c8c05c5"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-pass/fusion/Pipeline/bin/MSI_IR",
+      "bytes": 65,
+      "sha256": "3104948fa8a285febd2a39827c4d2d9132bcdc3fa367e27aca6700bb99fd11f3"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-pass/fusion/Pipeline/bin/copynumber_exon_finalize.py",
+      "bytes": 34,
+      "sha256": "3835d63b57b7696302199dcb24ff9dd2cee8f4027940902d3af972e7adddacdd"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-pass/fusion/Pipeline/bin/copynumber_exon_plots.py",
+      "bytes": 31,
+      "sha256": "78d911f6e8eef2eae9370a455343a54b99a7959711179957ba984271af30da13"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-pass/fusion/RNACountsActor.ini",
+      "bytes": 53,
+      "sha256": "3394a7bca9e11c815ecac204993dd2d5ec59e4db357b936836f54a037e93f557"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-pass/fusion/TVC_Mask_Bed/Oncomine_Focus_v2_4.0_20260902_Manticore_SVB.bed",
+      "bytes": 100,
+      "sha256": "e81e1670e79afea5246363e1e1a7e80c4eb88adb1d0ce2ca58d897dfcd40b83c"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-pass/fusion/TVC_Mask_Bed/Oncomine_Focus_v2_Gx_hg19_09_03_2026.msi.h5",
+      "bytes": 104,
+      "sha256": "4957e25091a6827d51e5b7d22ca6ef96bcd647cc080baeba6a0ca8ef1a5c83dc"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-pass/fusion/TmapExecutionActor.ini",
+      "bytes": 51,
+      "sha256": "2d0c512695ea6d1cc18efffb6641aa462db1638c43f5145d2be5a022ecf28192"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-pass/fusion/manifest.json",
+      "bytes": 3252,
+      "sha256": "1e74cf72dcefad8afd2842d723986e59ced87cab1bea24908cc8e990f0a6c285"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-pass/fusion/outputs.json",
+      "bytes": 337,
+      "sha256": "3c05be777ea527b8c951399b70c3dad5c638f2fbd128aa676617c9a7c1a8130f"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-script/dna/AnalysisArgs.ini",
+      "bytes": 67,
+      "sha256": "77783c7783264802729d0f16f2aef0f935370ce7bd7576c61fe30e8c19b54a8f"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-script/dna/AnnotatorActor.ini",
+      "bytes": 43,
+      "sha256": "0416456716315e82a321b0a2acfb0effa7fce745542bbc36114721cedb01b9ea"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-script/dna/Bed/Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.09_02_26.bed",
+      "bytes": 106,
+      "sha256": "dda7e48ad3a222832eb04d220abff58e1465428afde39c6f706a8313af353e5d"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-script/dna/CNV/Oncomine_Focus_v2_4.0.20260903_Manticore_cnv.h5",
+      "bytes": 90,
+      "sha256": "3c051e42776caa0bd7166e75580f808f934c16ab6b9d4ba03c38d3e5de145273"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-script/dna/CNV/Oncomine_Focus_v2_4.0.20260906_Manticore_cnv.json",
+      "bytes": 54,
+      "sha256": "afa63c4e570af9a0bae8d40e5f83cd5c9b8cee6e198b6e81624fb4f67fb02068"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-script/dna/Hotspot/Oncomine_Focus_v2.20260625.hotspots.bed",
+      "bytes": 86,
+      "sha256": "0f70345a33e9bee8275eba30006c19792341ca8d01c46e4c2b3527826c8c05c5"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-script/dna/Pipeline/bin/MSI_IR",
+      "bytes": 65,
+      "sha256": "3104948fa8a285febd2a39827c4d2d9132bcdc3fa367e27aca6700bb99fd11f3"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-script/dna/Pipeline/bin/copynumber_exon_finalize.py",
+      "bytes": 34,
+      "sha256": "3835d63b57b7696302199dcb24ff9dd2cee8f4027940902d3af972e7adddacdd"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-script/dna/Pipeline/bin/copynumber_exon_plots.py",
+      "bytes": 31,
+      "sha256": "78d911f6e8eef2eae9370a455343a54b99a7959711179957ba984271af30da13"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-script/dna/TVC_Mask_Bed/Oncomine_Focus_v2_4.0_20260902_Manticore_SVB.bed",
+      "bytes": 100,
+      "sha256": "e81e1670e79afea5246363e1e1a7e80c4eb88adb1d0ce2ca58d897dfcd40b83c"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-script/dna/TVC_Mask_Bed/Oncomine_Focus_v2_Gx_hg19_09_03_2026.msi.h5",
+      "bytes": 104,
+      "sha256": "4957e25091a6827d51e5b7d22ca6ef96bcd647cc080baeba6a0ca8ef1a5c83dc"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-script/dna/TmapExecutionActor.ini",
+      "bytes": 51,
+      "sha256": "2d0c512695ea6d1cc18efffb6641aa462db1638c43f5145d2be5a022ecf28192"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-script/dna/manifest.json",
+      "bytes": 3154,
+      "sha256": "ffda1876f582182615f7d8059336e8bb12b56197c5ec1e535175463426ea4a8a"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-script/dna/outputs.json",
+      "bytes": 337,
+      "sha256": "3c05be777ea527b8c951399b70c3dad5c638f2fbd128aa676617c9a7c1a8130f"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-script/fusion/AnalysisArgs.ini",
+      "bytes": 67,
+      "sha256": "77783c7783264802729d0f16f2aef0f935370ce7bd7576c61fe30e8c19b54a8f"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-script/fusion/AnnotatorActor.ini",
+      "bytes": 43,
+      "sha256": "0416456716315e82a321b0a2acfb0effa7fce745542bbc36114721cedb01b9ea"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-script/fusion/Bed/Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.09_02_26.bed",
+      "bytes": 106,
+      "sha256": "dda7e48ad3a222832eb04d220abff58e1465428afde39c6f706a8313af353e5d"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-script/fusion/CNV/Oncomine_Focus_v2_4.0.20260903_Manticore_cnv.h5",
+      "bytes": 90,
+      "sha256": "3c051e42776caa0bd7166e75580f808f934c16ab6b9d4ba03c38d3e5de145273"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-script/fusion/CNV/Oncomine_Focus_v2_4.0.20260906_Manticore_cnv.json",
+      "bytes": 54,
+      "sha256": "afa63c4e570af9a0bae8d40e5f83cd5c9b8cee6e198b6e81624fb4f67fb02068"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-script/fusion/Hotspot/Oncomine_Focus_v2.20260625.hotspots.bed",
+      "bytes": 86,
+      "sha256": "0f70345a33e9bee8275eba30006c19792341ca8d01c46e4c2b3527826c8c05c5"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-script/fusion/Pipeline/bin/MSI_IR",
+      "bytes": 65,
+      "sha256": "3104948fa8a285febd2a39827c4d2d9132bcdc3fa367e27aca6700bb99fd11f3"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-script/fusion/Pipeline/bin/copynumber_exon_finalize.py",
+      "bytes": 34,
+      "sha256": "3835d63b57b7696302199dcb24ff9dd2cee8f4027940902d3af972e7adddacdd"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-script/fusion/Pipeline/bin/copynumber_exon_plots.py",
+      "bytes": 31,
+      "sha256": "785fdd36781f5f03131ac522109c9cb47b86870e0ea4648915b9af2dcb5b46c0"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-script/fusion/RNACountsActor.ini",
+      "bytes": 53,
+      "sha256": "3394a7bca9e11c815ecac204993dd2d5ec59e4db357b936836f54a037e93f557"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-script/fusion/TVC_Mask_Bed/Oncomine_Focus_v2_4.0_20260902_Manticore_SVB.bed",
+      "bytes": 100,
+      "sha256": "e81e1670e79afea5246363e1e1a7e80c4eb88adb1d0ce2ca58d897dfcd40b83c"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-script/fusion/TVC_Mask_Bed/Oncomine_Focus_v2_Gx_hg19_09_03_2026.msi.h5",
+      "bytes": 104,
+      "sha256": "4957e25091a6827d51e5b7d22ca6ef96bcd647cc080baeba6a0ca8ef1a5c83dc"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-script/fusion/TmapExecutionActor.ini",
+      "bytes": 51,
+      "sha256": "2d0c512695ea6d1cc18efffb6641aa462db1638c43f5145d2be5a022ecf28192"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-script/fusion/manifest.json",
+      "bytes": 3252,
+      "sha256": "1e74cf72dcefad8afd2842d723986e59ced87cab1bea24908cc8e990f0a6c285"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/stale-script/fusion/outputs.json",
+      "bytes": 337,
+      "sha256": "3c05be777ea527b8c951399b70c3dad5c638f2fbd128aa676617c9a7c1a8130f"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-kit/dna/AnalysisArgs.ini",
+      "bytes": 67,
+      "sha256": "77783c7783264802729d0f16f2aef0f935370ce7bd7576c61fe30e8c19b54a8f"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-kit/dna/AnnotatorActor.ini",
+      "bytes": 43,
+      "sha256": "0416456716315e82a321b0a2acfb0effa7fce745542bbc36114721cedb01b9ea"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-kit/dna/Bed/Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.09_02_26.bed",
+      "bytes": 106,
+      "sha256": "dda7e48ad3a222832eb04d220abff58e1465428afde39c6f706a8313af353e5d"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-kit/dna/CNV/Oncomine_Focus_v2_4.0.20260903_Manticore_cnv.h5",
+      "bytes": 90,
+      "sha256": "3c051e42776caa0bd7166e75580f808f934c16ab6b9d4ba03c38d3e5de145273"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-kit/dna/CNV/Oncomine_Focus_v2_4.0.20260906_Manticore_cnv.json",
+      "bytes": 54,
+      "sha256": "afa63c4e570af9a0bae8d40e5f83cd5c9b8cee6e198b6e81624fb4f67fb02068"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-kit/dna/Hotspot/Oncomine_Focus_v2.20260625.hotspots.bed",
+      "bytes": 86,
+      "sha256": "0f70345a33e9bee8275eba30006c19792341ca8d01c46e4c2b3527826c8c05c5"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-kit/dna/Pipeline/bin/MSI_IR",
+      "bytes": 65,
+      "sha256": "3104948fa8a285febd2a39827c4d2d9132bcdc3fa367e27aca6700bb99fd11f3"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-kit/dna/Pipeline/bin/copynumber_exon_finalize.py",
+      "bytes": 34,
+      "sha256": "3835d63b57b7696302199dcb24ff9dd2cee8f4027940902d3af972e7adddacdd"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-kit/dna/Pipeline/bin/copynumber_exon_plots.py",
+      "bytes": 31,
+      "sha256": "78d911f6e8eef2eae9370a455343a54b99a7959711179957ba984271af30da13"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-kit/dna/TVC_Mask_Bed/Oncomine_Focus_v2_4.0_20260902_Manticore_SVB.bed",
+      "bytes": 100,
+      "sha256": "e81e1670e79afea5246363e1e1a7e80c4eb88adb1d0ce2ca58d897dfcd40b83c"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-kit/dna/TVC_Mask_Bed/Oncomine_Focus_v2_Gx_hg19_09_03_2026.msi.h5",
+      "bytes": 104,
+      "sha256": "4957e25091a6827d51e5b7d22ca6ef96bcd647cc080baeba6a0ca8ef1a5c83dc"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-kit/dna/TmapExecutionActor.ini",
+      "bytes": 51,
+      "sha256": "2d0c512695ea6d1cc18efffb6641aa462db1638c43f5145d2be5a022ecf28192"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-kit/dna/manifest.json",
+      "bytes": 3151,
+      "sha256": "6d47820a17f09498ad0825945f9a13e275a1e009194e2c364670e57925920801"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-kit/dna/outputs.json",
+      "bytes": 337,
+      "sha256": "3c05be777ea527b8c951399b70c3dad5c638f2fbd128aa676617c9a7c1a8130f"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-kit/fusion/AnalysisArgs.ini",
+      "bytes": 67,
+      "sha256": "77783c7783264802729d0f16f2aef0f935370ce7bd7576c61fe30e8c19b54a8f"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-kit/fusion/AnnotatorActor.ini",
+      "bytes": 43,
+      "sha256": "0416456716315e82a321b0a2acfb0effa7fce745542bbc36114721cedb01b9ea"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-kit/fusion/Bed/Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.09_02_26.bed",
+      "bytes": 106,
+      "sha256": "dda7e48ad3a222832eb04d220abff58e1465428afde39c6f706a8313af353e5d"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-kit/fusion/CNV/Oncomine_Focus_v2_4.0.20260903_Manticore_cnv.h5",
+      "bytes": 90,
+      "sha256": "3c051e42776caa0bd7166e75580f808f934c16ab6b9d4ba03c38d3e5de145273"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-kit/fusion/CNV/Oncomine_Focus_v2_4.0.20260906_Manticore_cnv.json",
+      "bytes": 54,
+      "sha256": "afa63c4e570af9a0bae8d40e5f83cd5c9b8cee6e198b6e81624fb4f67fb02068"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-kit/fusion/Hotspot/Oncomine_Focus_v2.20260625.hotspots.bed",
+      "bytes": 86,
+      "sha256": "0f70345a33e9bee8275eba30006c19792341ca8d01c46e4c2b3527826c8c05c5"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-kit/fusion/Pipeline/bin/MSI_IR",
+      "bytes": 65,
+      "sha256": "3104948fa8a285febd2a39827c4d2d9132bcdc3fa367e27aca6700bb99fd11f3"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-kit/fusion/Pipeline/bin/copynumber_exon_finalize.py",
+      "bytes": 34,
+      "sha256": "3835d63b57b7696302199dcb24ff9dd2cee8f4027940902d3af972e7adddacdd"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-kit/fusion/Pipeline/bin/copynumber_exon_plots.py",
+      "bytes": 31,
+      "sha256": "78d911f6e8eef2eae9370a455343a54b99a7959711179957ba984271af30da13"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-kit/fusion/RNACountsActor.ini",
+      "bytes": 53,
+      "sha256": "3394a7bca9e11c815ecac204993dd2d5ec59e4db357b936836f54a037e93f557"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-kit/fusion/TVC_Mask_Bed/Oncomine_Focus_v2_4.0_20260902_Manticore_SVB.bed",
+      "bytes": 100,
+      "sha256": "e81e1670e79afea5246363e1e1a7e80c4eb88adb1d0ce2ca58d897dfcd40b83c"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-kit/fusion/TVC_Mask_Bed/Oncomine_Focus_v2_Gx_hg19_09_03_2026.msi.h5",
+      "bytes": 104,
+      "sha256": "4957e25091a6827d51e5b7d22ca6ef96bcd647cc080baeba6a0ca8ef1a5c83dc"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-kit/fusion/TmapExecutionActor.ini",
+      "bytes": 51,
+      "sha256": "2d0c512695ea6d1cc18efffb6641aa462db1638c43f5145d2be5a022ecf28192"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-kit/fusion/manifest.json",
+      "bytes": 3252,
+      "sha256": "1e74cf72dcefad8afd2842d723986e59ced87cab1bea24908cc8e990f0a6c285"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-kit/fusion/outputs.json",
+      "bytes": 337,
+      "sha256": "3c05be777ea527b8c951399b70c3dad5c638f2fbd128aa676617c9a7c1a8130f"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-primer/dna/AnalysisArgs.ini",
+      "bytes": 67,
+      "sha256": "77783c7783264802729d0f16f2aef0f935370ce7bd7576c61fe30e8c19b54a8f"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-primer/dna/AnnotatorActor.ini",
+      "bytes": 43,
+      "sha256": "0416456716315e82a321b0a2acfb0effa7fce745542bbc36114721cedb01b9ea"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-primer/dna/Bed/Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.09_02_26.bed",
+      "bytes": 106,
+      "sha256": "dda7e48ad3a222832eb04d220abff58e1465428afde39c6f706a8313af353e5d"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-primer/dna/CNV/Oncomine_Focus_v2_4.0.20260903_Manticore_cnv.h5",
+      "bytes": 90,
+      "sha256": "3c051e42776caa0bd7166e75580f808f934c16ab6b9d4ba03c38d3e5de145273"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-primer/dna/CNV/Oncomine_Focus_v2_4.0.20260906_Manticore_cnv.json",
+      "bytes": 54,
+      "sha256": "afa63c4e570af9a0bae8d40e5f83cd5c9b8cee6e198b6e81624fb4f67fb02068"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-primer/dna/Hotspot/Oncomine_Focus_v2.20260625.hotspots.bed",
+      "bytes": 86,
+      "sha256": "0f70345a33e9bee8275eba30006c19792341ca8d01c46e4c2b3527826c8c05c5"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-primer/dna/Pipeline/bin/MSI_IR",
+      "bytes": 65,
+      "sha256": "3104948fa8a285febd2a39827c4d2d9132bcdc3fa367e27aca6700bb99fd11f3"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-primer/dna/Pipeline/bin/copynumber_exon_finalize.py",
+      "bytes": 34,
+      "sha256": "3835d63b57b7696302199dcb24ff9dd2cee8f4027940902d3af972e7adddacdd"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-primer/dna/Pipeline/bin/copynumber_exon_plots.py",
+      "bytes": 31,
+      "sha256": "78d911f6e8eef2eae9370a455343a54b99a7959711179957ba984271af30da13"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-primer/dna/TVC_Mask_Bed/Oncomine_Focus_v2_4.0_20260902_Manticore_SVB.bed",
+      "bytes": 100,
+      "sha256": "e81e1670e79afea5246363e1e1a7e80c4eb88adb1d0ce2ca58d897dfcd40b83c"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-primer/dna/TVC_Mask_Bed/Oncomine_Focus_v2_Gx_hg19_09_03_2026.msi.h5",
+      "bytes": 104,
+      "sha256": "4957e25091a6827d51e5b7d22ca6ef96bcd647cc080baeba6a0ca8ef1a5c83dc"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-primer/dna/TmapExecutionActor.ini",
+      "bytes": 51,
+      "sha256": "2d0c512695ea6d1cc18efffb6641aa462db1638c43f5145d2be5a022ecf28192"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-primer/dna/manifest.json",
+      "bytes": 3154,
+      "sha256": "ffda1876f582182615f7d8059336e8bb12b56197c5ec1e535175463426ea4a8a"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-primer/dna/outputs.json",
+      "bytes": 337,
+      "sha256": "3c05be777ea527b8c951399b70c3dad5c638f2fbd128aa676617c9a7c1a8130f"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-primer/fusion/AnalysisArgs.ini",
+      "bytes": 67,
+      "sha256": "77783c7783264802729d0f16f2aef0f935370ce7bd7576c61fe30e8c19b54a8f"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-primer/fusion/AnnotatorActor.ini",
+      "bytes": 43,
+      "sha256": "0416456716315e82a321b0a2acfb0effa7fce745542bbc36114721cedb01b9ea"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-primer/fusion/Bed/Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.09_02_26.bed",
+      "bytes": 106,
+      "sha256": "dda7e48ad3a222832eb04d220abff58e1465428afde39c6f706a8313af353e5d"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-primer/fusion/CNV/Oncomine_Focus_v2_4.0.20260903_Manticore_cnv.h5",
+      "bytes": 90,
+      "sha256": "3c051e42776caa0bd7166e75580f808f934c16ab6b9d4ba03c38d3e5de145273"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-primer/fusion/CNV/Oncomine_Focus_v2_4.0.20260906_Manticore_cnv.json",
+      "bytes": 54,
+      "sha256": "afa63c4e570af9a0bae8d40e5f83cd5c9b8cee6e198b6e81624fb4f67fb02068"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-primer/fusion/Hotspot/Oncomine_Focus_v2.20260625.hotspots.bed",
+      "bytes": 86,
+      "sha256": "0f70345a33e9bee8275eba30006c19792341ca8d01c46e4c2b3527826c8c05c5"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-primer/fusion/Pipeline/bin/MSI_IR",
+      "bytes": 65,
+      "sha256": "3104948fa8a285febd2a39827c4d2d9132bcdc3fa367e27aca6700bb99fd11f3"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-primer/fusion/Pipeline/bin/copynumber_exon_finalize.py",
+      "bytes": 34,
+      "sha256": "3835d63b57b7696302199dcb24ff9dd2cee8f4027940902d3af972e7adddacdd"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-primer/fusion/Pipeline/bin/copynumber_exon_plots.py",
+      "bytes": 31,
+      "sha256": "78d911f6e8eef2eae9370a455343a54b99a7959711179957ba984271af30da13"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-primer/fusion/RNACountsActor.ini",
+      "bytes": 53,
+      "sha256": "3394a7bca9e11c815ecac204993dd2d5ec59e4db357b936836f54a037e93f557"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-primer/fusion/TVC_Mask_Bed/Oncomine_Focus_v2_4.0_20260902_Manticore_SVB.bed",
+      "bytes": 100,
+      "sha256": "e81e1670e79afea5246363e1e1a7e80c4eb88adb1d0ce2ca58d897dfcd40b83c"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-primer/fusion/TVC_Mask_Bed/Oncomine_Focus_v2_Gx_hg19_09_03_2026.msi.h5",
+      "bytes": 104,
+      "sha256": "4957e25091a6827d51e5b7d22ca6ef96bcd647cc080baeba6a0ca8ef1a5c83dc"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-primer/fusion/TmapExecutionActor.ini",
+      "bytes": 51,
+      "sha256": "2d0c512695ea6d1cc18efffb6641aa462db1638c43f5145d2be5a022ecf28192"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-primer/fusion/manifest.json",
+      "bytes": 3252,
+      "sha256": "1bd16f9bb9efaec082e6187f027e662c502a77ff618647b042ef024415110e9f"
+    },
+    {
+      "path": "irs-65265-review/demo_data/fixtures/wrong-primer/fusion/outputs.json",
+      "bytes": 337,
+      "sha256": "3c05be777ea527b8c951399b70c3dad5c638f2fbd128aa676617c9a7c1a8130f"
+    },
+    {
+      "path": "irs-65265-review/demo_data/scenario-expectations.json",
+      "bytes": 528,
+      "sha256": "5f3a2ef751ef28c8c600c20aa011e65132691e7a1338c5b0acfcc5387167f69d"
+    },
+    {
+      "path": "irs-65265-review/demo_data/source-checks.json",
+      "bytes": 2859,
+      "sha256": "657959ee60aff3af69002509a4ad789bdf0841fc26906ac48696818ca96bb8f5"
+    },
+    {
+      "path": "irs-65265-review/demo_data/state.json",
+      "bytes": 655361,
+      "sha256": "be1477fcb12daab73342a2b19d4e005e364492d0796117066953afcdba3e4339"
+    },
+    {
+      "path": "irs-65265-review/demo_data/verification/browser-results.json",
+      "bytes": 1546,
+      "sha256": "adb4e6abf7686d532fa6db0cc777cb22c4494d6ea865e0bfc36fe1f2f3f9d61b"
+    },
+    {
+      "path": "irs-65265-review/demo_data/verification/laptop-components.png",
+      "bytes": 293144,
+      "sha256": "eb9788ff88a011cca37f15195f0519f5e9b3af7ce123fe6123547dbf60dc49c3"
+    },
+    {
+      "path": "irs-65265-review/demo_data/verification/laptop-qc.png",
+      "bytes": 397243,
+      "sha256": "ff2f7d52abcef784045dcab3e50263f6ddbf9bcf652359a614f6e605f1a2c479"
+    },
+    {
+      "path": "irs-65265-review/demo_data/verification/laptop-sources.png",
+      "bytes": 253789,
+      "sha256": "80e63ff24d1e822a85e5b121d30fdf5577b6221655c991a279094d1207e99427"
+    },
+    {
+      "path": "irs-65265-review/demo_data/verification/laptop-stale.png",
+      "bytes": 323599,
+      "sha256": "bdbc642b247d4fa831c06eb228bc9f8c783bb75fb8147ba3404e19e91e2b2e31"
+    },
+    {
+      "path": "irs-65265-review/demo_data/verification/runner-1366.png",
+      "bytes": 327515,
+      "sha256": "160296edb2933546e5b24a6406aed4c4f956136d9cd955b78a0f90c688a10f08"
+    },
+    {
+      "path": "irs-65265-review/demo_data/verification/runner-390.png",
+      "bytes": 298609,
+      "sha256": "7106e2fc0818d26dc0e5c91e849a924a7b8dd8c9231b26a2032a3713ef24be05"
+    },
+    {
+      "path": "irs-65265-review/demo_data/verification/stale-pass-evidence.json",
+      "bytes": 320175,
+      "sha256": "f9d03872b9c0cc25f47cbb1591ae2453f2b95e8468dd32c0f9574f4a3cdeaff0"
+    },
+    {
+      "path": "irs-65265-review/description.txt",
+      "bytes": 9061,
+      "sha256": "23d2d65661fc932b8edb3ea6b84837c6163a5adb0d3e03f44dbbc3759e2de0fc"
+    },
+    {
+      "path": "irs-65265-review/future-data.schema.json",
+      "bytes": 5016,
+      "sha256": "3577d2d93e419f9fd01e935cd98bf77c6ed741b111e34416c8dac078d05ae874"
+    },
+    {
+      "path": "irs-65265-review/github-review-data.json",
+      "bytes": 109209,
+      "sha256": "53942afcb8654dd0c86ef45bae9219b470e692a2c6a33995d7090b7444ba0e9f"
+    },
+    {
+      "path": "irs-65265-review/linked-sources.csv",
+      "bytes": 11244,
+      "sha256": "4e4252ad5b45ae3ed5593da9bffe431a034ef15afa103a2006b77f22b3f7161c"
+    },
+    {
+      "path": "irs-65265-review/linked-ticket-export-jql.txt",
+      "bytes": 234,
+      "sha256": "2dd5a172306fc13579fd753cc2eb2c19b103d1653649dca37a282af13213545c"
+    },
+    {
+      "path": "irs-65265-review/live-source-verification.json",
+      "bytes": 1142,
+      "sha256": "e3c76b407f1e6ccdee8d58ed4fbd40e017f3bd89a2506bb90ca4425649a36ea4"
+    },
+    {
+      "path": "irs-65265-review/requirements-candidates.json",
+      "bytes": 9109,
+      "sha256": "a16b5ac28f7c7d417ff211cd95461ed1e24ed6cee3b8c0282c4d617433a2efe4"
+    },
+    {
+      "path": "irs-65265-review/sentinel.py",
+      "bytes": 35778,
+      "sha256": "68400c6a0e56d95214b3cd0f5e091b0656a923a07925981ea47654207708cfbc"
+    },
+    {
+      "path": "irs-65265-review/source-check-results.json",
+      "bytes": 2858,
+      "sha256": "d3fee134551fdda91c91bddc276edf88acc6c2ae9b2b7fdbd0a9b3576f6b0dab"
+    },
+    {
+      "path": "irs-65265-review/source-coverage.json",
+      "bytes": 465,
+      "sha256": "8216b68553442216cf28b84fe3296691012d0695a34aa7a29d16a922cc11a3c1"
+    },
+    {
+      "path": "irs-65265-review/static/app.js",
+      "bytes": 26896,
+      "sha256": "12d8a9beab39d282a8c0dcaf37a3e752a7f0ca7888ec16579308f4c35b348b4d"
+    },
+    {
+      "path": "irs-65265-review/static/index.html",
+      "bytes": 2388,
+      "sha256": "ffb0652ad2c289d753023e8bebbbf2b5449fe774af7b7bc16ea71508e31ab818"
+    },
+    {
+      "path": "irs-65265-review/static/style.css",
+      "bytes": 7428,
+      "sha256": "65d2576d05a727a689588e8d89bd06a2bb900243157d9b47ed494826e1e29d49"
+    },
+    {
+      "path": "irs-65265-review/tests/browser_smoke.py",
+      "bytes": 6448,
+      "sha256": "7c171f764ffbcd4f663a6e907c7579c8338cab94b2c8bf02ec87935bc9f4beb8"
+    },
+    {
+      "path": "irs-65265-review/tests/test_http.py",
+      "bytes": 3483,
+      "sha256": "c84fecfe7f387196ba4902015da19893bb474ab325e31b640caf0bc53ecf2b9c"
+    },
+    {
+      "path": "irs-65265-review/tests/test_sentinel.py",
+      "bytes": 10775,
+      "sha256": "5a35097c1571a7b4d6ecf3801ed5b83b6e90e2cc69d5db3fdee155488a9bf440"
+    },
+    {
+      "path": "irs-65265-review/training-examples.jsonl",
+      "bytes": 5944,
+      "sha256": "a29a249aa0b0c7cf04eab9857ce04ca88c420ef434e968bd23bae1454212a662"
+    },
+    {
+      "path": "irs-65265-review/visible-attachment-metadata.json",
+      "bytes": 2478,
+      "sha256": "c5a2cc000501c52808dea3830c44dddd91604dffcb5e8bb5c6d35ec2f80529ca"
+    },
+    {
+      "path": "results/handoff-browser.json",
+      "bytes": 546,
+      "sha256": "98c6f3364b1a242f03c4c896a25ba8a1d96d25b5f2104cc597c10a429e4c0778"
+    },
+    {
+      "path": "results/handoff-component-checks.json",
+      "bytes": 13695,
+      "sha256": "c867b4b9c39bbf9bdaa6539d189c9a43da6b3069be4d9ed9d27203a5b0eac90f"
+    },
+    {
+      "path": "results/handoff-verification.json",
+      "bytes": 2267,
+      "sha256": "688df02149b45dccbfbf14553d6cddf5dca95beb5759cead9047d0e3140e30c1"
+    },
+    {
+      "path": "results/original-preservation.json",
+      "bytes": 225,
+      "sha256": "a3a28b3d05b8a34b8766fc93df768ed19d8c6355817d559ff3ec9cf18d74a14f"
+    },
+    {
+      "path": "results/project-facts.json",
+      "bytes": 3550,
+      "sha256": "a57a3d09ccc3e90bb37f165561b6ca9772455aed95a8c0ab97958fca7557f4f1"
+    },
+    {
+      "path": "results/publication-checks.json",
+      "bytes": 451,
+      "sha256": "80d7ed968f5d6f570f0215820d32500ed36f63daac02d817585c7c3d20eb4655"
+    },
+    {
+      "path": "results/traceability-demo.json",
+      "bytes": 2067,
+      "sha256": "e53051f472e30e70e1db9d3db191d14907d15bf922e415f77d4df3fdfd83bca1"
+    },
+    {
+      "path": "src/__init__.py",
+      "bytes": 39,
+      "sha256": "44aeeb35a6a80278149220e9335b111c44a72ca1e378ef18101da667c5b15597"
+    },
+    {
+      "path": "src/requirements/__init__.py",
+      "bytes": 288,
+      "sha256": "ccc94d6154dfbe4987fd55b9d410c1c30f4f6aa9963e15189c26f218ab0f6beb"
+    },
+    {
+      "path": "src/requirements/cli.py",
+      "bytes": 1325,
+      "sha256": "755dd4a160b4a988a28d028d26fb92ac83f351e4a5ecf41089b19c0be8e08286"
+    },
+    {
+      "path": "src/requirements/extractor.py",
+      "bytes": 2337,
+      "sha256": "4e88975f9b6546d5a29486cee9d0d74e33af7dd85582f54b10c57b0deef4544b"
+    },
+    {
+      "path": "src/requirements/models.py",
+      "bytes": 1199,
+      "sha256": "f87e96248cd0da65923d1b63edc25b41265b63c6caf53c23ad8011b7306cd70c"
+    },
+    {
+      "path": "src/requirements/traceability.py",
+      "bytes": 1383,
+      "sha256": "b9a27dd45fb5bd7cfa19a50664665b093e3185d84b4ae7295d4d27f4313e97f4"
+    },
+    {
+      "path": "tasks/backlog.md",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tasks/in-progress.md",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tests/test_requirements.py",
+      "bytes": 3139,
+      "sha256": "3e50d8f3da6d049b02f39231441f1b130f4fc8649cb03d49b38f1f7fdfe20a5b"
+    },
+    {
+      "path": "tools/check_workbench_browser.py",
+      "bytes": 4408,
+      "sha256": "c0d818d720db01791ed01ec1217ea0a1befa8ce7c97b74879c77ec05efed1a23"
+    },
+    {
+      "path": "tools/run_checks.py",
+      "bytes": 2924,
+      "sha256": "f52cc20ead40e661f729059552758ba19056e16a08db38b563267dde88031d36"
+    },
+    {
+      "path": "tools/verify_release.py",
+      "bytes": 2464,
+      "sha256": "decb81c23cf9cecfab513bbd209a1001fbd49597b4d4b1af4fd7bd5ea32ddc53"
+    }
+  ]
+}

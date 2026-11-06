@@ -1,0 +1,1437 @@
+{
+  "schema_version": "1.0",
+  "issue_key": "IRS-65265",
+  "title": "Manticore ADF v0.0.3",
+  "source_url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+  "generated_at": "2026-11-03T20:21:03.687428+00:00",
+  "source_issue_available": true,
+  "evidence_state": "retrospective_unreviewed_no_new_approval",
+  "current_snapshot": {
+    "description": "timeline\n\nADF github repo: \nhttps://github.com/thermofisher/csd-adf-gx-manticore-v2-dnafus-70/ \nhttps://github.com/thermofisher/csd-adf-gx-manticore-v2-dna-70/ \n\nconfig files github repo:\nhttps://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/ \n \n1 Need to update the part number for PanelKit and part number for Primer Tube\nManticore DNA and Fus\n | Part Number for DNA panel kit\n | A47017\nA40014056\n | From XP's photo. This is part number for OCAPlus DNA panel kit as a placeholder , will be replaced by the correct part number in the v0.0.3 ADF when the panel is manufactured.\n | \n\n | Part Number for RNA Panel Kit\n | A47019\n | from XP's photo. This is part number for OCAPlus RNA panel kit. Since Manticore is using OCAPlus RNA panel kit, so this is correct.\n | \n\n | Part Number for DNA Primer Tube Pool 1\n | 100093900\n100200225\n | this is part number for \"OCAPlus DNA Pool 1\" as a placeholder for this ADF, will be replaced by correct part number in the v0.0.3 version of ADF\n | \n\n | Part Number for DNA Primer Tube Pool 2\n | 100093901\n100200226\n | this is part number for \"OCAPlus DNA Pool 2\" as a placeholder for this ADF, will be replaced by correct part number in the v0.0.3 version of ADF\n | \n\n | Part Number for RNA Primer Tube pool 1\n | 100093902\n | This is part number for 'OCA Plus RNA Pool 1', which is correct as Manticore is using the OCAPlus Fus panel\n | \n\n | Part Number for RNA Primer Tube pool 2\n | 100093903\n | This is part number for 'OCA Plus RNA Pool 1', which is correct as Manticore is using the OCAPlus Fus panel\n | \n\n | \n | \n | \n | \n\n | \n | \n | \n | \nManticore DNA only\n | Part Number for DNA Panel Kit\n | A47017\nA40014056\n | From XP's photo. This is part number for OCAPlus DNA panel kit as a placeholder , will be replaced by the correct part number in the v0.0.3 version of ADF when the panel is manufactured.\n | \n\n | Part Number for DNA Primer Tube Pool 1\n | 100093900\n100200225\n | this is part number for \"OCAPlus DNA Pool 1\" as a placeholder for this ADF, will be replaced by correct part number in the v0.0.3 version of ADF\n | \n\n | Part Number for DNA Primer Tube Pool 2\n | 100093901\n100200226\n | this is part number for \"OCAPlus DNA Pool 2\" as a placeholder for this ADF, will be replaced by correct part number in the v0.0.3 version of ADF\n | \n\n\n2.1 have the updated SVB file (to be provided by Zheng Zhang)\nhttps://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/Oncomine_Focus_v2_4.0_20260902_Manticore_SVB.bed \nb2bfa8bf8dc94829dd1efa1919d9f1bd Oncomine_Focus_v2_4.0_20260902_Manticore_SVB.bed\n2.2 updated ini files for each module from github https://github.com/thermofisher/csd-motorcore-config-files/tree/main/Manticore \nhttps://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/TmapExecutionActor_Manticore_Gx7.0ADF_v0.0.3.ini\nhttps://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/VariantCallerActor_Manticore_Gx7.0ADF_v0.0.3.ini \nhttps://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/RNACountsActor_Manticore_Gx7.0ADF_v0.0.3.ini \nhttps://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/CnvActor_Manticore_Gx7.0ADF_v0.0.3.ini \nhttps://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/MSIActor_Manticore_Gx7.0ADF_v0.0.3.ini\nhttps://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/AnnotatorActor_Manticore_Gx7.0ADF_v0.0.3.ini\nhttps://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/AnalysisArgs_Manticore_Gx7.0ADF_v0.0.3.json\n\n\n3.1 a different version of TVC binary to better support BRCA HP: Zheng Zhang confirmed this is not needed\n3.2 a different version of Tmap binary to resolve this issue https://lsg-thermofisher.atlassian.net/browse/IRS-64564: Denis will provide this Tmap binary. This is already bundled into v0.0.2 ADF\n4.1 DNA panel bed file with updated parameter overriding from Denis \nhttps://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.09_02_26.bed\nmd5sum: 3e51e15efde5f8cf9f07af8a83296c1f Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.09_02_26.bed\n4.2 remove the ‘--repair-min-freq 30’ in the tmap command line\n\n5 hotspot file with updated parameter overriding: a new hotspot file will be provided\nhttps://github.com/thermofisher/csd-motorcore-config-files/blob/main/Motorhead/Oncomine_Focus_v2.20260625.hotspots.bed \nmd5sum: 0dd74ce6ac67b1a1be4784d0f745c749 Oncomine_Focus_v2.20260625.hotspots.bed\nQuestion: This hotspot file is from Motohread, but long-hp additions and allele-specific overrides should be different between Motorhead and Manticore. Are we going to have an updated hotspot for Manticore before 09/06? \nEva’s response (09/02/2026): please use the motorhead hotspot for V0.0.3. this one depended on the HP-optimization and FP cohort review, so we won’t make it by 9/6 and will need to update for pre-V&V.\n\n6 OVAT ruleset: same as v0.0.2 ADF https://thermofisher.jfrog.io/ui/native/csd-oncomine-software-maven-prod-local/com/lifetech/oncomine/ovat-off-cycle/ofav2/7.0.5/ \n7 VNS ruleset: confirmed with Fernando we should use the VNS 2.2.2 which is already in Gx7.0.2, since there is no new variant type introduced by Manticore assay (e.g. LOH, LongDel, etc) https://thermofisher.jfrog.io/artifactory/csd-oncomine-software-maven-prod-local/com/lifetech/oncomine/variant-name-service-python/1.22.0/variant-name-service-python-1.22.0.tgz\n7 new CNV baseline provided by Ying \nhttps://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/Oncomine_Focus_v2_4.0.20260903_Manticore_cnv.h5. \n66c91acdb445aafca5d2599c39e2323f Oncomine_Focus_v2_4.0.20260903_Manticore_cnv.h5\n \n8 new CNV input parameter json file provided by Ying \nhttps://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/Oncomine_Focus_v2_4.0.20260906_Manticore_cnv.json \n0a4cde62a2127ee7392c6708da03c751 Oncomine_Focus_v2_4.0.20260906_Manticore_cnv.json\n\n9 Ying already uploaded new CNV scripts are to https://github.com/thermofisher/csd-adf-gx-manticore-v2-dnafus-70/blob/master/Pipeline/bin \nArpitha, please make sure the changes are also checked in to the DNA only github repo\n https://github.com/thermofisher/csd-adf-gx-manticore-v2-dna-70/blob/master/Pipeline/bin/ \n9 instrument workflow script which has the latest piercing script (email: Latest piercing workflow for Manticore, from Brady Reynolds 04/27/2026)\nBranch: workflowdev/Manticore_ADF_dev\n\nScript name: ampliseq6reaction_coca_541_Manticore_w1.0.0_v0.0.2\n\nTag: ReporterServer-Dx_7.0_ADF_Manticore_w1.0.0_v0.0.2\n\n10 min reads per sample DNA and min reads per sample RNA need to be finalized: Adam provided (email: Updated minimum read parameters for Manticore ADF, from Adam Harris, 04/22/2026)\nDNA and Fusion workflow: \nmin reads per sample DNA: 6,000,000\n\nmin reads per sample RNA: 2,300,000\n\nmaximum DNA samples on the chip: 12\n\nmaximum RNA samples on the chip: 12\n\nDNA only workflow: \nmin reads per sample DNA: 6,000,000\n\nmaximum DNA samples on the chip: 16\n\n11 Sameh is going to update the MSI baseline and binaries. The new MSI_IR binaries will have update in reporting error messages https://lsg-thermofisher.atlassian.net/browse/IRS-66227\nMSI_IR: https://github.com/thermofisher/csd-adf-gx-manticore-v2-dna-70/blob/master/Pipeline/bin/MSI_IR \nf93f676696edb92bac9fe4f4f3781eef MSI_IR\nMSI baseline: \nmd5sum: a38dce07624cbcf0687a83150689c1b4 Oncomine_Focus_v2_Gx_hg19_08_21_2026.msi.h5\nhttps://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/Oncomine_Focus_v2_Gx_hg19_09_03_2026.msi.h5 \n2c3ad73dfd2fa697f20e39d7b3c570de Oncomine_Focus_v2_Gx_hg19_09_03_2026.msi.h5\nArpitha, please make sure this MSI_IR and Oncomine_Focus_v2_Gx_hg19_09_03_2026.msi.h5 are bundled into both DNA and Fus ADF, and DNA only ADF\n\nUI bugs and improvement:\nhttps://lsg-thermofisher.atlassian.net/browse/IRS-65820 \nhttps://lsg-thermofisher.atlassian.net/browse/IRS-65922 \nhttps://lsg-thermofisher.atlassian.net/browse/IRS-65923 \nhttps://lsg-thermofisher.atlassian.net/browse/IRS-66003 \nhttps://lsg-thermofisher.atlassian.net/browse/IRS-66228 \nhttps://lsg-thermofisher.atlassian.net/browse/IRS-66455\nhttps://lsg-thermofisher.atlassian.net/browse/IRS-66464(Arpitha: the parameter values from this ticket will be finalized before 09/15/2026)\nhttps://lsg-thermofisher.atlassian.net/browse/IRS-66745\n\nSQA will test the following improvement tickets using the bundled v0.0.3 ADF\n https://lsg-thermofisher.atlassian.net/browse/IRS-62690 \nhttps://lsg-thermofisher.atlassian.net/browse/IRS-64099\nhttps://lsg-thermofisher.atlassian.net/browse/IRS-66170\nhttps://lsg-thermofisher.atlassian.net/browse/IRS-65459 \n\n\nBugs identified in Eagle OCAplus 6.8 ADF but fix is deferred to Gx8.0\nhttps://lsg-thermofisher.atlassian.net/browse/IRS-59604 \nhttps://lsg-thermofisher.atlassian.net/browse/IRS-58898",
+    "created": "2026-06-10T12:41:27.491+0530",
+    "updated": "2026-10-28T22:46:07.723+0530",
+    "current_status": "Closed",
+    "source": {
+      "path": "data/raw/connected/jira/batch_probe.json",
+      "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+      "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+      "locator": "fields.description",
+      "collected_at": "2026-11-01T03:33:09.031Z",
+      "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+      "source_hash_matches": true
+    },
+    "completeness": {
+      "comments": "collected",
+      "comments_reported": 11,
+      "comments_retrieved": 11,
+      "field_mapping": "observed_custom_fields",
+      "fields": "collected_all_available",
+      "history": "collected",
+      "history_reported": 82,
+      "history_retrieved": 82,
+      "remote_links": "collected"
+    },
+    "description_truncated": false
+  },
+  "timeline": [
+    {
+      "id": "2899737",
+      "created": "2026-08-21T02:42:35.352+0530",
+      "updated": "2026-08-21T02:42:35.352+0530",
+      "text": "Hi [person], please use this hotspot file for manticore at this moment. https://github.com/thermofisher/csd-motorcore-config-files/blob/main/Motorhead/Oncomine_Focus_v2.20260625.hotspots.bed",
+      "truncated": false,
+      "source": {
+        "path": "data/raw/connected/jira/issue_65265.json",
+        "sha256": "0b0c378962ae367ed02fc5df8369de75973f3d6e688330ef10206fdc66ab244d",
+        "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265?focusedCommentId=2899737",
+        "locator": "issue:IRS-65265/comment:2899737",
+        "collected_at": "2026-11-01T03:33:07.686Z",
+        "local_source_sha256": "0b0c378962ae367ed02fc5df8369de75973f3d6e688330ef10206fdc66ab244d",
+        "source_hash_matches": true
+      }
+    },
+    {
+      "id": "2902329",
+      "created": "2026-08-28T00:34:30.814+0530",
+      "updated": "2026-08-28T02:34:28.556+0530",
+      "text": "Hi [person] , we also want to ensure that all changes critical to resolving this issue are included. https://lsg-thermofisher.atlassian.net/browse/IR-66861 [person] [person] \n[person] the one you posted above is an IR ticket Motorhead. I created the corresponding IRS Gx7.0.2 ticket for Manticore here https://lsg-thermofisher.atlassian.net/browse/IRS-66228 \nalso, this is the original ticket in Gx7.2: https://lsg-thermofisher.atlassian.net/browse/IRS-65789",
+      "truncated": false,
+      "source": {
+        "path": "data/raw/connected/jira/issue_65265.json",
+        "sha256": "0b0c378962ae367ed02fc5df8369de75973f3d6e688330ef10206fdc66ab244d",
+        "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265?focusedCommentId=2902329",
+        "locator": "issue:IRS-65265/comment:2902329",
+        "collected_at": "2026-11-01T03:33:07.686Z",
+        "local_source_sha256": "0b0c378962ae367ed02fc5df8369de75973f3d6e688330ef10206fdc66ab244d",
+        "source_hash_matches": true
+      }
+    },
+    {
+      "id": "2909604",
+      "created": "2026-09-16T02:22:31.939+0530",
+      "updated": "2026-09-16T06:14:59.785+0530",
+      "text": "Hi [person], below are the open items from the requirement review. Could you please take a look and confirm?\nPhysical files required:\nThe following files are currently not accessible, although I have access to the repository. Please provide the correct file links or attach the physical files to the ticket:\nhttps://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/svb_g.bed (requirement #2.1)\nJL: removed this and added the new svb file from the same github repo\nhttps://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/manticoreVC.json (requirement #2.2)\nJL: removed this and added the new ini files from the same github repo\nhttps://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/Oncomine_Focus_v2_Gx_hg19_08_21_2026.msi.h5 (requirement #11)\nJL: removed this and added the new msi baseline file from the same github repo\n\nRequirement #4.2 - TMAP parameter update\nThe requirement says to remove --repair-min-freq 30 from the TMAP command line. Should this update apply to both Pre-Alignment for Calibration and TMAP command? If yes, both AnalysisArgs.ini and TmapExecutor.ini would need to be updated, as discussed in the v0.0.2 ticket: https://lsg-thermofisher.atlassian.net/browse/IRS-64010?focusedCommentId=2889819 \nJL: Yes, it needs to be removed from both Pre-Alignment for Calibration and TMAP command\nYou can find the latest TmapExecutor.ini from https://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/TmapExecutionActor_Manticore_Gx7.0ADF_v0.0.3.ini \nIt is already removed from this file as you can see \n\nYou will find the latest AnalysisArgs.json in the sane github repo by 09/16/2026\n\nRequirement #7 - VNS Ruleset\nThe requirement says to use VNS 2.2.2, which is already available in Gx 7.0.2, since Manticore does not introduce any new variant types. Is this the same vns_2.2.2 configuration already used in v0.0.2, or is there any change required for this version?\nJL: vns 2.2.2 is the latest VNS in Gx7.0.2, and it is already used by Manticore v0.0.2 ADF. No VNS change for Manticore v0.0.3 ADF\nIRS-66228\nThe same CNV binaries pushed by Ying in the DNA+Fusion repository need to be used in DNA-only. No other ADF-side changes are required.\nJL: Yes, as I described above under #9 , please make sure the same CNV scripts are pushed to both DNA+Fus and DNA only ADF repo. \n\n\nIRS-66455\nAs per https://lsg-thermofisher.atlassian.net/browse/IRS-65809 and https://lsg-thermofisher.atlassian.net/browse/IRS-65810 , Gene should be a dropdown, and https://lsg-thermofisher.atlassian.net/browse/IRS-65810?focusedCommentId=2905124 mentions that Scale should be dynamic.\nThis needs further discussion with the leads. In the meantime, I'll configure Gene as a dropdown and wait for confirmation on Scale. Type will be removed as previously agreed.\nJL: Sure. Please try to be as consistent as possible with the the GUI changes in Gx7.2.",
+      "truncated": false,
+      "source": {
+        "path": "data/raw/connected/jira/issue_65265.json",
+        "sha256": "0b0c378962ae367ed02fc5df8369de75973f3d6e688330ef10206fdc66ab244d",
+        "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265?focusedCommentId=2909604",
+        "locator": "issue:IRS-65265/comment:2909604",
+        "collected_at": "2026-11-01T03:33:07.686Z",
+        "local_source_sha256": "0b0c378962ae367ed02fc5df8369de75973f3d6e688330ef10206fdc66ab244d",
+        "source_hash_matches": true
+      }
+    },
+    {
+      "id": "2912743",
+      "created": "2026-09-23T05:07:55.532+0530",
+      "updated": "2026-09-25T04:46:48.984+0530",
+      "text": "Completed the changes and pushed them to the following branches:\nhttps://github.com/thermofisher/csd-adf-gx-manticore-v2-dnafus-70/compare/IRS-65265_dna_fus_adf_v003\nhttps://github.com/thermofisher/csd-adf-gx-manticore-v2-dna-70/compare/IRS-65265_dna_adf_v003 \n\nConfirmed parameter updates:\nRetain variant.view=Allele without quotes, consistent with the v0.0.2 format.\n\nRetain VariantCallerActor.run=1 in v0.0.3.\n\nThumbnailArgs=<empty value>\n\nConfirmed: Manticore will not support resequencing. Therefore, the following parameter will be retained as in v0.0.2:\nbasecaller.ionparams.resequencing.v2=0\n\nParameter Configuration Approach:\n[person] clarified that the parameters used in v0.0.1/v0.0.2 were based on the custom assay and XP’s assay from the feasibility runs. These parameters have since been refined, and the final parameter set was provided as complete INI files rather than as individual parameter updates/removals.\nTherefore, the agreed approach is to use the provided INI files as is and communicate any missing or incorrect parameters identified during implementation or testing.\n\nDev testing updates:\n1. DNA+Fusion run failure:\nEncountered an issue due to the missing fusions.min.normalized.read.count.non.targeted parameter. This parameter was present in v0.0.2. After adding it back with the default value 0.001, the run passed successfully.\nDiscussed with [person]. She will check with the SME and confirm.\nLink for failed run due to missing parameter: https://kedar.itw/genexus/results/sample/651/key-findings ([credential redacted])\n\n2. copynumber_exon_plots error: \nThe DNA-only run completed successfully, and the DNA+Fusion run passed after the parameter fix, but CNV plots were not generated. \nhttps://kedar.itw/genexus/results/sample/652/key-findings - DNA-only N2R passed, but plot was not generated.\n\n\nhttps://kedar.itw/genexus/results/sample/656/key-findings - B2R failed due to below error in copynumber_exon_plots.py\n\n\nThe plots are generated with the hotfix. I'll share the details with [person] and wait for the appropriate fix.\n\nRun links: ([credential redacted])\nN2R Run with CNV Plot issue: https://kedar.itw/genexus/results/sample/652/variants\nFailed B2R due to copynumber_exon_plots error: https://kedar.itw/genexus/results/sample/656/key-findings\nRun with CNV Plot hotfix: https://kedar.itw/genexus/results/sample/661/variants\n3. Empty Variants Grid:\nThe Variants Grid was empty even though the snp_variant, cnv_variant, fusion_variant, and corresponding selected_*_variants tables contained data. For the affected variome, rdx_annotation_data remained NULL for all variant categories.\nThe getProcessedAnnotationKeys() NPE observed while loading the grid was a downstream symptom. \n2026-09-22 03:20:19,646 ERROR [taskExecutor-11] (SimpleAsyncUncaughtExceptionHandler.java:39) - Unexpected exception occurred invoking async method: public void com.lifetech.dx.ionreporter.services.impl.AsyncService.run(java.lang.Runnable)\njava.lang.NullPointerException: null\nat com.lifetech.dx.processor.util.AnnotationDataProcessorUtil.getProcessedAnnotationKeys(AnnotationDataProcessorUtil.java:280) ~[annotation-data-processor-1.0-SNAPSHOT.jar:?]\nat com.lifetech.dx.se rvice.impl.AnnotationDataProcessorServiceImpl.findAndProcessMissingKeys(AnnotationDataProcessorServiceImpl.java:72) ~[annotation-data-processor-1.0-SNAPSHOT.jar:?]\nDiagnostic logging identified the original failure in GeneDataProcessor.populatePCData() while processing RefGene annotation for the genotype-negative (GT=0/0, AF=0) KIT variant at chr4:55597490.\njava.lang.NullPointerException: null\nat com.lifetech.dx.processor.impl.GeneDataProcessor.populatePCData(GeneDataProcessor.java:287) ~[annotation-data-processor-1.0-SNAPSHOT.jar:?]\nat com.lifetech.dx.processor.impl.GeneDataProcessor.lambda$populatePCData$3(GeneDataProcessor.java:192) ~[annotation-data-processor-1.0-SNAPSHOT.jar:?]\nat java.util.ArrayList.forEach(ArrayList.java:1540) ~[?:?]\nIn v0.0.3, annotator.functional.all.alt.alleles=true caused AnnotatorActor to generate a protein consequence (p.Ser715del) for this genotype-negative allele. The resulting RefGene peptide-change object did not contain the functional-classification field f; Tahoe assumed it was non-null, threw an NPE, and rolled back the annotation transaction. Consequently, rdx_annotation_data was never populated and the Variants Grid remained empty.\nA controlled v0.0.3 B2R run with only annotator.functional.all.alt.alleles=false changed the annotation back to splicesite_3, completed annotation processing, populated rdx_annotation_data, and restored the Variants Grid. This confirms the parameter change as the trigger. \nDiscussed with [person]. She will check with the SME and confirm.\nRun with Variants Grid issue fixed: https://kedar.itw/genexus/results/sample/661/key-findings\n\nComparison:\n\n\nCC: [person] [person] [person] [person] [person]",
+      "truncated": false,
+      "source": {
+        "path": "data/raw/connected/jira/issue_65265.json",
+        "sha256": "0b0c378962ae367ed02fc5df8369de75973f3d6e688330ef10206fdc66ab244d",
+        "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265?focusedCommentId=2912743",
+        "locator": "issue:IRS-65265/comment:2912743",
+        "collected_at": "2026-11-01T03:33:07.686Z",
+        "local_source_sha256": "0b0c378962ae367ed02fc5df8369de75973f3d6e688330ef10206fdc66ab244d",
+        "source_hash_matches": true
+      }
+    },
+    {
+      "id": "2913675",
+      "created": "2026-09-24T00:52:36.765+0530",
+      "updated": "2026-09-24T00:52:36.765+0530",
+      "text": "Had a discussion with [person] and [person] regarding the CNV Plot issues and the B2R failure in the QCFail scenario due to an MSI issue.\nBelow are the details of the issues discussed during the call.\nCredentials: ionadmin/Genexustest@1234567890\n1. copynumber_exon_plots error in B2R\nRun: https://kedar.itw/genexus/results/sample/656/key-findings \nError log:\nhttps://kedar.itw/genexus/analysis_output/GNX_Org/Auto_R_2026_09_22_01_04_58_Manticore_DnF_v003_B2R_0922_RNAParamFix_E52ZD_315/Auto_R_2026_09_22_01_04_58_Manticore_DnF_v003_B2R_0922_RNAParamFix_E52ZD_315_20260922010459284/ChipLane1/JL_MTC_msiHSC_SCv4_lungRNA_DNA_RNA_BAM_LibPrep678/log/CnvActor-00/mapErr.log\n\n Run with hotfix:\n\n2. Both DNA+Fusion and DNA-only N2Rs are not generating boxplot images or exon_cnv_plot_data.json\nDNA+Fusion Run: https://kedar.itw/genexus/results/sample/667/key-findings\nDNA-only run: https://kedar.itw/genexus/results/sample/668/quality-control\nThe CNV visualization uses exon_cnv_plot_data.json, with the boxplot images used as the fallback. The boxplot images are also available in Download Files. However, neither the JSON nor the boxplot images were generated in these runs.\nMAPD QC has failed in this run. As suggested by [person], this could be related to the visualization not being generated.\nDNA+Fusion run:\n\n\nhttps://kedar.itw/genexus/analysis_output/GNX_Org/Manticore_DnF_v003_N2R_0923/Manticore_DnF_v003_N2R_0923_20260923074033105/ChipLane1/JL_Manticore_DnaFus_LibPrep689/outputs/CnvActor-00/\nexon_cnv_plot_data.json and the boxplot images are not present under outputs/CnvActor-00.\n\nDNA-only run:\n\n\nhttps://kedar.itw/genexus/analysis_output/GNX_Org/Manticore_DNA_v003_N2R_0933/Manticore_DNA_v003_N2R_0933_20260923074149926/ChipLane1/JL_Manticore_DNA_LibPrep690/outputs/CnvActor-00/\nexon_cnv_plot_data.json and the boxplot images are not present under outputs/CnvActor-00.\n\n3. B2R for the QCFail scenario is failing due to an MSI issue\nhttps://kedar.itw/genexus/results/sample/663/key-findings\nError log: https://kedar.itw/genexus/analysis_output/GNX_Org/Auto_R_2026_09_22_17_09_05_OFA_DNA_v003_B2R_0922_RNAParamCNVPlotsAlleleParam2_H0FDZ_322/Auto_R_2026_09_22_17_09_05_OFA_DNA_v003_B2R_0922_RNAParamCNVPlotsAlleleParam2_H0FDZ_322_20260922170906093/ChipLane1/JL_MTC_PTEN_exon_CNV_BAM_LibPrep685/AnnotatorActor_importAnnotateExport-primary-failure.log\n\nError observed: A String value is expected in Flags (in ../outputs/MSIActor-00/MSIQC.json) instead of Integer.\n \nMSIQC.json:\nhttps://kedar.itw/genexus/analysis_output/GNX_Org/Auto_R_2026_09_22_17_09_05_OFA_DNA_v003_B2R_0922_RNAParamCNVPlotsAlleleParam2_H0FDZ_322/Auto_R_2026_09_22_17_09_05_OFA_DNA_v003_B2R_0922_RNAParamCNVPlotsAlleleParam2_H0FDZ_322_20260922170906093/ChipLane1/JL_MTC_PTEN_exon_CNV_BAM_LibPrep685/outputs/MSIActor-00/MSIQC.json\n\nB2R with an MSIHigh sample passes without any issue.\n\n\n[person] will check with the SME whether this issue can be resolved by updating MSI_IR.\nNotes:\nThe Pipeline/bin changes from the DNA+Fusion repo, previously pushed to master by @Ying Jin, have also been pushed to the v0.0.3 branch of the DNA-only repo:\nhttps://github.com/thermofisher/csd-adf-gx-manticore-v2-dna-70/blob/IRS-65265_dna_adf_v003/Pipeline/bin/copynumber_exon_plots.py \nSince the v0.0.3 PR has not been merged yet, these changes are not available in the DNA-only master branch.\n\nThe same applies to MSI_IR and the ms.h5 file. Both repos use the binaries/files provided in the ticket, and the MD5 checksums match across both branches and with the checksums mentioned in the ticket.\nDNA+Fusion v0.0.3 branch:\n\nDNA-only v0.0.3 branch:\n\n\nRun link with failed variants table with annotator.functional.all.alt.alleles=true:\nhttps://kedar.itw/genexus/results/sample/659/variants\nCNV and RNA modules are run successfully, and data is being populated into the Key Findings page, and tertiary/AnnotatorActor.ini has annotator.functional.all.alt.alleles=true\nhttps://kedar.itw/genexus/analysis_output/GNX_Org/Auto_R_2026_09_22_07_23_02_Manticore_DnF_v003_B2R_0922_RNAParam_CNVPlotsFix_2_E2OB1_318/Auto_R_2026_09_22_07_23_02_Manticore_DnF_v003_B2R_0922_RNAParam_CNVPlotsFix_2_E2OB1_318_20260922072303464/ChipLane1/JL_MTC_msiHSC_SCv4_lungRNA_DNA_RNA_BAM_LibPrep681/tertiary/AnnotatorActor.ini\nThe run with everything else same, except for the fusion parameter fix and CNV plot issue fix, along with annotator.functional.all.alt.alleles=false.\nhttps://kedar.itw/genexus/results/sample/665/key-findings\n\nhttps://kedar.itw/genexus/analysis_output/GNX_Org/Auto_R_2026_09_23_05_57_13_OFA_DnF_v003_B2R_0923_RNAParamCNVPlotsAlleleParam_IAFGL_324/Auto_R_2026_09_23_05_57_13_OFA_DnF_v003_B2R_0923_RNAParamCNVPlotsAlleleParam_IAFGL_324_20260923055713816/ChipLane1/JL_MTC_msiHSC_SCv4_lungRNA_DNA_RNA_BAM_LibPrep687/tertiary/AnnotatorActor.ini",
+      "truncated": false,
+      "source": {
+        "path": "data/raw/connected/jira/issue_65265.json",
+        "sha256": "0b0c378962ae367ed02fc5df8369de75973f3d6e688330ef10206fdc66ab244d",
+        "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265?focusedCommentId=2913675",
+        "locator": "issue:IRS-65265/comment:2913675",
+        "collected_at": "2026-11-01T03:33:07.686Z",
+        "local_source_sha256": "0b0c378962ae367ed02fc5df8369de75973f3d6e688330ef10206fdc66ab244d",
+        "source_hash_matches": true
+      }
+    },
+    {
+      "id": "2913815",
+      "created": "2026-09-24T06:47:23.757+0530",
+      "updated": "2026-09-24T12:54:40.399+0530",
+      "text": "[person] \nHere is my updates: \n1 Chris Taylor confirmed we can set annotator.functional.all.alt.alleles=false, so I updated the ini file in the github repo\n\n2 Amir M confirmed we can set fusions.min.normalized.read.count.non.targeted=0.001, so I updated the ini file in the github repo\n\n3 Sameh E made a hot swap of an updated MSI_IR, I launched a b2r run and it is not having the error any more https://kedar.itw/genexus/results/sample/669/key-findings\nHe has checked in the binary to two v0.0.3 branches September 24, 2026\n4 Ying J has checked in the latest CNV code to two v0.0.3 branches today September 23, 2026",
+      "truncated": false,
+      "source": {
+        "path": "data/raw/connected/jira/issue_65265.json",
+        "sha256": "0b0c378962ae367ed02fc5df8369de75973f3d6e688330ef10206fdc66ab244d",
+        "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265?focusedCommentId=2913815",
+        "locator": "issue:IRS-65265/comment:2913815",
+        "collected_at": "2026-11-01T03:33:07.686Z",
+        "local_source_sha256": "0b0c378962ae367ed02fc5df8369de75973f3d6e688330ef10206fdc66ab244d",
+        "source_hash_matches": true
+      }
+    },
+    {
+      "id": "2914455",
+      "created": "2026-09-24T23:35:05.375+0530",
+      "updated": "2026-09-24T23:35:05.375+0530",
+      "text": "Re-bundled the ADFs with the latest CNV code pushed by [person] and the updated MSI_IR pushed by [person].\nThe parameter fixes annotator.functional.all.alt.alleles=false and fusions.min.normalized.read.count.non.targeted=0.001 were already included in yesterday's runs. [person] has now confirmed that these updates have also been approved by the SMEs.\nAlso included the app_templates changes suggested by [person] during her review.\n\n Issues #1 (copynumber_exon_plots error in B2R) and #3 (B2R failure for the QCFail scenario due to an MSI issue) are now resolved.\nThe B2R runs are passing with these changes:\nDNA+Fusion B2R: https://kedar.itw/genexus/results/sample/670/key-findings\n\n\n\n\n\nDNA-only B2R: https://kedar.itw/genexus/results/sample/671/key-findings\n\n\n\n\n\nQCFail scenario B2R: https://kedar.itw/genexus/results/sample/672/key-findings\n\n\n\n\n\nIssue #2 (N2Rs not generating boxplot images or exon_cnv_plot_data.json) still persists for the MAPD QC failure scenario:\nDNA+Fusion N2R: https://kedar.itw/genexus/results/sample/675/key-findings\n\n\n\n\n\n\nDNA-only N2R: https://kedar.itw/genexus/results/sample/676/key-findings\n\n\n\n\n\n\nDNA+Fusion reanalysis: https://kedar.itw/genexus/results/sample/673/key-findings\n\n\n\n\n\nDNA-only reanalysis: https://kedar.itw/genexus/results/sample/674/key-findings\n\n\n\n\n\nWith the reviewed app_templates changes, this is how the Exon CNV Visualization is displayed:\n\nCC: [person] [person] [person] [person] [person]",
+      "truncated": false,
+      "source": {
+        "path": "data/raw/connected/jira/issue_65265.json",
+        "sha256": "0b0c378962ae367ed02fc5df8369de75973f3d6e688330ef10206fdc66ab244d",
+        "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265?focusedCommentId=2914455",
+        "locator": "issue:IRS-65265/comment:2914455",
+        "collected_at": "2026-11-01T03:33:07.686Z",
+        "local_source_sha256": "0b0c378962ae367ed02fc5df8369de75973f3d6e688330ef10206fdc66ab244d",
+        "source_hash_matches": true
+      }
+    },
+    {
+      "id": "2914560",
+      "created": "2026-09-25T03:06:43.909+0530",
+      "updated": "2026-09-25T03:06:43.909+0530",
+      "text": "[person] I demo’ed the latest CNV visualization to PdM David C today, he is satisfied with the current display. We explained to him that if the sample fail CNV QC (e.g. MAPD >0.5), the CNV plots would look very noisy and not be helpful for users, so he agrees that we can suppress the visualization in such scenario. \ncc: [person]",
+      "truncated": false,
+      "source": {
+        "path": "data/raw/connected/jira/issue_65265.json",
+        "sha256": "0b0c378962ae367ed02fc5df8369de75973f3d6e688330ef10206fdc66ab244d",
+        "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265?focusedCommentId=2914560",
+        "locator": "issue:IRS-65265/comment:2914560",
+        "collected_at": "2026-11-01T03:33:07.686Z",
+        "local_source_sha256": "0b0c378962ae367ed02fc5df8369de75973f3d6e688330ef10206fdc66ab244d",
+        "source_hash_matches": true
+      }
+    },
+    {
+      "id": "2914586",
+      "created": "2026-09-25T04:39:54.286+0530",
+      "updated": "2026-10-01T21:54:06.322+0530",
+      "text": "ADF zip files:\n<Removed>\nNeed to rebundle with new parameter updates.\n\nChanges are pushed into following branches:\nhttps://github.com/thermofisher/csd-adf-gx-manticore-v2-dnafus-70/compare/IRS-65265_dna_fus_adf_v003 \nhttps://github.com/thermofisher/csd-adf-gx-manticore-v2-dna-70/compare/IRS-65265_dna_adf_v003 \nhttps://github.com/thermofisher/csd-gx-rb-template-scripts/compare/IRS-65265_IRS-65922_Manticore_v003 \n\nDev testing evidence:\n1. Part Number updates for Primer Tube Pools:\nDNA+Fusion:\n\nDNA-only:\n\n2.1. SVB:\n\n\n\n\n2.2. INI changes\nDownloadable parameters can be found in the attachments below:\n \n \n\n4.2. remove the ‘--repair-min-freq 30’ in the tmap command line\nDNA+Fusion:\nPre-Alignment for Calibration:\n\nTMAP command:\n\n\nDNA-only:\nPre-Alignment for Calibration:\n\nTMAP command:\n\n\nRuns launched:\n\n\nRun links:\nDNA+Fusion N2R: https://kedar.itw/genexus/results/sample/675/key-findings\nDNA-only N2R: https://kedar.itw/genexus/results/sample/676/key-findings\nDNA+Fusion copy assay run: https://kedar.itw/genexus/results/sample/677/key-findings\nDNA-only copy assay run: https://kedar.itw/genexus/results/sample/678/key-findings\n\nB2R and other run links, along with their details, are available in the previous comments.\nOther dev testing evidence is attached to the respective tickets.\nCC: [person] [person] [person] [person]",
+      "truncated": false,
+      "source": {
+        "path": "data/raw/connected/jira/issue_65265.json",
+        "sha256": "0b0c378962ae367ed02fc5df8369de75973f3d6e688330ef10206fdc66ab244d",
+        "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265?focusedCommentId=2914586",
+        "locator": "issue:IRS-65265/comment:2914586",
+        "collected_at": "2026-11-01T03:33:07.686Z",
+        "local_source_sha256": "0b0c378962ae367ed02fc5df8369de75973f3d6e688330ef10206fdc66ab244d",
+        "source_hash_matches": true
+      }
+    },
+    {
+      "id": "2917378",
+      "created": "2026-10-01T22:06:17.929+0530",
+      "updated": "2026-10-01T22:06:17.929+0530",
+      "text": "Re-bundled the ADFs with the new parameter updates. Dev testing evidence is attached to the respective ticket.\nADF zip files:\n \n \n\nRuns launched:\n\n\n\nRun links:\nDNA+Fusion N2R: https://kedar.itw/genexus/results/sample/698/key-findings\nDNA-only N2R: https://kedar.itw/genexus/results/sample/699/key-findings\nDNA+Fusion B2R: https://kedar.itw/genexus/results/sample/700/key-findings\nDNA-only B2R: https://kedar.itw/genexus/results/sample/701/key-findings (MSI-High scenario) and https://kedar.itw/genexus/results/sample/702/key-findings (MSI-QCFail scenario)\nDNA+Fusion copy assay run: https://kedar.itw/genexus/results/sample/703/key-findings\nDNA-only copy assay run: https://kedar.itw/genexus/results/sample/704/key-findings\nCC: [person] [person] [person] [person]",
+      "truncated": false,
+      "source": {
+        "path": "data/raw/connected/jira/issue_65265.json",
+        "sha256": "0b0c378962ae367ed02fc5df8369de75973f3d6e688330ef10206fdc66ab244d",
+        "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265?focusedCommentId=2917378",
+        "locator": "issue:IRS-65265/comment:2917378",
+        "collected_at": "2026-11-01T03:33:07.686Z",
+        "local_source_sha256": "0b0c378962ae367ed02fc5df8369de75973f3d6e688330ef10206fdc66ab244d",
+        "source_hash_matches": true
+      }
+    },
+    {
+      "id": "2918809",
+      "created": "2026-10-06T00:38:51.880+0530",
+      "updated": "2026-10-06T00:38:51.880+0530",
+      "text": "SQA testing screenshots",
+      "truncated": false,
+      "source": {
+        "path": "data/raw/connected/jira/issue_65265.json",
+        "sha256": "0b0c378962ae367ed02fc5df8369de75973f3d6e688330ef10206fdc66ab244d",
+        "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265?focusedCommentId=2918809",
+        "locator": "issue:IRS-65265/comment:2918809",
+        "collected_at": "2026-11-01T03:33:07.686Z",
+        "local_source_sha256": "0b0c378962ae367ed02fc5df8369de75973f3d6e688330ef10206fdc66ab244d",
+        "source_hash_matches": true
+      }
+    }
+  ],
+  "proposed_actions": [
+    {
+      "id": "action_04b8cc1bb7d6f715e3a8",
+      "category": "approved_file",
+      "text": "11 Sameh is going to update the MSI baseline and binaries.",
+      "truncated": false,
+      "release_ids": [
+        "release_076c2c65957311401ef4"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "available_at": "2026-10-28T22:46:07.723+0530",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "action_3bcfb3a4c094c39b2058",
+      "category": "defer_inherit_block",
+      "text": "Bugs identified in Eagle OCAplus 6.8 ADF but fix is deferred to Gx8.0",
+      "truncated": false,
+      "release_ids": [
+        "release_076c2c65957311401ef4"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "available_at": "2026-10-28T22:46:07.723+0530",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "action_c08f12830d5f3419fa19",
+      "category": "investigation_code",
+      "text": "3.1 a different version of TVC binary to better support BRCA HP: Zheng Zhang confirmed this is not needed",
+      "truncated": false,
+      "release_ids": [
+        "release_076c2c65957311401ef4"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "available_at": "2026-10-28T22:46:07.723+0530",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "action_d6d53abeee76ff396126",
+      "category": "parameter_metadata",
+      "text": "1 Need to update the part number for PanelKit and part number for Primer Tube",
+      "truncated": false,
+      "release_ids": [
+        "release_076c2c65957311401ef4"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "available_at": "2026-10-28T22:46:07.723+0530",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "action_6de4b99914c5644a080c",
+      "category": "verification_only",
+      "text": "SQA will test the following improvement tickets using the bundled v0.0.3 ADF",
+      "truncated": false,
+      "release_ids": [
+        "release_076c2c65957311401ef4"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "available_at": "2026-10-28T22:46:07.723+0530",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "action_367a728743556f0f67c9",
+      "category": "approved_file",
+      "text": "Hi [person], please use this hotspot file for manticore at this moment. https://github.com/thermofisher/csd-motorcore-config-files/blob/main/Motorhead/Oncomine_Focus_v2.20260625.hotspots.bed",
+      "truncated": false,
+      "release_ids": [
+        "release_076c2c65957311401ef4"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/issue_65265.json",
+          "sha256": "0b0c378962ae367ed02fc5df8369de75973f3d6e688330ef10206fdc66ab244d",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265?focusedCommentId=2899737",
+          "locator": "issue:IRS-65265/comment:2899737",
+          "collected_at": "2026-11-01T03:33:07.686Z",
+          "available_at": "2026-08-21T02:42:35.352+0530",
+          "local_source_sha256": "0b0c378962ae367ed02fc5df8369de75973f3d6e688330ef10206fdc66ab244d",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "action_3edbb1bf73f1e1f5c6d0",
+      "category": "defer_inherit_block",
+      "text": "Retain variant.view=Allele without quotes, consistent with the v0.0.2 format.",
+      "truncated": false,
+      "release_ids": [
+        "release_076c2c65957311401ef4"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/issue_65265.json",
+          "sha256": "0b0c378962ae367ed02fc5df8369de75973f3d6e688330ef10206fdc66ab244d",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265?focusedCommentId=2912743",
+          "locator": "issue:IRS-65265/comment:2912743",
+          "collected_at": "2026-11-01T03:33:07.686Z",
+          "available_at": "2026-09-25T04:46:48.984+0530",
+          "local_source_sha256": "0b0c378962ae367ed02fc5df8369de75973f3d6e688330ef10206fdc66ab244d",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "action_186e15101b700d2bd574",
+      "category": "investigation_code",
+      "text": "4.2 remove the ‘--repair-min-freq 30’ in the tmap command line",
+      "truncated": false,
+      "release_ids": [
+        "release_076c2c65957311401ef4"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "available_at": "2026-10-28T22:46:07.723+0530",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "action_df4088eb27b9925b758d",
+      "category": "parameter_metadata",
+      "text": "4.1 DNA panel bed file with updated parameter overriding from Denis",
+      "truncated": false,
+      "release_ids": [
+        "release_076c2c65957311401ef4"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "available_at": "2026-10-28T22:46:07.723+0530",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "action_bd69db46cc6933591c62",
+      "category": "approved_file",
+      "text": "Both repos use the binaries/files provided in the ticket, and the MD5 checksums match across both branches and with the checksums mentioned in the ticket.",
+      "truncated": false,
+      "release_ids": [
+        "release_076c2c65957311401ef4"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/issue_65265.json",
+          "sha256": "0b0c378962ae367ed02fc5df8369de75973f3d6e688330ef10206fdc66ab244d",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265?focusedCommentId=2913675",
+          "locator": "issue:IRS-65265/comment:2913675",
+          "collected_at": "2026-11-01T03:33:07.686Z",
+          "available_at": "2026-09-24T00:52:36.765+0530",
+          "local_source_sha256": "0b0c378962ae367ed02fc5df8369de75973f3d6e688330ef10206fdc66ab244d",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "action_01ae1b609f4e38d53eda",
+      "category": "defer_inherit_block",
+      "text": "Retain VariantCallerActor.run=1 in v0.0.3.",
+      "truncated": false,
+      "release_ids": [
+        "release_076c2c65957311401ef4"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/issue_65265.json",
+          "sha256": "0b0c378962ae367ed02fc5df8369de75973f3d6e688330ef10206fdc66ab244d",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265?focusedCommentId=2912743",
+          "locator": "issue:IRS-65265/comment:2912743",
+          "collected_at": "2026-11-01T03:33:07.686Z",
+          "available_at": "2026-09-25T04:46:48.984+0530",
+          "local_source_sha256": "0b0c378962ae367ed02fc5df8369de75973f3d6e688330ef10206fdc66ab244d",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "action_620ea7df181f088aa387",
+      "category": "investigation_code",
+      "text": "Eva’s response (09/02/2026): please use the motorhead hotspot for V0.0.3. this one depended on the HP-optimization and FP cohort review, so we won’t make it by 9/6 and will need to update for pre-V&V.",
+      "truncated": false,
+      "release_ids": [
+        "release_076c2c65957311401ef4"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "available_at": "2026-10-28T22:46:07.723+0530",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "action_b4eb1eec3b2a9b4f3f79",
+      "category": "parameter_metadata",
+      "text": "5 hotspot file with updated parameter overriding: a new hotspot file will be provided",
+      "truncated": false,
+      "release_ids": [
+        "release_076c2c65957311401ef4"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "available_at": "2026-10-28T22:46:07.723+0530",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "action_cab6bffcd8de4b1a7ac6",
+      "category": "investigation_code",
+      "text": "7 VNS ruleset: confirmed with Fernando we should use the VNS 2.2.2 which is already in Gx7.0.2, since there is no new variant type introduced by Manticore assay (e.g.",
+      "truncated": false,
+      "release_ids": [
+        "release_076c2c65957311401ef4"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "available_at": "2026-10-28T22:46:07.723+0530",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "action_7f68f3b40151bd9d44a1",
+      "category": "parameter_metadata",
+      "text": "8 new CNV input parameter json file provided by Ying",
+      "truncated": false,
+      "release_ids": [
+        "release_076c2c65957311401ef4"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "available_at": "2026-10-28T22:46:07.723+0530",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "action_c9a5274c516277b0526e",
+      "category": "investigation_code",
+      "text": "The new MSI_IR binaries will have update in reporting error messages https://lsg-thermofisher.atlassian.net/browse/IRS-66227",
+      "truncated": false,
+      "release_ids": [
+        "release_076c2c65957311401ef4"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "available_at": "2026-10-28T22:46:07.723+0530",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "action_36a09d8322a216c2dea1",
+      "category": "parameter_metadata",
+      "text": "10 min reads per sample DNA and min reads per sample RNA need to be finalized: Adam provided (email: Updated minimum read parameters for Manticore ADF, from Adam Harris, 04/22/2026)",
+      "truncated": false,
+      "release_ids": [
+        "release_076c2c65957311401ef4"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "available_at": "2026-10-28T22:46:07.723+0530",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "action_aafa39c9f69856751f25",
+      "category": "investigation_code",
+      "text": "The requirement says to remove --repair-min-freq 30 from the TMAP command line.",
+      "truncated": false,
+      "release_ids": [
+        "release_076c2c65957311401ef4"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/issue_65265.json",
+          "sha256": "0b0c378962ae367ed02fc5df8369de75973f3d6e688330ef10206fdc66ab244d",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265?focusedCommentId=2909604",
+          "locator": "issue:IRS-65265/comment:2909604",
+          "collected_at": "2026-11-01T03:33:07.686Z",
+          "available_at": "2026-09-16T06:14:59.785+0530",
+          "local_source_sha256": "0b0c378962ae367ed02fc5df8369de75973f3d6e688330ef10206fdc66ab244d",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "action_5ace14c4416fba0b85ff",
+      "category": "parameter_metadata",
+      "text": "https://lsg-thermofisher.atlassian.net/browse/IRS-66464(Arpitha: the parameter values from this ticket will be finalized before 09/15/2026)",
+      "truncated": false,
+      "release_ids": [
+        "release_076c2c65957311401ef4"
+      ],
+      "variant_scope": [],
+      "reviewer_state": "unreviewed",
+      "label_strength": "weak",
+      "source": [
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "available_at": "2026-10-28T22:46:07.723+0530",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        }
+      ]
+    }
+  ],
+  "release_associations": [
+    {
+      "id": "release_076c2c65957311401ef4",
+      "release_name": "0.0.3",
+      "family": "Manticore OFAv2",
+      "adf_revision": "0.0.3",
+      "software_version": "7.0",
+      "workflow_version": null,
+      "release_date": null,
+      "decision_cutoff": "2026-09-11T06:14:29.800000+00:00",
+      "cutoff_state": "proxy_requires_confirmation",
+      "variant_scope": [
+        "DNA",
+        "Fusion/RNA"
+      ],
+      "chronology_state": "missing_actual_release_date",
+      "association_state": "listed_or_linked_issue_requires_action_scope_review",
+      "source_url": "https://lsg-thermofisher.atlassian.net/wiki/spaces/IRS/pages/191201389",
+      "sources": [
+        {
+          "path": "data/raw/connected/confluence/page_191201389.json",
+          "sha256": "162e58b48e5a860f53b535ed4db0bce47539180c8edb1a7dde100d498744cdf6",
+          "url": "https://lsg-thermofisher.atlassian.net/wiki/spaces/IRS/pages/191201389",
+          "locator": "page:191201389@v7/table:0e5b692f982f/row:46e9d7b6b46f",
+          "collected_at": "2026-11-01T03:32:16.751Z",
+          "local_source_sha256": "162e58b48e5a860f53b535ed4db0bce47539180c8edb1a7dde100d498744cdf6",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/confluence/version_body_191201389_4_b58ddf0073ee8a8a817d295a.json",
+          "sha256": "c2467ed3eb3466a4f0c24b8a55b341ef1920d7c4b500b2155011a59b4679e0fe",
+          "locator": "page:191201389@v4/table:table-0/row:row-3",
+          "collected_at": "2026-11-01T04:50:05.744Z",
+          "local_source_sha256": "c2467ed3eb3466a4f0c24b8a55b341ef1920d7c4b500b2155011a59b4679e0fe",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/confluence/version_body_191201389_5_984ba951e7123c499dacf21b.json",
+          "sha256": "e86d98341dbf7c9d514f42200cfc9d0c7070a759977077cea6acad1111450fcc",
+          "locator": "page:191201389@v5/table:table-0/row:row-3",
+          "collected_at": "2026-11-01T04:50:08.269Z",
+          "local_source_sha256": "e86d98341dbf7c9d514f42200cfc9d0c7070a759977077cea6acad1111450fcc",
+          "source_hash_matches": true
+        }
+      ]
+    }
+  ],
+  "historical_views": [
+    {
+      "release_id": "release_076c2c65957311401ef4",
+      "cutoff": "2026-09-11T06:14:29.800000+00:00",
+      "cutoff_state": "proxy_requires_confirmation",
+      "state": "point_in_time_partial",
+      "excluded": [
+        "summary: historical text not proven",
+        "comment:2909604: post-cutoff/edited/unknown",
+        "comment:2912743: post-cutoff/edited/unknown",
+        "comment:2913675: post-cutoff/edited/unknown",
+        "comment:2913815: post-cutoff/edited/unknown",
+        "comment:2914455: post-cutoff/edited/unknown",
+        "comment:2914560: post-cutoff/edited/unknown",
+        "comment:2914586: post-cutoff/edited/unknown",
+        "comment:2917378: post-cutoff/edited/unknown",
+        "comment:2918809: post-cutoff/edited/unknown"
+      ],
+      "text": "timeline\n\n!image-20260810-220205.png|width=763,alt=\"image-20260810-220205.png\"!\n\nADF github repo: \n\n[https://github.com/thermofisher/csd-adf-gx-manticore-v2-dnafus-70/|https://github.com/thermofisher/csd-adf-gx-manticore-v2-dnafus-70/|smart-link] \n\n[https://github.com/thermofisher/csd-adf-gx-manticore-v2-dna-70/|https://github.com/thermofisher/csd-adf-gx-manticore-v2-dna-70/] \n\n\n\nconfig files github repo:\n\n[https://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/|https://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/|smart-link] \n\n \n\n1 Need to update the part number for PanelKit and part number for Primer Tube\n\n|Manticore DNA and Fus|Part Number for DNA panel kit|{color:#ff991f}-A47017-{color}\n*A40014056*|From XP's photo. This is part number for OCAPlus DNA panel kit as a placeholder , {color:#ff991f}will be replaced by the correct part number {color}in the v0.0.3 ADF when the panel is manufactured.|\n| |Part Number for RNA Panel Kit|A47019|from XP's photo. This is part number for OCAPlus RNA panel kit. Since Manticore is using OCAPlus RNA panel kit, so this is correct.|\n| |Part Number for DNA Primer Tube Pool 1|{color:#ff991f}-100093900-{color}\n100200225|-this is part number for \"OCAPlus DNA Pool 1\" as a placeholder for this ADF,- {color:#ff991f}-will be-{color}{color:#ff991f} replaced by correct part number in the v0.0.3 {color}version of ADF|\n| |Part Number for DNA Primer Tube Pool 2|{color:#ff991f}-100093901-{color}\n100200226|-this is part number for \"OCAPlus DNA Pool 2\" as a placeholder for this ADF,-{color:#ff991f} -will be-{color}{color:#ff991f} replaced by correct part number in the v0.0.3 {color}version of ADF|\n| |Part Number for RNA Primer Tube pool 1|100093902|This is part number for 'OCA Plus RNA Pool 1', which is correct as Manticore is using the OCAPlus Fus panel|\n| |Part Number for RNA Primer Tube pool 2|100093903|This is part number for 'OCA Plus RNA Pool 1', which is correct as Manticore is using the OCAPlus Fus panel|\n| | | | |\n| | | | |\n|Manticore DNA only|Part Number for DNA Panel Kit|{color:#ff991f}-A47017-{color}\n*A40014056*|From XP's photo. This is part number for OCAPlus DNA panel kit as a placeholder , will be {color:#ff991f}replaced by the correct part number in the v0.0.3 versio{color}n of ADF when the panel is manufactured.|\n| |Part Number for DNA Primer Tube Pool 1|{color:#ff991f}-100093900-{color}\n100200225|-this is part number for \"OCAPlus DNA Pool 1\" as a placeholder for this AD",
+      "truncated": true,
+      "source": {
+        "path": "data/raw/connected/jira/batch_probe.json",
+        "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+        "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+        "locator": "fields.description",
+        "collected_at": "2026-11-01T03:33:09.031Z",
+        "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+        "source_hash_matches": true
+      }
+    }
+  ],
+  "artifact_references": [
+    {
+      "id": "external_18e65572daf2bdd6613e",
+      "kind": "github",
+      "url": "https://github.com/thermofisher/csd-adf-gx-manticore-v2-dna-70/",
+      "state": "pending",
+      "reason": "Needs approved reader/export and relevance review; no Jira credentials forwarded",
+      "mutable_ref": false,
+      "sources": [
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.description.href",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "external_76fd217432168eec922d",
+      "kind": "github",
+      "url": "https://github.com/thermofisher/csd-adf-gx-manticore-v2-dna-70/blob/IRS-65265_dna_adf_v003/Pipeline/bin/copynumber_exon_plots.py",
+      "state": "pending",
+      "reason": "Needs approved reader/export and relevance review; no Jira credentials forwarded",
+      "mutable_ref": false,
+      "sources": [
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.comment.comments[4].body.href",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "comment:2913675.href",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "external_40b9212c3dbec62bfb52",
+      "kind": "github",
+      "url": "https://github.com/thermofisher/csd-adf-gx-manticore-v2-dna-70/compare/IRS-65265_dna_adf_v003",
+      "state": "pending",
+      "reason": "Needs approved reader/export and relevance review; no Jira credentials forwarded",
+      "mutable_ref": false,
+      "sources": [
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.comment.comments[3].body.href",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.comment.comments[8].body.href",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "comment:2912743.href",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "external_16a4bbd9d1977d192a74",
+      "kind": "github",
+      "url": "https://github.com/thermofisher/csd-adf-gx-manticore-v2-dnafus-70/",
+      "state": "pending",
+      "reason": "Needs approved reader/export and relevance review; no Jira credentials forwarded",
+      "mutable_ref": false,
+      "sources": [
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.description.href",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "external_59cb2cb43de80083b306",
+      "kind": "github",
+      "url": "https://github.com/thermofisher/csd-adf-gx-manticore-v2-dnafus-70/compare/IRS-65265_dna_fus_adf_v003",
+      "state": "pending",
+      "reason": "Needs approved reader/export and relevance review; no Jira credentials forwarded",
+      "mutable_ref": false,
+      "sources": [
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.comment.comments[3].body.href",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.comment.comments[8].body.href",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "comment:2912743.href",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "external_7c8fb451cdb7df7455bc",
+      "kind": "github",
+      "url": "https://github.com/thermofisher/csd-gx-rb-template-scripts/compare/IRS-65265_IRS-65922_Manticore_v003",
+      "state": "pending",
+      "reason": "Needs approved reader/export and relevance review; no Jira credentials forwarded",
+      "mutable_ref": false,
+      "sources": [
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.comment.comments[8].body.href",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "comment:2914586.href",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "external_63a04fb7b34c481b99fb",
+      "kind": "package_store",
+      "url": "https://kedar.itw/genexus/analysis_output/GNX_Org/Auto_R_2026_09_22_01_04_58_Manticore_DnF_v003_B2R_0922_RNAParamFix_E52ZD_315/Auto_R_2026_09_22_01_04_58_Manticore_DnF_v003_B2R_0922_RNAParamFix_E52ZD_315_20260922010459284/ChipLane1/JL_MTC_msiHSC_SCv4_lungRNA_DNA_RNA_BAM_LibPrep678/log/CnvActor-00/mapErr.log",
+      "state": "pending",
+      "reason": "Needs approved reader/export and relevance review; no Jira credentials forwarded",
+      "mutable_ref": false,
+      "sources": [
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.comment.comments[4].body.href",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "comment:2913675.href",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "external_98ab19452a399c9bb6b1",
+      "kind": "package_store",
+      "url": "https://kedar.itw/genexus/analysis_output/GNX_Org/Auto_R_2026_09_22_07_23_02_Manticore_DnF_v003_B2R_0922_RNAParam_CNVPlotsFix_2_E2OB1_318/Auto_R_2026_09_22_07_23_02_Manticore_DnF_v003_B2R_0922_RNAParam_CNVPlotsFix_2_E2OB1_318_20260922072303464/ChipLane1/JL_MTC_msiHSC_SCv4_lungRNA_DNA_RNA_BAM_LibPrep681/tertiary/AnnotatorActor.ini",
+      "state": "pending",
+      "reason": "Needs approved reader/export and relevance review; no Jira credentials forwarded",
+      "mutable_ref": false,
+      "sources": [
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.comment.comments[4].body.href",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "comment:2913675.href",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "external_19f1a6a671d0098e7cc2",
+      "kind": "package_store",
+      "url": "https://kedar.itw/genexus/analysis_output/GNX_Org/Auto_R_2026_09_22_17_09_05_OFA_DNA_v003_B2R_0922_RNAParamCNVPlotsAlleleParam2_H0FDZ_322/Auto_R_2026_09_22_17_09_05_OFA_DNA_v003_B2R_0922_RNAParamCNVPlotsAlleleParam2_H0FDZ_322_20260922170906093/ChipLane1/JL_MTC_PTEN_exon_CNV_BAM_LibPrep685/AnnotatorActor_importAnnotateExport-primary-failure.log",
+      "state": "pending",
+      "reason": "Needs approved reader/export and relevance review; no Jira credentials forwarded",
+      "mutable_ref": false,
+      "sources": [
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.comment.comments[4].body.href",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "comment:2913675.href",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "external_3aba524488a5c57b4e02",
+      "kind": "package_store",
+      "url": "https://kedar.itw/genexus/analysis_output/GNX_Org/Auto_R_2026_09_22_17_09_05_OFA_DNA_v003_B2R_0922_RNAParamCNVPlotsAlleleParam2_H0FDZ_322/Auto_R_2026_09_22_17_09_05_OFA_DNA_v003_B2R_0922_RNAParamCNVPlotsAlleleParam2_H0FDZ_322_20260922170906093/ChipLane1/JL_MTC_PTEN_exon_CNV_BAM_LibPrep685/outputs/MSIActor-00/MSIQC.json",
+      "state": "pending",
+      "reason": "Needs approved reader/export and relevance review; no Jira credentials forwarded",
+      "mutable_ref": false,
+      "sources": [
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.comment.comments[4].body.href",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "comment:2913675.href",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "external_0d53f3761922cc9fbcb0",
+      "kind": "package_store",
+      "url": "https://kedar.itw/genexus/analysis_output/GNX_Org/Auto_R_2026_09_23_05_57_13_OFA_DnF_v003_B2R_0923_RNAParamCNVPlotsAlleleParam_IAFGL_324/Auto_R_2026_09_23_05_57_13_OFA_DnF_v003_B2R_0923_RNAParamCNVPlotsAlleleParam_IAFGL_324_20260923055713816/ChipLane1/JL_MTC_msiHSC_SCv4_lungRNA_DNA_RNA_BAM_LibPrep687/tertiary/AnnotatorActor.ini",
+      "state": "pending",
+      "reason": "Needs approved reader/export and relevance review; no Jira credentials forwarded",
+      "mutable_ref": false,
+      "sources": [
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.comment.comments[4].body.href",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "comment:2913675.href",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "external_7d8092946b1080fea816",
+      "kind": "package_store",
+      "url": "https://kedar.itw/genexus/analysis_output/GNX_Org/Manticore_DNA_v003_N2R_0933/Manticore_DNA_v003_N2R_0933_20260923074149926/ChipLane1/JL_Manticore_DNA_LibPrep690/outputs/CnvActor-00/",
+      "state": "pending",
+      "reason": "Needs approved reader/export and relevance review; no Jira credentials forwarded",
+      "mutable_ref": false,
+      "sources": [
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.comment.comments[4].body.href",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "comment:2913675.href",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "external_a3536c79d9673ef16635",
+      "kind": "package_store",
+      "url": "https://kedar.itw/genexus/analysis_output/GNX_Org/Manticore_DnF_v003_N2R_0923/Manticore_DnF_v003_N2R_0923_20260923074033105/ChipLane1/JL_Manticore_DnaFus_LibPrep689/outputs/CnvActor-00/",
+      "state": "pending",
+      "reason": "Needs approved reader/export and relevance review; no Jira credentials forwarded",
+      "mutable_ref": false,
+      "sources": [
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.comment.comments[4].body.href",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "comment:2913675.href",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "external_9e0fc1bfa3b0490d76c5",
+      "kind": "package_store",
+      "url": "https://kedar.itw/genexus/results/sample/651/key-findings",
+      "state": "pending",
+      "reason": "Needs approved reader/export and relevance review; no Jira credentials forwarded",
+      "mutable_ref": false,
+      "sources": [
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.comment.comments[3].body.href",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "comment:2912743.href",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "external_e386d9f2a86d5f91fb70",
+      "kind": "package_store",
+      "url": "https://kedar.itw/genexus/results/sample/652/key-findings",
+      "state": "pending",
+      "reason": "Needs approved reader/export and relevance review; no Jira credentials forwarded",
+      "mutable_ref": false,
+      "sources": [
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.comment.comments[3].body.href",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "comment:2912743.href",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        }
+      ]
+    },
+    {
+      "id": "external_9e92142c1a4c0dbc894a",
+      "kind": "package_store",
+      "url": "https://kedar.itw/genexus/results/sample/652/variants",
+      "state": "pending",
+      "reason": "Needs approved reader/export and relevance review; no Jira credentials forwarded",
+      "mutable_ref": false,
+      "sources": [
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.comment.comments[3].body.href",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "comment:2912743.href",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        },
+        {
+          "path": "data/raw/connected/jira/batch_probe.json",
+          "sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "url": "https://lsg-thermofisher.atlassian.net/browse/IRS-65265",
+          "locator": "fields.description",
+          "collected_at": "2026-11-01T03:33:09.031Z",
+          "local_source_sha256": "6dc4ac43f5365685a9bef55df70bc7800ea54d62d0f3f6c8fbf57e34cc1ce8a1",
+          "source_hash_matches": true
+        }
+      ]
+    }
+  ],
+  "missing_inputs": [
+    {
+      "key": "release_scope",
+      "question": "Which release and variants does each action apply to?",
+      "reason": "Issue listings and related links do not establish action-level scope."
+    },
+    {
+      "key": "exact_change",
+      "question": "What exact target and old/new value or immutable file should be used?",
+      "reason": "Descriptions and proposed labels are not executable instructions."
+    },
+    {
+      "key": "approval",
+      "question": "Who approves this specific new change and where is that approval recorded?",
+      "reason": "Historical statements and merged changes are reference evidence, not new approval."
+    },
+    {
+      "key": "acceptance",
+      "question": "What checks and expected outcomes establish completion?",
+      "reason": "Structural file checks do not establish scientific or physical validation."
+    },
+    {
+      "key": "chronology",
+      "question": "Which decision date and original instructions should govern this review?",
+      "reason": "Current text, edited comments and later instructions must be distinguished."
+    }
+  ],
+  "caveats": [
+    "Source collection is partial; zero displayed records does not prove none exist.",
+    "Current descriptions are retrospective and may have been edited after a release decision.",
+    "Comments are ordered by creation; updated dates are retained and original edited text may be unknown.",
+    "Different dated instructions may apply to different releases; do not collapse them into one instruction.",
+    "Action selection samples up to six per proposed category; all counts describe the cached snapshot.",
+    "Artifact links and issue closure do not establish approval, downloaded bytes or successful validation.",
+    "Sensitive query strings and credential-like text are redacted in this generated review aid.",
+    "No saved source, model, benchmark, plan or evidence export was modified."
+  ],
+  "counts": {
+    "comments_available": 11,
+    "comments_shown": 11,
+    "actions_available": 45,
+    "actions_shown": 19,
+    "action_category_counts": {
+      "parameter_metadata": 22,
+      "investigation_code": 16,
+      "approved_file": 3,
+      "verification_only": 1,
+      "defer_inherit_block": 3
+    },
+    "releases_available": 1,
+    "releases_shown": 1,
+    "historical_views_available": 1,
+    "historical_views_shown": 1,
+    "artifacts_available": 64,
+    "artifacts_shown": 16,
+    "truncated_comments_shown": 0,
+    "truncated_actions_shown": 0
+  },
+  "source_manifest": [
+    {
+      "path": "/rhome/yanzhu/ML_ADF/adf-sentinel/data/extracted/issues.jsonl",
+      "relative_path": "data/extracted/issues.jsonl",
+      "available": true,
+      "sha256": "d42b9721d27fc197c334e058b27754be628677ec417abb98071f5b0d2c4eb0ed",
+      "bytes": 17212654
+    },
+    {
+      "path": "/rhome/yanzhu/ML_ADF/adf-sentinel/data/labels/weak_actions.jsonl",
+      "relative_path": "data/labels/weak_actions.jsonl",
+      "available": true,
+      "sha256": "3322319863e7e86708ca037a8daa2ad45c81098fb431216251ca8ce152f8029b",
+      "bytes": 8658182
+    },
+    {
+      "path": "/rhome/yanzhu/ML_ADF/adf-sentinel/data/extracted/releases.jsonl",
+      "relative_path": "data/extracted/releases.jsonl",
+      "available": true,
+      "sha256": "ae7eb8ecde5b501e6838f893e3f67f5a227251ff751742c179da820f58653ef2",
+      "bytes": 854613
+    },
+    {
+      "path": "/rhome/yanzhu/ML_ADF/adf-sentinel/data/extracted/historical_issue_views.jsonl",
+      "relative_path": "data/extracted/historical_issue_views.jsonl",
+      "available": true,
+      "sha256": "1f411323e87685cccfb1ff893fdc5a5c0dad6d2301f8984f109c5310ad48b0c4",
+      "bytes": 517562
+    },
+    {
+      "path": "/rhome/yanzhu/ML_ADF/adf-sentinel/data/extracted/external_artifacts.jsonl",
+      "relative_path": "data/extracted/external_artifacts.jsonl",
+      "available": true,
+      "sha256": "0f7d865d9b15537d6dcfe04ac003157f506f1c9ef23c607f7604ab61de14b4fe",
+      "bytes": 6744197
+    }
+  ],
+  "limits": {
+    "description_chars": 10000,
+    "comment_chars": 6000,
+    "comments": 40,
+    "actions": 42,
+    "actions_per_category": 6,
+    "action_chars": 1400,
+    "releases": 12,
+    "history": 6,
+    "history_chars": 2500,
+    "artifacts": 16
+  },
+  "output_files": {
+    "json": "/rhome/yanzhu/ML_ADF/adf-review-workbench/results/packets/IRS-65265.json",
+    "markdown": "/rhome/yanzhu/ML_ADF/adf-review-workbench/results/packets/IRS-65265.md"
+  }
+}

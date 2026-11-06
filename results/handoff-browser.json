@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "checked_at": "2026-11-06T19:33:09.460782+00:00",
+  "scope": "Relocated curated package; prepared evidence, pending draft checks and blank timing sheet",
+  "browser": "123.0.6312.122",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "views": 4
+    },
+    {
+      "width": 960,
+      "height": 800,
+      "views": 4
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "views": 4
+    }
+  ],
+  "page_errors": [],
+  "external_requests": [],
+  "new_approvals": 0,
+  "real_source_changes": 0
+}

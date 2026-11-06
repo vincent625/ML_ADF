@@ -1,0 +1,154 @@
+{
+  "schema_version": "1.0",
+  "packet_count": 4,
+  "issues": [
+    {
+      "issue_key": "IRS-65265",
+      "title": "Manticore ADF v0.0.3",
+      "counts": {
+        "comments_available": 11,
+        "comments_shown": 11,
+        "actions_available": 45,
+        "actions_shown": 19,
+        "action_category_counts": {
+          "parameter_metadata": 22,
+          "investigation_code": 16,
+          "approved_file": 3,
+          "verification_only": 1,
+          "defer_inherit_block": 3
+        },
+        "releases_available": 1,
+        "releases_shown": 1,
+        "historical_views_available": 1,
+        "historical_views_shown": 1,
+        "artifacts_available": 64,
+        "artifacts_shown": 16,
+        "truncated_comments_shown": 0,
+        "truncated_actions_shown": 0
+      },
+      "output_files": {
+        "json": "/rhome/yanzhu/ML_ADF/adf-review-workbench/results/packets/IRS-65265.json",
+        "markdown": "/rhome/yanzhu/ML_ADF/adf-review-workbench/results/packets/IRS-65265.md"
+      }
+    },
+    {
+      "issue_key": "IRS-29057",
+      "title": "OCAplus ADF: update OVAT ruleset (6.8.2)",
+      "counts": {
+        "comments_available": 8,
+        "comments_shown": 8,
+        "actions_available": 5,
+        "actions_shown": 5,
+        "action_category_counts": {
+          "investigation_code": 4,
+          "verification_only": 1
+        },
+        "releases_available": 1,
+        "releases_shown": 1,
+        "historical_views_available": 0,
+        "historical_views_shown": 0,
+        "artifacts_available": 2,
+        "artifacts_shown": 2,
+        "truncated_comments_shown": 0,
+        "truncated_actions_shown": 0
+      },
+      "output_files": {
+        "json": "/rhome/yanzhu/ML_ADF/adf-review-workbench/results/packets/IRS-29057.json",
+        "markdown": "/rhome/yanzhu/ML_ADF/adf-review-workbench/results/packets/IRS-29057.md"
+      }
+    },
+    {
+      "issue_key": "IRS-57322",
+      "title": "maxSamplePerPool parameter was wrong in OCAv3 Gx6.8 w6.0.0 ADF",
+      "counts": {
+        "comments_available": 1,
+        "comments_shown": 1,
+        "actions_available": 5,
+        "actions_shown": 5,
+        "action_category_counts": {
+          "parameter_metadata": 2,
+          "shared_sync": 3
+        },
+        "releases_available": 1,
+        "releases_shown": 1,
+        "historical_views_available": 1,
+        "historical_views_shown": 1,
+        "artifacts_available": 0,
+        "artifacts_shown": 0,
+        "truncated_comments_shown": 0,
+        "truncated_actions_shown": 0
+      },
+      "output_files": {
+        "json": "/rhome/yanzhu/ML_ADF/adf-review-workbench/results/packets/IRS-57322.json",
+        "markdown": "/rhome/yanzhu/ML_ADF/adf-review-workbench/results/packets/IRS-57322.md"
+      }
+    },
+    {
+      "issue_key": "IRS-66772",
+      "title": "6.8: Spree ODxET FFPE Commercial ADF v5.1.0",
+      "counts": {
+        "comments_available": 0,
+        "comments_shown": 0,
+        "actions_available": 10,
+        "actions_shown": 10,
+        "action_category_counts": {
+          "verification_only": 2,
+          "investigation_code": 6,
+          "dependency_pin": 1,
+          "approved_file": 1
+        },
+        "releases_available": 1,
+        "releases_shown": 1,
+        "historical_views_available": 0,
+        "historical_views_shown": 0,
+        "artifacts_available": 2,
+        "artifacts_shown": 2,
+        "truncated_comments_shown": 0,
+        "truncated_actions_shown": 0
+      },
+      "output_files": {
+        "json": "/rhome/yanzhu/ML_ADF/adf-review-workbench/results/packets/IRS-66772.json",
+        "markdown": "/rhome/yanzhu/ML_ADF/adf-review-workbench/results/packets/IRS-66772.md"
+      }
+    }
+  ],
+  "source_manifest": [
+    {
+      "path": "/rhome/yanzhu/ML_ADF/adf-sentinel/data/extracted/issues.jsonl",
+      "relative_path": "data/extracted/issues.jsonl",
+      "available": true,
+      "sha256": "d42b9721d27fc197c334e058b27754be628677ec417abb98071f5b0d2c4eb0ed",
+      "bytes": 17212654
+    },
+    {
+      "path": "/rhome/yanzhu/ML_ADF/adf-sentinel/data/labels/weak_actions.jsonl",
+      "relative_path": "data/labels/weak_actions.jsonl",
+      "available": true,
+      "sha256": "3322319863e7e86708ca037a8daa2ad45c81098fb431216251ca8ce152f8029b",
+      "bytes": 8658182
+    },
+    {
+      "path": "/rhome/yanzhu/ML_ADF/adf-sentinel/data/extracted/releases.jsonl",
+      "relative_path": "data/extracted/releases.jsonl",
+      "available": true,
+      "sha256": "ae7eb8ecde5b501e6838f893e3f67f5a227251ff751742c179da820f58653ef2",
+      "bytes": 854613
+    },
+    {
+      "path": "/rhome/yanzhu/ML_ADF/adf-sentinel/data/extracted/historical_issue_views.jsonl",
+      "relative_path": "data/extracted/historical_issue_views.jsonl",
+      "available": true,
+      "sha256": "1f411323e87685cccfb1ff893fdc5a5c0dad6d2301f8984f109c5310ad48b0c4",
+      "bytes": 517562
+    },
+    {
+      "path": "/rhome/yanzhu/ML_ADF/adf-sentinel/data/extracted/external_artifacts.jsonl",
+      "relative_path": "data/extracted/external_artifacts.jsonl",
+      "available": true,
+      "sha256": "0f7d865d9b15537d6dcfe04ac003157f506f1c9ef23c607f7604ab61de14b4fe",
+      "bytes": 6744197
+    }
+  ],
+  "new_approvals": 0,
+  "executed_changes": 0
+}

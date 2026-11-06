@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": null,
+  "issue_key": null,
+  "source_links": [],
+  "evidence": [],
+  "release": null,
+  "variants": [],
+  "operation": "parameter_metadata",
+  "target_path": null,
+  "field": null,
+  "expected_old_value": null,
+  "new_value": null,
+  "baseline_sha256": null,
+  "artifact": null,
+  "dependency": null,
+  "variant_targets": null,
+  "question": null,
+  "decision": null,
+  "acceptance_checks": [],
+  "reviewer_decision": {
+    "status": "pending",
+    "reviewer": null,
+    "decided_at": null,
+    "evidence_url": null,
+    "note": null,
+    "scope": "current_record"
+  }
+}

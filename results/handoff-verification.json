@@ -1,0 +1,70 @@
+{
+  "prepared_at": "2026-11-06T11:37:04-08:00",
+  "status": "passed",
+  "upstream_python_files_byte_matched": 6,
+  "component_tests": {
+    "total_passed": 103,
+    "suites": {
+      "requirements": 4,
+      "review_workbench": 45,
+      "synthetic_evidence_lab": 23,
+      "sentinel": 31
+    },
+    "receipt": "handoff-component-checks.json"
+  },
+  "relocated_browser": {
+    "status": "passed",
+    "checked_at": "2026-11-06T19:33:09.460782+00:00",
+    "scope": "Relocated curated package; prepared evidence, pending draft checks and blank timing sheet",
+    "browser": "123.0.6312.122",
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 1000,
+        "views": 4
+      },
+      {
+        "width": 960,
+        "height": 800,
+        "views": 4
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "views": 4
+      }
+    ],
+    "page_errors": [],
+    "external_requests": [],
+    "new_approvals": 0,
+    "real_source_changes": 0
+  },
+  "publication_checks": {
+    "status": "passed",
+    "text_files_checked": 321,
+    "private_pair_shapes_compared": 21,
+    "source_pair_value_hits": [],
+    "excluded_class_checks": {
+      "raw_source_caches": true,
+      "full_historical_text": true,
+      "fitted_model_binaries": true
+    },
+    "scope": "Known credential-pair shapes from the original historical corpus; not a guarantee about arbitrary secrets. Synthetic credential-redaction test strings are intentional test inputs."
+  },
+  "original_local_files_preserved": {
+    "status": "passed",
+    "campaign_id": "59cc07c60d9ebcc93be4fb8d7ddb6137e64b13c9fc0a6d70e95f73d1b98668fe",
+    "campaign_files_checked": 27,
+    "original_files_checked": 320,
+    "mismatches": [],
+    "extra_original_files": []
+  },
+  "package_scope": "Curated source, sanitized packets, aggregates and demos; excluded private historical input datasets, model binaries and raw caches. Original dates and evidence boundaries retained.",
+  "readme_visuals": [
+    "assets/figures/delivered-results.png",
+    "assets/figures/scope-flow.png",
+    "assets/figures/action-mix.png",
+    "assets/figures/workbench-preview.png"
+  ],
+  "archive_integrity": "File checksums are in PACKAGE_MANIFEST.json; external ZIP verification/checksum accompanies the archive."
+}
