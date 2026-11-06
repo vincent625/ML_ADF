@@ -1,0 +1,69 @@
+{
+  "panel_kit": "A40014056",
+  "dna_pool_1": "100200225",
+  "dna_pool_2": "100200226",
+  "assets": {
+    "R03": {
+      "file": "TVC_Mask_Bed/Oncomine_Focus_v2_4.0_20260902_Manticore_SVB.bed",
+      "declared_md5": "b2bfa8bf8dc94829dd1efa1919d9f1bd",
+      "revision": "80493a94a88802001bb1e4d96859bab3e9125d51",
+      "fixture_sha256": "e81e1670e79afea5246363e1e1a7e80c4eb88adb1d0ce2ca58d897dfcd40b83c",
+      "fixture_md5": "98afe035cb83528a9e8a7439fc9e710d",
+      "bytes_origin": "synthetic_placeholder_not_original_asset"
+    },
+    "R07": {
+      "file": "Bed/Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.09_02_26.bed",
+      "declared_md5": "3e51e15efde5f8cf9f07af8a83296c1f",
+      "revision": "4ecc0ec9e2b70d979ffb577dcec8d88e66ed427a",
+      "fixture_sha256": "dda7e48ad3a222832eb04d220abff58e1465428afde39c6f706a8313af353e5d",
+      "fixture_md5": "9efef80855e01e6c4f1fb10bca31550a",
+      "bytes_origin": "synthetic_placeholder_not_original_asset"
+    },
+    "R09": {
+      "file": "Hotspot/Oncomine_Focus_v2.20260625.hotspots.bed",
+      "declared_md5": "0dd74ce6ac67b1a1be4784d0f745c749",
+      "revision": "4b068125cd505011f90293a24ce63361a669a89f",
+      "fixture_sha256": "0f70345a33e9bee8275eba30006c19792341ca8d01c46e4c2b3527826c8c05c5",
+      "fixture_md5": "0ac805cab34b052e7207f3ac0799f707",
+      "bytes_origin": "synthetic_placeholder_not_original_asset"
+    },
+    "R12": {
+      "file": "CNV/Oncomine_Focus_v2_4.0.20260903_Manticore_cnv.h5",
+      "declared_md5": "66c91acdb445aafca5d2599c39e2323f",
+      "revision": "129d9d93b335ae136babb00ef2cf9e9ad25459fe",
+      "fixture_sha256": "3c051e42776caa0bd7166e75580f808f934c16ab6b9d4ba03c38d3e5de145273",
+      "fixture_md5": "da8fdfb72ae883d7f5dad2bb38411e98",
+      "bytes_origin": "synthetic_placeholder_not_original_asset"
+    },
+    "R13": {
+      "file": "CNV/Oncomine_Focus_v2_4.0.20260906_Manticore_cnv.json",
+      "declared_md5": "0a4cde62a2127ee7392c6708da03c751",
+      "revision": "eea5aa655195a715ba2c5b69a0377ccb94cc123c",
+      "fixture_sha256": "afa63c4e570af9a0bae8d40e5f83cd5c9b8cee6e198b6e81624fb4f67fb02068",
+      "fixture_md5": "33d17910dc72c9ea73cbce397a70dbdd",
+      "bytes_origin": "synthetic_placeholder_not_original_asset"
+    },
+    "R17-binary": {
+      "file": "Pipeline/bin/MSI_IR",
+      "declared_md5": "f93f676696edb92bac9fe4f4f3781eef",
+      "revision": "8fedf9b6021618c986262960627223036dbf28b4",
+      "fixture_sha256": "3104948fa8a285febd2a39827c4d2d9132bcdc3fa367e27aca6700bb99fd11f3",
+      "fixture_md5": "fe94693f230a945a21165eece77f7d70",
+      "bytes_origin": "synthetic_placeholder_not_original_asset"
+    },
+    "R17-baseline": {
+      "file": "TVC_Mask_Bed/Oncomine_Focus_v2_Gx_hg19_09_03_2026.msi.h5",
+      "declared_md5": "2c3ad73dfd2fa697f20e39d7b3c570de",
+      "revision": "a1c48d7ee08e7fd33a7a03e61bbd6d39900c3d1b",
+      "fixture_sha256": "4957e25091a6827d51e5b7d22ca6ef96bcd647cc080baeba6a0ca8ef1a5c83dc",
+      "fixture_md5": "6dda7eec37f497ab080bb33ceba5996c",
+      "bytes_origin": "synthetic_placeholder_not_original_asset"
+    }
+  },
+  "report_version": "0.0.3",
+  "variant": "fusion",
+  "installable": false,
+  "rna_panel_kit": "A47019",
+  "rna_rna_pool_1": "100093902",
+  "rna_rna_pool_2": "100093903"
+}
