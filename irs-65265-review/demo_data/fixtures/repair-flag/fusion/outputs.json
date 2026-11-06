@@ -1,0 +1,19 @@
+{
+  "passing": {
+    "pipeline": "completed",
+    "cnv_qc": "pass",
+    "mapd": 0.2,
+    "plot_present": true
+  },
+  "suppressed": {
+    "pipeline": "completed",
+    "cnv_qc": "fail",
+    "mapd": 0.7,
+    "plot_present": false
+  },
+  "msi-qcfail": {
+    "pipeline": "completed",
+    "msi_qc": "MSI-QCFail",
+    "sample_qc": "fail"
+  }
+}
