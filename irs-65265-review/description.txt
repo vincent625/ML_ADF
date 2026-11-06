@@ -1,0 +1,192 @@
+timeline
+Open image-20260810-220205.png
+ADF
+github repo:
+https://github.com/thermofisher/csd-adf-gx-manticore-v2-dnafus-70/
+Your team sees richer Github previews
+Connect
+https://github.com/thermofisher/csd-adf-gx-manticore-v2-dna-70/
+config files github repo:
+https://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/
+Your team sees richer Github previews
+Connect
+1 Need to update the part number for PanelKit and part number for Primer Tube
+Manticore
+DNA
+and Fus
+Part Number for DNA panel kit
+A47017
+A40014056
+From
+XP
+'s photo. This is part number for OCAPlus DNA panel kit as a placeholder ,
+will be replaced by the correct part number
+in the v0.0.3 ADF when the panel is manufactured.
+Part Number for
+RNA
+Panel Kit
+A47019
+from XP's photo. This is part number for OCAPlus RNA panel kit. Since Manticore is using OCAPlus RNA panel kit, so this is correct.
+Part Number for DNA Primer Tube Pool 1
+100093900
+100200225
+this is part number for "OCAPlus DNA Pool 1" as a placeholder for this ADF,
+will be
+replaced by correct part number in the v0.0.3
+version of ADF
+Part Number for DNA Primer Tube Pool 2
+100093901
+100200226
+this is part number for "OCAPlus DNA Pool 2" as a placeholder for this ADF,
+will be
+replaced by correct part number in the v0.0.3
+version of ADF
+Part Number for RNA Primer Tube pool 1
+100093902
+This is part number for '
+OCA
+Plus RNA Pool 1', which is correct as Manticore is using the OCAPlus Fus panel
+Part Number for RNA Primer Tube pool 2
+100093903
+This is part number for 'OCA Plus RNA Pool 1', which is correct as Manticore is using the OCAPlus Fus panel
+Manticore DNA only
+Part Number for DNA Panel Kit
+A47017
+A40014056
+From XP's photo. This is part number for OCAPlus DNA panel kit as a placeholder , will be
+replaced by the correct part number in the v0.0.3 versio
+n of ADF when the panel is manufactured.
+Part Number for DNA Primer Tube Pool 1
+100093900
+100200225
+this is part number for "OCAPlus DNA Pool 1" as a placeholder for this ADF,
+will be
+replaced by correct part number in the v0.0.3
+version of ADF
+Part Number for DNA Primer Tube Pool 2
+100093901
+100200226
+this is part number for "OCAPlus DNA Pool 2" as a placeholder for this ADF,
+will be
+replaced by correct part number in the v0.0.3
+version of ADF
+2.1 have the updated
+SVB
+file (to be provided by Zheng Zhang)
+https://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/Oncomine_Focus_v2_4.0_20260902_Manticore_SVB.bed
+b2bfa8bf8dc94829dd1efa1919d9f1bd  Oncomine_Focus_v2_4.0_20260902_Manticore_SVB.bed
+2.2 updated ini files for each module from github
+https://github.com/thermofisher/csd-motorcore-config-files/tree/main/Manticore
+https://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/TmapExecutionActor_Manticore_Gx7.0ADF_v0.0.3.ini
+https://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/VariantCallerActor_Manticore_Gx7.0ADF_v0.0.3.ini
+https://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/RNACountsActor_Manticore_Gx7.0ADF_v0.0.3.ini
+https://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/CnvActor_Manticore_Gx7.0ADF_v0.0.3.ini
+https://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/MSIActor_Manticore_Gx7.0ADF_v0.0.3.ini
+https://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/AnnotatorActor_Manticore_Gx7.0ADF_v0.0.3.ini
+https://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/AnalysisArgs_Manticore_Gx7.0ADF_v0.0.3.json
+3.1  a different version of TVC binary to better support BRCA HP: Zheng Zhang confirmed this is not needed
+3.2 a different version of Tmap binary to resolve this issue
+IRS-64564: Indels near 3' end of the read cause MAPQ to drop to very low values even when the read is perfectly and uniquely mapped
+Open
+Preview
+: Denis will provide this Tmap binary.
+This is already bundled into v0.0.2 ADF
+4.1 DNA panel bed file with updated parameter overriding from Denis
+https://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.09_02_26.bed
+md5sum: 3e51e15efde5f8cf9f07af8a83296c1f  Oncomine_Focus_v2_4.0.20260211.
+GX
+.designed.re.mapq.09_02_26.bed
+4.2 remove the ‘--repair-min-freq 30’ in the tmap command line
+5 hotspot file with updated parameter overriding: a new hotspot file will be provided
+https://github.com/thermofisher/csd-motorcore-config-files/blob/main/Motorhead/Oncomine_Focus_v2.20260625.hotspots.bed
+md5sum: 0dd74ce6ac67b1a1be4784d0f745c749  Oncomine_Focus_v2.20260625.hotspots.bed
+Question: This hotspot file is from Motohread, but long-hp additions and allele-specific overrides should be different between Motorhead and Manticore. Are we going to have an updated hotspot for Manticore before 09/06?
+Eva’s response (09/02/2026): please use the motorhead hotspot for V0.0.3. this one depended on the
+HP
+-optimization and
+FP
+cohort review, so we won’t make it by 9/6 and will need to update for pre-
+V&V
+.
+6
+OVAT
+ruleset: same as v0.0.2 ADF
+https://thermofisher.jfrog.io/ui/native/csd-oncomine-software-maven-prod-local/com/lifetech/oncomine/ovat-off-cycle/ofav2/7.0.5/
+7
+VNS
+ruleset: confirmed with Fernando we should use the VNS 2.2.2 which is already in Gx7.0.2, since there is no new variant type introduced by Manticore assay (e.g.
+LOH
+, LongDel, etc)
+https://thermofisher.jfrog.io/artifactory/csd-oncomine-software-maven-prod-local/com/lifetech/oncomine/variant-name-service-python/1.22.0/variant-name-service-python-1.22.0.tgz
+7 new
+CNV
+baseline provided by Ying
+https://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/Oncomine_Focus_v2_4.0.20260903_Manticore_cnv.h5
+.
+66c91acdb445aafca5d2599c39e2323f  Oncomine_Focus_v2_4.0.20260903_Manticore_cnv.h5
+8 new CNV input parameter json file provided by Ying
+https://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/Oncomine_Focus_v2_4.0.20260906_Manticore_cnv.json
+0a4cde62a2127ee7392c6708da03c751  Oncomine_Focus_v2_4.0.20260906_Manticore_cnv.json
+9 Ying already uploaded new CNV scripts are to
+https://github.com/thermofisher/csd-adf-gx-manticore-v2-dnafus-70/blob/master/Pipeline/bin
+Arpitha, please make sure the changes are also checked in to the DNA only github repo
+https://github.com/thermofisher/csd-adf-gx-manticore-v2-dna-70/blob/master/Pipeline/bin/
+9 instrument workflow script which has the latest piercing script (email: Latest piercing workflow for Manticore, from Brady Reynolds 04/27/2026)
+Branch: workflowdev/Manticore_ADF_dev
+Script name: ampliseq6reaction_coca_541_Manticore_w1.0.0_v0.0.2
+Tag: ReporterServer-Dx_7.0_ADF_Manticore_w1.0.0_v0.0.2
+10 min reads per sample DNA and min reads per sample RNA need to be finalized: Adam provided (email: Updated minimum read parameters for Manticore ADF, from Adam Harris, 04/22/2026)
+DNA and Fusion workflow:
+min reads per sample DNA: 6,000,000
+min reads per sample RNA: 2,300,000
+maximum DNA samples on the chip: 12
+maximum RNA samples on the chip: 12
+DNA only workflow:
+min reads per sample DNA: 6,000,000
+maximum DNA samples on the chip: 16
+11 Sameh is going to update the
+MSI
+baseline and binaries. The new MSI_IR  binaries will have update in reporting error messages
+https://lsg-thermofisher.atlassian.net/browse/IRS-66227
+Preview
+MSI_IR:
+https://github.com/thermofisher/csd-adf-gx-manticore-v2-dna-70/blob/master/Pipeline/bin/MSI_IR
+f93f676696edb92bac9fe4f4f3781eef  MSI_IR
+MSI baseline:
+md5sum: a38dce07624cbcf0687a83150689c1b4  Oncomine_Focus_v2_Gx_hg19_08_21_2026.msi.h5
+https://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/Oncomine_Focus_v2_Gx_hg19_09_03_2026.msi.h5
+2c3ad73dfd2fa697f20e39d7b3c570de  Oncomine_Focus_v2_Gx_hg19_09_03_2026.msi.h5
+Arpitha, please make sure this MSI_IR and Oncomine_Focus_v2_Gx_hg19_09_03_2026.msi.h5 are bundled into both DNA and Fus ADF, and DNA only ADF
+UI bugs and improvement:
+https://lsg-thermofisher.atlassian.net/browse/IRS-65820
+Preview
+https://lsg-thermofisher.atlassian.net/browse/IRS-65922
+Preview
+https://lsg-thermofisher.atlassian.net/browse/IRS-65923
+Preview
+https://lsg-thermofisher.atlassian.net/browse/IRS-66003
+Preview
+https://lsg-thermofisher.atlassian.net/browse/IRS-66228
+Preview
+https://lsg-thermofisher.atlassian.net/browse/IRS-66455
+Preview
+https://lsg-thermofisher.atlassian.net/browse/IRS-66464
+Preview
+(Arpitha: the parameter values from this ticket will be finalized before 09/15/2026)
+https://lsg-thermofisher.atlassian.net/browse/IRS-66745
+Preview
+SQA
+will test the following improvement tickets using the bundled v0.0.3 ADF
+https://lsg-thermofisher.atlassian.net/browse/IRS-62690
+Preview
+https://lsg-thermofisher.atlassian.net/browse/IRS-64099
+Preview
+https://lsg-thermofisher.atlassian.net/browse/IRS-66170
+Preview
+https://lsg-thermofisher.atlassian.net/browse/IRS-65459
+Preview
+Bugs identified in Eagle OCAplus 6.8 ADF but fix is deferred to Gx8.0
+https://lsg-thermofisher.atlassian.net/browse/IRS-59604
+Preview
+https://lsg-thermofisher.atlassian.net/browse/IRS-58898
+Preview

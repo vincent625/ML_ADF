@@ -1,0 +1,18 @@
+{
+  "snapshot_comments_loaded": 5,
+  "snapshot_comment_total": 11,
+  "more_comments_available": true,
+  "ui_attachment_badge": 67,
+  "api_attachment_count": 65,
+  "attachment_metadata_loaded": 10,
+  "unique_business_urls": 60,
+  "url_types": {
+    "Jira": 19,
+    "GitHub": 23,
+    "JFrog": 2,
+    "Genexus run": 16
+  },
+  "image_names": 33,
+  "readable_screenshot_images": 32,
+  "source_sha256": "a6472c24eacba8ac2b76796f386e95bd5983e25605ed47e08521b1808a1eadb6"
+}

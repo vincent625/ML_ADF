@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ADF Sentinel | IRS-65265 evidence lab</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="brand"><span class="mark">S</span><div><h1>ADF Sentinel</h1><p>IRS-65265 / Manticore v0.0.3</p></div></div>
+    <div class="header-label">Evidence first.<br><strong>Decisions stay reviewable.</strong></div>
+  </header>
+  <div class="boundary"><strong>SYNTHETIC SANDBOX</strong> &middot; Local validators, not an installed ADF. QC behavior is simulated. AI is stored interpretation replay.</div>
+  <main>
+    <div class="topline">
+      <div><p class="eyebrow">RELEASE READINESS LAB</p><h2>From requirement to trusted evidence</h2></div>
+      <div class="scenario"><label for="scenario">Counterfactual fixture</label><select id="scenario"></select></div>
+    </div>
+    <div id="metrics" class="metrics"></div>
+    <nav aria-label="Demo chapters">
+      <button data-tab="sources" class="active">01 Sources</button>
+      <button data-tab="requirements">02 Requirements</button>
+      <button data-tab="components">03 Components</button>
+      <button data-tab="runner">04 Run &amp; triage</button>
+      <button data-tab="impact">05 Change impact</button>
+      <button data-tab="export">06 Evidence export</button>
+    </nav>
+    <div id="notice" role="status" aria-live="polite"></div>
+    <section id="content" aria-label="Selected demo chapter"></section>
+  </main>
+  <footer><span>Source check &ne; deployed validation &ne; scientific QC pass</span><button id="reset" class="quiet">Reset synthetic sandbox</button></footer>
+  <dialog id="review-dialog">
+    <form id="review-form">
+      <h2>Review exact sandbox correction</h2>
+      <p id="patch-warning"></p><pre id="patch-diff"></pre>
+      <label for="reviewer">Reviewer name</label><input id="reviewer" required placeholder="Engineer / presenter name">
+      <label class="checkbox"><input type="checkbox" id="approve" required> I reviewed this exact patch. Apply only to the copied fixture.</label>
+      <div class="actions"><button type="button" id="cancel-review" class="secondary">Cancel</button><button type="submit">Approve &amp; apply local patch</button></div>
+    </form>
+  </dialog>
+</body>
+</html>

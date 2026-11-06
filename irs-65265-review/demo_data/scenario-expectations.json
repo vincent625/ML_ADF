@@ -1,0 +1,28 @@
+{
+  "origin": "generator_oracle_used_only_by_tests_not_the_runner",
+  "failures": {
+    "control": [],
+    "wrong-kit": [
+      "dna:panel_kit"
+    ],
+    "wrong-primer": [
+      "fusion:dna_pool_2"
+    ],
+    "baseline-revision": [
+      "dna:R12-revision"
+    ],
+    "repair-flag": [
+      "fusion:AnalysisArgs.ini"
+    ],
+    "stale-script": [
+      "fusion:copynumber_exon_plots.py"
+    ],
+    "report-version": [
+      "dna:report-version"
+    ],
+    "missing-plot": [
+      "dna:passing"
+    ],
+    "stale-pass": []
+  }
+}

@@ -1,0 +1,885 @@
+{
+  "dna": {
+    "files": [
+      {
+        "path": "Bed/Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.07_15_26.bed",
+        "git_blob_sha": "6f2392fbaabfc2e22069afac152ce87af495a036",
+        "status": "removed",
+        "changes": 2998
+      },
+      {
+        "path": "Bed/Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.09_02_26.bed",
+        "git_blob_sha": "4ecc0ec9e2b70d979ffb577dcec8d88e66ed427a",
+        "status": "added",
+        "changes": 2998
+      },
+      {
+        "path": "CNV/Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.07_15_26.bed",
+        "git_blob_sha": "6f2392fbaabfc2e22069afac152ce87af495a036",
+        "status": "removed",
+        "changes": 2998
+      },
+      {
+        "path": "CNV/Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.09_02_26.bed",
+        "git_blob_sha": "4ecc0ec9e2b70d979ffb577dcec8d88e66ed427a",
+        "status": "added",
+        "changes": 2998
+      },
+      {
+        "path": "CNV/Oncomine_Focus_v2_4.0.20260717_cnv_Manticore.json",
+        "git_blob_sha": "345fc085de8dc2752d50a3a988476b4923413445",
+        "status": "removed",
+        "changes": 344
+      },
+      {
+        "path": "CNV/Oncomine_Focus_v2_4.0.20260903_Manticore_cnv.h5",
+        "git_blob_sha": "129d9d93b335ae136babb00ef2cf9e9ad25459fe",
+        "status": "renamed",
+        "changes": 0
+      },
+      {
+        "path": "CNV/Oncomine_Focus_v2_4.0.20260906_Manticore_cnv.json",
+        "git_blob_sha": "eea5aa655195a715ba2c5b69a0377ccb94cc123c",
+        "status": "added",
+        "changes": 479
+      },
+      {
+        "path": "Hotspot/Oncomine_Focus_v2.20260625.hotspots.bed",
+        "git_blob_sha": "4b068125cd505011f90293a24ce63361a669a89f",
+        "status": "renamed",
+        "changes": 592
+      },
+      {
+        "path": "Pipeline/bin/MSI_IR",
+        "git_blob_sha": "8fedf9b6021618c986262960627223036dbf28b4",
+        "status": "modified",
+        "changes": 0
+      },
+      {
+        "path": "Pipeline/bin/copynumber_chromosome.py",
+        "git_blob_sha": "502be17994d2dd368f0c0794f24ea56bf92f4c57",
+        "status": "modified",
+        "changes": 30
+      },
+      {
+        "path": "Pipeline/bin/copynumber_co_alteration.py",
+        "git_blob_sha": "7db89b7b08270f788adedb3741eec3903c7c10b7",
+        "status": "modified",
+        "changes": 6
+      },
+      {
+        "path": "Pipeline/bin/copynumber_exon.py",
+        "git_blob_sha": "53451fb7484dd37b0b3f8ac7af5d0acf640cb229",
+        "status": "modified",
+        "changes": 77
+      },
+      {
+        "path": "Pipeline/bin/copynumber_exon_finalize.py",
+        "git_blob_sha": "9c0cced7e6c237155a0063a44d379d531643fcea",
+        "status": "modified",
+        "changes": 649
+      },
+      {
+        "path": "Pipeline/bin/copynumber_exon_plots.py",
+        "git_blob_sha": "e349f9a1ab0ec287e140e868f6c7d36de99561c0",
+        "status": "modified",
+        "changes": 262
+      },
+      {
+        "path": "Pipeline/bin/copynumber_single_sample.py",
+        "git_blob_sha": "100b6efa4a2f20e655c5cfa94be2704b0630ee4c",
+        "status": "modified",
+        "changes": 18
+      },
+      {
+        "path": "Pipeline/bin/deep_shallow_loss.py",
+        "git_blob_sha": "41ebd280894045abf56483b8c9d127287da15cd1",
+        "status": "modified",
+        "changes": 21
+      },
+      {
+        "path": "Pipeline/bin/loss_plus_focal_amplification.py",
+        "git_blob_sha": "439e3120ba66d4857baccb4cee3e2583ccc2feb2",
+        "status": "modified",
+        "changes": 7
+      },
+      {
+        "path": "SeedData/AssayDev/assay/dna/Assay.json",
+        "git_blob_sha": "41b0b07bc1851c671f5007448f7b65dcf785a717",
+        "status": "modified",
+        "changes": 14
+      },
+      {
+        "path": "SeedData/AssayDev/assay/dna/AssayApplication.json",
+        "git_blob_sha": "56a662ca1384e93ce3da9958aff671138622b440",
+        "status": "modified",
+        "changes": 14
+      },
+      {
+        "path": "SeedData/AssayDev/assay/dna/AssayConfig.json",
+        "git_blob_sha": "0fc9fee797a40770c669fa05e4f98b794e53d328",
+        "status": "modified",
+        "changes": 4
+      },
+      {
+        "path": "SeedData/AssayDev/assay/dna/AssayConfigApplication.json",
+        "git_blob_sha": "372b47a79662a54b864c67a68cee3bb5f30ab0c4",
+        "status": "modified",
+        "changes": 4
+      },
+      {
+        "path": "SeedData/AssayDev/assay/dna/config/ConfigData_AssayDev.json",
+        "git_blob_sha": "c836c6788b5118a3786a1f7cde4c959a64f45b01",
+        "status": "modified",
+        "changes": 2
+      },
+      {
+        "path": "SeedData/AssayDev/assay/dna/json_files/assay_config_jsons/DNA/download_files_config.json",
+        "git_blob_sha": "cd8db0d95d29f4eaf8d8bc96102fc33638a12048",
+        "status": "modified",
+        "changes": 50
+      },
+      {
+        "path": "SeedData/AssayDev/assay/dna/parameters/AnalysisArgs.ini",
+        "git_blob_sha": "640d989e1b4afeae567da69b633917a8798008c6",
+        "status": "modified",
+        "changes": 2
+      },
+      {
+        "path": "SeedData/AssayDev/assay/dna/parameters/AnnotatorActor.ini",
+        "git_blob_sha": "733b21793c9191f4890c8eadef6a293e6dc7d985",
+        "status": "modified",
+        "changes": 48
+      },
+      {
+        "path": "SeedData/AssayDev/assay/dna/parameters/CnvActor.ini",
+        "git_blob_sha": "1f9229bacd435d201463639f69c293129a4318d5",
+        "status": "modified",
+        "changes": 147
+      },
+      {
+        "path": "SeedData/AssayDev/assay/dna/parameters/MSIActor.ini",
+        "git_blob_sha": "734c95f11ee7775c7364a00e03530394a6f59832",
+        "status": "modified",
+        "changes": 24
+      },
+      {
+        "path": "SeedData/AssayDev/assay/dna/parameters/TmapExecutionActor.ini",
+        "git_blob_sha": "b77957e398510d07ed6783cd1f1ef7eefff3462d",
+        "status": "modified",
+        "changes": 27
+      },
+      {
+        "path": "SeedData/AssayDev/assay/dna/parameters/VariantCallerActor.ini",
+        "git_blob_sha": "a0ceadbaa608982f44e4793d5e4a5a5340c385ce",
+        "status": "modified",
+        "changes": 239
+      },
+      {
+        "path": "SeedData/AssayDev/assay/dna/parameters/global.ini",
+        "git_blob_sha": "68c7b303e487245263cdfa1eca50b11b97df840e",
+        "status": "modified",
+        "changes": 2
+      },
+      {
+        "path": "SeedData/AssayDev/assay/dna/run_parameters/dna.ini",
+        "git_blob_sha": "853052cbbb39f66cc0898321f306ebb41fb20dbc",
+        "status": "modified",
+        "changes": 2
+      },
+      {
+        "path": "SeedData/AssayDev/master/CnvBaseline.json",
+        "git_blob_sha": "8e50b916246029ded1cffdf1da59b9afa0b2cb61",
+        "status": "modified",
+        "changes": 27
+      },
+      {
+        "path": "SeedData/AssayDev/master/KitConsumable.json",
+        "git_blob_sha": "a317bc8e4a3bedc4e2cce2e0720c856c623d195e",
+        "status": "modified",
+        "changes": 4
+      },
+      {
+        "path": "SeedData/AssayDev/master/KitPart.json",
+        "git_blob_sha": "e5bca355e96b0aa964811593314f12665706b32d",
+        "status": "modified",
+        "changes": 2
+      },
+      {
+        "path": "SeedData/AssayDev/master/ReferenceKitMapping.json",
+        "git_blob_sha": "76f8e7bd10b420ca4c68dc63e948c69ba41c71ab",
+        "status": "modified",
+        "changes": 4
+      },
+      {
+        "path": "SeedData/AssayDev/master/Region-Hotspot.json",
+        "git_blob_sha": "1a228e39a5eab501f3f50b42104ee0061eb66751",
+        "status": "modified",
+        "changes": 22
+      },
+      {
+        "path": "SeedData/AssayDev/master/VisualizatinAppConfig.json",
+        "git_blob_sha": "314ef5976cf97d7140faef3892042e8ce485b5fb",
+        "status": "modified",
+        "changes": 10
+      },
+      {
+        "path": "TVC_Mask_Bed/Oncomine_Focus_v2_4.0_20260902_Manticore_SVB.bed",
+        "git_blob_sha": "80493a94a88802001bb1e4d96859bab3e9125d51",
+        "status": "added",
+        "changes": 106221
+      },
+      {
+        "path": "TVC_Mask_Bed/Oncomine_Focus_v2_Gx_hg19_07_21_2026.msi.h5",
+        "git_blob_sha": "4da3121047bb9ce626b68144d23ce9a05c748b7d",
+        "status": "removed",
+        "changes": 0
+      },
+      {
+        "path": "TVC_Mask_Bed/Oncomine_Focus_v2_Gx_hg19_09_03_2026.msi.h5",
+        "git_blob_sha": "a1c48d7ee08e7fd33a7a03e61bbd6d39900c3d1b",
+        "status": "added",
+        "changes": 0
+      },
+      {
+        "path": "adf_properties",
+        "git_blob_sha": "4e74ca2a58cfa1ea286f4a2c764c82add493d5e7",
+        "status": "modified",
+        "changes": 6
+      },
+      {
+        "path": "app_templates/BRCA_AmpliSeq.html",
+        "git_blob_sha": "32f812d0562e7e96b6e9e621cddcbe5641b5f40b",
+        "status": "removed",
+        "changes": 122
+      },
+      {
+        "path": "app_templates/Exon_CNV_Manticore_AmpliSeq.html",
+        "git_blob_sha": "1772c0bc7cc00ce2c1fd941402066e50ef32020e",
+        "status": "added",
+        "changes": 650
+      },
+      {
+        "path": "deb_name",
+        "git_blob_sha": "9ad815bd257b6800b399367d0964fccabad05be0",
+        "status": "modified",
+        "changes": 2
+      },
+      {
+        "path": "dependencies/ts-assaydev-reportbuilder-OFAV2-DNA-w1.0.0_v0.0.2.deb",
+        "git_blob_sha": "73f79c282335762bdde5bbbecd8e5c63810bdb20",
+        "status": "removed",
+        "changes": 0
+      },
+      {
+        "path": "dependencies/ts-assaydev-reportbuilder-OFAV2-DNA-w1.0.0_v0.0.3.deb",
+        "git_blob_sha": "00963a21de1ebca7cf15e91bf878e8b43335e052",
+        "status": "added",
+        "changes": 0
+      },
+      {
+        "path": "version",
+        "git_blob_sha": "2f60fdc0ff8ffe757a1cd79719a68f6e3d3d88bc",
+        "status": "modified",
+        "changes": 2
+      }
+    ],
+    "selected_patch_evidence": [
+      {
+        "path": "SeedData/AssayDev/assay/dna/parameters/AnalysisArgs.ini",
+        "patch": "@@ -1,4 +1,4 @@\n-AnalysisArgs={\"beadfindargs\":\"justBeadFind --args-json /opt/ion/config/args_GX7v1_beadfind.json --beadfind-basis positive --beadfind-sig-ref-type 3 --beadfind-reference-filter 2 --beadfind-reference-filter-signal-threshold 15\",\"analysisargs\":\"Analysis --args-json /opt/ion/config/args_GX7v1_analysis.json\",\"prebasecallerArgs\":\"BaseCaller --barcode-filter-minreads 10 --trim-qual-cutoff 15 --phasing-residual-filter=2.0 --max-phasing-levels 2 --wells-normalization on --end-barcodes=off\",\"calibrateargs\":\"Calibration\",\"basecallerargs\":\"BaseCaller --barcode-filter-minreads 10 --trim-qual-cutoff 15 --phasing-residual-filter=2.0 --max-phasing-levels 2 --num-unfiltered 1000 --barcode-filter-postpone 1 --wells-normalization on\",\"alignmentargs\":\"tmap mapall ...  -J 20 --end-repair 15 --profile-amp --context --do-repeat-clip --par-ovr --ovr-candeval --repair-min-freq 30 stage1 map4\",\"ionstatsargs\":\"ionstats alignment\"}\n+AnalysisArgs={\"beadfindargs\":\"justBeadFind --args-json /opt/ion/config/args_GX7v1_beadfind.json --beadfind-basis positive --beadfind-sig-ref-type 3 --beadfind-reference-filter 2 --beadfind-reference-filter-signal-threshold 15\",\"analysisargs\":\"Analysis --args-json /opt/ion/config/args_GX7v1_analysis.json\",\"prebasecallerArgs\":\"BaseCaller --barcode-filter-minreads 10 --trim-qual-cutoff 15 --phasing-residual-filter=2.0 --max-phasing-levels 2 --wells-normalization on --end-barcodes=off\",\"calibrateargs\":\"Calibration\",\"basecallerargs\":\"BaseCaller --barcode-filter-minreads 10 --trim-qual-cutoff 15 --phasing-residual-filter=2.0 --max-phasing-levels 2 --num-unfiltered 1000 --barcode-filter-postpone 1 --wells-normalization on\",\"alignmentargs\":\"tmap mapall ...  -J 20 --end-repair 15 --profile-amp --context --do-repeat-clip --par-ovr --ovr-candeval stage1 map4\",\"ionstatsargs\":\"ionstats alignment\"}\n ThumbnailArgs=\n basecaller.ionparams.libraryKey=TCAG\n basecaller.ionparams.tfKey=ATCG"
+      },
+      {
+        "path": "SeedData/AssayDev/assay/dna/parameters/AnnotatorActor.ini",
+        "patch": "@@ -1,39 +1,33 @@\n-# LifeScope(TM) Client generated the ini at Fri Dec 13 14:46:12 PST 2019 \n-\n import global.ini\n-AnnotatorActor.run=1\n+run.hrr.genelist=1\n annotator.use.iupac.single.letter.code.aa=0\n annotator.final.normalization.value=0\n analysis.folder.id=f1\n+somatic.classifier.variant.type.mapd.threshold=0.9\n+somatic.classifier.variant.type.min.bases.covered.threshold=100000\n+annotator.gnomad.hit.level=overlap\n annotator.exac.hit.level=overlap\n annotator.splice.site.size=3\n-#annotator.mutation.load.filter.chain=None\n-annotator.gene.extension.size=1000\n+run.variant.type.prediction=0\n+similarity.threshold=NA\n+annotator.gene.extension.size=750\n+analysis.filter.chain.json=\n+analysis.exonic.regions.filepath=/data/IR/data/.reference/tmap-f3/hg19/hg19_exonic_regions_04202018.bed\n annotator.use.local.mongo.server=false\n+AnnotatorActor.run=1\n annotator.clinvar.hit.level=allele\n-annotator.functional.all.alt.alleles=false\n+analysis.assay.filter.chain.json={\"asNames\":[\"java.util.ArrayList\",[\"5000Exomes\",\"genes\",\"clinvar\",\"Oncomine\",\"dbsnp\",\"gnomad\"]],\"advancedGrouping\":\"(Oncomine OR (Variant Type AND Filter) OR __Variant Type__1 OR (__Variant Type__2 AND Minor Allele Frequency AND 5000Exomes Global MAF(20161108) AND GnomAD GAF(2) AND (NOT UCSC Common SNPs OR __Variant Type__3) AND (Variant Effect OR Location)) OR clinvar(20230311))\",\"filters\":[\"java.util.ArrayList\",[{\"name\":\"Oncomine\",\"asNames\":[\"Oncomine\"],\"enabled\":true,\"type\":\"experimental\",\"genoRefType\":\"Human_Genome_Independent\",\"expression\":[\"com.lifetech.ngs.decisionsupport.SimpleExpression\",{\"name\":\"Oncomine\",\"hiddenExpression\":null,\"hiddenExpressionOp\":null,\"group\":true,\"enabled\":true,\"geneModel\":false,\"negate\":false,\"isList\":false,\"asFunction\":false,\"index\":1,\"newFuncFormat\":false,\"targetVariantTypesExpr\":null,\"src\":\"Oncomine\",\"key\":null,\"value\":[\"com.lifetech.ngs.decisionsupport.ToggleState\",\"ON\"],\"includeMissing\":false,\"includeBoundaries\":true,\"enableIncludeMissingOption\":true,\"addInNotInOptions\":true,\"type\":\"VARIANTDB\",\"op\":\"EQ\",\"geneModels\":null,\"asNames\":[\"Oncomine\"],\"functionName\":null,\"function\":null}],\"attributes\":{},\"filterType\":\"SingleSelectFilter\",\"multipleValueSelectionFilterOption\":\"Nonapplicable\"},{\"name\":\"Variant Type\",\"asNames\":[],\"enabled\":true,\"type\":\"experimental\",\"genoRefType\":\"Human_Genome_Independent\",\"expression\":[\"com.lifetech.ngs.decisionsupport.SimpleExpression\",{\"name\":\"Variant Type\",\"hiddenExpression\":null,\"hiddenExpressionOp\":null,\"group\":true,\"enabled\":true,\"geneModel\":false,\"negate\":false,\"isList\":false,\"asFunction\":false,\"index\":1,\"newFuncFormat\":false,\"targetVariantTypesExpr\":null,\"src\":null,\"key\":\"t\",\"value\":[\"java.util.ArrayList\",[\"CNV\"]],\"includeMissing\":false,\"includeBoundaries\":true,\"enableIncludeMissingOption\":true,\"addInNotInOptions\":false,\"type\":\"DICTIONARY\",\"op\":\"IN\",\"geneModels\":null,\"asNames\":[],\"functionName\":null,\"function\":null}],\"attributes\":{},\"filterType\":\"DynamicMultipleSelectFilter\",\"multipleValueSelectionFilterOption\":\"Nonapplicable\"},{\"name\":\"Filter\",\"asNames\":[],\"enabled\":true,\"type\":\"experimental\",\"genoRefType\":\"Human_Genome_Independent\",\"expression\":[\"com.lifetech.ngs.decisionsupport.SimpleExpression\",{\"name\":\"Filter\",\"hiddenExpression\":null,\"hiddenExpressionOp\":null,\"group\":true,\"enabled\":true,\"geneModel\":false,\"negate\":false,\"isList\":false,\"asFunction\":false,\"index\":1,\"newFuncFormat\":false,\"targetVariantTypesExpr\":null,\"src\":null,\"key\":\"VFT\",\"value\":[\"java.util.ArrayList\",[\"LOSS\",\"GAIN\"]],\"includeMissing\":false,\"includeBoundaries\":true,\"enableIncludeMissingOption\":true,\"addInNotInOptions\":false,\"type\":\"DICTIONARY\",\"op\":\"IN\",\"geneModels\":null,\"asNames\":[],\"functionName\":null,\"function\":null}],\"attributes\":{},\"filterType\":\"DynamicMultipleSelectFilter\",\"multipleValueSelectionFilterOption\":\"Nonapplicable\"},{\"name\":\"__Variant Type__1\",\"asNames\":[],\"enabled\":true,\"type\":\"experimental\",\"genoRefType\":\"Human_Genome_Independent\",\"expression\":[\"com.lifetech.ngs.decisionsupport.SimpleExpression\",{\"name\":\"__Variant Type__1\",\"hiddenExpression\":null,\"hiddenExpressionOp\":null,\"group\":true,\"enabled\":true,\"geneModel\":false,\"negate\":false,\"isList\":false,\"asFunction\":false,\"index\":1,\"newFuncFormat\":false,\"targetVariantTypesExpr\":null,\"src\":null,\"key\":\"t\",\"value\":[\"java.util.ArrayList\",[\"LOH\"]],\"includeMissing\":false,\"includeBoundaries\":true,\"enableIncludeMissingOption\":true,\"addInNotInOptions\":false,\"type\":\"DICTIONARY\",\"op\":\"IN\",\"geneModels\":null,\"asNames\":[],\"functionName\":null,\"function\":null}],\"attributes\":{},\"filterType\":\"DynamicMultipleSelectFilter\",\"multipleValueSelectionFilterOption\":\"Nonapplicable\"},{\"name\":\"__Variant Type__2\",\"asNames\":[],\"enabled\":true,\"type\":\"experimental\",\"genoRefType\":\"Human_Genome_Independent\",\"expression\":[\"com.lifetech.ngs.decisionsupport.SimpleExpression\",{\"name\":\"__Variant Type__2\",\"hiddenExpression\":null,\"hiddenExpressionOp\":null,\"group\":true,\"enabled\":true,\"geneModel\":false,\"negate\":false,\"isList\":false,\"asFunction\":false,\"index\":2,\"newFuncFormat\":false,\"targetVariantTypesExpr\":null,\"src\":null,\"key\":\"t\",\"value\":[\"java.util.ArrayList\",[\"MNV\",\"SNV\",\"INDEL\"]],\"includeMissing\":false,\"includeBoundaries\":true,\"enableIncludeMissingOption\":true,\"addInNotInOptions\":false,\"type\":\"DICTIONARY\",\"op\":\"IN\",\"geneModels\":null,\"asNames\":[],\"functionName\":null,\"function\":null}],\"attributes\":{},\"filterType\":\"DynamicMultipleSelectFilter\",\"multipleValueSelectionFilterOption\":\"Nonapplicable\"},{\"name\":\"Minor Allele Frequency\",\"asNames\":[\"dbsnp\"],\"enabled\":true,\"type\":\"experimental\",\"genoRefType\":\"Human_Genome_Independent\",\"expression\":[\"com.lifetech.ngs.decisionsupport.SimpleExpression\",{\"name\":\"Minor Allele Frequency\",\"hiddenExpression\":null,\"hiddenExpressionOp\":null,\"group\":true,\"enabled\":true,\"geneModel\":false,\"negate\":false,\"isList\":false,\"asFunction\":true,\"index\":1,\"newFuncFormat\":true,\"targetVariantTypesExpr\":[\"com.lifetech.ngs.decisionsupport.SimpleExpression\",{\"name\":null,\"hiddenExpression\":null,\"hiddenExpressionOp\":null,\"group\":false,\"enabled\":true,\"geneModel\":false,\"negate\":false,\"isList\":false,\"asFunction\":false,\"index\":0,\"newFuncFormat\":false,\"targetVariantTypesExpr\":null,\"src\":null,\"key\":\"t\",\"value\":[\"java.util.ArrayList\",[\"SNV\",\"INDEL\",\"MNV\",\"REF\",\"NOCALL\"]],\"includeMissing\":false,\"includeBoundaries\":true,\"enableIncludeMissingOption\":true,\"addInNotInOptions\":true,\"type\":\"DICTIONARY\",\"op\":\"NIN\",\"geneModels\":null,\"asNames\":[],\"functionName\":null,\"function\":null}],\"src\":\"dbsnp\",\"key\":\"maf\",\"value\":[\"java.util.ArrayList\",[0,0.000001]],\"includeMissing\":true,\"includeBoundaries\":true,\"enableIncludeMissingOption\":true,\"addInNotInOptions\":true,\"type\":\"FLOAT\",\"op\":\"IN\",\"geneModels\":null,\"asNames\":[\"dbsnp\"],\"functionName\":\"FUNCTION_MAF\",\"function\":\"public.jsonb_ir_get_minor_allele_frequency_v70(data, annotation_data, $negate, $includeMissing, $includeBoundaries, $lowerBound::text, $upperBound::text)\"}],\"attributes\":{},\"filterType\":\"RangeFilter\",\"multipleValueSelectionFilterOption\":\"Nonapplicable\"},{\"name\":\"5000Exomes Global MAF(20161108)\",\"asNames\":[\"5000Exomes\"],\"enabled\":true,\"type\":\"experimental\",\"genoRefType\":\"Human_Genome_Independent\",\"expression\":[\"com.lifetech.ngs.decisionsupport.SimpleExpression\",{\"name\":\"5000Exomes Global MAF(20161108)\",\"hiddenExpression\":null,\"hiddenExpressionOp\":null,\"group\":false,\"enabled\":true,\"geneModel\":false,\"negate\":false,\"isList\":true,\"asFunction\":false,\"index\":1,\"newFuncFormat\":false,\"targetVariantTypesExpr\":null,\"src\":\"5000Exomes\",\"key\":\"GMAF\",\"value\":[\"java.util.ArrayList\",[0,0.000001]],\"includeMissing\":true,\"includeBoundaries\":true,\"enableIncludeMissingOption\":true,\"addInNotInOptions\":true,\"type\":\"FLOAT\",\"op\":\"IN\",\"geneModels\":null,\"asNames\":[\"5000Exomes\"],\"functionName\":null,\"function\":null}],\"attributes\":{},\"filterType\":\"RangeFilter\",\"multipleValueSelectionFilterOption\":\"Nonapplicable\"},{\"name\":\"GnomAD GAF(2)\",\"asNames\":[\"gnomad\"],\"enabled\":true,\"type\":\"experimental\",\"genoRefType\":\"Human_Genome_Independent\",\"expression\":[\"com.lifetech.ngs.decisionsupport.SimpleExpression\",{\"name\":\"GnomAD GAF(2)\",\"hiddenExpression\":null,\"hiddenExpressionOp\":null,\"group\":false,\"enabled\":true,\"geneModel\":false,\"negate\":false,\"isList\":true,\"asFunction\":false,\"index\":1,\"newFuncFormat\":false,\"targetVariantTypesExpr\":null,\"src\":\"gnomad\",\"key\":\"AF\",\"value\":[\"java.util.ArrayList\",[0,0.000001]],\"includeMissing\":true,\"includeBoundaries\":true,\"enableIncludeMissingOption\":true,\"addInNotInOptions\":true,\"type\":\"FLOAT\",\"op\":\"IN\",\"geneModels\":null,\"asNames\":[\"gnomad\"],\"functionName\":null,\"function\":null}],\"attributes\":{},\"filterType\":\"RangeFilter\",\"multipleValueSelectionFilterOption\":\"Nonapplicable\"},{\"name\":\"UCSC Common SNPs\",\"asNames\":[\"dbsnp\"],\"enabled\":true,\"type\":\"experimental\",\"genoRefType\":\"Human_Genome_Independent\",\"expression\":[\"com.lifetech.ngs.decisionsupport.SimpleExpression\",{\"name\":\"UCSC Common SNPs\",\"hiddenExpression\":null,\"hiddenExpressionOp\":null,\"group\":true,\"enabled\":true,\"geneModel\":false,\"negate\":false,\"isList\":false,\"asFunction\":false,\"index\":1,\"newFuncFormat\":false,\"targetVariantTypesExpr\":[\"com.lifetech.ngs.decisionsupport.SimpleExpression\",{\"name\":null,\"hiddenExpression\":null,\"hiddenExpressionOp\":null,\"group\":false,\"enabled\":true,\"geneModel\":false,\"negate\":false,\"isList\":false,\"asFunction\":false,\"index\":0,\"newFuncFormat\":false,\"targetVariantTypesExpr\":null,\"src\":null,\"key\":\"t\",\"value\":[\"java.util.ArrayList\",[\"SNV\",\"NOCALL\",\"REF\"]],\"includeMissing\":false,\"includeBoundaries\":true,\"enableIncludeMissingOption\":true,\"addInNotInOptions\":true,\"type\":\"DICTIONARY\",\"op\":\"NIN\",\"geneModels\":null,\"asNames\":[],\"functionName\":null,\"function\":null}],\"src\":\"dbsnp\",\"key\":\"ucsc\",\"value\":[\"com.lifetech.ngs.decisionsupport.ToggleState\",\"ON\"],\"includeMissing\":false,\"includeBoundaries\":true,\"enableIncludeMissingOption\":true,\"addInNotInOptions\":true,\"type\":\"VARIANTDB\",\"op\":\"EQ\",\"geneModels\":null,\"asNames\":[\"dbsnp\"],\"functionName\":null,\"function\":null}],\"attributes\":{},\"filterType\":\"SingleSelectFilter\",\"multipleValueSelectionFilterOption\":\"Nonapplicable\"},{\"name\":\"__Variant Type__3\",\"asNames\":[],\"enabled\":true,\"type\":\"experimental\",\"genoRefType\":\"Human_Genome_Independent\",\"expression\":[\"com.lifetech.ngs.decisionsupport.SimpleExpression\",{\"name\":\"__Variant Type__3\",\"hiddenExpression\":null,\"hiddenExpressionOp\":null,\"group\":true,\"enabled\":true,\"geneModel\":false,\"negate\":false,\"isList\":false,\"asFunction\":false,\"index\":3,\"newFuncFormat\":false,\"targetVariantTypesExpr\":null,\"src\":null,\"key\":\"t\",\"value\":[\"java.util.ArrayList\",[\"MNV\",\"INDEL\"]],\"includeMissing\":false,\"includeBoundaries\":true,\"enableIncludeMissingOption\":true,\"addInNotInOptions\":false,\"type\":\"DICTIONARY\",\"op\":\"IN\",\"geneModels\":null,\"asNames\":[],\"functionName\":null,\"function\":null}],\"attributes\":{},\"filterType\":\"DynamicMultipleSelectFilter\",\"multipleValueSelectionFilterOption\":\"Nonapplicable\"},{\"name\":\"Variant Effect\",\"asNames\":[\"genes\"],\"enabled\":true,\"type\":\"experimental\",\"genoRefType\":\"Human_Genome_Independent\",\"expression\":[\"com.lifetech.ngs.decisionsupport.SimpleExpression\",{\"name\":\"Variant Effect\",\"hiddenExpression\":null,\"hiddenExpressionOp\":null,\"group\":true,\"enabled\":true,\"geneModel\":false,\"negate\":false,\"isList\":false,\"asFunction\":false,\"index\":1,\"newFuncFormat\":false,\"targetVariantTypesExpr\":[\"com.lifetech.ngs.decisionsupport.SimpleExpression\",{\"name\":null,\"hiddenExpression\":null,\"hiddenExpressionOp\":null,\"group\":false,\"enabled\":true,\"geneModel\":false,\"negate\":false,\"isList\":false,\"asFunction\":false,\"index\":0,\"newFuncFormat\":false,\"targetVariantTypesExpr\":null,\"src\":null,\"key\":\"t\",\"value\":[\"java.util.ArrayList\",[\"SNV\",\"INDEL\",\"MNV\",\"REF\",\"NOCALL\"]],\"includeMissing\":false,\"includeBoundaries\":true,\"enableIncludeMissingOption\":true,\"addInNotInOptions\":true,\"type\":\"DICTIONARY\",\"op\":\"NIN\",\"geneModels\":null,\"asNames\":[],\"functionName\":null,\"function\":null}],\"src\":\"genes\",\"key\":\"pc.f\",\"value\":[\"java.util.ArrayList\",[\"frameshiftInsertion\",\"nonframeshiftInsertion\",\"nonframeshiftDeletion\",\"frameshiftDeletion\",\"stoploss\",\"missense\",\"nonframeshiftBlockSubstitution\",\"frameshiftBlockSubstitution\",\"nonsense\"]],\"includeMissing\":false,\"includeBoundaries\":true,\"enableIncludeMissingOption\":true,\"addInNotInOptions\":false,\"type\":\"DICTIONARY\",\"op\":\"IN\",\"geneModels\":null,\"asNames\":[\"genes\"],\"functionName\":null,\"function\":null}],\"attributes\":{},\"filterType\":\"DynamicMultipleSelectFilter\",\"multipleValueSelectionFilterOption\":\"Nonapplicable\"},{\"name\":\"Location\",\"asNames\":[\"genes\"],\"enabled\":true,\"type\":\"experimental\",\"genoRefType\":\"Human_Genome_Independent\",\"expression\":[\"com.lifetech.ngs.decisionsupport.SimpleExpression\",{\"name\":\"Location\",\"hiddenExpression\":null,\"hiddenExpressionOp\":null,\"group\":true,\"enabled\":true,\"geneModel\":false,\"negate\":false,\"isList\":false,\"asFunction\":false,\"index\":1,\"newFuncFormat\":false,\"targetVariantTypesExpr\":[\"com.lifetech.ngs.decisionsupport.SimpleExpression\",{\"name\":null,\"hiddenExpression\":null,\"hiddenExpressionOp\":null,\"group\":false,\"enabled\":true,\"geneModel\":false,\"negate\":false,\"isList\":false,\"asFunction\":false,\"index\":0,\"newFuncFormat\":false,\"targetVariantTypesExpr\":null,\"src\":null,\"key\":\"t\",\"value\":[\"java.util.ArrayList\",[\"SNV\",\"INDEL\",\"MNV\",\"REF\",\"NOCALL\"]],\"includeMissing\":false,\"includeBoundaries\":true,\"enableIncludeMissingOption\":true,\"addInNotInOptions\":true,\"type\":\"DICTIONARY\",\"op\":\"NIN\",\"geneModels\":null,\"asNames\":[],\"functionName\":null,\"function\":null}],\"src\":\"genes\",\"key\":\"lc\",\"value\":[\"java.util.ArrayList\",[\"splicesite_5\",\"splicesite_3\"]],\"includeMissing\":false,\"includeBoundaries\":true,\"enableIncludeMissingOption\":true,\"addInNotInOptions\":false,\"type\":\"DICTIONARY\",\"op\":\"IN\",\"geneModels\":null,\"asNames\":[\"genes\"],\"functionName\":null,\"function\":null}],\"attributes\":{},\"filterType\":\"DynamicMultipleSelectFilter\",\"multipleValueSelectionFilterOption\":\"Nonapplicable\"},{\"name\":\"clinvar(20230311)\",\"asNames\":[\"clinvar\"],\"enabled\":true,\"type\":\"experimental\",\"genoRefType\":\"Human_Genome_Independent\",\"expression\":[\"com.lifetech.ngs.decisionsupport.SimpleExpression\",{\"name\":\"clinvar(20230311)\",\"hiddenExpression\":null,\"hiddenExpressionOp\":null,\"group\":true,\"enabled\":true,\"geneModel\":false,\"negate\":false,\"isList\":false,\"asFunction\":false,\"index\":1,\"newFuncFormat\":false,\"targetVariantTypesExpr\":null,\"src\":\"clinvar\",\"key\":\"CLNSIG\",\"value\":[\"java.util.ArrayList\",[\"Pathogenic/Likely pathogenic\",\"Pathogenic\",\"Likely pathogenic\"]],\"includeMissing\":false,\"includeBoundaries\":true,\"enableIncludeMissingOption\":true,\"addInNotInOptions\":false,\"type\":\"DICTIONARY\",\"op\":\"LIKE\",\"geneModels\":null,\"asNames\":[\"clinvar\"],\"functionName\":null,\"function\":null}],\"attributes\":{},\"filterType\":\"DynamicMultipleSelectFilter\",\"multipleValueSelectionFilterOption\":\"Nonapplicable\"}]],\"numOfFilters\":15,\"empty\":false}\n+analysis.sample.id=LibPrep35\n annotator.drugbank.hit.level=\n+annotator.functional.all.alt.alleles=false\n+analysis.mmr.genelist.file=/share/apps/IR/AssayImport/Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNA-70_0.0.3/workflow-input/TVC_Mask_Bed/ofav2-mmr_gene_list.txt\n+run.mmr.genelist=1\n+somatic.classifier.variant.type.total.reads.threshold=10000\n+analysis.hrr.genelist.file=/share/apps/IR/AssayImport/Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNA-70_0.0.3/workflow-input/TVC_Mask_Bed/ofav2-hrr_gene_list.txt\n annotator.variantdb.hit.level=locus\n annotator.cosmic.hit.level=locus\n-annotator.dbsnp.hit.level=overlap\n-annotator.variantkb.hit.level=locus\n-analysis.sample.id=\n-vc.tvc.tag.custom.gene.ruleset=\n-analysis.sample.type=DNA\n-analysis.sample.name=\n-run.variant.type.prediction=0\n-somatic.classifier.variant.type.total.reads.threshold=10000\n-somatic.classifier.variant.type.mapd.threshold=0.9\n-somatic.classifier.variant.type.min.bases.covered.threshold=100000\n signature.cutoff=NA\n-actor.upload.json=\n-actor.post.processing.script.config.json=NA\n-run.hrr.genelist=1\n-analysis.hrr.genelist.file=/share/apps/IR/AssayImport/Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNA-70_0.0.2/workflow-input/TVC_Mask_Bed/ofav2-hrr_gene_list.txt\n-panel2.genome=\n-similarity.threshold=NA\n-run.mmr.genelist=1\n-analysis.mmr.genelist.file=/share/apps/IR/AssayImport/Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNA-70_0.0.2/workflow-input/TVC_Mask_Bed/ofav2-mmr_gene_list.txt\n-#new parameters\n-analysis.exonic.regions.filepath=/data/IR/data/.reference/tmap-f3/hg19/hg19_exonic_regions_04202018.bed\n-annotator.gnomad.hit.level=overlap\n\\ No newline at end of file\n+ref.signature.prediction.dir=SignaturePrediction70\n+actor.post.processing.script.config.json=/share/apps/IR/ionreporter70/etc/plugins/scripts/AnnotatorActorScript.json\n+annotator.variantkb.hit.level=locus\n+annotator.dbsnp.hit.level=overlap"
+      },
+      {
+        "path": "SeedData/AssayDev/assay/dna/parameters/CnvActor.ini",
+        "patch": "@@ -1,84 +1,87 @@\n-\n-analysis.sample.type=DNA\n-baseline.type=AmpliSeq\n-cnv.cancer.type=\n-cnv.cellularity=1.0\n-cnv.chrm.a.ratio.min.mapping.qv=30\n-cnv.chrYPlot.female.unknown.gender=0\n-cnv.deviation.from.integer=0.30\n-cnv.enable.mosaicism.detection=0\n-cnv.enable.pool=1\n-cnv.enable.smoothing=0\n-cnv.female.normal.ploidy.lower.bound=1.8\n-cnv.female.normal.ploidy.upper.bound=2.2\n-cnv.gain.confidence=0.05\n-cnv.gain.threshold=4\n-cnv.gain.thresholdXY=3\n-cnv.gender.caller.enable=0\n-cnv.gender.min.autosomes.count=25000\n-cnv.gender.min.mapping.qv=30\n-cnv.gender.threshold=7\n-cnv.genelist.excluded.from.normalization=CCND1\n-cnv.hidden.gender=0\n-cnv.male.normal.ploidy.lower.bound=0.8\n-cnv.male.normal.ploidy.upper.bound=1.2\n-cnv.mapd=0.5\n-cnv.max.call.pval=0.00001\n-cnv.max.calls=4\n-cnv.max.loss.call.fold.difference=0.85\n-cnv.min.aligned.read.percent=60\n-cnv.min.confidence=0.0\n-cnv.min.gain.call.fold.difference=1.15\n+import global.ini\n+cnv.genomic.coordinates.centro.telo.tsv.file=\n+cnv.brca.gene.max.cv=0.30\n+cfd.index.file=/serverdata/.reference/tmap-f3/hg19/CNV/CDF/cdf_index.txt\n+cnv.brca.gene.sid.gain.factor=1.2\n+cnv.remove.duplicate=0\n+cnv.sensitivity=MEDIUM\n+cnv.gene.modules=\n cnv.min.non.zero.amplicons.percent=98\n-cnv.min.quality=10\n-cnv.min.read.count=100000\n-cnv.min.tag.fam.size=0\n-cnv.nocall.gain.confidence=0.5\n-cnv.nocall.gain.xy=1.0\n-cnv.nocall.gain=2.0\n-cnv.nocall.loss.confidence=0.5\n-cnv.nocall.loss.xy=1.0\n+cnv.tumor.cellularity=40\n+cnv.segment.fraction.rfd=0.9\n+cnv.chrYPlot.female.unknown.gender=0\n cnv.nocall.loss=2.0\n-cnv.nocall.pval=1\n+cnv.custom.panel.default.baseline=\n cnv.npc=4\n-cnv.remove.duplicate=0\n-cnv.run.this.actor=1\n-cnv.sensitivity=MEDIUM\n+cnv.threshold.file=/serverdata/.reference/tmap-f3/hg19/CNV/CDF/gain_thresholds.txt\n+cnv.enable.smoothing=0\n+cnv.tagseq.lib=0\n+cnv.enable.mosaicism.detection=0\n+cnv.min.confidence=0.0\n+cnv.brca.output.gene.cnv=1\n+cnv.max.calls=4\n cnv.shift.type=MEDGENE\n-cnv.shift.value=0\n+cnv.female.normal.ploidy.lower.bound=1.8\n+cnv.nocall.pval=1\n cnv.somatic=0\n-cnv.tagseq.lib=0\n-cnv.tile.size=2000000\n-cnv.trans.prob=-8\n+cnv.nocall.gain.xy=1.0\n+cnv.tvcutils.executable.path=\n+output.file.name=single_sample_output.json\n cnv.tumor.cellularity.selection=Manually input Tumor Cellularity input by user\n-cnv.tumor.cellularity=30\n+cnv.gain.confidence=0.05\n+cnv.brca.gene.sid.max.cv=0.30\n+cnv.cellularity.allowed.min=40\n CnvActor.run=1\n-import global.ini\n-cnv.brca.gene.threshold=0.0001\n-cnv.brca.gene.min.factor=1.2\n+cnv.nocall.loss.xy=1.0\n+baseline.type=AmpliSeq\n cnv.brca.gene.max.mapd=0.30\n-cnv.brca.gene.max.cv=0.30\n-cnv.brca.gene.sid.gain.threshold=0.0001\n+cnv.mapd.threshold=0.5\n+region.bed.file=\n+cnv.mapd=0.5\n+cnv.female.normal.ploidy.upper.bound=2.2\n+cnv.gain.threshold=4\n+cnv.min.gain.call.fold.difference=1.15\n+cnv.trans.prob=-8\n+cnv.tumor.cellularity.bed.file=\n+cnv.max.call.pval=0.00001\n+cnv.enable.pool=1\n cnv.brca.gene.sid.loss.threshold=0.0001\n-cnv.brca.gene.sid.gain.factor=1.2\n-cnv.brca.gene.sid.loss.factor=1.2\n-cnv.brca.gene.sid.max.cv=0.30\n-cnv.min.gain.rfd=2.0\n-cnv.segment.fraction.rfd=0.9\n-cnv.brca.output.gene.cnv=1\n cnv.cellularity.no.userinput=100\n-cnv.cellularity.allowed.min=40\n+cnv.brca.gene.sid.gain.threshold=0.0001\n+cnv.nocall.gain.confidence=0.5\n+cnv.min.tag.fam.size=0\n+gender=\n+cnv.gender.min.mapping.qv=30\n cnv.custom.panel=\n-cnv.gene.modules=\n-analysis.cnv.gene.module.parameters.files=\n-cnv.tumor.cellularity.bed.file=\n-cnv.genomic.coordinates.centro.telo.tsv.file=\n-analysis.cnv.parameters.file=\n-cnv.custom.panel.default.baseline=\n+cnv.min.quality=10\n+cnv.max.loss.call.fold.difference=0.85\n+cnv.brca.gene.sid.loss.factor=1.2\n+cnv.tile.size=2000000\n+cnv.gender.caller.enable=0\n+cnv.run.this.actor=1\n+cnv.brca.gene.threshold=0.0001\n+cnv.cellularity=1.0\n+cnv.shift.value=0\n+reference.file.path=\n+cnv.genelist.excluded.from.normalization=CCND1\n+cnv.male.normal.ploidy.lower.bound=0.8\n+cnv.hidden.gender=0\n+cnv.min.aligned.read.percent=60\n cnv.tvc.executable.path=\n-cnv.tvcutils.executable.path=\n-cnv.shift.modif=None\n-actor.upload.json=\n-actor.post.processing.script.config.json=NA\n-analysis.cnv.genomic.coordinates.centro.telo.tsv.file=\n-cnv.parameters.file=/share/apps/IR/AssayImport/Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNA-70_0.0.2/workflow-input/CNV/Oncomine_Focus_v2_4.0.20260717_cnv_Manticore.json\n\\ No newline at end of file\n+cnv.chrm.a.ratio.min.mapping.qv=30\n+cnv.enable.cnv.caller=true\n+cnv.shift.modif=BRCA\n+cnv.min.gain.rfd=2.0\n+cnv.nocall.gain=2.0\n+cnv.brca.gene.min.factor=1.2\n+cnv.gain.thresholdXY=3\n+cnv.gender.threshold=7\n+cnv.min.read.count=100000\n+analysis.cnv.gene.module.parameters.files=\n+cnv.gender.min.autosomes.count=25000\n+cnv.deviation.from.integer=0.30\n+cnv.male.normal.ploidy.upper.bound=1.2\n+cnv.nocall.loss.confidence=0.5\n+analysis.cnv.parameters.file=/share/apps/IR/AssayImport/Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNA-70_0.0.3/workflow-input/CNV/Oncomine_Focus_v2_4.0.20260906_Manticore_cnv.json\n+actor.post.processing.script.config.json=/share/apps/IR/ionreporter70/etc/plugins/scripts/CnvActorScript.json\n+cnv.parameters.file=/share/apps/IR/AssayImport/Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNA-70_0.0.3/workflow-input/CNV/Oncomine_Focus_v2_4.0.20260906_Manticore_cnv.json"
+      },
+      {
+        "path": "SeedData/AssayDev/assay/dna/parameters/MSIActor.ini",
+        "patch": "@@ -1,20 +1,18 @@\n-# LifeScope(TM) Client generated the ini at Fri Nov 01 10:36:29 PDT 2019 \n-\n import global.ini\n-MSIActor.run=1\n-msi.bed.file=/share/apps/IR/AssayImport/Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNA-70_0.0.2/workflow-input/TVC_Mask_Bed/Oncomine_Focus_v2.20260506.msi.bed\n-msi.control.type=Use MSI baseline\n-msi.score.high.level=15\n+samples.in.same.chip=\n+msi.bed.file=/share/apps/IR/AssayImport/Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNA-70_0.0.3/workflow-input/TVC_Mask_Bed/Oncomine_Focus_v2.20260506.msi.bed\n msi.score.low.level=15\n samtools.sort.memory.per.thread=1G\n-msi.enable=1\n-msi.insilico.control.file=/share/apps/IR/AssayImport/Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNA-70_0.0.2/workflow-input/TVC_Mask_Bed/Oncomine_Focus_v2_Gx_hg19_07_21_2026.msi.h5\n-msi.noise.threshold=0.3\n+msi.enable.tumor.cellularity=0\n msi.minimal.coverage=50\n-samtools.sort.threads=4\n-samples.in.same.chip=\n-specimen.name=\n+msi.noise.threshold=0.3\n+msi.insilico.control.file=/share/apps/IR/AssayImport/Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNA-70_0.0.3/workflow-input/TVC_Mask_Bed/Oncomine_Focus_v2_Gx_hg19_09_03_2026.msi.h5\n msi.algorithm.version=v7.0\n-msi.enable.tumor.cellularity=0\n+msi.score.high.level=15\n+msi.control.type=Use MSI baseline\n+MSIActor.run=1\n+specimen.name=\n tmap.executable.path=\n+msi.enable=1\n+samtools.sort.threads=4\n actor.post.processing.script.config.json=/share/apps/IR/ionreporter70/etc/plugins/scripts/MSIActorScript.json"
+      },
+      {
+        "path": "SeedData/AssayDev/assay/dna/parameters/TmapExecutionActor.ini",
+        "patch": "@@ -1,33 +1,28 @@\n-# LifeScope(TM) Client generated the ini at Fri Dec 13 14:46:12 PST 2019 \n-\n import global.ini\n-TmapExecutionActor.run=1\n-tmap.gap.open.penalty=5\n tmap.match.score=1\n+tmap.gap.open.penalty=5\n tmap.gap.extension.penalty=2\n+tmap.realign.context=1\n samtools.sort.memory.per.thread=1G\n tmap.max.adapter.bases=20\n tmap.local.band.width=50\n+TmapExecutionActor.run=1\n+tmap.end.repair=15\n samtools.sort.threads=4\n-tmap.mismatch.penalty=3\n tmap.soft.clip.type=2\n+tmap.mismatch.penalty=3\n tmap.max.amplicon.overrun.large.indel.rescue=6\n tmap.mapped.files.remap.enable=0\n-tmap.flow.score.penalty=2\n+tmap.par.ovr=1\n tmap.reads.queue.size=5000\n+tmap.flow.score.penalty=2\n+tmap.do.repeat.clip=1\n+tmap.custom.tmap.args=--profile-amp --ovr-candeval\n tmap.use.bed.file=1\n tmap.no.bed.mapq=0\n tmap.min.anchor.large.indel.rescue=6\n-tmap.output.filter=1\n tmap.realignment.enable=0\n-tmap.max.one.large.indel.rescue=30\n+tmap.output.filter=1\n tmap.no.bed.er=0\n-analysis.sample.id=\n-analysis.sample.name=\n+tmap.max.one.large.indel.rescue=30\n tmap.executable.path=\n-actor.upload.json=\n-tmap.end.repair=15\n-tmap.realign.context=1\n-tmap.do.repeat.clip=1\n-tmap.par.ovr=1\n-tmap.custom.tmap.args=--profile-amp --ovr-candeval --repair-min-freq 30"
+      },
+      {
+        "path": "SeedData/AssayDev/master/KitConsumable.json",
+        "patch": "@@ -1,7 +1,7 @@\n [ {\n   \"Active\" : \"Yes\",\n   \"Unique Name\" : \"ofa_v2_dna_primer_tube1\",\n-  \"Part Number\" : \"100093900\",\n+  \"Part Number\" : \"100200225\",\n   \"Kit Name\" : \"ofa_v2_dna_panel_kit\",\n   \"Consumable Type\" : \"DNA Pool\",\n   \"Consumable Config\" : \"DNA Pool\",\n@@ -12,7 +12,7 @@\n }, {\n   \"Active\" : \"Yes\",\n   \"Unique Name\" : \"ofa_v2_dna_primer_tube2\",\n-  \"Part Number\" : \"100093901\",\n+  \"Part Number\" : \"100200226\",\n   \"Kit Name\" : \"ofa_v2_dna_panel_kit\",\n   \"Consumable Type\" : \"DNA Pool\",\n   \"Consumable Config\" : \"DNA Pool\","
+      },
+      {
+        "path": "SeedData/AssayDev/master/KitPart.json",
+        "patch": "@@ -1,5 +1,5 @@\n [ {\n   \"KitUniqueName\" : \"ofa_v2_dna_panel_kit\",\n-  \"PartNumber\" : \"A47017\",\n+  \"PartNumber\" : \"A40014056\",\n   \"IsActive\" : \"Yes\"\n } ]\n\\ No newline at end of file"
+      },
+      {
+        "path": "SeedData/AssayDev/master/Region-Hotspot.json",
+        "patch": "@@ -1,53 +1,53 @@\n [ {\n   \"Hide\" : \"NO\",\n   \"Fusion Panel\" : \"NA\",\n-  \"Description\" : \"Oncomine Focus v2 GX7 DNA Panel w1.0.0 v0.0.2\",\n+  \"Description\" : \"Oncomine Focus v2 GX7 DNA Panel w1.0.0 v0.0.3\",\n   \"ApplicationVersion\" : \"IR70\",\n   \"Per Sample Reads\" : \"8300000\",\n   \"Group Status\" : \"Locked\",\n   \"type\" : \"Bed\",\n   \"ReferenceAssemblyFileName\" : \"hg19\",\n   \"IndexVersion\" : \"NA\",\n   \"Technology\" : \" Ion AmpliSeq GenePanel    \",\n-  \"md5sum\" : \"bebe57ef1afd022eb3a8dab313c1f992\",\n+  \"md5sum\" : \"3e51e15efde5f8cf9f07af8a83296c1f\",\n   \"Insert in All\" : \"Yes\",\n   \"factoryProvided\" : \"true\",\n-  \"External Name\" : \"Oncomine Focus Assay v2 - w1.0.0 - DNA panel - v0.0.2\",\n+  \"External Name\" : \"Oncomine Focus Assay v2 - w1.0.0 - DNA panel - v0.0.3\",\n   \"Rna Pool Size\" : \"NA\",\n   \"Status\" : \"Locked\",\n   \"PoolSize\" : \"2\",\n   \"IAD\" : \"NA\",\n   \"ApplicationType\" : \"NA\",\n   \"Panel Type\" : \"DNA\",\n-  \"input file\" : \"/share/apps/IR/AssayImport/Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNA-70_0.0.2/workflow-input/Bed/Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.07_15_26.bed\",\n+  \"input file\" : \"/share/apps/IR/AssayImport/Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNA-70_0.0.3/workflow-input/Bed/Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.09_02_26.bed\",\n   \"AmplificationType\" : \"AmpliSeq\",\n-  \"UniqueName\" : \"Oncomine_Focus_v2_GX7_w1.0.0_v0.0.2_DNA_20260715.designed.bed\",\n+  \"UniqueName\" : \"Oncomine_Focus_v2_GX7_w1.0.0_v0.0.3_DNA_20260902.designed.bed\",\n   \"Fusion Reference\" : \"NA\",\n   \"Ovat RuleSet\" : \"content/ofav2_dna,content/ofav2_rna\"\n }, {\n   \"Hide\" : \"NO\",\n   \"Fusion Panel\" : \"NA\",\n-  \"Description\" : \"Oncomine Focus v2 GX7 DNA Hotspots w1.0.0 v0.0.2\",\n+  \"Description\" : \"Oncomine Focus v2 GX7 DNA Hotspots w1.0.0 v0.0.3\",\n   \"ApplicationVersion\" : \"IR70\",\n   \"Per Sample Reads\" : \"NA\",\n   \"Group Status\" : \"NA\",\n   \"type\" : \"HotSpot\",\n-  \"ReferenceAssemblyFileName\" : \"Oncomine_Focus_v2_GX7_w1.0.0_v0.0.2_DNA_20260715.designed.bed\",\n+  \"ReferenceAssemblyFileName\" : \"Oncomine_Focus_v2_GX7_w1.0.0_v0.0.3_DNA_20260902.designed.bed\",\n   \"IndexVersion\" : \"NA\",\n   \"Technology\" : \" Ion AmpliSeq GenePanel    \",\n-  \"md5sum\" : \"84d7ddcacb6389e05485722c733b5297\",\n+  \"md5sum\" : \"0dd74ce6ac67b1a1be4784d0f745c749\",\n   \"Insert in All\" : \"Yes\",\n   \"factoryProvided\" : \"true\",\n-  \"External Name\" : \"Oncomine Focus Assay v2 - w1.0.0 - DNA Hotspots - v0.0.2\",\n+  \"External Name\" : \"Oncomine Focus Assay v2 - w1.0.0 - DNA Hotspots - v0.0.3\",\n   \"Rna Pool Size\" : \"NA\",\n   \"Status\" : \"Locked\",\n   \"PoolSize\" : \"NA\",\n   \"IAD\" : \"NA\",\n   \"ApplicationType\" : \"NA\",\n   \"Panel Type\" : \"NA\",\n-  \"input file\" : \"/share/apps/IR/AssayImport/Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNA-70_0.0.2/workflow-input/Hotspot/Oncomine_Focus_v2.20260506.hotspots.bed\",\n+  \"input file\" : \"/share/apps/IR/AssayImport/Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNA-70_0.0.3/workflow-input/Hotspot/Oncomine_Focus_v2.20260625.hotspots.bed\",\n   \"AmplificationType\" : \"NA\",\n-  \"UniqueName\" : \"Oncomine_Focus_v2_GX7_w1.0.0_v0.0.2_DNA_20260506.hotspots.bed\",\n+  \"UniqueName\" : \"Oncomine_Focus_v2_GX7_w1.0.0_v0.0.3_DNA_20260625.hotspots.bed\",\n   \"Fusion Reference\" : \"NA\",\n   \"Ovat RuleSet\" : \"NA\"\n } ]\n\\ No newline at end of file"
+      },
+      {
+        "path": "adf_properties",
+        "patch": "@@ -1,10 +1,10 @@\n pipeline_version=ir70\n genome_ref_path=/data/IR/data/.reference/tmap-f3/hg19/hg19.fasta\n-assay_short_name=OFA v2 DNA GX7 w1.0.0 v0.0.2\n-assay_unique_name=OFA_v2_GX7_DNA_w1.0.0_v0.0.2\n+assay_short_name=OFA v2 DNA GX7 w1.0.0 v0.0.3\n+assay_unique_name=OFA_v2_GX7_DNA_w1.0.0_v0.0.3\n docker_image_name=algorithm_70:jammy\n depends_on_pkg=ts-algorithm-70\n chip_kit_name=GX7v1 Chip\n sw_released_version=7.0\n ovat_ruleset_path=/share/apps/ovat-34/content\n-additional_deb_dependencies=ts-assaydev-ampliseq6reaction-coca-541-manticore-w1.0.0-v0.0.2_7.0.2.0_amd64.deb:ts-assaydev-reportbuilder-OFAV2-DNA-w1.0.0_v0.0.2.deb:ts-assaydev-vnsadf-222_2.2.2_amd64.deb\n\\ No newline at end of file\n+additional_deb_dependencies=ts-assaydev-ampliseq6reaction-coca-541-manticore-w1.0.0-v0.0.2_7.0.2.0_amd64.deb:ts-assaydev-reportbuilder-OFAV2-DNA-w1.0.0_v0.0.3.deb:ts-assaydev-vnsadf-222_2.2.2_amd64.deb\n\\ No newline at end of file"
+      },
+      {
+        "path": "version",
+        "patch": "@@ -1,3 +1,3 @@\n MAJOR=0\n MINOR=0\n-RELEASE=2\n+RELEASE=3"
+      }
+    ]
+  },
+  "fusion": {
+    "files": [
+      {
+        "path": "Bed/Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.07_15_26.bed",
+        "git_blob_sha": "6f2392fbaabfc2e22069afac152ce87af495a036",
+        "status": "removed",
+        "changes": 2998
+      },
+      {
+        "path": "Bed/Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.09_02_26.bed",
+        "git_blob_sha": "4ecc0ec9e2b70d979ffb577dcec8d88e66ed427a",
+        "status": "added",
+        "changes": 2998
+      },
+      {
+        "path": "CNV/Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.07_15_26.bed",
+        "git_blob_sha": "6f2392fbaabfc2e22069afac152ce87af495a036",
+        "status": "removed",
+        "changes": 2998
+      },
+      {
+        "path": "CNV/Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.09_02_26.bed",
+        "git_blob_sha": "4ecc0ec9e2b70d979ffb577dcec8d88e66ed427a",
+        "status": "added",
+        "changes": 2998
+      },
+      {
+        "path": "CNV/Oncomine_Focus_v2_4.0.20260717_cnv_Manticore.json",
+        "git_blob_sha": "345fc085de8dc2752d50a3a988476b4923413445",
+        "status": "removed",
+        "changes": 344
+      },
+      {
+        "path": "CNV/Oncomine_Focus_v2_4.0.20260903_Manticore_cnv.h5",
+        "git_blob_sha": "129d9d93b335ae136babb00ef2cf9e9ad25459fe",
+        "status": "renamed",
+        "changes": 0
+      },
+      {
+        "path": "CNV/Oncomine_Focus_v2_4.0.20260906_Manticore_cnv.json",
+        "git_blob_sha": "eea5aa655195a715ba2c5b69a0377ccb94cc123c",
+        "status": "added",
+        "changes": 479
+      },
+      {
+        "path": "Hotspot/Oncomine_Focus_v2.20260625.hotspots.bed",
+        "git_blob_sha": "4b068125cd505011f90293a24ce63361a669a89f",
+        "status": "renamed",
+        "changes": 592
+      },
+      {
+        "path": "Pipeline/bin/MSI_IR",
+        "git_blob_sha": "8fedf9b6021618c986262960627223036dbf28b4",
+        "status": "modified",
+        "changes": 0
+      },
+      {
+        "path": "Pipeline/bin/copynumber_chromosome.py",
+        "git_blob_sha": "502be17994d2dd368f0c0794f24ea56bf92f4c57",
+        "status": "modified",
+        "changes": 30
+      },
+      {
+        "path": "Pipeline/bin/copynumber_exon_finalize.py",
+        "git_blob_sha": "9c0cced7e6c237155a0063a44d379d531643fcea",
+        "status": "modified",
+        "changes": 11
+      },
+      {
+        "path": "Pipeline/bin/copynumber_exon_plots.py",
+        "git_blob_sha": "e349f9a1ab0ec287e140e868f6c7d36de99561c0",
+        "status": "modified",
+        "changes": 51
+      },
+      {
+        "path": "Pipeline/bin/copynumber_single_sample.py",
+        "git_blob_sha": "100b6efa4a2f20e655c5cfa94be2704b0630ee4c",
+        "status": "modified",
+        "changes": 18
+      },
+      {
+        "path": "Pipeline/bin/deep_shallow_loss.py",
+        "git_blob_sha": "41ebd280894045abf56483b8c9d127287da15cd1",
+        "status": "modified",
+        "changes": 8
+      },
+      {
+        "path": "Pipeline/bin/loss_plus_focal_amplification.py",
+        "git_blob_sha": "439e3120ba66d4857baccb4cee3e2583ccc2feb2",
+        "status": "modified",
+        "changes": 7
+      },
+      {
+        "path": "SeedData/AssayDev/assay/dna_fusion/Assay.json",
+        "git_blob_sha": "65fcb1034b81cbc0a7d97504ae37c6a8989565b8",
+        "status": "modified",
+        "changes": 20
+      },
+      {
+        "path": "SeedData/AssayDev/assay/dna_fusion/AssayApplication.json",
+        "git_blob_sha": "65fcb1034b81cbc0a7d97504ae37c6a8989565b8",
+        "status": "modified",
+        "changes": 20
+      },
+      {
+        "path": "SeedData/AssayDev/assay/dna_fusion/AssayConfig.json",
+        "git_blob_sha": "f3d393fe1fa03e1930291ad2599cf19e88b516ea",
+        "status": "modified",
+        "changes": 4
+      },
+      {
+        "path": "SeedData/AssayDev/assay/dna_fusion/AssayConfigApplication.json",
+        "git_blob_sha": "f3d393fe1fa03e1930291ad2599cf19e88b516ea",
+        "status": "modified",
+        "changes": 4
+      },
+      {
+        "path": "SeedData/AssayDev/assay/dna_fusion/config/ConfigData_AssayDev.json",
+        "git_blob_sha": "dae11b4c5048248e997fd7f46340ea56feaf9776",
+        "status": "modified",
+        "changes": 2
+      },
+      {
+        "path": "SeedData/AssayDev/assay/dna_fusion/json_files/assay_config_jsons/DNA_RNA/download_files_config.json",
+        "git_blob_sha": "972acfc60661603e280144b0b6442dcd599762bb",
+        "status": "modified",
+        "changes": 52
+      },
+      {
+        "path": "SeedData/AssayDev/assay/dna_fusion/parameters/AnalysisArgs.ini",
+        "git_blob_sha": "abe7c92d02c353d22776f3c99d5b5a7c9f2f296a",
+        "status": "modified",
+        "changes": 2
+      },
+      {
+        "path": "SeedData/AssayDev/assay/dna_fusion/parameters/AnnotatorActor.ini",
+        "git_blob_sha": "ea8cd67360cb10c97c18369322a582ee0b0cff89",
+        "status": "modified",
+        "changes": 48
+      },
+      {
+        "path": "SeedData/AssayDev/assay/dna_fusion/parameters/CnvActor.ini",
+        "git_blob_sha": "ace7fb3de52d29c514afdfb3f87b87dcd66a28e0",
+        "status": "modified",
+        "changes": 146
+      },
+      {
+        "path": "SeedData/AssayDev/assay/dna_fusion/parameters/MSIActor.ini",
+        "git_blob_sha": "f7ad0335e0410a147e1f1013250ce7bfc9dc9e5d",
+        "status": "modified",
+        "changes": 24
+      },
+      {
+        "path": "SeedData/AssayDev/assay/dna_fusion/parameters/RNACountsActor.ini",
+        "git_blob_sha": "2900ad9257a57276686d45fe6c204b715d1f2852",
+        "status": "modified",
+        "changes": 92
+      },
+      {
+        "path": "SeedData/AssayDev/assay/dna_fusion/parameters/TmapExecutionActor.ini",
+        "git_blob_sha": "b77957e398510d07ed6783cd1f1ef7eefff3462d",
+        "status": "modified",
+        "changes": 27
+      },
+      {
+        "path": "SeedData/AssayDev/assay/dna_fusion/parameters/VariantCallerActor.ini",
+        "git_blob_sha": "1a1e1b30634945088965b110baa75bc31e2f0823",
+        "status": "modified",
+        "changes": 239
+      },
+      {
+        "path": "SeedData/AssayDev/assay/dna_fusion/parameters/global.ini",
+        "git_blob_sha": "33b154fd1759727309599b8be4407cc488d55ea7",
+        "status": "modified",
+        "changes": 2
+      },
+      {
+        "path": "SeedData/AssayDev/assay/dna_fusion/run_parameters/dna.ini",
+        "git_blob_sha": "853052cbbb39f66cc0898321f306ebb41fb20dbc",
+        "status": "modified",
+        "changes": 2
+      },
+      {
+        "path": "SeedData/AssayDev/master/CnvBaseline.json",
+        "git_blob_sha": "4c30901e3b5853ad17f1e97f2be62f9b2a603112",
+        "status": "modified",
+        "changes": 35
+      },
+      {
+        "path": "SeedData/AssayDev/master/KitConsumable.json",
+        "git_blob_sha": "3d05c45e09cb33d69a6a16b44c8248e2225688da",
+        "status": "modified",
+        "changes": 4
+      },
+      {
+        "path": "SeedData/AssayDev/master/KitPart.json",
+        "git_blob_sha": "adf865a4d9953fb32667c5b7a08791b53879c072",
+        "status": "modified",
+        "changes": 2
+      },
+      {
+        "path": "SeedData/AssayDev/master/ReferenceKitMapping.json",
+        "git_blob_sha": "4178de2534825da2e86130d7210177ded6224aa9",
+        "status": "modified",
+        "changes": 4
+      },
+      {
+        "path": "SeedData/AssayDev/master/Region-Hotspot.json",
+        "git_blob_sha": "1010e206b25c7b45cfe83c149084c11452c8219c",
+        "status": "modified",
+        "changes": 44
+      },
+      {
+        "path": "SeedData/AssayDev/master/VisualizatinAppConfig.json",
+        "git_blob_sha": "0b7ca836bc14ef4973c0c6818294a9edde5780b0",
+        "status": "modified",
+        "changes": 10
+      },
+      {
+        "path": "TVC_Mask_Bed/Oncomine_Focus_v2_4.0_20260902_Manticore_SVB.bed",
+        "git_blob_sha": "80493a94a88802001bb1e4d96859bab3e9125d51",
+        "status": "added",
+        "changes": 106221
+      },
+      {
+        "path": "TVC_Mask_Bed/Oncomine_Focus_v2_Gx_hg19_07_21_2026.msi.h5",
+        "git_blob_sha": "4da3121047bb9ce626b68144d23ce9a05c748b7d",
+        "status": "removed",
+        "changes": 0
+      },
+      {
+        "path": "TVC_Mask_Bed/Oncomine_Focus_v2_Gx_hg19_09_03_2026.msi.h5",
+        "git_blob_sha": "a1c48d7ee08e7fd33a7a03e61bbd6d39900c3d1b",
+        "status": "added",
+        "changes": 0
+      },
+      {
+        "path": "adf_properties",
+        "git_blob_sha": "8bfe25c0c704e14f1f687765fdede0b8041ac758",
+        "status": "modified",
+        "changes": 6
+      },
+      {
+        "path": "app_templates/BRCA_AmpliSeq.html",
+        "git_blob_sha": "32f812d0562e7e96b6e9e621cddcbe5641b5f40b",
+        "status": "removed",
+        "changes": 122
+      },
+      {
+        "path": "app_templates/Exon_CNV_Manticore_AmpliSeq.html",
+        "git_blob_sha": "1772c0bc7cc00ce2c1fd941402066e50ef32020e",
+        "status": "added",
+        "changes": 650
+      },
+      {
+        "path": "deb_name",
+        "git_blob_sha": "49f5659f23fc205edc2d6823898280ed353dd051",
+        "status": "modified",
+        "changes": 2
+      },
+      {
+        "path": "dependencies/ts-assaydev-reportbuilder-OFAV2-DNA-Fus-w1.0.0_v0.0.2.deb",
+        "git_blob_sha": "4015aec8fd79e40d9fbeaf821d5f7e174f7b8e83",
+        "status": "removed",
+        "changes": 0
+      },
+      {
+        "path": "dependencies/ts-assaydev-reportbuilder-OFAV2-DNA-Fus-w1.0.0_v0.0.3.deb",
+        "git_blob_sha": "d117a9700e0e2417b3287ddbb9d7252597dadebe",
+        "status": "added",
+        "changes": 0
+      },
+      {
+        "path": "version",
+        "git_blob_sha": "2f60fdc0ff8ffe757a1cd79719a68f6e3d3d88bc",
+        "status": "modified",
+        "changes": 2
+      }
+    ],
+    "selected_patch_evidence": [
+      {
+        "path": "SeedData/AssayDev/assay/dna_fusion/parameters/AnalysisArgs.ini",
+        "patch": "@@ -1,4 +1,4 @@\n-AnalysisArgs={\"beadfindargs\":\"justBeadFind --args-json /opt/ion/config/args_GX7v1_beadfind.json --beadfind-basis positive --beadfind-sig-ref-type 3 --beadfind-reference-filter 2 --beadfind-reference-filter-signal-threshold 15\",\"analysisargs\":\"Analysis --args-json /opt/ion/config/args_GX7v1_analysis.json\",\"prebasecallerArgs\":\"BaseCaller --barcode-filter-minreads 10 --trim-qual-cutoff 15 --phasing-residual-filter=2.0 --max-phasing-levels 2 --wells-normalization on --end-barcodes=off\",\"calibrateargs\":\"Calibration\",\"basecallerargs\":\"BaseCaller --barcode-filter-minreads 10 --trim-qual-cutoff 15 --phasing-residual-filter=2.0 --max-phasing-levels 2 --num-unfiltered 1000 --barcode-filter-postpone 1 --wells-normalization on\",\"alignmentargs\":\"tmap mapall ...  -J 20 --end-repair 15 --profile-amp --context --do-repeat-clip --par-ovr --ovr-candeval --repair-min-freq 30 stage1 map4\",\"ionstatsargs\":\"ionstats alignment\"}\n+AnalysisArgs={\"beadfindargs\":\"justBeadFind --args-json /opt/ion/config/args_GX7v1_beadfind.json --beadfind-basis positive --beadfind-sig-ref-type 3 --beadfind-reference-filter 2 --beadfind-reference-filter-signal-threshold 15\",\"analysisargs\":\"Analysis --args-json /opt/ion/config/args_GX7v1_analysis.json\",\"prebasecallerArgs\":\"BaseCaller --barcode-filter-minreads 10 --trim-qual-cutoff 15 --phasing-residual-filter=2.0 --max-phasing-levels 2 --wells-normalization on --end-barcodes=off\",\"calibrateargs\":\"Calibration\",\"basecallerargs\":\"BaseCaller --barcode-filter-minreads 10 --trim-qual-cutoff 15 --phasing-residual-filter=2.0 --max-phasing-levels 2 --num-unfiltered 1000 --barcode-filter-postpone 1 --wells-normalization on\",\"alignmentargs\":\"tmap mapall ...  -J 20 --end-repair 15 --profile-amp --context --do-repeat-clip --par-ovr --ovr-candeval stage1 map4\",\"ionstatsargs\":\"ionstats alignment\"}\n ThumbnailArgs=\n basecaller.ionparams.libraryKey=TCAG\n basecaller.ionparams.tfKey=ATCG"
+      },
+      {
+        "path": "SeedData/AssayDev/assay/dna_fusion/parameters/AnnotatorActor.ini",
+        "patch": "@@ -1,39 +1,33 @@\n-# LifeScope(TM) Client generated the ini at Fri Dec 13 14:46:12 PST 2019 \n-\n import global.ini\n-AnnotatorActor.run=1\n+run.hrr.genelist=1\n annotator.use.iupac.single.letter.code.aa=0\n annotator.final.normalization.value=0\n analysis.folder.id=f1\n+somatic.classifier.variant.type.mapd.threshold=0.9\n+somatic.classifier.variant.type.min.bases.covered.threshold=100000\n+annotator.gnomad.hit.level=overlap\n annotator.exac.hit.level=overlap\n annotator.splice.site.size=3\n-#annotator.mutation.load.filter.chain=None\n-annotator.gene.extension.size=1000\n+run.variant.type.prediction=0\n+similarity.threshold=NA\n+annotator.gene.extension.size=750\n+analysis.filter.chain.json=\n+analysis.exonic.regions.filepath=/data/IR/data/.reference/tmap-f3/hg19/hg19_exonic_regions_04202018.bed\n annotator.use.local.mongo.server=false\n+AnnotatorActor.run=1\n annotator.clinvar.hit.level=allele\n-annotator.functional.all.alt.alleles=false\n+analysis.assay.filter.chain.json={\"asNames\":[\"java.util.ArrayList\",[\"5000Exomes\",\"genes\",\"clinvar\",\"Oncomine\",\"dbsnp\",\"gnomad\"]],\"advancedGrouping\":\"(Oncomine OR (Variant Type AND Filter) OR __Variant Type__1 OR (__Variant Type__2 AND Minor Allele Frequency AND 5000Exomes Global MAF(20161108) AND GnomAD GAF(2) AND (NOT UCSC Common SNPs OR __Variant Type__3) AND (Variant Effect OR Location)) OR clinvar(20230311))\",\"filters\":[\"java.util.ArrayList\",[{\"name\":\"Oncomine\",\"asNames\":[\"Oncomine\"],\"enabled\":true,\"type\":\"experimental\",\"genoRefType\":\"Human_Genome_Independent\",\"expression\":[\"com.lifetech.ngs.decisionsupport.SimpleExpression\",{\"name\":\"Oncomine\",\"hiddenExpression\":null,\"hiddenExpressionOp\":null,\"group\":true,\"enabled\":true,\"geneModel\":false,\"negate\":false,\"isList\":false,\"asFunction\":false,\"index\":1,\"newFuncFormat\":false,\"targetVariantTypesExpr\":null,\"src\":\"Oncomine\",\"key\":null,\"value\":[\"com.lifetech.ngs.decisionsupport.ToggleState\",\"ON\"],\"includeMissing\":false,\"includeBoundaries\":true,\"enableIncludeMissingOption\":true,\"addInNotInOptions\":true,\"type\":\"VARIANTDB\",\"op\":\"EQ\",\"geneModels\":null,\"asNames\":[\"Oncomine\"],\"functionName\":null,\"function\":null}],\"attributes\":{},\"filterType\":\"SingleSelectFilter\",\"multipleValueSelectionFilterOption\":\"Nonapplicable\"},{\"name\":\"Variant Type\",\"asNames\":[],\"enabled\":true,\"type\":\"experimental\",\"genoRefType\":\"Human_Genome_Independent\",\"expression\":[\"com.lifetech.ngs.decisionsupport.SimpleExpression\",{\"name\":\"Variant Type\",\"hiddenExpression\":null,\"hiddenExpressionOp\":null,\"group\":true,\"enabled\":true,\"geneModel\":false,\"negate\":false,\"isList\":false,\"asFunction\":false,\"index\":1,\"newFuncFormat\":false,\"targetVariantTypesExpr\":null,\"src\":null,\"key\":\"t\",\"value\":[\"java.util.ArrayList\",[\"CNV\"]],\"includeMissing\":false,\"includeBoundaries\":true,\"enableIncludeMissingOption\":true,\"addInNotInOptions\":false,\"type\":\"DICTIONARY\",\"op\":\"IN\",\"geneModels\":null,\"asNames\":[],\"functionName\":null,\"function\":null}],\"attributes\":{},\"filterType\":\"DynamicMultipleSelectFilter\",\"multipleValueSelectionFilterOption\":\"Nonapplicable\"},{\"name\":\"Filter\",\"asNames\":[],\"enabled\":true,\"type\":\"experimental\",\"genoRefType\":\"Human_Genome_Independent\",\"expression\":[\"com.lifetech.ngs.decisionsupport.SimpleExpression\",{\"name\":\"Filter\",\"hiddenExpression\":null,\"hiddenExpressionOp\":null,\"group\":true,\"enabled\":true,\"geneModel\":false,\"negate\":false,\"isList\":false,\"asFunction\":false,\"index\":1,\"newFuncFormat\":false,\"targetVariantTypesExpr\":null,\"src\":null,\"key\":\"VFT\",\"value\":[\"java.util.ArrayList\",[\"LOSS\",\"GAIN\"]],\"includeMissing\":false,\"includeBoundaries\":true,\"enableIncludeMissingOption\":true,\"addInNotInOptions\":false,\"type\":\"DICTIONARY\",\"op\":\"IN\",\"geneModels\":null,\"asNames\":[],\"functionName\":null,\"function\":null}],\"attributes\":{},\"filterType\":\"DynamicMultipleSelectFilter\",\"multipleValueSelectionFilterOption\":\"Nonapplicable\"},{\"name\":\"__Variant Type__1\",\"asNames\":[],\"enabled\":true,\"type\":\"experimental\",\"genoRefType\":\"Human_Genome_Independent\",\"expression\":[\"com.lifetech.ngs.decisionsupport.SimpleExpression\",{\"name\":\"__Variant Type__1\",\"hiddenExpression\":null,\"hiddenExpressionOp\":null,\"group\":true,\"enabled\":true,\"geneModel\":false,\"negate\":false,\"isList\":false,\"asFunction\":false,\"index\":1,\"newFuncFormat\":false,\"targetVariantTypesExpr\":null,\"src\":null,\"key\":\"t\",\"value\":[\"java.util.ArrayList\",[\"LOH\"]],\"includeMissing\":false,\"includeBoundaries\":true,\"enableIncludeMissingOption\":true,\"addInNotInOptions\":false,\"type\":\"DICTIONARY\",\"op\":\"IN\",\"geneModels\":null,\"asNames\":[],\"functionName\":null,\"function\":null}],\"attributes\":{},\"filterType\":\"DynamicMultipleSelectFilter\",\"multipleValueSelectionFilterOption\":\"Nonapplicable\"},{\"name\":\"__Variant Type__2\",\"asNames\":[],\"enabled\":true,\"type\":\"experimental\",\"genoRefType\":\"Human_Genome_Independent\",\"expression\":[\"com.lifetech.ngs.decisionsupport.SimpleExpression\",{\"name\":\"__Variant Type__2\",\"hiddenExpression\":null,\"hiddenExpressionOp\":null,\"group\":true,\"enabled\":true,\"geneModel\":false,\"negate\":false,\"isList\":false,\"asFunction\":false,\"index\":2,\"newFuncFormat\":false,\"targetVariantTypesExpr\":null,\"src\":null,\"key\":\"t\",\"value\":[\"java.util.ArrayList\",[\"MNV\",\"SNV\",\"INDEL\"]],\"includeMissing\":false,\"includeBoundaries\":true,\"enableIncludeMissingOption\":true,\"addInNotInOptions\":false,\"type\":\"DICTIONARY\",\"op\":\"IN\",\"geneModels\":null,\"asNames\":[],\"functionName\":null,\"function\":null}],\"attributes\":{},\"filterType\":\"DynamicMultipleSelectFilter\",\"multipleValueSelectionFilterOption\":\"Nonapplicable\"},{\"name\":\"Minor Allele Frequency\",\"asNames\":[\"dbsnp\"],\"enabled\":true,\"type\":\"experimental\",\"genoRefType\":\"Human_Genome_Independent\",\"expression\":[\"com.lifetech.ngs.decisionsupport.SimpleExpression\",{\"name\":\"Minor Allele Frequency\",\"hiddenExpression\":null,\"hiddenExpressionOp\":null,\"group\":true,\"enabled\":true,\"geneModel\":false,\"negate\":false,\"isList\":false,\"asFunction\":true,\"index\":1,\"newFuncFormat\":true,\"targetVariantTypesExpr\":[\"com.lifetech.ngs.decisionsupport.SimpleExpression\",{\"name\":null,\"hiddenExpression\":null,\"hiddenExpressionOp\":null,\"group\":false,\"enabled\":true,\"geneModel\":false,\"negate\":false,\"isList\":false,\"asFunction\":false,\"index\":0,\"newFuncFormat\":false,\"targetVariantTypesExpr\":null,\"src\":null,\"key\":\"t\",\"value\":[\"java.util.ArrayList\",[\"SNV\",\"INDEL\",\"MNV\",\"REF\",\"NOCALL\"]],\"includeMissing\":false,\"includeBoundaries\":true,\"enableIncludeMissingOption\":true,\"addInNotInOptions\":true,\"type\":\"DICTIONARY\",\"op\":\"NIN\",\"geneModels\":null,\"asNames\":[],\"functionName\":null,\"function\":null}],\"src\":\"dbsnp\",\"key\":\"maf\",\"value\":[\"java.util.ArrayList\",[0,0.000001]],\"includeMissing\":true,\"includeBoundaries\":true,\"enableIncludeMissingOption\":true,\"addInNotInOptions\":true,\"type\":\"FLOAT\",\"op\":\"IN\",\"geneModels\":null,\"asNames\":[\"dbsnp\"],\"functionName\":\"FUNCTION_MAF\",\"function\":\"public.jsonb_ir_get_minor_allele_frequency_v70(data, annotation_data, $negate, $includeMissing, $includeBoundaries, $lowerBound::text, $upperBound::text)\"}],\"attributes\":{},\"filterType\":\"RangeFilter\",\"multipleValueSelectionFilterOption\":\"Nonapplicable\"},{\"name\":\"5000Exomes Global MAF(20161108)\",\"asNames\":[\"5000Exomes\"],\"enabled\":true,\"type\":\"experimental\",\"genoRefType\":\"Human_Genome_Independent\",\"expression\":[\"com.lifetech.ngs.decisionsupport.SimpleExpression\",{\"name\":\"5000Exomes Global MAF(20161108)\",\"hiddenExpression\":null,\"hiddenExpressionOp\":null,\"group\":false,\"enabled\":true,\"geneModel\":false,\"negate\":false,\"isList\":true,\"asFunction\":false,\"index\":1,\"newFuncFormat\":false,\"targetVariantTypesExpr\":null,\"src\":\"5000Exomes\",\"key\":\"GMAF\",\"value\":[\"java.util.ArrayList\",[0,0.000001]],\"includeMissing\":true,\"includeBoundaries\":true,\"enableIncludeMissingOption\":true,\"addInNotInOptions\":true,\"type\":\"FLOAT\",\"op\":\"IN\",\"geneModels\":null,\"asNames\":[\"5000Exomes\"],\"functionName\":null,\"function\":null}],\"attributes\":{},\"filterType\":\"RangeFilter\",\"multipleValueSelectionFilterOption\":\"Nonapplicable\"},{\"name\":\"GnomAD GAF(2)\",\"asNames\":[\"gnomad\"],\"enabled\":true,\"type\":\"experimental\",\"genoRefType\":\"Human_Genome_Independent\",\"expression\":[\"com.lifetech.ngs.decisionsupport.SimpleExpression\",{\"name\":\"GnomAD GAF(2)\",\"hiddenExpression\":null,\"hiddenExpressionOp\":null,\"group\":false,\"enabled\":true,\"geneModel\":false,\"negate\":false,\"isList\":true,\"asFunction\":false,\"index\":1,\"newFuncFormat\":false,\"targetVariantTypesExpr\":null,\"src\":\"gnomad\",\"key\":\"AF\",\"value\":[\"java.util.ArrayList\",[0,0.000001]],\"includeMissing\":true,\"includeBoundaries\":true,\"enableIncludeMissingOption\":true,\"addInNotInOptions\":true,\"type\":\"FLOAT\",\"op\":\"IN\",\"geneModels\":null,\"asNames\":[\"gnomad\"],\"functionName\":null,\"function\":null}],\"attributes\":{},\"filterType\":\"RangeFilter\",\"multipleValueSelectionFilterOption\":\"Nonapplicable\"},{\"name\":\"UCSC Common SNPs\",\"asNames\":[\"dbsnp\"],\"enabled\":true,\"type\":\"experimental\",\"genoRefType\":\"Human_Genome_Independent\",\"expression\":[\"com.lifetech.ngs.decisionsupport.SimpleExpression\",{\"name\":\"UCSC Common SNPs\",\"hiddenExpression\":null,\"hiddenExpressionOp\":null,\"group\":true,\"enabled\":true,\"geneModel\":false,\"negate\":false,\"isList\":false,\"asFunction\":false,\"index\":1,\"newFuncFormat\":false,\"targetVariantTypesExpr\":[\"com.lifetech.ngs.decisionsupport.SimpleExpression\",{\"name\":null,\"hiddenExpression\":null,\"hiddenExpressionOp\":null,\"group\":false,\"enabled\":true,\"geneModel\":false,\"negate\":false,\"isList\":false,\"asFunction\":false,\"index\":0,\"newFuncFormat\":false,\"targetVariantTypesExpr\":null,\"src\":null,\"key\":\"t\",\"value\":[\"java.util.ArrayList\",[\"SNV\",\"NOCALL\",\"REF\"]],\"includeMissing\":false,\"includeBoundaries\":true,\"enableIncludeMissingOption\":true,\"addInNotInOptions\":true,\"type\":\"DICTIONARY\",\"op\":\"NIN\",\"geneModels\":null,\"asNames\":[],\"functionName\":null,\"function\":null}],\"src\":\"dbsnp\",\"key\":\"ucsc\",\"value\":[\"com.lifetech.ngs.decisionsupport.ToggleState\",\"ON\"],\"includeMissing\":false,\"includeBoundaries\":true,\"enableIncludeMissingOption\":true,\"addInNotInOptions\":true,\"type\":\"VARIANTDB\",\"op\":\"EQ\",\"geneModels\":null,\"asNames\":[\"dbsnp\"],\"functionName\":null,\"function\":null}],\"attributes\":{},\"filterType\":\"SingleSelectFilter\",\"multipleValueSelectionFilterOption\":\"Nonapplicable\"},{\"name\":\"__Variant Type__3\",\"asNames\":[],\"enabled\":true,\"type\":\"experimental\",\"genoRefType\":\"Human_Genome_Independent\",\"expression\":[\"com.lifetech.ngs.decisionsupport.SimpleExpression\",{\"name\":\"__Variant Type__3\",\"hiddenExpression\":null,\"hiddenExpressionOp\":null,\"group\":true,\"enabled\":true,\"geneModel\":false,\"negate\":false,\"isList\":false,\"asFunction\":false,\"index\":3,\"newFuncFormat\":false,\"targetVariantTypesExpr\":null,\"src\":null,\"key\":\"t\",\"value\":[\"java.util.ArrayList\",[\"MNV\",\"INDEL\"]],\"includeMissing\":false,\"includeBoundaries\":true,\"enableIncludeMissingOption\":true,\"addInNotInOptions\":false,\"type\":\"DICTIONARY\",\"op\":\"IN\",\"geneModels\":null,\"asNames\":[],\"functionName\":null,\"function\":null}],\"attributes\":{},\"filterType\":\"DynamicMultipleSelectFilter\",\"multipleValueSelectionFilterOption\":\"Nonapplicable\"},{\"name\":\"Variant Effect\",\"asNames\":[\"genes\"],\"enabled\":true,\"type\":\"experimental\",\"genoRefType\":\"Human_Genome_Independent\",\"expression\":[\"com.lifetech.ngs.decisionsupport.SimpleExpression\",{\"name\":\"Variant Effect\",\"hiddenExpression\":null,\"hiddenExpressionOp\":null,\"group\":true,\"enabled\":true,\"geneModel\":false,\"negate\":false,\"isList\":false,\"asFunction\":false,\"index\":1,\"newFuncFormat\":false,\"targetVariantTypesExpr\":[\"com.lifetech.ngs.decisionsupport.SimpleExpression\",{\"name\":null,\"hiddenExpression\":null,\"hiddenExpressionOp\":null,\"group\":false,\"enabled\":true,\"geneModel\":false,\"negate\":false,\"isList\":false,\"asFunction\":false,\"index\":0,\"newFuncFormat\":false,\"targetVariantTypesExpr\":null,\"src\":null,\"key\":\"t\",\"value\":[\"java.util.ArrayList\",[\"SNV\",\"INDEL\",\"MNV\",\"REF\",\"NOCALL\"]],\"includeMissing\":false,\"includeBoundaries\":true,\"enableIncludeMissingOption\":true,\"addInNotInOptions\":true,\"type\":\"DICTIONARY\",\"op\":\"NIN\",\"geneModels\":null,\"asNames\":[],\"functionName\":null,\"function\":null}],\"src\":\"genes\",\"key\":\"pc.f\",\"value\":[\"java.util.ArrayList\",[\"frameshiftInsertion\",\"nonframeshiftInsertion\",\"nonframeshiftDeletion\",\"frameshiftDeletion\",\"stoploss\",\"missense\",\"nonframeshiftBlockSubstitution\",\"frameshiftBlockSubstitution\",\"nonsense\"]],\"includeMissing\":false,\"includeBoundaries\":true,\"enableIncludeMissingOption\":true,\"addInNotInOptions\":false,\"type\":\"DICTIONARY\",\"op\":\"IN\",\"geneModels\":null,\"asNames\":[\"genes\"],\"functionName\":null,\"function\":null}],\"attributes\":{},\"filterType\":\"DynamicMultipleSelectFilter\",\"multipleValueSelectionFilterOption\":\"Nonapplicable\"},{\"name\":\"Location\",\"asNames\":[\"genes\"],\"enabled\":true,\"type\":\"experimental\",\"genoRefType\":\"Human_Genome_Independent\",\"expression\":[\"com.lifetech.ngs.decisionsupport.SimpleExpression\",{\"name\":\"Location\",\"hiddenExpression\":null,\"hiddenExpressionOp\":null,\"group\":true,\"enabled\":true,\"geneModel\":false,\"negate\":false,\"isList\":false,\"asFunction\":false,\"index\":1,\"newFuncFormat\":false,\"targetVariantTypesExpr\":[\"com.lifetech.ngs.decisionsupport.SimpleExpression\",{\"name\":null,\"hiddenExpression\":null,\"hiddenExpressionOp\":null,\"group\":false,\"enabled\":true,\"geneModel\":false,\"negate\":false,\"isList\":false,\"asFunction\":false,\"index\":0,\"newFuncFormat\":false,\"targetVariantTypesExpr\":null,\"src\":null,\"key\":\"t\",\"value\":[\"java.util.ArrayList\",[\"SNV\",\"INDEL\",\"MNV\",\"REF\",\"NOCALL\"]],\"includeMissing\":false,\"includeBoundaries\":true,\"enableIncludeMissingOption\":true,\"addInNotInOptions\":true,\"type\":\"DICTIONARY\",\"op\":\"NIN\",\"geneModels\":null,\"asNames\":[],\"functionName\":null,\"function\":null}],\"src\":\"genes\",\"key\":\"lc\",\"value\":[\"java.util.ArrayList\",[\"splicesite_5\",\"splicesite_3\"]],\"includeMissing\":false,\"includeBoundaries\":true,\"enableIncludeMissingOption\":true,\"addInNotInOptions\":false,\"type\":\"DICTIONARY\",\"op\":\"IN\",\"geneModels\":null,\"asNames\":[\"genes\"],\"functionName\":null,\"function\":null}],\"attributes\":{},\"filterType\":\"DynamicMultipleSelectFilter\",\"multipleValueSelectionFilterOption\":\"Nonapplicable\"},{\"name\":\"clinvar(20230311)\",\"asNames\":[\"clinvar\"],\"enabled\":true,\"type\":\"experimental\",\"genoRefType\":\"Human_Genome_Independent\",\"expression\":[\"com.lifetech.ngs.decisionsupport.SimpleExpression\",{\"name\":\"clinvar(20230311)\",\"hiddenExpression\":null,\"hiddenExpressionOp\":null,\"group\":true,\"enabled\":true,\"geneModel\":false,\"negate\":false,\"isList\":false,\"asFunction\":false,\"index\":1,\"newFuncFormat\":false,\"targetVariantTypesExpr\":null,\"src\":\"clinvar\",\"key\":\"CLNSIG\",\"value\":[\"java.util.ArrayList\",[\"Pathogenic/Likely pathogenic\",\"Pathogenic\",\"Likely pathogenic\"]],\"includeMissing\":false,\"includeBoundaries\":true,\"enableIncludeMissingOption\":true,\"addInNotInOptions\":false,\"type\":\"DICTIONARY\",\"op\":\"LIKE\",\"geneModels\":null,\"asNames\":[\"clinvar\"],\"functionName\":null,\"function\":null}],\"attributes\":{},\"filterType\":\"DynamicMultipleSelectFilter\",\"multipleValueSelectionFilterOption\":\"Nonapplicable\"}]],\"numOfFilters\":15,\"empty\":false}\n+analysis.sample.id=LibPrep35\n annotator.drugbank.hit.level=\n+annotator.functional.all.alt.alleles=false\n+analysis.mmr.genelist.file=/share/apps/IR/AssayImport/Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNAandFusions-70_0.0.3/workflow-input/TVC_Mask_Bed/ofav2-mmr_gene_list.txt\n+run.mmr.genelist=1\n+somatic.classifier.variant.type.total.reads.threshold=10000\n+analysis.hrr.genelist.file=/share/apps/IR/AssayImport/Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNAandFusions-70_0.0.3/workflow-input/TVC_Mask_Bed/ofav2-hrr_gene_list.txt\n annotator.variantdb.hit.level=locus\n annotator.cosmic.hit.level=locus\n-annotator.dbsnp.hit.level=overlap\n-annotator.variantkb.hit.level=locus\n-analysis.sample.id=\n-vc.tvc.tag.custom.gene.ruleset=\n-analysis.sample.type=DNA\n-analysis.sample.name=\n-somatic.classifier.variant.type.total.reads.threshold=10000\n-somatic.classifier.variant.type.mapd.threshold=0.9\n-somatic.classifier.variant.type.min.bases.covered.threshold=100000\n-actor.upload.json=\n-run.variant.type.prediction=0\n-actor.post.processing.script.config.json=NA\n-panel2.genome=\n-similarity.threshold=NA\n signature.cutoff=NA\n-run.hrr.genelist=1\n-analysis.hrr.genelist.file=/share/apps/IR/AssayImport/Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNAandFusions-70_0.0.2/workflow-input/TVC_Mask_Bed/ofav2-hrr_gene_list.txt\n-run.mmr.genelist=1\n-analysis.mmr.genelist.file=/share/apps/IR/AssayImport/Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNAandFusions-70_0.0.2/workflow-input/TVC_Mask_Bed/ofav2-mmr_gene_list.txt\n-#new parameters\n-analysis.exonic.regions.filepath=/data/IR/data/.reference/tmap-f3/hg19/hg19_exonic_regions_04202018.bed\n-annotator.gnomad.hit.level=overlap\n\\ No newline at end of file\n+ref.signature.prediction.dir=SignaturePrediction70\n+actor.post.processing.script.config.json=/share/apps/IR/ionreporter70/etc/plugins/scripts/AnnotatorActorScript.json\n+annotator.variantkb.hit.level=locus\n+annotator.dbsnp.hit.level=overlap"
+      },
+      {
+        "path": "SeedData/AssayDev/assay/dna_fusion/parameters/CnvActor.ini",
+        "patch": "@@ -1,83 +1,87 @@\n-analysis.sample.type=DNA\n-baseline.type=AmpliSeq\n-cnv.cancer.type=\n-cnv.cellularity=1.0\n-cnv.chrm.a.ratio.min.mapping.qv=30\n-cnv.chrYPlot.female.unknown.gender=0\n-cnv.deviation.from.integer=0.30\n-cnv.enable.mosaicism.detection=0\n-cnv.enable.pool=1\n-cnv.enable.smoothing=0\n-cnv.female.normal.ploidy.lower.bound=1.8\n-cnv.female.normal.ploidy.upper.bound=2.2\n-cnv.gain.confidence=0.05\n-cnv.gain.threshold=4\n-cnv.gain.thresholdXY=3\n-cnv.gender.caller.enable=0\n-cnv.gender.min.autosomes.count=25000\n-cnv.gender.min.mapping.qv=30\n-cnv.gender.threshold=7\n-cnv.genelist.excluded.from.normalization=CCND1\n-cnv.hidden.gender=0\n-cnv.male.normal.ploidy.lower.bound=0.8\n-cnv.male.normal.ploidy.upper.bound=1.2\n-cnv.mapd=0.5\n-cnv.max.call.pval=0.00001\n-cnv.max.calls=4\n-cnv.max.loss.call.fold.difference=0.85\n-cnv.min.aligned.read.percent=60\n-cnv.min.confidence=0.0\n-cnv.min.gain.call.fold.difference=1.15\n+import global.ini\n+cnv.genomic.coordinates.centro.telo.tsv.file=\n+cnv.brca.gene.max.cv=0.30\n+cfd.index.file=/serverdata/.reference/tmap-f3/hg19/CNV/CDF/cdf_index.txt\n+cnv.brca.gene.sid.gain.factor=1.2\n+cnv.remove.duplicate=0\n+cnv.sensitivity=MEDIUM\n+cnv.gene.modules=\n cnv.min.non.zero.amplicons.percent=98\n-cnv.min.quality=10\n-cnv.min.read.count=100000\n-cnv.min.tag.fam.size=0\n-cnv.nocall.gain.confidence=0.5\n-cnv.nocall.gain.xy=1.0\n-cnv.nocall.gain=2.0\n-cnv.nocall.loss.confidence=0.5\n-cnv.nocall.loss.xy=1.0\n+cnv.tumor.cellularity=40\n+cnv.segment.fraction.rfd=0.9\n+cnv.chrYPlot.female.unknown.gender=0\n cnv.nocall.loss=2.0\n-cnv.nocall.pval=1\n+cnv.custom.panel.default.baseline=\n cnv.npc=4\n-cnv.remove.duplicate=0\n-cnv.run.this.actor=1\n-cnv.sensitivity=MEDIUM\n+cnv.threshold.file=/serverdata/.reference/tmap-f3/hg19/CNV/CDF/gain_thresholds.txt\n+cnv.enable.smoothing=0\n+cnv.tagseq.lib=0\n+cnv.enable.mosaicism.detection=0\n+cnv.min.confidence=0.0\n+cnv.brca.output.gene.cnv=1\n+cnv.max.calls=4\n cnv.shift.type=MEDGENE\n-cnv.shift.value=0\n+cnv.female.normal.ploidy.lower.bound=1.8\n+cnv.nocall.pval=1\n cnv.somatic=0\n-cnv.tagseq.lib=0\n-cnv.tile.size=2000000\n-cnv.trans.prob=-8\n+cnv.nocall.gain.xy=1.0\n+cnv.tvcutils.executable.path=\n+output.file.name=single_sample_output.json\n cnv.tumor.cellularity.selection=Manually input Tumor Cellularity input by user\n-cnv.tumor.cellularity=30\n+cnv.gain.confidence=0.05\n+cnv.brca.gene.sid.max.cv=0.30\n+cnv.cellularity.allowed.min=40\n CnvActor.run=1\n-import global.ini\n-cnv.brca.gene.threshold=0.0001\n-cnv.brca.gene.min.factor=1.2\n+cnv.nocall.loss.xy=1.0\n+baseline.type=AmpliSeq\n cnv.brca.gene.max.mapd=0.30\n-cnv.brca.gene.max.cv=0.30\n-cnv.brca.gene.sid.gain.threshold=0.0001\n+cnv.mapd.threshold=0.5\n+region.bed.file=\n+cnv.mapd=0.5\n+cnv.female.normal.ploidy.upper.bound=2.2\n+cnv.gain.threshold=4\n+cnv.min.gain.call.fold.difference=1.15\n+cnv.trans.prob=-8\n+cnv.tumor.cellularity.bed.file=\n+cnv.max.call.pval=0.00001\n+cnv.enable.pool=1\n cnv.brca.gene.sid.loss.threshold=0.0001\n-cnv.brca.gene.sid.gain.factor=1.2\n-cnv.brca.gene.sid.loss.factor=1.2\n-cnv.brca.gene.sid.max.cv=0.30\n-cnv.min.gain.rfd=2.0\n-cnv.segment.fraction.rfd=0.9\n-cnv.brca.output.gene.cnv=1\n cnv.cellularity.no.userinput=100\n-cnv.cellularity.allowed.min=40\n+cnv.brca.gene.sid.gain.threshold=0.0001\n+cnv.nocall.gain.confidence=0.5\n+cnv.min.tag.fam.size=0\n+gender=\n+cnv.gender.min.mapping.qv=30\n cnv.custom.panel=\n-cnv.gene.modules=\n-analysis.cnv.gene.module.parameters.files=\n-cnv.tumor.cellularity.bed.file=\n-cnv.genomic.coordinates.centro.telo.tsv.file=\n-analysis.cnv.parameters.file=\n-cnv.custom.panel.default.baseline=\n+cnv.min.quality=10\n+cnv.max.loss.call.fold.difference=0.85\n+cnv.brca.gene.sid.loss.factor=1.2\n+cnv.tile.size=2000000\n+cnv.gender.caller.enable=0\n+cnv.run.this.actor=1\n+cnv.brca.gene.threshold=0.0001\n+cnv.cellularity=1.0\n+cnv.shift.value=0\n+reference.file.path=\n+cnv.genelist.excluded.from.normalization=CCND1\n+cnv.male.normal.ploidy.lower.bound=0.8\n+cnv.hidden.gender=0\n+cnv.min.aligned.read.percent=60\n cnv.tvc.executable.path=\n-cnv.tvcutils.executable.path=\n-cnv.shift.modif=None\n-actor.upload.json=\n-actor.post.processing.script.config.json=NA\n-analysis.cnv.genomic.coordinates.centro.telo.tsv.file=\n-cnv.parameters.file=/share/apps/IR/AssayImport/Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNAandFusions-70_0.0.2/workflow-input/CNV/Oncomine_Focus_v2_4.0.20260717_cnv_Manticore.json\n\\ No newline at end of file\n+cnv.chrm.a.ratio.min.mapping.qv=30\n+cnv.enable.cnv.caller=true\n+cnv.shift.modif=BRCA\n+cnv.min.gain.rfd=2.0\n+cnv.nocall.gain=2.0\n+cnv.brca.gene.min.factor=1.2\n+cnv.gain.thresholdXY=3\n+cnv.gender.threshold=7\n+cnv.min.read.count=100000\n+analysis.cnv.gene.module.parameters.files=\n+cnv.gender.min.autosomes.count=25000\n+cnv.deviation.from.integer=0.30\n+cnv.male.normal.ploidy.upper.bound=1.2\n+cnv.nocall.loss.confidence=0.5\n+analysis.cnv.parameters.file=/share/apps/IR/AssayImport/Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNAandFusions-70_0.0.3/workflow-input/CNV/Oncomine_Focus_v2_4.0.20260906_Manticore_cnv.json\n+actor.post.processing.script.config.json=/share/apps/IR/ionreporter70/etc/plugins/scripts/CnvActorScript.json\n+cnv.parameters.file=/share/apps/IR/AssayImport/Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNAandFusions-70_0.0.3/workflow-input/CNV/Oncomine_Focus_v2_4.0.20260906_Manticore_cnv.json\n\\ No newline at end of file"
+      },
+      {
+        "path": "SeedData/AssayDev/assay/dna_fusion/parameters/MSIActor.ini",
+        "patch": "@@ -1,20 +1,18 @@\n-# LifeScope(TM) Client generated the ini at Fri Nov 01 10:36:29 PDT 2019 \n-\n import global.ini\n-MSIActor.run=1\n-msi.bed.file=/share/apps/IR/AssayImport/Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNAandFusions-70_0.0.2/workflow-input/TVC_Mask_Bed/Oncomine_Focus_v2.20260506.msi.bed\n-msi.control.type=Use MSI baseline\n-msi.score.high.level=15\n+samples.in.same.chip=\n+msi.bed.file=/share/apps/IR/AssayImport/Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNAandFusions-70_0.0.3/workflow-input/TVC_Mask_Bed/Oncomine_Focus_v2.20260506.msi.bed\n msi.score.low.level=15\n samtools.sort.memory.per.thread=1G\n-msi.enable=1\n-msi.insilico.control.file=/share/apps/IR/AssayImport/Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNAandFusions-70_0.0.2/workflow-input/TVC_Mask_Bed/Oncomine_Focus_v2_Gx_hg19_07_21_2026.msi.h5\n-msi.noise.threshold=0.3\n+msi.enable.tumor.cellularity=0\n msi.minimal.coverage=50\n-samtools.sort.threads=4\n-samples.in.same.chip=\n-specimen.name=\n+msi.noise.threshold=0.3\n+msi.insilico.control.file=/share/apps/IR/AssayImport/Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNAandFusions-70_0.0.3/workflow-input/TVC_Mask_Bed/Oncomine_Focus_v2_Gx_hg19_09_03_2026.msi.h5\n msi.algorithm.version=v7.0\n-msi.enable.tumor.cellularity=0\n+msi.score.high.level=15\n+msi.control.type=Use MSI baseline\n+MSIActor.run=1\n+specimen.name=\n tmap.executable.path=\n+msi.enable=1\n+samtools.sort.threads=4\n actor.post.processing.script.config.json=/share/apps/IR/ionreporter70/etc/plugins/scripts/MSIActorScript.json\n\\ No newline at end of file"
+      },
+      {
+        "path": "SeedData/AssayDev/assay/dna_fusion/parameters/RNACountsActor.ini",
+        "patch": "@@ -1,72 +1,60 @@\n-# LifeScope(TM) Client generated the ini at Fri Dec 13 14:46:11 PST 2019\n-\n import global.ini\n-RNACountsActor.run=1\n-fusions.min.tag.fam.size=3\n-fusions.min.avg.read.counts.gene.exon.tiles=10\n-fusions.min.total.valid.mapped.reads=500000\n-fusions.var.min.control.detected.for.pass=2\n+fusions.min.avg.read.counts.gene.exon.tiles=200\n fusions.rna.exon.variant.make.calls=0\n-fusions.use.imbalance.as.secondary.evidence=0\n-fusions.var.max.control.detected.for.fail=1\n-fusions.imbalance.min.threshold.weak.amplicon=0.05\n-fusions.min.avg.mol.counts.gene.exon.tiles=5\n fusions.min.mean.read.length.sampleQC=50\n-fusions.min.fam.per.strand.cov=1\n fusions.make.calls.based.on.imbalance.score=1\n fusions.min.normalized.read.count=0\n fusions.ampliseqhd.lib=0\n-fusions.min.read.count.wild.type.expression=10\n-fusions.min.wt.qc.exon.variants=1\n-fusions.min.isoform.counts.imbalance=ALK=5;RET=5;ROS1=5\n-fusions.min.control.reads=1200\n-fusions.min.read.count=40\n-fusions.min.tag.fam.count.rna.exon.variant=2\n+analysis.sample.name=\n+fusions.min.control.reads=200\n fusions.min.imbalance.score.rna.exon.tiles=2.0\n-fusions.min.read.count.rna.exon.variant=400\n+fusions.min.tag.fam.count.rna.exon.variant=2\n+fusions.min.read.count=100\n+fusions.min.read.count.rna.exon.variant=150\n+analysis.sample.id=\n+fusions.min.valid.pools.for.sampleQC.pass=2\n fusions.min.tag.fam.count=2\n-fusions.min.valid.pools.for.sampleQC.pass=1\n fusions.min.percent.overlap.for.fusions=0\n-fusions.min.read.count.controls=15\n+samples.in.same.chip.directory=\n fusions.min.read.count.non.targeted=1000\n-fusions.min.read.count.gene.expression=10\n-fusions.imbalance.min.breakpoint.flanking.amplicons=2\n-fusions.min.percent.overlap.for.controls=0\n fusions.run.this.actor=1\n fusions.min.wild.type.ratio.exon.variants=0.0\n fusions.sensitivity=MEDIUM\n-fusions.min.imbalance.positives=ALK=0.015;RET=0.55;ROS1=0.5\n-fusions.imbalance.max.number.weak.amplicons=1\n-fusions.estimate.max.crosstalk=0.5\n-fusions.min.total.valid.mapped.reads.per.pool=0\n-fusions.keep.intermediate.files=0\n+fusions.min.total.valid.mapped.reads.per.pool=100000\n fusions.use.median.for.imbalance=0\n+fusions.panel.properties.file=/share/apps/IR/AssayImport/Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNAandFusions-70_0.0.3/workflow-input/Fusion_Panel_Props/OCAv4_Manticore_RNAv3_combined_Reference_20260121.properties.txt\n fusions.max.imbalance.negatives=ALK=0.001;RET=0.03;ROS1=0.2\n fusions.use.pool.specific.normalization=1\n-fusions.report.non.targeted.fusions=1\n-fusions.max.imbalance.pval.exon.tiles=0.1\n-fusions.tagseq.lib=0\n fusions.min.imbalance.pos.evidence.isoforms=ALK=0.01;RET=0.25;ROS1=0.5\n-fusions.max.imbalance.neg.evidence.isoforms=ALK=0.001;RET=0.03;ROS1=0.15\n-analysis.sample.id=ff8081816db6d2e9016ec8653b410ad5\n-analysis.fusion.qc.metric.file=\n-samples.in.same.chip=\n-samples.in.same.chip.directory=\n-analysis.sample.type=RNA\n-analysis.sample.name=\n-fusions.panel.properties.file=/share/apps/IR/AssayImport/Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNAandFusions-70_0.0.2/workflow-input/Fusion_Panel_Props/OCAv4_Manticore_RNAv3_combined_Reference_20260121.properties.txt\n-tmap.executable.path=\n+fusions.min.tag.fam.size=3\n+fusions.var.min.control.detected.for.pass=4\n+fusions.min.total.valid.mapped.reads=500000\n+fusions.use.imbalance.as.secondary.evidence=0\n+fusions.nontargeted.min.read.count.percent=5\n+fusions.imbalance.min.threshold.weak.amplicon=0.05\n+fusions.var.max.control.detected.for.fail=2\n+fusions.min.avg.mol.counts.gene.exon.tiles=5\n+fusions.min.fam.per.strand.cov=1\n fusions.use.family.or.read.counts=0\n+fusions.min.read.count.wild.type.expression=10\n+fusions.min.wt.qc.exon.variants=0\n+fusions.min.isoform.counts.imbalance=ALK=5;RET=5;ROS1=5\n+samples.in.same.chip=\n+fusions.min.read.count.controls=15\n+fusions.min.read.count.gene.expression=10\n+fusions.imbalance.min.breakpoint.flanking.amplicons=3\n+RNACountsActor.run=1\n+fusions.min.percent.overlap.for.controls=0\n+fusions.imbalance.max.number.weak.amplicons=1\n+fusions.min.imbalance.positives=ALK=0.015;RET=0.55;ROS1=0.5\n+fusions.estimate.max.crosstalk=0.5\n+fusions.keep.intermediate.files=0\n+analysis.fusion.qc.metric.file=\n+fusions.report.non.targeted.fusions=1\n+fusions.max.imbalance.pval.exon.tiles=0.05\n fusions.imbalance.mask.drop.out.amplicons=1\n-fusions.nontargeted.min.read.count.percent=5\n-actor.upload.json=\n-analysis.fusion.baseline.dir=\n-#new parameters\n-fusions.imbalance.added.delta=1.0\n-fusions.min.fraction.read.withLongInsertions.non.targeted=0.3\n-fusions.min.insertionlength.non.targeted=30\n+fusions.tagseq.lib=0\n+tmap.executable.path=\n+fusions.max.imbalance.neg.evidence.isoforms=ALK=0.001;RET=0.03;ROS1=0.15\n+analysis.input.readset.file=\n fusions.min.normalized.read.count.non.targeted=0.001\n-fusions.syntenic.max.distance=500000\n-fusions.syntenic.min.normalized.read.count=0.001\n-fusions.syntenic.min.read.count=100\n-fusions.syntenic.min.tag.fam.count=10\n\\ No newline at end of file"
+      },
+      {
+        "path": "SeedData/AssayDev/assay/dna_fusion/parameters/TmapExecutionActor.ini",
+        "patch": "@@ -1,33 +1,28 @@\n-# LifeScope(TM) Client generated the ini at Fri Dec 13 14:46:12 PST 2019 \n-\n import global.ini\n-TmapExecutionActor.run=1\n-tmap.gap.open.penalty=5\n tmap.match.score=1\n+tmap.gap.open.penalty=5\n tmap.gap.extension.penalty=2\n+tmap.realign.context=1\n samtools.sort.memory.per.thread=1G\n tmap.max.adapter.bases=20\n tmap.local.band.width=50\n+TmapExecutionActor.run=1\n+tmap.end.repair=15\n samtools.sort.threads=4\n-tmap.mismatch.penalty=3\n tmap.soft.clip.type=2\n+tmap.mismatch.penalty=3\n tmap.max.amplicon.overrun.large.indel.rescue=6\n tmap.mapped.files.remap.enable=0\n-tmap.flow.score.penalty=2\n+tmap.par.ovr=1\n tmap.reads.queue.size=5000\n+tmap.flow.score.penalty=2\n+tmap.do.repeat.clip=1\n+tmap.custom.tmap.args=--profile-amp --ovr-candeval\n tmap.use.bed.file=1\n tmap.no.bed.mapq=0\n tmap.min.anchor.large.indel.rescue=6\n-tmap.output.filter=1\n tmap.realignment.enable=0\n-tmap.max.one.large.indel.rescue=30\n+tmap.output.filter=1\n tmap.no.bed.er=0\n-analysis.sample.id=\n-analysis.sample.name=\n+tmap.max.one.large.indel.rescue=30\n tmap.executable.path=\n-actor.upload.json=\n-tmap.end.repair=15\n-tmap.realign.context=1\n-tmap.do.repeat.clip=1\n-tmap.par.ovr=1\n-tmap.custom.tmap.args=--profile-amp --ovr-candeval --repair-min-freq 30\n\\ No newline at end of file"
+      },
+      {
+        "path": "SeedData/AssayDev/master/KitConsumable.json",
+        "patch": "@@ -1,7 +1,7 @@\n [ {\n   \"Active\" : \"Yes\",\n   \"Unique Name\" : \"oncomine_focus_dna_fusions_v2_primer_tube1\",\n-  \"Part Number\" : \"100093900\",\n+  \"Part Number\" : \"100200225\",\n   \"Kit Name\" : \"ofa_dna_fusions_v2_panel_kit\",\n   \"Consumable Type\" : \"DNA Pool\",\n   \"Consumable Config\" : \"DNA Pool\",\n@@ -12,7 +12,7 @@\n }, {\n   \"Active\" : \"Yes\",\n   \"Unique Name\" : \"oncomine_focus_dna_fusions_v2_primer_tube2\",\n-  \"Part Number\" : \"100093901\",\n+  \"Part Number\" : \"100200226\",\n   \"Kit Name\" : \"ofa_dna_fusions_v2_panel_kit\",\n   \"Consumable Type\" : \"DNA Pool\",\n   \"Consumable Config\" : \"DNA Pool\","
+      },
+      {
+        "path": "SeedData/AssayDev/master/KitPart.json",
+        "patch": "@@ -1,6 +1,6 @@\n [ {\n   \"KitUniqueName\" : \"ofa_dna_fusions_v2_panel_kit\",\n-  \"PartNumber\" : \"A47017\",\n+  \"PartNumber\" : \"A40014056\",\n   \"IsActive\" : \"Yes\"\n }, {\n   \"KitUniqueName\" : \"ofa_dna_fusions_v2_panel_kit\","
+      },
+      {
+        "path": "SeedData/AssayDev/master/Region-Hotspot.json",
+        "patch": "@@ -1,33 +1,33 @@\n [ {\n   \"Hide\" : \"NO\",\n-  \"Fusion Panel\" : \"Oncomine_Focus_v2_GX7_w1.0.0_v0.0.2_DNAFusions_20260608_Reference.bed\",\n-  \"Description\" : \"Oncomine Focus v2 - GX7 - w1.0.0 - v0.0.2 - DNA and Fusions Panel\",\n+  \"Fusion Panel\" : \"Oncomine_Focus_v2_GX7_w1.0.0_v0.0.3_DNAFusions_20260608_Reference.bed\",\n+  \"Description\" : \"Oncomine Focus v2 - GX7 - w1.0.0 - v0.0.3 - DNA and Fusions Panel\",\n   \"ApplicationVersion\" : \"IR70\",\n   \"Per Sample Reads\" : \"6000000\",\n   \"Group Status\" : \"Locked\",\n   \"type\" : \"Bed\",\n   \"ReferenceAssemblyFileName\" : \"hg19\",\n   \"IndexVersion\" : \"NA\",\n   \"Technology\" : \" Ion AmpliSeq GenePanel    \",\n-  \"md5sum\" : \"bebe57ef1afd022eb3a8dab313c1f992\",\n+  \"md5sum\" : \"3e51e15efde5f8cf9f07af8a83296c1f\",\n   \"Insert in All\" : \"Yes\",\n   \"factoryProvided\" : \"true\",\n-  \"External Name\" : \"Oncomine Focus Assay v2 - w1.0.0 - DNA and Fusions panel - v0.0.2\",\n+  \"External Name\" : \"Oncomine Focus Assay v2 - w1.0.0 - DNA and Fusions panel - v0.0.3\",\n   \"Rna Pool Size\" : \"2\",\n   \"Status\" : \"Locked\",\n   \"PoolSize\" : \"2\",\n   \"IAD\" : \"NA\",\n   \"ApplicationType\" : \"NA\",\n   \"Panel Type\" : \"DNA+RNA\",\n-  \"input file\" : \"/share/apps/IR/AssayImport/Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNAandFusions-70_0.0.2/workflow-input/Bed/Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.07_15_26.bed\",\n+  \"input file\" : \"/share/apps/IR/AssayImport/Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNAandFusions-70_0.0.3/workflow-input/Bed/Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.09_02_26.bed\",\n   \"AmplificationType\" : \"AmpliSeq\",\n-  \"UniqueName\" : \"Oncomine_Focus_v2_GX7_w1.0.0_v0.0.2_DNAFusions_1_DNA_20260715.designed.bed\",\n-  \"Fusion Reference\" : \"Oncomine_Focus_v2_GX7_w1.0.0_v0.0.2_DNAFusions_20260121_Reference.fasta\",\n+  \"UniqueName\" : \"Oncomine_Focus_v2_GX7_w1.0.0_v0.0.3_DNAFusions_1_DNA_20260902.designed.bed\",\n+  \"Fusion Reference\" : \"Oncomine_Focus_v2_GX7_w1.0.0_v0.0.3_DNAFusions_20260121_Reference.fasta\",\n   \"Ovat RuleSet\" : \"content/ofav2_dna,content/ofav2_rna\"\n }, {\n   \"Hide\" : \"NO\",\n   \"Fusion Panel\" : \"NA\",\n-  \"Description\" : \"Oncomine Focus v2 - GX7 - w1.0.0 - v0.0.2 - Fusions Reference\",\n+  \"Description\" : \"Oncomine Focus v2 - GX7 - w1.0.0 - v0.0.3 - Fusions Reference\",\n   \"ApplicationVersion\" : \"IR70\",\n   \"Per Sample Reads\" : \"NA\",\n   \"Group Status\" : \"NA\",\n@@ -38,7 +38,7 @@\n   \"md5sum\" : \"85aa469b9470285a5eb0b56d3b2f0661\",\n   \"Insert in All\" : \"Yes\",\n   \"factoryProvided\" : \"true\",\n-  \"External Name\" : \"Oncomine Focus Assay v2 - GX7 - w1.0.0 - v0.0.2 - DNAFusions - Fusions Reference\",\n+  \"External Name\" : \"Oncomine Focus Assay v2 - GX7 - w1.0.0 - v0.0.3 - DNAFusions - Fusions Reference\",\n   \"Rna Pool Size\" : \"NA\",\n   \"Status\" : \"Locked\",\n   \"PoolSize\" : \"NA\",\n@@ -47,59 +47,59 @@\n   \"Panel Type\" : \"NA\",\n   \"input file\" : \"/serverdata/.reference/tmap-f3/OCAv4_Manticore_RNAv3_combined_Reference_20260121/OCAv4_Manticore_RNAv3_combined_Reference_20260121.fasta\",\n   \"AmplificationType\" : \"NA\",\n-  \"UniqueName\" : \"Oncomine_Focus_v2_GX7_w1.0.0_v0.0.2_DNAFusions_20260121_Reference.fasta\",\n+  \"UniqueName\" : \"Oncomine_Focus_v2_GX7_w1.0.0_v0.0.3_DNAFusions_20260121_Reference.fasta\",\n   \"Fusion Reference\" : \"NA\",\n   \"Ovat RuleSet\" : \"NA\"\n }, {\n   \"Hide\" : \"NO\",\n   \"Fusion Panel\" : \"NA\",\n-  \"Description\" : \"Oncomine Focus v2 - GX7 - w1.0.0 - v0.0.2 - DNA and Fusions Hotspots\",\n+  \"Description\" : \"Oncomine Focus v2 - GX7 - w1.0.0 - v0.0.3 - DNA and Fusions Hotspots\",\n   \"ApplicationVersion\" : \"IR70\",\n   \"Per Sample Reads\" : \"NA\",\n   \"Group Status\" : \"NA\",\n   \"type\" : \"HotSpot\",\n-  \"ReferenceAssemblyFileName\" : \"Oncomine_Focus_v2_GX7_w1.0.0_v0.0.2_DNAFusions_1_DNA_20260715.designed.bed\",\n+  \"ReferenceAssemblyFileName\" : \"Oncomine_Focus_v2_GX7_w1.0.0_v0.0.3_DNAFusions_1_DNA_20260902.designed.bed\",\n   \"IndexVersion\" : \"NA\",\n   \"Technology\" : \" Ion AmpliSeq GenePanel    \",\n-  \"md5sum\" : \"84d7ddcacb6389e05485722c733b5297\",\n+  \"md5sum\" : \"0dd74ce6ac67b1a1be4784d0f745c749\",\n   \"Insert in All\" : \"Yes\",\n   \"factoryProvided\" : \"true\",\n-  \"External Name\" : \"Oncomine Focus Assay v2 - GX7 - w1.0.0 - v0.0.2 - DNA and Fusions Hotspots\",\n+  \"External Name\" : \"Oncomine Focus Assay v2 - GX7 - w1.0.0 - v0.0.3 - DNA and Fusions Hotspots\",\n   \"Rna Pool Size\" : \"NA\",\n   \"Status\" : \"Locked\",\n   \"PoolSize\" : \"NA\",\n   \"IAD\" : \"NA\",\n   \"ApplicationType\" : \"NA\",\n   \"Panel Type\" : \"NA\",\n-  \"input file\" : \"/share/apps/IR/AssayImport/Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNAandFusions-70_0.0.2/workflow-input/Hotspot/Oncomine_Focus_v2.20260506.hotspots.bed\",\n+  \"input file\" : \"/share/apps/IR/AssayImport/Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNAandFusions-70_0.0.3/workflow-input/Hotspot/Oncomine_Focus_v2.20260625.hotspots.bed\",\n   \"AmplificationType\" : \"NA\",\n-  \"UniqueName\" : \"Oncomine_Focus_v2_GX7_w1.0.0_v0.0.2_DNAFusions_20260506.Hotspots.bed\",\n+  \"UniqueName\" : \"Oncomine_Focus_v2_GX7_w1.0.0_v0.0.3_DNAFusions_20260625.Hotspots.bed\",\n   \"Fusion Reference\" : \"NA\",\n   \"Ovat RuleSet\" : \"NA\"\n }, {\n   \"Hide\" : \"NO\",\n   \"Fusion Panel\" : \"NA\",\n-  \"Description\" : \"Oncomine Focus v2 - GX7 - w1.0.0 - v0.0.2 - Fusions Panel\",\n+  \"Description\" : \"Oncomine Focus v2 - GX7 - w1.0.0 - v0.0.3 - Fusions Panel\",\n   \"ApplicationVersion\" : \"IR70\",\n   \"Per Sample Reads\" : \"2300000\",\n   \"Group Status\" : \"NA\",\n   \"type\" : \"Fusion Panel\",\n-  \"ReferenceAssemblyFileName\" : \"Oncomine_Focus_v2_GX7_w1.0.0_v0.0.2_DNAFusions_20260121_Reference.fasta\",\n+  \"ReferenceAssemblyFileName\" : \"Oncomine_Focus_v2_GX7_w1.0.0_v0.0.3_DNAFusions_20260121_Reference.fasta\",\n   \"IndexVersion\" : \"NA\",\n   \"Technology\" : \"NA\",\n   \"md5sum\" : \"b2bf93303c8054a340ac09846424a0a7\",\n   \"Insert in All\" : \"No\",\n   \"factoryProvided\" : \"true\",\n-  \"External Name\" : \"Oncomine Focus Assay v2 - GX7 - DNAFusions - w1.0.0 - v0.0.2 - Fusions Panel\",\n+  \"External Name\" : \"Oncomine Focus Assay v2 - GX7 - DNAFusions - w1.0.0 - v0.0.3 - Fusions Panel\",\n   \"Rna Pool Size\" : \"NA\",\n   \"Status\" : \"Locked\",\n   \"PoolSize\" : \"NA\",\n   \"IAD\" : \"NA\",\n   \"ApplicationType\" : \"NA\",\n   \"Panel Type\" : \"NA\",\n-  \"input file\" : \"/share/apps/IR/AssayImport/Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNAandFusions-70_0.0.2/workflow-input/Fusion_Panel/Oncomine_Focus_OCAp_RNA_hgvs_Reference_20260608.bed\",\n+  \"input file\" : \"/share/apps/IR/AssayImport/Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNAandFusions-70_0.0.3/workflow-input/Fusion_Panel/Oncomine_Focus_OCAp_RNA_hgvs_Reference_20260608.bed\",\n   \"AmplificationType\" : \"NA\",\n-  \"UniqueName\" : \"Oncomine_Focus_v2_GX7_w1.0.0_v0.0.2_DNAFusions_20260608_Reference.bed\",\n-  \"Fusion Reference\" : \"Oncomine_Focus_v2_GX7_w1.0.0_v0.0.2_DNAFusions_20260121_Reference.fasta\",\n+  \"UniqueName\" : \"Oncomine_Focus_v2_GX7_w1.0.0_v0.0.3_DNAFusions_20260608_Reference.bed\",\n+  \"Fusion Reference\" : \"Oncomine_Focus_v2_GX7_w1.0.0_v0.0.3_DNAFusions_20260121_Reference.fasta\",\n   \"Ovat RuleSet\" : \"NA\"\n } ]\n\\ No newline at end of file"
+      },
+      {
+        "path": "adf_properties",
+        "patch": "@@ -1,10 +1,10 @@\n pipeline_version=ir70\n genome_ref_path=/data/IR/data/.reference/tmap-f3/hg19/hg19.fasta\n-assay_short_name=OFA v2 DNA Fus GX7 w1.0.0 v0.0.2\n-assay_unique_name=OFA_v2_GX7_DNA_RNA_w1.0.0_v0.0.2\n+assay_short_name=OFA v2 DNA Fus GX7 w1.0.0 v0.0.3\n+assay_unique_name=OFA_v2_GX7_DNA_RNA_w1.0.0_v0.0.3\n docker_image_name =algorithm_70:jammy\n depends_on_pkg=ts-algorithm-70\n chip_kit_name=GX7v1 Chip\n sw_released_version=7.0\n ovat_ruleset_path=/share/apps/ovat-34/content\n-additional_deb_dependencies=ts-assaydev-ampliseq6reaction-coca-541-manticore-w1.0.0-v0.0.2_7.0.2.0_amd64.deb:ts-assaydev-reportbuilder-OFAV2-DNA-Fus-w1.0.0_v0.0.2.deb:ts-assaydev-vnsadf-222_2.2.2_amd64.deb\n\\ No newline at end of file\n+additional_deb_dependencies=ts-assaydev-ampliseq6reaction-coca-541-manticore-w1.0.0-v0.0.2_7.0.2.0_amd64.deb:ts-assaydev-reportbuilder-OFAV2-DNA-Fus-w1.0.0_v0.0.3.deb:ts-assaydev-vnsadf-222_2.2.2_amd64.deb\n\\ No newline at end of file"
+      },
+      {
+        "path": "version",
+        "patch": "@@ -1,3 +1,3 @@\n MAJOR=0\n MINOR=0\n-RELEASE=2\n+RELEASE=3"
+      }
+    ]
+  },
+  "templates": {
+    "files": [
+      {
+        "path": "genexus_7.0/AssayDev/Manticore/OFAV2-DNA-Fus-w1.0.0-v0.0.3/build-gx-OFAV2-DNA-Fus-w1.0.0-assaydev-debian.sh",
+        "git_blob_sha": "f5f6e785c2ba55908a64a35b921f8c63dced9fda",
+        "status": "added",
+        "changes": 49
+      },
+      {
+        "path": "genexus_7.0/AssayDev/Manticore/OFAV2-DNA-Fus-w1.0.0-v0.0.3/dbscripts/1.0.sql",
+        "git_blob_sha": "cae62a8007fc9d02ec7792b5f6ac1a5dcad9e758",
+        "status": "added",
+        "changes": 34
+      },
+      {
+        "path": "genexus_7.0/AssayDev/Manticore/OFAV2-DNA-Fus-w1.0.0-v0.0.3/debscripts/postinst",
+        "git_blob_sha": "f43fee18cbfd2dbf7b44cd7455174260fdc56d13",
+        "status": "added",
+        "changes": 33
+      },
+      {
+        "path": "genexus_7.0/AssayDev/Manticore/OFAV2-DNA-Fus-w1.0.0-v0.0.3/debscripts/postrm",
+        "git_blob_sha": "33b435dcc284d85f1cbeea8a2610f9169cdaa474",
+        "status": "added",
+        "changes": 22
+      },
+      {
+        "path": "genexus_7.0/AssayDev/Manticore/OFAV2-DNA-Fus-w1.0.0-v0.0.3/debscripts/preinst",
+        "git_blob_sha": "ab3fd35086145f0b9d56cb5d00d25bc18244a285",
+        "status": "added",
+        "changes": 17
+      },
+      {
+        "path": "genexus_7.0/AssayDev/Manticore/OFAV2-DNA-w1.0.0-v0.0.3/build-gx-OFAV2-DNA-w1.0.0-assaydev-debian.sh",
+        "git_blob_sha": "1a126f8a0d7d6b2b9c3b160321ba5ddaffa2304f",
+        "status": "added",
+        "changes": 49
+      },
+      {
+        "path": "genexus_7.0/AssayDev/Manticore/OFAV2-DNA-w1.0.0-v0.0.3/dbscripts/1.0.sql",
+        "git_blob_sha": "bd6145405749328e504ca059b66101d5c0489093",
+        "status": "added",
+        "changes": 34
+      },
+      {
+        "path": "genexus_7.0/AssayDev/Manticore/OFAV2-DNA-w1.0.0-v0.0.3/debscripts/postinst",
+        "git_blob_sha": "064ee71acb55fa94ababe8528346cc974c375fd3",
+        "status": "added",
+        "changes": 33
+      },
+      {
+        "path": "genexus_7.0/AssayDev/Manticore/OFAV2-DNA-w1.0.0-v0.0.3/debscripts/postrm",
+        "git_blob_sha": "26d21063846349d4f2e51061d81d29734d732e68",
+        "status": "added",
+        "changes": 22
+      },
+      {
+        "path": "genexus_7.0/AssayDev/Manticore/OFAV2-DNA-w1.0.0-v0.0.3/debscripts/preinst",
+        "git_blob_sha": "16dfd51f4c84c88c164a58a1c24e46471c234691",
+        "status": "added",
+        "changes": 17
+      }
+    ],
+    "selected_patch_evidence": []
+  },
+  "shared_component_comparison": [
+    {
+      "path": "Bed/Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.07_15_26.bed",
+      "sameGitBlob": true,
+      "dnaSha": "6f2392fbaabfc2e22069afac152ce87af495a036",
+      "fusionSha": "6f2392fbaabfc2e22069afac152ce87af495a036"
+    },
+    {
+      "path": "Bed/Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.09_02_26.bed",
+      "sameGitBlob": true,
+      "dnaSha": "4ecc0ec9e2b70d979ffb577dcec8d88e66ed427a",
+      "fusionSha": "4ecc0ec9e2b70d979ffb577dcec8d88e66ed427a"
+    },
+    {
+      "path": "CNV/Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.07_15_26.bed",
+      "sameGitBlob": true,
+      "dnaSha": "6f2392fbaabfc2e22069afac152ce87af495a036",
+      "fusionSha": "6f2392fbaabfc2e22069afac152ce87af495a036"
+    },
+    {
+      "path": "CNV/Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.09_02_26.bed",
+      "sameGitBlob": true,
+      "dnaSha": "4ecc0ec9e2b70d979ffb577dcec8d88e66ed427a",
+      "fusionSha": "4ecc0ec9e2b70d979ffb577dcec8d88e66ed427a"
+    },
+    {
+      "path": "CNV/Oncomine_Focus_v2_4.0.20260717_cnv_Manticore.json",
+      "sameGitBlob": true,
+      "dnaSha": "345fc085de8dc2752d50a3a988476b4923413445",
+      "fusionSha": "345fc085de8dc2752d50a3a988476b4923413445"
+    },
+    {
+      "path": "CNV/Oncomine_Focus_v2_4.0.20260903_Manticore_cnv.h5",
+      "sameGitBlob": true,
+      "dnaSha": "129d9d93b335ae136babb00ef2cf9e9ad25459fe",
+      "fusionSha": "129d9d93b335ae136babb00ef2cf9e9ad25459fe"
+    },
+    {
+      "path": "CNV/Oncomine_Focus_v2_4.0.20260906_Manticore_cnv.json",
+      "sameGitBlob": true,
+      "dnaSha": "eea5aa655195a715ba2c5b69a0377ccb94cc123c",
+      "fusionSha": "eea5aa655195a715ba2c5b69a0377ccb94cc123c"
+    },
+    {
+      "path": "Hotspot/Oncomine_Focus_v2.20260625.hotspots.bed",
+      "sameGitBlob": true,
+      "dnaSha": "4b068125cd505011f90293a24ce63361a669a89f",
+      "fusionSha": "4b068125cd505011f90293a24ce63361a669a89f"
+    },
+    {
+      "path": "Pipeline/bin/MSI_IR",
+      "sameGitBlob": true,
+      "dnaSha": "8fedf9b6021618c986262960627223036dbf28b4",
+      "fusionSha": "8fedf9b6021618c986262960627223036dbf28b4"
+    },
+    {
+      "path": "Pipeline/bin/copynumber_chromosome.py",
+      "sameGitBlob": true,
+      "dnaSha": "502be17994d2dd368f0c0794f24ea56bf92f4c57",
+      "fusionSha": "502be17994d2dd368f0c0794f24ea56bf92f4c57"
+    },
+    {
+      "path": "Pipeline/bin/copynumber_exon_finalize.py",
+      "sameGitBlob": true,
+      "dnaSha": "9c0cced7e6c237155a0063a44d379d531643fcea",
+      "fusionSha": "9c0cced7e6c237155a0063a44d379d531643fcea"
+    },
+    {
+      "path": "Pipeline/bin/copynumber_exon_plots.py",
+      "sameGitBlob": true,
+      "dnaSha": "e349f9a1ab0ec287e140e868f6c7d36de99561c0",
+      "fusionSha": "e349f9a1ab0ec287e140e868f6c7d36de99561c0"
+    },
+    {
+      "path": "Pipeline/bin/copynumber_single_sample.py",
+      "sameGitBlob": true,
+      "dnaSha": "100b6efa4a2f20e655c5cfa94be2704b0630ee4c",
+      "fusionSha": "100b6efa4a2f20e655c5cfa94be2704b0630ee4c"
+    },
+    {
+      "path": "Pipeline/bin/deep_shallow_loss.py",
+      "sameGitBlob": true,
+      "dnaSha": "41ebd280894045abf56483b8c9d127287da15cd1",
+      "fusionSha": "41ebd280894045abf56483b8c9d127287da15cd1"
+    },
+    {
+      "path": "Pipeline/bin/loss_plus_focal_amplification.py",
+      "sameGitBlob": true,
+      "dnaSha": "439e3120ba66d4857baccb4cee3e2583ccc2feb2",
+      "fusionSha": "439e3120ba66d4857baccb4cee3e2583ccc2feb2"
+    },
+    {
+      "path": "TVC_Mask_Bed/Oncomine_Focus_v2_4.0_20260902_Manticore_SVB.bed",
+      "sameGitBlob": true,
+      "dnaSha": "80493a94a88802001bb1e4d96859bab3e9125d51",
+      "fusionSha": "80493a94a88802001bb1e4d96859bab3e9125d51"
+    },
+    {
+      "path": "TVC_Mask_Bed/Oncomine_Focus_v2_Gx_hg19_07_21_2026.msi.h5",
+      "sameGitBlob": true,
+      "dnaSha": "4da3121047bb9ce626b68144d23ce9a05c748b7d",
+      "fusionSha": "4da3121047bb9ce626b68144d23ce9a05c748b7d"
+    },
+    {
+      "path": "TVC_Mask_Bed/Oncomine_Focus_v2_Gx_hg19_09_03_2026.msi.h5",
+      "sameGitBlob": true,
+      "dnaSha": "a1c48d7ee08e7fd33a7a03e61bbd6d39900c3d1b",
+      "fusionSha": "a1c48d7ee08e7fd33a7a03e61bbd6d39900c3d1b"
+    },
+    {
+      "path": "adf_properties",
+      "sameGitBlob": false,
+      "dnaSha": "4e74ca2a58cfa1ea286f4a2c764c82add493d5e7",
+      "fusionSha": "8bfe25c0c704e14f1f687765fdede0b8041ac758"
+    },
+    {
+      "path": "app_templates/BRCA_AmpliSeq.html",
+      "sameGitBlob": true,
+      "dnaSha": "32f812d0562e7e96b6e9e621cddcbe5641b5f40b",
+      "fusionSha": "32f812d0562e7e96b6e9e621cddcbe5641b5f40b"
+    },
+    {
+      "path": "app_templates/Exon_CNV_Manticore_AmpliSeq.html",
+      "sameGitBlob": true,
+      "dnaSha": "1772c0bc7cc00ce2c1fd941402066e50ef32020e",
+      "fusionSha": "1772c0bc7cc00ce2c1fd941402066e50ef32020e"
+    },
+    {
+      "path": "deb_name",
+      "sameGitBlob": false,
+      "dnaSha": "9ad815bd257b6800b399367d0964fccabad05be0",
+      "fusionSha": "49f5659f23fc205edc2d6823898280ed353dd051"
+    },
+    {
+      "path": "version",
+      "sameGitBlob": true,
+      "dnaSha": "2f60fdc0ff8ffe757a1cd79719a68f6e3d3d88bc",
+      "fusionSha": "2f60fdc0ff8ffe757a1cd79719a68f6e3d3d88bc"
+    }
+  ],
+  "fusion_parameter_snapshot": {
+    "content": "import global.ini\nfusions.min.avg.read.counts.gene.exon.tiles=200\nfusions.rna.exon.variant.make.calls=0\nfusions.min.mean.read.length.sampleQC=50\nfusions.make.calls.based.on.imbalance.score=1\nfusions.min.normalized.read.count=0\nfusions.ampliseqhd.lib=0\nanalysis.sample.name=\nfusions.min.control.reads=200\nfusions.min.imbalance.score.rna.exon.tiles=2.0\nfusions.min.tag.fam.count.rna.exon.variant=2\nfusions.min.read.count=100\nfusions.min.read.count.rna.exon.variant=150\nanalysis.sample.id=\nfusions.min.valid.pools.for.sampleQC.pass=2\nfusions.min.tag.fam.count=2\nfusions.min.percent.overlap.for.fusions=0\nsamples.in.same.chip.directory=\nfusions.min.read.count.non.targeted=1000\nfusions.run.this.actor=1\nfusions.min.wild.type.ratio.exon.variants=0.0\nfusions.sensitivity=MEDIUM\nfusions.min.total.valid.mapped.reads.per.pool=100000\nfusions.use.median.for.imbalance=0\nfusions.panel.properties.file=/share/apps/IR/AssayImport/Ts-Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNAandFusions-70_0.0.3/workflow-input/Fusion_Panel_Props/OCAv4_Manticore_RNAv3_combined_Reference_20260121.properties.txt\nfusions.max.imbalance.negatives=ALK=0.001;RET=0.03;ROS1=0.2\nfusions.use.pool.specific.normalization=1\nfusions.min.imbalance.pos.evidence.isoforms=ALK=0.01;RET=0.25;ROS1=0.5\nfusions.min.tag.fam.size=3\nfusions.var.min.control.detected.for.pass=4\nfusions.min.total.valid.mapped.reads=500000\nfusions.use.imbalance.as.secondary.evidence=0\nfusions.nontargeted.min.read.count.percent=5\nfusions.imbalance.min.threshold.weak.amplicon=0.05\nfusions.var.max.control.detected.for.fail=2\nfusions.min.avg.mol.counts.gene.exon.tiles=5\nfusions.min.fam.per.strand.cov=1\nfusions.use.family.or.read.counts=0\nfusions.min.read.count.wild.type.expression=10\nfusions.min.wt.qc.exon.variants=0\nfusions.min.isoform.counts.imbalance=ALK=5;RET=5;ROS1=5\nsamples.in.same.chip=\nfusions.min.read.count.controls=15\nfusions.min.read.count.gene.expression=10\nfusions.imbalance.min.breakpoint.flanking.amplicons=3\nRNACountsActor.run=1\nfusions.min.percent.overlap.for.controls=0\nfusions.imbalance.max.number.weak.amplicons=1\nfusions.min.imbalance.positives=ALK=0.015;RET=0.55;ROS1=0.5\nfusions.estimate.max.crosstalk=0.5\nfusions.keep.intermediate.files=0\nanalysis.fusion.qc.metric.file=\nfusions.report.non.targeted.fusions=1\nfusions.max.imbalance.pval.exon.tiles=0.05\nfusions.imbalance.mask.drop.out.amplicons=1\nfusions.tagseq.lib=0\ntmap.executable.path=\nfusions.max.imbalance.neg.evidence.isoforms=ALK=0.001;RET=0.03;ROS1=0.15\nanalysis.input.readset.file=\nfusions.min.normalized.read.count.non.targeted=0.001\n",
+    "encoding": "utf-8",
+    "sha": "2900ad9257a57276686d45fe6c204b715d1f2852",
+    "display_url": "https://github.com/thermofisher/csd-adf-gx-manticore-v2-dnafus-70/blob/e7c03c113dbceddb5df64c252cbbefaff91bfede/SeedData/AssayDev/assay/dna_fusion/parameters/RNACountsActor.ini",
+    "display_title": "RNACountsActor.ini"
+  },
+  "provenance": {
+    "dna": {
+      "pr_url": "https://github.com/thermofisher/csd-adf-gx-manticore-v2-dna-70/pull/3",
+      "head_sha": "6ada6a4bd50d1acec148596059e6142a7748fc01",
+      "merge_sha": "1c17b171a3626a3e1b4f6cdcb1be3fcb211800bb"
+    },
+    "fusion": {
+      "pr_url": "https://github.com/thermofisher/csd-adf-gx-manticore-v2-dnafus-70/pull/6",
+      "head_sha": "e7c03c113dbceddb5df64c252cbbefaff91bfede",
+      "merge_sha": "cbe893b046ad7ad510f606b3a2fda07d93ea68f9"
+    },
+    "templates": {
+      "pr_url": "https://github.com/thermofisher/csd-gx-rb-template-scripts/pull/62",
+      "head_sha": "ca98f2e3ae189afb810c0ac23e981105be460c91",
+      "merge_sha": "d872c568ef105e9ee277e3de752aad6b6ebbbdcb"
+    }
+  }
+}

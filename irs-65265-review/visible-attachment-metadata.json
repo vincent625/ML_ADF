@@ -1,0 +1,92 @@
+[
+  {
+    "attachmentId": "1659780",
+    "fileName": "testing_screenshot_for_v03.zip",
+    "fileSize": 22185642,
+    "mimeType": "application/zip",
+    "created": "2026-10-05T19:08:51.726Z",
+    "parentName": "comment",
+    "parentId": "2918809"
+  },
+  {
+    "attachmentId": "1658956",
+    "fileName": "image-20261001-162909.png",
+    "fileSize": 448454,
+    "mimeType": "image/png",
+    "created": "2026-10-01T16:36:17.786Z",
+    "parentName": "comment",
+    "parentId": "2917378"
+  },
+  {
+    "attachmentId": "1658955",
+    "fileName": "image-20261001-162852.png",
+    "fileSize": 465626,
+    "mimeType": "image/png",
+    "created": "2026-10-01T16:36:17.417Z",
+    "parentName": "comment",
+    "parentId": "2917378"
+  },
+  {
+    "attachmentId": "1658949",
+    "fileName": "Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNA-SW_7.0-v0.0.3.zip",
+    "fileSize": 49800134,
+    "mimeType": "application/zip",
+    "created": "2026-10-01T16:25:47.878Z",
+    "parentName": "issue",
+    "parentId": "2522968"
+  },
+  {
+    "attachmentId": "1658948",
+    "fileName": "Genexus-Oncomine-Focus-v2-GX7-w1.0.0-DNAandFusions-SW_7.0-v0.0.3.zip",
+    "fileSize": 49975918,
+    "mimeType": "application/zip",
+    "created": "2026-10-01T16:25:26.39Z",
+    "parentName": "issue",
+    "parentId": "2522968"
+  },
+  {
+    "attachmentId": "1656601",
+    "fileName": "image-20260924-231444.png",
+    "fileSize": 244014,
+    "mimeType": "image/png",
+    "created": "2026-09-24T23:16:49.383Z",
+    "parentName": "comment",
+    "parentId": "2912743"
+  },
+  {
+    "attachmentId": "1656600",
+    "fileName": "image-20260924-231349.png",
+    "fileSize": 253661,
+    "mimeType": "image/png",
+    "created": "2026-09-24T23:16:48.991Z",
+    "parentName": "comment",
+    "parentId": "2912743"
+  },
+  {
+    "attachmentId": "1656599",
+    "fileName": "image-20260924-224729.png",
+    "fileSize": 1203388,
+    "mimeType": "image/png",
+    "created": "2026-09-24T23:09:53.96Z",
+    "parentName": "comment",
+    "parentId": "2914586"
+  },
+  {
+    "attachmentId": "1656598",
+    "fileName": "image-20260924-224847.png",
+    "fileSize": 844300,
+    "mimeType": "image/png",
+    "created": "2026-09-24T23:09:53.694Z",
+    "parentName": "comment",
+    "parentId": "2914586"
+  },
+  {
+    "attachmentId": "1656597",
+    "fileName": "OFA_v2_GX7_DNA_RNA_w1.0.0_v0.0.3.zip",
+    "fileSize": 19919,
+    "mimeType": "application/zip",
+    "created": "2026-09-24T23:09:53.435Z",
+    "parentName": "comment",
+    "parentId": "2914586"
+  }
+]

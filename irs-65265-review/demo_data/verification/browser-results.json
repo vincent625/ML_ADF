@@ -1,0 +1,83 @@
+{
+  "browser": "156.0.8078.4",
+  "console_or_page_errors": [],
+  "review_fix_retest": "passed",
+  "qc_controls": "passed",
+  "stale_3_unrelated_81_retained": "passed",
+  "export_identity": "passed",
+  "layouts": [
+    {
+      "width": 1366,
+      "height": 900,
+      "chapter": "sources",
+      "overflow": false
+    },
+    {
+      "width": 1366,
+      "height": 900,
+      "chapter": "requirements",
+      "overflow": false
+    },
+    {
+      "width": 1366,
+      "height": 900,
+      "chapter": "components",
+      "overflow": false
+    },
+    {
+      "width": 1366,
+      "height": 900,
+      "chapter": "runner",
+      "overflow": false
+    },
+    {
+      "width": 1366,
+      "height": 900,
+      "chapter": "impact",
+      "overflow": false
+    },
+    {
+      "width": 1366,
+      "height": 900,
+      "chapter": "export",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "chapter": "sources",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "chapter": "requirements",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "chapter": "components",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "chapter": "runner",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "chapter": "impact",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "chapter": "export",
+      "overflow": false
+    }
+  ],
+  "export_run_id": "local-c6d35338f2"
+}

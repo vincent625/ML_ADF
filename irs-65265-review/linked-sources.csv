@@ -1,0 +1,61 @@
+type,url,sources,struck_reference,review_status
+Genexus run,https://kedar.itw/genexus/results/sample/670/key-findings,comment 2914455,False,Run reference and associated saved comments/screenshots reviewed where present; live URL not retrieved
+Genexus run,https://kedar.itw/genexus/results/sample/671/key-findings,comment 2914455,False,Run reference and associated saved comments/screenshots reviewed where present; live URL not retrieved
+Genexus run,https://kedar.itw/genexus/results/sample/672/key-findings,comment 2914455,False,Run reference and associated saved comments/screenshots reviewed where present; live URL not retrieved
+Genexus run,https://kedar.itw/genexus/results/sample/673/key-findings,comment 2914455,False,Run reference and associated saved comments/screenshots reviewed where present; live URL not retrieved
+Genexus run,https://kedar.itw/genexus/results/sample/674/key-findings,comment 2914455,False,Run reference and associated saved comments/screenshots reviewed where present; live URL not retrieved
+Genexus run,https://kedar.itw/genexus/results/sample/675/key-findings,comment 2914455; comment 2914586,False,Run reference and associated saved comments/screenshots reviewed where present; live URL not retrieved
+Genexus run,https://kedar.itw/genexus/results/sample/676/key-findings,comment 2914455; comment 2914586,False,Run reference and associated saved comments/screenshots reviewed where present; live URL not retrieved
+Genexus run,https://kedar.itw/genexus/results/sample/677/key-findings,comment 2914586,False,Run reference and associated saved comments/screenshots reviewed where present; live URL not retrieved
+Genexus run,https://kedar.itw/genexus/results/sample/678/key-findings,comment 2914586,False,Run reference and associated saved comments/screenshots reviewed where present; live URL not retrieved
+Genexus run,https://kedar.itw/genexus/results/sample/698/key-findings,comment 2917378,False,Run reference and associated saved comments/screenshots reviewed where present; live URL not retrieved
+Genexus run,https://kedar.itw/genexus/results/sample/699/key-findings,comment 2917378,False,Run reference and associated saved comments/screenshots reviewed where present; live URL not retrieved
+Genexus run,https://kedar.itw/genexus/results/sample/700/key-findings,comment 2917378,False,Run reference and associated saved comments/screenshots reviewed where present; live URL not retrieved
+Genexus run,https://kedar.itw/genexus/results/sample/701/key-findings,comment 2917378,False,Run reference and associated saved comments/screenshots reviewed where present; live URL not retrieved
+Genexus run,https://kedar.itw/genexus/results/sample/702/key-findings,comment 2917378,False,Run reference and associated saved comments/screenshots reviewed where present; live URL not retrieved
+Genexus run,https://kedar.itw/genexus/results/sample/703/key-findings,comment 2917378,False,Run reference and associated saved comments/screenshots reviewed where present; live URL not retrieved
+Genexus run,https://kedar.itw/genexus/results/sample/704/key-findings,comment 2917378,False,Run reference and associated saved comments/screenshots reviewed where present; live URL not retrieved
+GitHub,https://github.com/thermofisher/csd-adf-gx-manticore-v2-dna-70,description,False,Related release PR inventory reviewed; repository is not a validated released ZIP
+GitHub,https://github.com/thermofisher/csd-adf-gx-manticore-v2-dna-70/blob/master/Pipeline/bin,description,False,Related release PR inventory and selected CNV source reviewed; full directory not materialized
+GitHub,https://github.com/thermofisher/csd-adf-gx-manticore-v2-dna-70/blob/master/Pipeline/bin/MSI_IR,description,False,Binary change and Git blob identity checked in both PR inventories; binary bytes not read
+GitHub,https://github.com/thermofisher/csd-adf-gx-manticore-v2-dna-70/compare/IRS-65265_dna_adf_v003?expand=1,comment 2914586,False,Resolved to release PR #3; change inventory and selected source reviewed
+GitHub,https://github.com/thermofisher/csd-adf-gx-manticore-v2-dnafus-70,description,False,Related release PR inventory reviewed; repository is not a validated released ZIP
+GitHub,https://github.com/thermofisher/csd-adf-gx-manticore-v2-dnafus-70/blob/master/Pipeline/bin,description,False,Related release PR inventory and selected CNV source reviewed; full directory not materialized
+GitHub,https://github.com/thermofisher/csd-adf-gx-manticore-v2-dnafus-70/compare/IRS-65265_dna_fus_adf_v003?expand=1,comment 2914586,False,Resolved to release PR #6; change inventory and selected source reviewed
+GitHub,https://github.com/thermofisher/csd-gx-rb-template-scripts/compare/IRS-65265_IRS-65922_Manticore_v003?expand=1,comment 2914586,False,Resolved to release PR #62; change inventory and selected source reviewed
+GitHub,https://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore,description,False,Repository endpoint returned 404; individual original link not retrieved
+GitHub,https://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/AnalysisArgs_Manticore_Gx7.0ADF_v0.0.3.json,description,False,Repository endpoint returned 404; individual original link not retrieved
+GitHub,https://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/AnnotatorActor_Manticore_Gx7.0ADF_v0.0.3.ini,description,False,Repository endpoint returned 404; individual original link not retrieved
+GitHub,https://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/CnvActor_Manticore_Gx7.0ADF_v0.0.3.ini,description,False,Repository endpoint returned 404; individual original link not retrieved
+GitHub,https://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/MSIActor_Manticore_Gx7.0ADF_v0.0.3.ini,description,False,Repository endpoint returned 404; individual original link not retrieved
+GitHub,https://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.09_02_26.bed,description,False,Repository endpoint returned 404; individual original link not retrieved
+GitHub,https://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/Oncomine_Focus_v2_4.0.20260903_Manticore_cnv.h5,description,False,Repository endpoint returned 404; individual original link not retrieved
+GitHub,https://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/Oncomine_Focus_v2_4.0.20260906_Manticore_cnv.json,description,False,Repository endpoint returned 404; individual original link not retrieved
+GitHub,https://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/Oncomine_Focus_v2_4.0_20260902_Manticore_SVB.bed,description,False,Repository endpoint returned 404; individual original link not retrieved
+GitHub,https://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/Oncomine_Focus_v2_Gx_hg19_09_03_2026.msi.h5,description,False,Repository endpoint returned 404; individual original link not retrieved
+GitHub,https://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/RNACountsActor_Manticore_Gx7.0ADF_v0.0.3.ini,description,False,Repository endpoint returned 404; individual original link not retrieved
+GitHub,https://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/TmapExecutionActor_Manticore_Gx7.0ADF_v0.0.3.ini,description,False,Repository endpoint returned 404; individual original link not retrieved
+GitHub,https://github.com/thermofisher/csd-motorcore-config-files/blob/main/Manticore/VariantCallerActor_Manticore_Gx7.0ADF_v0.0.3.ini,description,False,Repository endpoint returned 404; individual original link not retrieved
+GitHub,https://github.com/thermofisher/csd-motorcore-config-files/blob/main/Motorhead/Oncomine_Focus_v2.20260625.hotspots.bed,description,False,Repository endpoint returned 404; individual original link not retrieved
+GitHub,https://github.com/thermofisher/csd-motorcore-config-files/tree/main/Manticore,description,False,Repository endpoint returned 404; individual original link not retrieved
+JFrog,https://thermofisher.jfrog.io/artifactory/csd-oncomine-software-maven-prod-local/com/lifetech/oncomine/variant-name-service-python/1.22.0/variant-name-service-python-1.22.0.tgz,description,False,Artifact reference inventoried; OVAT page retrieval failed; package contents not retrieved
+JFrog,https://thermofisher.jfrog.io/ui/native/csd-oncomine-software-maven-prod-local/com/lifetech/oncomine/ovat-off-cycle/ofav2/7.0.5,description,False,Artifact reference inventoried; OVAT page retrieval failed; package contents not retrieved
+Jira,https://lsg-thermofisher.atlassian.net/browse/IRS-58898,description,False,Referenced in saved page; full linked issue not retrieved
+Jira,https://lsg-thermofisher.atlassian.net/browse/IRS-59604,description,False,Referenced in saved page; full linked issue not retrieved
+Jira,https://lsg-thermofisher.atlassian.net/browse/IRS-62690,description,False,Referenced in saved page; full linked issue not retrieved
+Jira,https://lsg-thermofisher.atlassian.net/browse/IRS-63505,page,False,Referenced in saved page; full linked issue not retrieved
+Jira,https://lsg-thermofisher.atlassian.net/browse/IRS-64099,description,False,Referenced in saved page; full linked issue not retrieved
+Jira,https://lsg-thermofisher.atlassian.net/browse/IRS-64564,description,False,Referenced in saved page; full linked issue not retrieved
+Jira,https://lsg-thermofisher.atlassian.net/browse/IRS-65172,page,False,Referenced in saved page; full linked issue not retrieved
+Jira,https://lsg-thermofisher.atlassian.net/browse/IRS-65265,page,False,"Main saved page reviewed, partial comments/history"
+Jira,https://lsg-thermofisher.atlassian.net/browse/IRS-65459,description,False,Referenced in saved page; full linked issue not retrieved
+Jira,https://lsg-thermofisher.atlassian.net/browse/IRS-65820,description,False,Referenced in saved page; full linked issue not retrieved
+Jira,https://lsg-thermofisher.atlassian.net/browse/IRS-65922,description,False,Referenced in saved page; full linked issue not retrieved
+Jira,https://lsg-thermofisher.atlassian.net/browse/IRS-65923,description,False,Referenced in saved page; full linked issue not retrieved
+Jira,https://lsg-thermofisher.atlassian.net/browse/IRS-66003,description,False,Referenced in saved page; full linked issue not retrieved
+Jira,https://lsg-thermofisher.atlassian.net/browse/IRS-66170,description,False,Referenced in saved page; full linked issue not retrieved
+Jira,https://lsg-thermofisher.atlassian.net/browse/IRS-66227,description; page,False,Referenced in saved page; full linked issue not retrieved
+Jira,https://lsg-thermofisher.atlassian.net/browse/IRS-66228,description,False,Referenced in saved page; full linked issue not retrieved
+Jira,https://lsg-thermofisher.atlassian.net/browse/IRS-66455,description,False,Referenced in saved page; full linked issue not retrieved
+Jira,https://lsg-thermofisher.atlassian.net/browse/IRS-66464,description,False,Referenced in saved page; full linked issue not retrieved
+Jira,https://lsg-thermofisher.atlassian.net/browse/IRS-66745,description,False,Referenced in saved page; full linked issue not retrieved

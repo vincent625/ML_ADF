@@ -1,0 +1,16 @@
+{
+  "checked_on": "2026-10-23",
+  "method": "Authorized GitHub read-only MCP calls",
+  "repositories_modified": false,
+  "pull_requests": [
+    {"scope": "dna", "number": 3, "head": "6ada6a4bd50d1acec148596059e6142a7748fc01", "changed_files": 47},
+    {"scope": "fusion", "number": 6, "head": "e7c03c113dbceddb5df64c252cbbefaff91bfede", "changed_files": 46},
+    {"scope": "templates", "number": 62, "head": "ca98f2e3ae189afb810c0ac23e981105be460c91", "changed_files": 10}
+  ],
+  "pinned_files_read": [
+    {"scope": "dna", "path": "SeedData/AssayDev/assay/dna/parameters/TmapExecutionActor.ini", "blob": "b77957e398510d07ed6783cd1f1ef7eefff3462d"},
+    {"scope": "fusion", "path": "SeedData/AssayDev/assay/dna_fusion/parameters/RNACountsActor.ini", "blob": "2900ad9257a57276686d45fe6c204b715d1f2852"},
+    {"scope": "templates", "path": "genexus_7.0/AssayDev/Manticore/OFAV2-DNA-w1.0.0-v0.0.3/build-gx-OFAV2-DNA-w1.0.0-assaydev-debian.sh", "blob": "1a126f8a0d7d6b2b9c3b160321ba5ddaffa2304f"}
+  ],
+  "scope_limit": "Selected source inspection only. No released archives, binary baselines, installation, pipeline, or instrument validation."
+}

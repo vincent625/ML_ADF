@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Future engineer-reviewed ADF evidence, grouped by release",
+  "description": "Not a training dataset. Use release-level time holdouts. Related DNA/Fusion cases, linked tickets and screenshot duplicates must share an evaluation group. Prediction inputs must be available_at or before prediction_at; resolution evidence and fixing commits are label-only.",
+  "type": "object",
+  "required": ["release_group", "evaluation_group", "requirements", "executions", "episodes"],
+  "properties": {
+    "release_group": {"type": "string"},
+    "evaluation_group": {"type": "string", "description": "Includes related DNA/Fusion records, linked tickets and duplicate evidence."},
+    "requirements": {"type": "array", "items": {"$ref": "#/$defs/requirement_revision"}},
+    "executions": {"type": "array", "items": {"$ref": "#/$defs/test_execution"}},
+    "episodes": {"type": "array", "items": {"$ref": "#/$defs/failure_episode"}}
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "required": ["uri", "revision", "created_at", "available_at", "evidence_status"],
+      "properties": {
+        "uri": {"type": "string"},
+        "revision": {"type": "string"},
+        "sha256": {"type": ["string", "null"]},
+        "created_at": {"type": "string", "format": "date-time"},
+        "available_at": {"type": "string", "format": "date-time", "description": "Use comment update time if only edited text is available."},
+        "evidence_status": {"enum": ["source_observation", "reported_only", "actual_execution", "synthetic_fixture"]}
+      }
+    },
+    "requirement_revision": {
+      "type": "object",
+      "required": ["id", "revision", "release_group", "state", "variant_scope", "contract", "sources", "review_status"],
+      "properties": {
+        "id": {"type": "string"},
+        "revision": {"type": "integer"},
+        "release_group": {"type": "string"},
+        "state": {"enum": ["candidate", "active", "retained", "inherited", "cancelled", "deferred", "historical"]},
+        "variant_scope": {"type": "array", "items": {"enum": ["dna", "fusion"]}},
+        "contract": {"type": "object"},
+        "sources": {"type": "array", "items": {"$ref": "#/$defs/source"}},
+        "review_status": {"enum": ["candidate_requires_engineer_review", "approved", "rejected"]},
+        "reviewer": {"type": ["string", "null"]}
+      }
+    },
+    "test_execution": {
+      "type": "object",
+      "required": ["id", "run_id", "release_group", "requirement_revisions", "variant", "execution_mode", "started_at", "bundle_hash", "environment_fingerprint", "expected", "observed", "pipeline_status", "sample_qc", "evidence_status"],
+      "properties": {
+        "id": {"type": "string"},
+        "run_id": {"type": "string"},
+        "release_group": {"type": "string"},
+        "requirement_revisions": {"type": "object"},
+        "variant": {"enum": ["dna", "fusion"]},
+        "execution_mode": {"enum": ["actual_local_validator", "archived_replay", "simulated_pipeline_behavior", "actual_pipeline", "actual_instrument"]},
+        "started_at": {"type": "string", "format": "date-time"},
+        "bundle_hash": {"type": "string"},
+        "environment_fingerprint": {"type": "string"},
+        "component_hashes": {"type": "object"},
+        "expected": {},
+        "observed": {},
+        "pipeline_status": {"type": "string"},
+        "sample_qc": {"type": "object"},
+        "evidence_status": {"enum": ["current", "stale", "reported_only", "missing"]},
+        "logs": {"type": "array", "items": {"$ref": "#/$defs/source"}}
+      }
+    },
+    "failure_episode": {
+      "type": "object",
+      "required": ["id", "release_group", "prediction_at", "prediction_inputs", "resolution_labels"],
+      "properties": {
+        "id": {"type": "string"},
+        "release_group": {"type": "string"},
+        "prediction_at": {"type": "string", "format": "date-time"},
+        "prediction_inputs": {
+          "type": "object",
+          "required": ["observations", "sources_available_at_prediction"],
+          "properties": {
+            "observations": {"type": "array"},
+            "sources_available_at_prediction": {"type": "array", "items": {"$ref": "#/$defs/source"}}
+          },
+          "additionalProperties": false
+        },
+        "resolution_labels": {
+          "type": "object",
+          "description": "Label-only partition. Never retrieve into a historical prediction.",
+          "required": ["confirmed_cause", "fixing_commit", "retest_run_ids", "review_status"],
+          "properties": {
+            "confirmed_cause": {"type": ["string", "null"]},
+            "fixing_commit": {"type": ["string", "null"]},
+            "retest_run_ids": {"type": "array", "items": {"type": "string"}},
+            "review_status": {"enum": ["unconfirmed", "reported_resolved", "engineer_confirmed"]},
+            "resolution_evidence": {"type": "array", "items": {"$ref": "#/$defs/source"}}
+          }
+        }
+      }
+    }
+  }
+}

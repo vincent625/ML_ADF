@@ -1,0 +1,83 @@
+{
+  "scope": "Captured release PR source evidence only",
+  "not_performed": [
+    "Assembling or installing the released ZIPs",
+    "Instrument testing",
+    "Running the full Genexus pipeline",
+    "Hashing the binary baselines against ticket MD5 values"
+  ],
+  "observed": 10,
+  "total": 10,
+  "checks": [
+    {
+      "id": "dna-kit",
+      "check": "DNA panel kit A40014056 present in added source",
+      "result": "observed",
+      "scope": "dna",
+      "evidence_level": "source_only_not_deployed_bundle_validation"
+    },
+    {
+      "id": "dna-primers",
+      "check": "DNA primer part numbers 100200225 and 100200226 present",
+      "result": "observed",
+      "scope": "dna",
+      "evidence_level": "source_only_not_deployed_bundle_validation"
+    },
+    {
+      "id": "dna-tmap",
+      "check": "Repair flag removed from actor and AnalysisArgs source settings",
+      "result": "observed",
+      "scope": "dna",
+      "evidence_level": "source_only_not_deployed_bundle_validation"
+    },
+    {
+      "id": "dna-hotspot-declaration",
+      "check": "Declared hotspot MD5 matches ticket value",
+      "result": "observed",
+      "scope": "dna: declaration checked; actual BED bytes not hashed",
+      "evidence_level": "source_only_not_deployed_bundle_validation"
+    },
+    {
+      "id": "fusion-kit",
+      "check": "DNA panel kit A40014056 present in added source",
+      "result": "observed",
+      "scope": "fusion",
+      "evidence_level": "source_only_not_deployed_bundle_validation"
+    },
+    {
+      "id": "fusion-primers",
+      "check": "DNA primer part numbers 100200225 and 100200226 present",
+      "result": "observed",
+      "scope": "fusion",
+      "evidence_level": "source_only_not_deployed_bundle_validation"
+    },
+    {
+      "id": "fusion-tmap",
+      "check": "Repair flag removed from actor and AnalysisArgs source settings",
+      "result": "observed",
+      "scope": "fusion",
+      "evidence_level": "source_only_not_deployed_bundle_validation"
+    },
+    {
+      "id": "fusion-hotspot-declaration",
+      "check": "Declared hotspot MD5 matches ticket value",
+      "result": "observed",
+      "scope": "fusion: declaration checked; actual BED bytes not hashed",
+      "evidence_level": "source_only_not_deployed_bundle_validation"
+    },
+    {
+      "id": "fusion-normalized-threshold",
+      "check": "Fusion non-targeted normalized threshold equals 0.001",
+      "result": "observed",
+      "scope": "fusion pinned PR head",
+      "evidence_level": "source_only_not_deployed_bundle_validation"
+    },
+    {
+      "id": "shared-components",
+      "check": "Five monitored common components have matching Git blob IDs",
+      "result": "observed",
+      "scope": "GitHub PR file metadata; this does not establish scientific equivalence",
+      "evidence_level": "source_only_not_deployed_bundle_validation"
+    }
+  ]
+}

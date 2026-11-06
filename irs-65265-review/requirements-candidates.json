@@ -1,0 +1,261 @@
+[
+  {
+    "id": "R01",
+    "topic": "DNA kit and primer part numbers",
+    "scope": "DNA and DNA+Fusion",
+    "state": "active",
+    "expected": {
+      "panel_kit": "A40014056",
+      "dna_pool_1": "100200225",
+      "dna_pool_2": "100200226"
+    },
+    "source": "uploaded HTML: Description section 1",
+    "automation": "Check seed-data values and rendered run setup; retain superseded crossed-out values as history."
+  },
+  {
+    "id": "R02",
+    "topic": "RNA kit and primers",
+    "scope": "DNA+Fusion",
+    "state": "retain",
+    "expected": {
+      "panel_kit": "A47019",
+      "rna_pool_1": "100093902",
+      "rna_pool_2": "100093903"
+    },
+    "source": "uploaded HTML: Description section 1",
+    "automation": "Protect RNA values while replacing DNA placeholders."
+  },
+  {
+    "id": "R03",
+    "topic": "SVB asset",
+    "scope": "both variants",
+    "state": "active",
+    "expected": {
+      "file": "Oncomine_Focus_v2_4.0_20260902_Manticore_SVB.bed",
+      "ticket_md5": "b2bfa8bf8dc94829dd1efa1919d9f1bd"
+    },
+    "source": "uploaded HTML: Description section 2.1",
+    "automation": "Check inclusion, references, and actual bytes when available; PR listing alone cannot verify MD5."
+  },
+  {
+    "id": "R04",
+    "topic": "Actor configuration refresh",
+    "scope": "both, RNA actor where applicable",
+    "state": "active",
+    "expected": {
+      "actors": [
+        "TmapExecutionActor",
+        "VariantCallerActor",
+        "RNACountsActor",
+        "CnvActor",
+        "MSIActor",
+        "AnnotatorActor",
+        "AnalysisArgs"
+      ]
+    },
+    "source": "uploaded HTML: Description section 2.2",
+    "automation": "Compare normalized parameters using a pinned approved revision; central config repository currently returns 404."
+  },
+  {
+    "id": "R05",
+    "topic": "Alternative TVC binary",
+    "scope": "both variants",
+    "state": "cancelled",
+    "expected": {
+      "action": "Do not treat the crossed-out proposed TVC replacement as a new requirement."
+    },
+    "source": "uploaded HTML: Description crossed-out section 3.1",
+    "automation": "Track requirement cancellation and rationale."
+  },
+  {
+    "id": "R06",
+    "topic": "Alternative Tmap binary",
+    "scope": "both variants",
+    "state": "inherited",
+    "expected": {
+      "action": "Ticket says already bundled into v0.0.2; verify inheritance rather than demand a fresh replacement."
+    },
+    "source": "uploaded HTML: Description section 3.2",
+    "automation": "Verify previous-release component provenance."
+  },
+  {
+    "id": "R07",
+    "topic": "Target BED",
+    "scope": "both variants",
+    "state": "active",
+    "expected": {
+      "file": "Oncomine_Focus_v2_4.0.20260211.GX.designed.re.mapq.09_02_26.bed",
+      "ticket_md5": "3e51e15efde5f8cf9f07af8a83296c1f"
+    },
+    "source": "uploaded HTML: Description section 4.1",
+    "automation": "Check declared metadata and independently hash the actual Bed/CNV copies."
+  },
+  {
+    "id": "R08",
+    "topic": "TMAP argument removal",
+    "scope": "both variants",
+    "state": "active",
+    "expected": {
+      "forbidden_flag": "--repair-min-freq 30",
+      "locations": [
+        "TmapExecutionActor.ini",
+        "AnalysisArgs.ini alignmentargs"
+      ]
+    },
+    "source": "uploaded HTML: Description section 4.2; DNA PR #3; Fusion PR #6",
+    "automation": "Parse arguments at both sources and inspect effective runtime commands."
+  },
+  {
+    "id": "R09",
+    "topic": "Hotspot selection",
+    "scope": "both variants",
+    "state": "interim_approved",
+    "expected": {
+      "file": "Oncomine_Focus_v2.20260625.hotspots.bed",
+      "ticket_md5": "0dd74ce6ac67b1a1be4784d0f745c749",
+      "decision": "Use Motorhead hotspot for v0.0.3; later Manticore-specific work deferred to pre-V&V."
+    },
+    "source": "uploaded HTML: Description section 5 and dated response 2026-09-02",
+    "automation": "Preserve the explicit release decision and outstanding future work."
+  },
+  {
+    "id": "R10",
+    "topic": "OVAT ruleset",
+    "scope": "both variants",
+    "state": "inherited",
+    "expected": {
+      "version_reference": "7.0.5",
+      "instruction": "Same as v0.0.2"
+    },
+    "source": "uploaded HTML: Description section 6",
+    "automation": "Pin artifact provenance; JFrog content not retrieved."
+  },
+  {
+    "id": "R11",
+    "topic": "VNS ruleset",
+    "scope": "both variants",
+    "state": "inherited_needs_version_mapping",
+    "expected": {
+      "ticket_ruleset": "2.2.2",
+      "software": "Gx7.0.2",
+      "linked_package": "variant-name-service-python-1.22.0.tgz"
+    },
+    "source": "uploaded HTML: Description section 7",
+    "automation": "Model ruleset and package versions separately; do not label different version namespaces as a conflict without evidence."
+  },
+  {
+    "id": "R12",
+    "topic": "CNV baseline",
+    "scope": "both variants",
+    "state": "active",
+    "expected": {
+      "file": "Oncomine_Focus_v2_4.0.20260903_Manticore_cnv.h5",
+      "ticket_md5": "66c91acdb445aafca5d2599c39e2323f"
+    },
+    "source": "uploaded HTML: Description CNV baseline item numbered 7",
+    "automation": "Check references, approved MD5 from bytes, and parity across variants."
+  },
+  {
+    "id": "R13",
+    "topic": "CNV parameter JSON",
+    "scope": "both variants",
+    "state": "active",
+    "expected": {
+      "file": "Oncomine_Focus_v2_4.0.20260906_Manticore_cnv.json",
+      "ticket_md5": "0a4cde62a2127ee7392c6708da03c751"
+    },
+    "source": "uploaded HTML: Description section 8",
+    "automation": "Parse parameter JSON, actor references, and shared content identity."
+  },
+  {
+    "id": "R14",
+    "topic": "CNV script synchronization",
+    "scope": "both variants",
+    "state": "active",
+    "expected": {
+      "instruction": "Updated CNV code must be present in DNA-only and DNA+Fusion repositories."
+    },
+    "source": "uploaded HTML: Description CNV scripts item numbered 9",
+    "automation": "Compare relevant common component hashes, then test behavior; intentional differences require explanations."
+  },
+  {
+    "id": "R15",
+    "topic": "Piercing workflow",
+    "scope": "both variants",
+    "state": "historical_crossed_out",
+    "expected": {
+      "branch_reference": "workflowdev/Manticore_ADF_dev",
+      "tag_reference": "ReporterServer-Dx_7.0_ADF_Manticore_w1.0.0_v0.0.2"
+    },
+    "source": "uploaded HTML: Description crossed-out workflow item numbered 9",
+    "automation": "Retain source history and seek a confirmed effective workflow version before generating new changes."
+  },
+  {
+    "id": "R16",
+    "topic": "Minimum reads and sample limits",
+    "scope": "variant-specific",
+    "state": "historical_crossed_out_requires_confirmation",
+    "expected": {
+      "historical_dna_reads": 6000000,
+      "historical_rna_reads": 2300000,
+      "historical_dna_fusion_max_samples": 12,
+      "historical_dna_only_max_samples": 16
+    },
+    "source": "uploaded HTML: Description crossed-out section 10",
+    "automation": "Do not silently promote crossed-out historical values to current acceptance criteria."
+  },
+  {
+    "id": "R17",
+    "topic": "MSI binary and baseline",
+    "scope": "both variants",
+    "state": "active",
+    "expected": {
+      "binary": "MSI_IR",
+      "binary_ticket_md5": "f93f676696edb92bac9fe4f4f3781eef",
+      "baseline": "Oncomine_Focus_v2_Gx_hg19_09_03_2026.msi.h5",
+      "baseline_ticket_md5": "2c3ad73dfd2fa697f20e39d7b3c570de"
+    },
+    "source": "uploaded HTML: Description section 11 and IRS-66227 reference",
+    "automation": "Verify both copies, effective actor reference, and workflow completion under MSI-QCFail."
+  },
+  {
+    "id": "R18",
+    "topic": "Additional parameter decisions",
+    "scope": "annotator both; fusion threshold in DNA+Fusion",
+    "state": "reported_approved",
+    "expected": {
+      "annotator.functional.all.alt.alleles": "false",
+      "fusions.min.normalized.read.count.non.targeted": "0.001"
+    },
+    "source": "comment 2914455; release PRs",
+    "automation": "Check effective parameters and variant applicability, not merely the existence of an approval comment."
+  },
+  {
+    "id": "R19",
+    "topic": "CNV plot suppression under failed QC",
+    "scope": "CNV visualization",
+    "state": "documented_product_decision",
+    "expected": {
+      "policy": "Suppression is acceptable for failed CNV QC; comment cites MAPD > 0.5 as an example.",
+      "boundary_at_0_5": "Not fully established by the saved comments."
+    },
+    "source": "comment 2914560, later than comment 2914455 reporting missing plots",
+    "automation": "Classify outputs using QC context; absence of a plot alone is not a failure."
+  },
+  {
+    "id": "R20",
+    "topic": "Report-template dependency",
+    "scope": "variant-specific report packages",
+    "state": "implementation_observed",
+    "expected": {
+      "template_pr": 62,
+      "adf_prs": {
+        "dna": 3,
+        "dna_fusion": 6
+      },
+      "version": "0.0.3"
+    },
+    "source": "three linked release PRs",
+    "automation": "Check matching report package version, installation, and output rendering; binary DEB/ADF contents not inspected."
+  }
+]
